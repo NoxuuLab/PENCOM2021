@@ -1,3 +1,5 @@
 "projet - lord of read" by Simon
 
-Example Location is a room. 
+
+The  Hall is a room. "A fairly traditional living room; you can see the book on the table"
+
