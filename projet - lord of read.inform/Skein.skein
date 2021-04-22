@@ -1,18 +1,1188 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-1031">
+<Skein rootNode="node-1002">
     <generator>Inform Mac Client (Inform version )</generator>
-    <item nodeId="node-1031">
+    <item nodeId="node-1002">
         <command xml:space="preserve">projet - lord of read</command>
         <result xml:space="preserve">
 
 
 projet - lord of read
 An Interactive Fiction by Simon
-Release 1 / Serial number 210419 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
+Release 1 / Serial number 210422 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
-Hall
-A fairly traditional living room; you can see the book on the table
+shire
+DESCRIPTION
+
+You can see Gandalf and Sam &amp; Pip here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1358"></child>
+            <child nodeId="node-1401"></child>
+            <child nodeId="node-1400"></child>
+            <child nodeId="node-1394"></child>
+            <child nodeId="node-1417"></child>
+            <child nodeId="node-1239"></child>
+            <child nodeId="node-1234"></child>
+            <child nodeId="node-1005"></child>
+            <child nodeId="node-1308"></child>
+            <child nodeId="node-1241"></child>
+            <child nodeId="node-1328"></child>
+            <child nodeId="node-1238"></child>
+            <child nodeId="node-1307"></child>
+            <child nodeId="node-1317"></child>
+            <child nodeId="node-1313"></child>
+            <child nodeId="node-1318"></child>
+            <child nodeId="node-1327"></child>
+            <child nodeId="node-1249"></child>
+            <child nodeId="node-1314"></child>
+            <child nodeId="node-1246"></child>
+            <child nodeId="node-1236"></child>
+            <child nodeId="node-1330"></child>
+            <child nodeId="node-1383"></child>
+            <child nodeId="node-1367"></child>
+            <child nodeId="node-1363"></child>
+            <child nodeId="node-1356"></child>
+            <child nodeId="node-1334"></child>
+            <child nodeId="node-1389"></child>
+            <child nodeId="node-1332"></child>
+            <child nodeId="node-1340"></child>
+            <child nodeId="node-1336"></child>
+            <child nodeId="node-1377"></child>
+        </children>
+    </item>
+    <item nodeId="node-1377">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Bilbo's House
+DESCRIPTION
+
+You can see a little table (on which are a little book and a map), a trunk (in which are a pipe and a bag of money), and a cupboard here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1378"></child>
+        </children>
+    </item>
+    <item nodeId="node-1378">
+        <command xml:space="preserve">teleport to the little table</command>
+        <result xml:space="preserve">wow! the little table
+Bilbo's House (on the little table)
+DESCRIPTION
+
+You can see a trunk (in which are a pipe and a bag of money) and a cupboard here.
+
+On the little table you can see a little book and a map.
+
+wow!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1379"></child>
+        </children>
+    </item>
+    <item nodeId="node-1379">
+        <command xml:space="preserve">teleport to shire</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1380"></child>
+        </children>
+    </item>
+    <item nodeId="node-1380">
+        <command xml:space="preserve">teleport to the shire</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1381"></child>
+        </children>
+    </item>
+    <item nodeId="node-1381">
+        <command xml:space="preserve">teleport to the trunk</command>
+        <result xml:space="preserve">wow! the trunk
+Bilbo's House (in the trunk)
+DESCRIPTION
+
+You can see a little table (on which are a little book and a map) and a cupboard here.
+
+In the trunk you can see a pipe and a bag of money.
+
+wow!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1382"></child>
+        </children>
+    </item>
+    <item nodeId="node-1382">
+        <command xml:space="preserve">teleport to bilbo's house</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1336">
+        <command xml:space="preserve">teleprot to shrine</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1337"></child>
+        </children>
+    </item>
+    <item nodeId="node-1337">
+        <command xml:space="preserve">teleport to shrine</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1338"></child>
+        </children>
+    </item>
+    <item nodeId="node-1338">
+        <command xml:space="preserve">teleport to shire</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1339"></child>
+        </children>
+    </item>
+    <item nodeId="node-1339">
+        <command xml:space="preserve">teleport to shire</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1340">
+        <command xml:space="preserve">teleport to trunk</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1341"></child>
+            <child nodeId="node-1344"></child>
+        </children>
+    </item>
+    <item nodeId="node-1344">
+        <command xml:space="preserve">teleport to shire</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1345"></child>
+        </children>
+    </item>
+    <item nodeId="node-1345">
+        <command xml:space="preserve">teleport to book</command>
+        <result xml:space="preserve">people can only travel between location
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1341">
+        <command xml:space="preserve">teleport to book</command>
+        <result xml:space="preserve">people can only travel between location
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1342"></child>
+        </children>
+    </item>
+    <item nodeId="node-1342">
+        <command xml:space="preserve">teleport to shire</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1332">
+        <command xml:space="preserve">teleport to the shire</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1389">
+        <command xml:space="preserve">teleport to table</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1334">
+        <command xml:space="preserve">teleport to shrine</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1356">
+        <command xml:space="preserve">teleport to shire</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1357"></child>
+        </children>
+    </item>
+    <item nodeId="node-1357">
+        <command xml:space="preserve">teleport to table</command>
+        <result xml:space="preserve">people can only travel between location
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1363">
+        <command xml:space="preserve">teleport to rivendell</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1364"></child>
+        </children>
+    </item>
+    <item nodeId="node-1364">
+        <command xml:space="preserve">teleport to book</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1365"></child>
+        </children>
+    </item>
+    <item nodeId="node-1365">
+        <command xml:space="preserve">teleport to book</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1366"></child>
+        </children>
+    </item>
+    <item nodeId="node-1366">
+        <command xml:space="preserve">teleport to weed</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1367">
+        <command xml:space="preserve">teleport to reviendell</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1368"></child>
+        </children>
+    </item>
+    <item nodeId="node-1368">
+        <command xml:space="preserve">teleport to rivendell</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1371"></child>
+        </children>
+    </item>
+    <item nodeId="node-1371">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Bilbo's House
+DESCRIPTION
+
+You can see a little table (on which are a little book and a map), a trunk (in which are a pipe and a bag of money), and a cupboard here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1375"></child>
+        </children>
+    </item>
+    <item nodeId="node-1375">
+        <command xml:space="preserve">teleport to trunk</command>
+        <result xml:space="preserve">people can only travel between location
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1376"></child>
+        </children>
+    </item>
+    <item nodeId="node-1376">
+        <command xml:space="preserve">showme rivendell</command>
+        <result xml:space="preserve">Rivendell - room
+    Elf Lord - caracter
+    pedestal - supporter
+        old sword
+        shirt in chainmail
+singular-named, proper-named; lighted, unvisited
+list grouping key: none
+printed name: "Rivendell"
+printed plural name: none
+indefinite article: none
+description: "DESCRIPTION"
+map region: story
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1383">
+        <command xml:space="preserve">teleport to mount doom</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1384"></child>
+        </children>
+    </item>
+    <item nodeId="node-1384">
+        <command xml:space="preserve">teleport to rivendell</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1385"></child>
+        </children>
+    </item>
+    <item nodeId="node-1385">
+        <command xml:space="preserve">teleport to gandalf</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1330">
+        <command xml:space="preserve">teleport to</command>
+        <result xml:space="preserve">What do you want to teleport to?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1331"></child>
+            <child nodeId="node-1421"></child>
+        </children>
+    </item>
+    <item nodeId="node-1421">
+        <command xml:space="preserve">teleport to house</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1422"></child>
+        </children>
+    </item>
+    <item nodeId="node-1422">
+        <command xml:space="preserve">go inside</command>
+        <result xml:space="preserve">
+Bilbo's House
+DESCRIPTION
+
+You can see a little table (on which are a little book and a map), a trunk (in which are a pipe and a bag of money), and a cupboard here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1331">
+        <command xml:space="preserve">teleport to bilbo's house</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1236">
+        <command xml:space="preserve">take book</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1237"></child>
+        </children>
+    </item>
+    <item nodeId="node-1237">
+        <command xml:space="preserve">showme table</command>
+        <result xml:space="preserve">table - supporter
+    book
+location: out of play
+singular-named, improper-named; unlit, inedible, fixed in place; list grouping key: none
+printed name: "table"
+printed plural name: "supporters"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1246">
+        <command xml:space="preserve">showme weed</command>
+        <result xml:space="preserve">Weed - thing
+location: out of play
+singular-named, proper-named; unlit, inedible, portable
+list grouping key: none
+printed name: "Weed"
+printed plural name: none
+indefinite article: none
+description: none
+initial appearance: "DESCRIPTION"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1254"></child>
+            <child nodeId="node-1248"></child>
+        </children>
+    </item>
+    <item nodeId="node-1248">
+        <command xml:space="preserve">showme stack of weed</command>
+        <result xml:space="preserve">There seems to be no such object anywhere in the model world.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1254">
+        <command xml:space="preserve">showme gandalf</command>
+        <result xml:space="preserve">Gandalf - thing
+location: in the Shire
+singular-named, proper-named; unlit, inedible, portable
+list grouping key: none
+printed name: "Gandalf"
+printed plural name: none
+indefinite article: none
+description: none
+initial appearance: none
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1314">
+        <command xml:space="preserve">showme supporter</command>
+        <result xml:space="preserve">(the old table)
+old table - supporter
+    old book
+location: in the Old Room
+singular-named, improper-named; unlit, inedible, fixed in place; list grouping key: none
+printed name: "old table"
+printed plural name: "supporters"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1315"></child>
+        </children>
+    </item>
+    <item nodeId="node-1315">
+        <command xml:space="preserve">showme pedestal</command>
+        <result xml:space="preserve">pedestal - supporter
+location: in Rivendell
+singular-named, improper-named; unlit, inedible, fixed in place; list grouping key: none
+printed name: "pedestal"
+printed plural name: "supporters"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1316"></child>
+        </children>
+    </item>
+    <item nodeId="node-1316">
+        <command xml:space="preserve">showme trunk</command>
+        <result xml:space="preserve">trunk - open container
+    pipe
+    bag of money
+location: in the bilbo's home out of play
+singular-named, improper-named; unlit, inedible, portable; opaque, open, unopenable, unlocked
+list grouping key: none
+printed name: "trunk"
+printed plural name: "containers"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1249">
+        <command xml:space="preserve">showme stack</command>
+        <result xml:space="preserve">There seems to be no such object anywhere in the model world.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1250"></child>
+        </children>
+    </item>
+    <item nodeId="node-1250">
+        <command xml:space="preserve">showme weed</command>
+        <result xml:space="preserve">There seems to be no such object anywhere in the model world.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1327">
+        <command xml:space="preserve">showme shire</command>
+        <result xml:space="preserve">Shire - room
+    Gandalf - caracter
+    Sam &amp; Pip - caracter
+singular-named, improper-named; lighted, unvisited
+list grouping key: none
+printed name: "Shire"
+printed plural name: none
+indefinite article: none
+description: "DESCRIPTION"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1318">
+        <command xml:space="preserve">showme ring</command>
+        <result xml:space="preserve">Ring - thing
+location: out of play
+singular-named, improper-named; unlit, inedible, portable
+list grouping key: none
+printed name: "Ring"
+printed plural name: none
+indefinite article: none
+description: none
+initial appearance: "DESCRIPTION"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1313">
+        <command xml:space="preserve">showme lord</command>
+        <result xml:space="preserve">Elf Lord - caracter
+location: in Rivendell
+singular-named, improper-named; unlit, inedible, portable; male
+list grouping key: none
+printed name: "Elf Lord"
+printed plural name: "caracters"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1317">
+        <command xml:space="preserve">showme little table</command>
+        <result xml:space="preserve">little table - supporter
+    little book
+    map
+location: in the bilbo's home out of play
+singular-named, improper-named; unlit, inedible, fixed in place; list grouping key: none
+printed name: "little table"
+printed plural name: "supporters"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1320"></child>
+        </children>
+    </item>
+    <item nodeId="node-1320">
+        <command xml:space="preserve">showme pedestal</command>
+        <result xml:space="preserve">pedestal - supporter
+    old sword
+    shirt in chainmail
+location: in Rivendell
+singular-named, improper-named; unlit, inedible, fixed in place; list grouping key: none
+printed name: "pedestal"
+printed plural name: "supporters"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1307">
+        <command xml:space="preserve">showme gandalf</command>
+        <result xml:space="preserve">Gandalf - caracter
+location: out of play
+singular-named, proper-named; unlit, inedible, portable; male
+list grouping key: none
+printed name: "Gandalf"
+printed plural name: "caracters"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1238">
+        <command xml:space="preserve">showme book</command>
+        <result xml:space="preserve">book - thing
+location: on the table in the room
+singular-named, improper-named; unlit, inedible, portable
+list grouping key: none
+printed name: "book"
+printed plural name: none
+indefinite article: none
+description: none
+initial appearance: none
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1328">
+        <command xml:space="preserve">showme bilbo's house</command>
+        <result xml:space="preserve">Bilbo's House - room
+singular-named, proper-named; lighted, unvisited
+list grouping key: none
+printed name: "Bilbo's House"
+printed plural name: none
+indefinite article: none
+description: "DESCRIPTION"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1241">
+        <command xml:space="preserve">show me the trunk</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1242"></child>
+        </children>
+    </item>
+    <item nodeId="node-1242">
+        <command xml:space="preserve">showme trunk</command>
+        <result xml:space="preserve">trunk - open container
+    pipe
+    bag of money
+location: in the bilbo's home out of play
+singular-named, improper-named; unlit, inedible, portable; opaque, open, unopenable, unlocked
+list grouping key: none
+printed name: "trunk"
+printed plural name: "containers"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1323"></child>
+            <child nodeId="node-1245"></child>
+        </children>
+    </item>
+    <item nodeId="node-1245">
+        <command xml:space="preserve">showme weed</command>
+        <result xml:space="preserve">weed - thing
+location: out of play
+singular-named, proper-named; unlit, inedible, portable
+list grouping key: none
+printed name: "weed"
+printed plural name: none
+indefinite article: none
+description: "DESCRIPTION"
+initial appearance: none
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1323">
+        <command xml:space="preserve">shoeme bilbo</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1324"></child>
+        </children>
+    </item>
+    <item nodeId="node-1324">
+        <command xml:space="preserve">showme bilbo</command>
+        <result xml:space="preserve">There seems to be no such object anywhere in the model world.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1325"></child>
+        </children>
+    </item>
+    <item nodeId="node-1325">
+        <command xml:space="preserve">shwome bilbo's home</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1326"></child>
+        </children>
+    </item>
+    <item nodeId="node-1326">
+        <command xml:space="preserve">showme bilbo's home</command>
+        <result xml:space="preserve">bilbo's home - open container
+    little table - supporter
+        little book
+        map
+    trunk - open container
+        pipe
+        bag of money
+    cupboard
+location: out of play
+singular-named, improper-named; unlit, inedible, portable; opaque, open, unopenable, unlocked
+list grouping key: none
+printed name: "bilbo's home"
+printed plural name: "containers"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1308">
+        <command xml:space="preserve">show me Sam</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1309"></child>
+        </children>
+    </item>
+    <item nodeId="node-1309">
+        <command xml:space="preserve">showme sam</command>
+        <result xml:space="preserve">Sam &amp; Pip - caracter
+location: in the Shire
+singular-named, proper-named; unlit, inedible, portable; male
+list grouping key: none
+printed name: "Sam &amp; Pip"
+printed plural name: "caracters"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1312"></child>
+        </children>
+    </item>
+    <item nodeId="node-1312">
+        <command xml:space="preserve">showme lord</command>
+        <result xml:space="preserve">Elf Lord - thing
+location: in Rivendell
+singular-named, improper-named; unlit, inedible, portable
+list grouping key: none
+printed name: "Elf Lord"
+printed plural name: none
+indefinite article: none
+description: none
+initial appearance: none
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1005">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1006"></child>
+        </children>
+    </item>
+    <item nodeId="node-1006">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1007"></child>
+        </children>
+    </item>
+    <item nodeId="node-1007">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1008"></child>
+        </children>
+    </item>
+    <item nodeId="node-1008">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1234">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1235"></child>
+        </children>
+    </item>
+    <item nodeId="node-1235">
+        <command xml:space="preserve">take book</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1239">
+        <command xml:space="preserve">go to the shire</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1240"></child>
+        </children>
+    </item>
+    <item nodeId="node-1240">
+        <command xml:space="preserve">showme the shire</command>
+        <result xml:space="preserve">Shire - room
+singular-named, improper-named; lighted, unvisited
+list grouping key: none
+printed name: "Shire"
+printed plural name: none
+indefinite article: none
+description: "DESCRIPTION"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1417">
+        <command xml:space="preserve">go inside</command>
+        <result xml:space="preserve">
+Bilbo's House
+DESCRIPTION
+
+You can see a little table (on which are a little book and a map), a trunk (in which are a pipe and a bag of money), and a cupboard here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1418"></child>
+        </children>
+    </item>
+    <item nodeId="node-1418">
+        <command xml:space="preserve">go outside</command>
+        <result xml:space="preserve">
+shire
+DESCRIPTION
+
+You can see Gandalf and Sam &amp; Pip here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1419"></child>
+        </children>
+    </item>
+    <item nodeId="node-1419">
+        <command xml:space="preserve">teleport to house</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1394">
+        <command xml:space="preserve">go</command>
+        <result xml:space="preserve">You'll have to say which compass direction to go in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1395"></child>
+        </children>
+    </item>
+    <item nodeId="node-1395">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1396"></child>
+        </children>
+    </item>
+    <item nodeId="node-1396">
+        <command xml:space="preserve">go to the House</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1397"></child>
+        </children>
+    </item>
+    <item nodeId="node-1397">
+        <command xml:space="preserve">teleport to house</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1398"></child>
+        </children>
+    </item>
+    <item nodeId="node-1398">
+        <command xml:space="preserve">showme bilbo's house</command>
+        <result xml:space="preserve">Bilbo's House - room
+    little table - supporter
+        little book
+        map
+    trunk - open container
+        pipe
+        bag of money
+    cupboard
+singular-named, improper-named; lighted, unvisited
+list grouping key: none
+printed name: "Bilbo's House"
+printed plural name: none
+indefinite article: none
+description: "DESCRIPTION"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1399"></child>
+        </children>
+    </item>
+    <item nodeId="node-1399">
+        <command xml:space="preserve">enter the house</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1400">
+        <command xml:space="preserve">enter the house</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1401">
+        <command xml:space="preserve">enter the House</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1402"></child>
+        </children>
+    </item>
+    <item nodeId="node-1402">
+        <command xml:space="preserve">showme house</command>
+        <result xml:space="preserve">Bilbo's House - room
+    little table - supporter
+        little book
+        map
+    trunk - open container
+        pipe
+        bag of money
+    cupboard
+singular-named, improper-named; lighted, unvisited
+list grouping key: none
+printed name: "Bilbo's House"
+printed plural name: none
+indefinite article: none
+description: "DESCRIPTION"
+map region: story
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1403"></child>
+        </children>
+    </item>
+    <item nodeId="node-1403">
+        <command xml:space="preserve">tke house</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1404"></child>
+        </children>
+    </item>
+    <item nodeId="node-1404">
+        <command xml:space="preserve">take hous</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1405"></child>
+        </children>
+    </item>
+    <item nodeId="node-1405">
+        <command xml:space="preserve">take house</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1406"></child>
+        </children>
+    </item>
+    <item nodeId="node-1406">
+        <command xml:space="preserve">go to house</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1407"></child>
+        </children>
+    </item>
+    <item nodeId="node-1407">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Rivendell
+DESCRIPTION
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a shirt in chainmail) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1408"></child>
+        </children>
+    </item>
+    <item nodeId="node-1408">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+shire
+DESCRIPTION
+
+You can see Gandalf and Sam &amp; Pip here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1409"></child>
+        </children>
+    </item>
+    <item nodeId="node-1409">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1410"></child>
+        </children>
+    </item>
+    <item nodeId="node-1410">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1411"></child>
+        </children>
+    </item>
+    <item nodeId="node-1411">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1412"></child>
+        </children>
+    </item>
+    <item nodeId="node-1412">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1413"></child>
+        </children>
+    </item>
+    <item nodeId="node-1413">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1414"></child>
+        </children>
+    </item>
+    <item nodeId="node-1414">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1415"></child>
+        </children>
+    </item>
+    <item nodeId="node-1415">
+        <command xml:space="preserve">go inside</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1416"></child>
+        </children>
+    </item>
+    <item nodeId="node-1416">
+        <command xml:space="preserve">go outside</command>
+        <result xml:space="preserve">
+Bilbo's House
+DESCRIPTION
+
+You can see a little table (on which are a little book and a map), a trunk (in which are a pipe and a bag of money), and a cupboard here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1358">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Rivendell
+DESCRIPTION
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a shirt in chainmail) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1359"></child>
+        </children>
+    </item>
+    <item nodeId="node-1359">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+shire
+DESCRIPTION
+
+You can see Gandalf and Sam &amp; Pip here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1360"></child>
+        </children>
+    </item>
+    <item nodeId="node-1360">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Bilbo's House
+DESCRIPTION
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1361"></child>
+        </children>
+    </item>
+    <item nodeId="node-1361">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+shire
+DESCRIPTION
+
+You can see Gandalf and Sam &amp; Pip here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1362"></child>
+        </children>
+    </item>
+    <item nodeId="node-1362">
+        <command xml:space="preserve">teleport to rivendell</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
