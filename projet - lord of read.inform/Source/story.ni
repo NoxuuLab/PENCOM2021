@@ -49,7 +49,15 @@ section 1 - Kinds
 
 section 2 - Actions
 
-
+teleporting is an action applying to one thing.
+Understand "teleport to [somewhere]" as teleporting.
+[Check teleporting:
+    if the noun is not a room, say "people can only travel between location" instead.]
+Carry out teleporting:
+	say "wow! [the noun]";
+	move the player to mount doom[, without printing a room description];
+	say "wow!".
+	
 chapter 4 - Scenario
 
 
