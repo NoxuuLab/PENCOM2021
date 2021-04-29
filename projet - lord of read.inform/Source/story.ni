@@ -46,7 +46,7 @@ The description of the Mount Doom is "DESCRIPTION".
 Chapter 3 - Settings
 
 A person can be visible or invisible. A person is usually visible.
-A person have a table name called the Responses Table.
+A caracter have a table name called the Responses Table. A caracter have a list of texts called Answered List.
 
 section 1 - Kinds
 
@@ -98,13 +98,18 @@ Check asking it about:
 After asking someone about something:
 	let R be the Responses Table of the noun;
 	if the topic understood is a topic listed in R:
-		say "[Response entry]";
-		if "[Action entry]" is "y/n":
-			if player consents:
-				say "[Result entry]";
-				move the player to rivendell;
+		if "[Index entry]" is listed in the Answered List of the noun:
+			say "I already take to you about that.";
+		otherwise:
+			say "[Response entry]";
+			if "[Action entry]" is "y/n":
+				if player consents:
+					say "[Result entry]";
+					move the player to rivendell;
+				otherwise:
+					say "As you please.";
 			otherwise:
-				say "As you please.";
+				add "[Index entry]" to the Answered List of the noun;
 	
 section 3 - Speech Table
 

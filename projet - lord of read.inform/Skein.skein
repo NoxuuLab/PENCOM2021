@@ -21,6 +21,7 @@ You can see Gandalf and Sam &amp; Pip here.
         <children><child nodeId="node-1522"></child>
             <child nodeId="node-2284"></child>
             <child nodeId="node-1503"></child>
+            <child nodeId="node-2372"></child>
             <child nodeId="node-1511"></child>
             <child nodeId="node-1496"></child>
             <child nodeId="node-1480"></child>
@@ -43,6 +44,7 @@ You can see Gandalf and Sam &amp; Pip here.
             <child nodeId="node-1439"></child>
             <child nodeId="node-1436"></child>
             <child nodeId="node-1434"></child>
+            <child nodeId="node-2326"></child>
             <child nodeId="node-2250"></child>
             <child nodeId="node-1430"></child>
             <child nodeId="node-1427"></child>
@@ -431,6 +433,117 @@ DESCRIPTION
 You can see an Elf Lord and a pedestal (on which are an old sword and a shirt in chainmail) here.
 
 &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2326">
+        <command xml:space="preserve">talk gandalf about him</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2327"></child>
+        </children>
+    </item>
+    <item nodeId="node-2327">
+        <command xml:space="preserve">talk to gandalf</command>
+        <result xml:space="preserve">To start a conversation, you need to use ASK Gandalf ABOUT something. Type "ask Gandalf (about)" to see the available's topic.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2328"></child>
+        </children>
+    </item>
+    <item nodeId="node-2328">
+        <command xml:space="preserve">ask Gandalf about him</command>
+        <result xml:space="preserve">My name is Gandalf, I'm a magicien.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2329"></child>
+        </children>
+    </item>
+    <item nodeId="node-2329">
+        <command xml:space="preserve">ask Gandalf about him</command>
+        <result xml:space="preserve">I already answered to this question.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2330"></child>
+        </children>
+    </item>
+    <item nodeId="node-2330">
+        <command xml:space="preserve">ask Gandalf about him</command>
+        <result xml:space="preserve">I already answered to this question.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2331"></child>
+        </children>
+    </item>
+    <item nodeId="node-2331">
+        <command xml:space="preserve">showme gandalf</command>
+        <result xml:space="preserve">Gandalf - caracter
+location: in the shire
+singular-named, proper-named; unlit, inedible, portable; male, visible
+list grouping key: none
+printed name: "Gandalf"
+printed plural name: "caracters"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Responses Table: Table of Gandalf Responses
+Answered List: him
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2344"></child>
+        </children>
+    </item>
+    <item nodeId="node-2344">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2345"></child>
+        </children>
+    </item>
+    <item nodeId="node-2345">
+        <command xml:space="preserve">ask Gandalf about wtf</command>
+        <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2346"></child>
+        </children>
+    </item>
+    <item nodeId="node-2346">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">As you please.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2347"></child>
+        </children>
+    </item>
+    <item nodeId="node-2347">
+        <command xml:space="preserve">ask Gandalf about wtf</command>
+        <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2358"></child>
+        </children>
+    </item>
+    <item nodeId="node-2358">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">As you please.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2359"></child>
+        </children>
+    </item>
+    <item nodeId="node-2359">
+        <command xml:space="preserve">ask sam about him</command>
+        <result xml:space="preserve">My name is Sam, I'm a perfect teammate.Glulxe fatal error: Memory access out of range (1E025C0F)
+</result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1434">
@@ -1254,6 +1367,155 @@ You can see Gandalf and Sam &amp; Pip here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-2372">
+        <command xml:space="preserve">ask gandalf about him</command>
+        <result xml:space="preserve">My name is Gandalf, I'm a magicien.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2375"></child>
+            <child nodeId="node-2373"></child>
+        </children>
+    </item>
+    <item nodeId="node-2373">
+        <command xml:space="preserve">ask sam about what are you</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2375">
+        <command xml:space="preserve">ask gandalf about him</command>
+        <result xml:space="preserve">I already answered to this question.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2376"></child>
+        </children>
+    </item>
+    <item nodeId="node-2376">
+        <command xml:space="preserve">ask gandalf about him</command>
+        <result xml:space="preserve">I already answered to this question.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2377"></child>
+        </children>
+    </item>
+    <item nodeId="node-2377">
+        <command xml:space="preserve">showme gandalf</command>
+        <result xml:space="preserve">Gandalf - caracter
+location: in the shire
+singular-named, proper-named; unlit, inedible, portable; male, visible
+list grouping key: none
+printed name: "Gandalf"
+printed plural name: "caracters"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Responses Table: Table of Gandalf Responses
+Answered List: him
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2378"></child>
+        </children>
+    </item>
+    <item nodeId="node-2378">
+        <command xml:space="preserve">ask gandalf about wtf</command>
+        <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2379"></child>
+        </children>
+    </item>
+    <item nodeId="node-2379">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">As you please.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2380"></child>
+        </children>
+    </item>
+    <item nodeId="node-2380">
+        <command xml:space="preserve">ask gandalf about wtf</command>
+        <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2381"></child>
+        </children>
+    </item>
+    <item nodeId="node-2381">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">As you please.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2382"></child>
+        </children>
+    </item>
+    <item nodeId="node-2382">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2383"></child>
+        </children>
+    </item>
+    <item nodeId="node-2383">
+        <command xml:space="preserve">ask gandalf about wtf</command>
+        <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2384"></child>
+        </children>
+    </item>
+    <item nodeId="node-2384">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">You are transporting to mount doom be the eagle. You find a easy shortcut ! But wait... it seem that you are to weak for this kind of transport... we need to stop befor you trow up, sorry.
+Rivendell
+DESCRIPTION
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a shirt in chainmail) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2385"></child>
+        </children>
+    </item>
+    <item nodeId="node-2385">
+        <command xml:space="preserve">ask elf</command>
+        <result xml:space="preserve">This person has nothing to say.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2386"></child>
+        </children>
+    </item>
+    <item nodeId="node-2386">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2387"></child>
+        </children>
+    </item>
+    <item nodeId="node-2387">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+shire
+DESCRIPTION
+
+You can see Gandalf and Sam &amp; Pip here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2388"></child>
+        </children>
+    </item>
+    <item nodeId="node-2388">
+        <command xml:space="preserve">ask sam about him</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1503">
         <command xml:space="preserve">ask gandalf</command>
         <result xml:space="preserve">You could ask about him, What are you, or WTF.
@@ -1539,7 +1801,7 @@ You can see Gandalf and Sam &amp; Pip here.
     </item>
     <item nodeId="node-2286">
         <command xml:space="preserve">ask gandalf about wtf</command>
-        <result xml:space="preserve">Of course I do, I everything fine?</result>
+        <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2287"></child>
         </children>
@@ -1555,7 +1817,7 @@ You can see Gandalf and Sam &amp; Pip here.
     </item>
     <item nodeId="node-2288">
         <command xml:space="preserve">ask gandalf about wtf</command>
-        <result xml:space="preserve">Of course I do, I everything fine?</result>
+        <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2289"></child>
         </children>
