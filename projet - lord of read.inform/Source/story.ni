@@ -45,19 +45,81 @@ The description of the Mount Doom is "DESCRIPTION".
 
 Chapter 3 - Settings
 
+A person can be visible or invisible. A person is usually visible.
+A person have a table name called the Responses Table.
+
 section 1 - Kinds
 
 section 2 - Actions
 
+[DEPLACEMENT]
 teleporting is an action applying to one thing.
-Understand "teleport to [somewhere]" as teleporting.
-[Check teleporting:
-    if the noun is not a room, say "people can only travel between location" instead.]
+Understand "go to [any room]" as teleporting.
+Check teleporting:
+    if the noun is not a room, say "people can only travel between location" instead.
 Carry out teleporting:
-	say "wow! [the noun]";
-	move the player to mount doom[, without printing a room description];
-	say "wow!".
+	move the player to the noun[, without printing a room description];
+
+[SAVOIR QUOI DIRE]
+list-asking is an action applying to one thing.
+Understand "ask [thing]" as list-asking.
+Understand "ask [thing] about" as list-asking.
+
+Check list-asking when the noun is not a person:
+	instead say "You can't ask any questions...".
+Report list-asking:
+	let T be the Responses Table of the noun;
+	if T is empty:
+		say "This person has nothing to say.";
+	otherwise:
+		list options from T.
 	
+To list options from (T - a table name):
+	let N be the number of rows in T;
+	if N is 0:
+		say "This person has nothing to say.";
+	otherwise:
+		say "You could ask about ";
+		repeat with X running from 1 to N minus 1:
+			say "[index in row X of T][if N is greater than 2],[end if] ";
+		if N is greater than 1:
+			say "or ";
+		say "[index in row N of T].".
+
+[DIALOGUER]
+Understand "talk to [someone]" as a mistake ("To start a conversation, you need to use ASK [the noun] ABOUT something. Type 'ask [the noun] (about)' to see the available's topic.").
+Instead of telling someone about something, try asking the noun about it. Instead of answering the noun that something, try asking the noun about it.
+
+Check asking it about:
+	if the player is invisible:
+		say "you should be visible to talk to someone!";
+		stop the action.
+		
+After asking someone about something:
+	let R be the Responses Table of the noun;
+	if the topic understood is a topic listed in R:
+		say "[Response entry]";
+	
+section 3 - Speech Table
+
+[Understand "him/you/name/who are you/who is he/his name" as "[About]".]
+
+Table of Gandalf Responses
+Topic	Response	Index
+"Who are you"	"My name is Gandalf, I'm a magicien."	"him"
+"What are you"	"I'm a magicien, and my name is Gandalf"	"What are you"
+"Did you anderstand me"	"Of course I do, I everything fine?"	"WTF"
+
+The Responses Table of Gandalf is Table of Gandalf Responses.
+
+Table of Sam Responses
+Topic	Response	Index
+"Who are you]"	"My name is Sam, I'm a perfect teammate."	"Who are you"
+"What are you"	"I'm a magicien, and my name is Gandalf"	"What are you"
+"Did you anderstand me"	"Of course I do, I everything fine?"	"WTF"
+
+The Responses Table of Sam & Pip is Table of Sam Responses.
+		
 chapter 4 - Scenario
 
 
