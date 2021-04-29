@@ -96,13 +96,12 @@ Check asking it about:
 		stop the action.
 		
 After asking someone about something:
-	let R be the Responses Table of the noun;
-	if the topic understood is a topic listed in R:
+	if the topic understood is a topic listed in the Responses Table of the noun:
 		if "[Index entry]" is listed in the Answered List of the noun:
-			say "I already take to you about that.";
+			say "I already talk to you about that.";
 		otherwise:
 			say "[Response entry]";
-			if "[Action entry]" is "y/n":
+			if "[Action entry]" is "y or n":
 				if player consents:
 					say "[Result entry]";
 					move the player to rivendell;
@@ -118,16 +117,16 @@ Understand "him/himself" or "who/what are you" or "his name/origin/capacity" as 
 Table of Gandalf Responses
 Topic	Response	Index	Action	Result
 "[About]"	"My name is Gandalf, I'm a magicien."	"him"	""	""
-"What are you"	"I'm a magicien, and my name is Gandalf"	"What are you"	""	""
-"wtf"	"You really want to take the Eagle to go directly to mount doom ? "	"WTF"	"y/n"	"You are transporting to mount doom be the eagle. You find a easy shortcut ! But wait... it seem that you are to weak for this kind of transport... we need to stop befor you trow up, sorry."
+"something"	"I'm a magicien, and my name is Gandalf"	"something"	""	""
+"wtf"	"You really want to take the Eagle to go directly to mount doom ? "	"WTF"	"y or n"	"You are transporting to mount doom be the eagle. You find a easy shortcut ! But wait... it seem that you are to weak for this kind of transport... we need to stop befor you trow up, sorry."
 
 The Responses Table of Gandalf is Table of Gandalf Responses.
 
 Table of Sam Responses
-Topic	Response	Index
-"[About]"	"My name is Sam, I'm a perfect teammate."	"Who are you"
-"What are you"	"I'm a magicien, and my name is Gandalf"	"What are you"
-"Did you anderstand me"	"Of course I do, I everything fine?"	"WTF"
+Topic	Response	Index	Action	Result
+"[About]"	"My name is Sam, I'm a perfect teammate."	"him"	""	""
+"something"	"I'm a magicien, and my name is Gandalf"	"something"	""	""
+"test"	"Of course I do, I everything fine?"	"WTF"	""	""
 
 The Responses Table of Sam & Pip is Table of Sam Responses.
 		

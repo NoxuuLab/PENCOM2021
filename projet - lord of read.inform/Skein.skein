@@ -1373,28 +1373,119 @@ You can see Gandalf and Sam &amp; Pip here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2375"></child>
+            <child nodeId="node-2542"></child>
             <child nodeId="node-2373"></child>
         </children>
     </item>
     <item nodeId="node-2373">
         <command xml:space="preserve">ask sam about what are you</command>
-        <result xml:space="preserve"></result>
+        <result xml:space="preserve">My name is Sam, I'm a perfect teammate.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2555"></child>
+        </children>
+    </item>
+    <item nodeId="node-2555">
+        <command xml:space="preserve">ask sam about him</command>
+        <result xml:space="preserve">I already take to you about that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2542">
+        <command xml:space="preserve">ask sam about him</command>
+        <result xml:space="preserve">My name is Sam, I'm a perfect teammate.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2558"></child>
+        </children>
+    </item>
+    <item nodeId="node-2558">
+        <command xml:space="preserve">ask sam about what are you</command>
+        <result xml:space="preserve">I already talk to you about that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2559"></child>
+        </children>
+    </item>
+    <item nodeId="node-2559">
+        <command xml:space="preserve">showme sam</command>
+        <result xml:space="preserve">Sam &amp; Pip - caracter
+location: in the shire
+singular-named, proper-named; unlit, inedible, portable; male, visible
+list grouping key: none
+printed name: "Sam &amp; Pip"
+printed plural name: "caracters"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Responses Table: Table of Sam Responses
+Answered List: him
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2564"></child>
+        </children>
+    </item>
+    <item nodeId="node-2564">
+        <command xml:space="preserve">ask gandlaf about wtf</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2565"></child>
+        </children>
+    </item>
+    <item nodeId="node-2565">
+        <command xml:space="preserve">ask gandalf about wtf</command>
+        <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2566"></child>
+        </children>
+    </item>
+    <item nodeId="node-2566">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">As you please.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2567"></child>
+        </children>
+    </item>
+    <item nodeId="node-2567">
+        <command xml:space="preserve">ask sam about wtf</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2576"></child>
+        </children>
+    </item>
+    <item nodeId="node-2576">
+        <command xml:space="preserve">ask sam about test</command>
+        <result xml:space="preserve">Of course I do, I everything fine?
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2577"></child>
+        </children>
+    </item>
+    <item nodeId="node-2577">
+        <command xml:space="preserve">ask sam about test</command>
+        <result xml:space="preserve">I already talk to you about that.
+
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-2375">
         <command xml:space="preserve">ask gandalf about him</command>
-        <result xml:space="preserve">I already answered to this question.
-
-&gt;</result>
+        <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2376"></child>
         </children>
     </item>
     <item nodeId="node-2376">
         <command xml:space="preserve">ask gandalf about him</command>
-        <result xml:space="preserve">I already answered to this question.
-
-&gt;</result>
+        <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2377"></child>
         </children>
@@ -1412,7 +1503,7 @@ description: none
 initial appearance: none
 carrying capacity: 100
 Responses Table: Table of Gandalf Responses
-Answered List: him
+Answered List: 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1513,7 +1604,26 @@ You can see Gandalf and Sam &amp; Pip here.
     </item>
     <item nodeId="node-2388">
         <command xml:space="preserve">ask sam about him</command>
-        <result xml:space="preserve"></result>
+        <result xml:space="preserve">Glulxe fatal error: Memory access out of range (58231E03)
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2434"></child>
+        </children>
+    </item>
+    <item nodeId="node-2434">
+        <command xml:space="preserve">ask sam</command>
+        <result xml:space="preserve">You could ask about Who are you, What are you, or WTF.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2435"></child>
+        </children>
+    </item>
+    <item nodeId="node-2435">
+        <command xml:space="preserve">ask gandalf</command>
+        <result xml:space="preserve">You could ask about him, What are you, or WTF.
+
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1503">
