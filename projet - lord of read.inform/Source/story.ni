@@ -99,22 +99,28 @@ After asking someone about something:
 	let R be the Responses Table of the noun;
 	if the topic understood is a topic listed in R:
 		say "[Response entry]";
+		if "[Action entry]" is "y/n":
+			if player consents:
+				say "[Result entry]";
+				move the player to rivendell;
+			otherwise:
+				say "As you please.";
 	
 section 3 - Speech Table
 
-[Understand "him/you/name/who are you/who is he/his name" as "[About]".]
+Understand "him/himself" or "who/what are you" or "his name/origin/capacity" as "[About]".
 
 Table of Gandalf Responses
-Topic	Response	Index
-"Who are you"	"My name is Gandalf, I'm a magicien."	"him"
-"What are you"	"I'm a magicien, and my name is Gandalf"	"What are you"
-"Did you anderstand me"	"Of course I do, I everything fine?"	"WTF"
+Topic	Response	Index	Action	Result
+"[About]"	"My name is Gandalf, I'm a magicien."	"him"	""	""
+"What are you"	"I'm a magicien, and my name is Gandalf"	"What are you"	""	""
+"wtf"	"You really want to take the Eagle to go directly to mount doom ? "	"WTF"	"y/n"	"You are transporting to mount doom be the eagle. You find a easy shortcut ! But wait... it seem that you are to weak for this kind of transport... we need to stop befor you trow up, sorry."
 
 The Responses Table of Gandalf is Table of Gandalf Responses.
 
 Table of Sam Responses
 Topic	Response	Index
-"Who are you]"	"My name is Sam, I'm a perfect teammate."	"Who are you"
+"[About]"	"My name is Sam, I'm a perfect teammate."	"Who are you"
 "What are you"	"I'm a magicien, and my name is Gandalf"	"What are you"
 "Did you anderstand me"	"Of course I do, I everything fine?"	"WTF"
 
