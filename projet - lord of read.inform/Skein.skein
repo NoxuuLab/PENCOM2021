@@ -1373,6 +1373,7 @@ You can see Gandalf and Sam &amp; Pip here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-2375"></child>
+            <child nodeId="node-2589"></child>
             <child nodeId="node-2542"></child>
             <child nodeId="node-2373"></child>
         </children>
@@ -1472,6 +1473,97 @@ Answered List: him
     <item nodeId="node-2577">
         <command xml:space="preserve">ask sam about test</command>
         <result xml:space="preserve">I already talk to you about that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2589">
+        <command xml:space="preserve">ask gandalf about something</command>
+        <result xml:space="preserve">I'm a magicien, and my name is Gandalf
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2590"></child>
+        </children>
+    </item>
+    <item nodeId="node-2590">
+        <command xml:space="preserve">ask gandalf about something</command>
+        <result xml:space="preserve">I already talk to you about that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2591"></child>
+        </children>
+    </item>
+    <item nodeId="node-2591">
+        <command xml:space="preserve">ask gandalf about him</command>
+        <result xml:space="preserve">I already talk to you about that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2592"></child>
+        </children>
+    </item>
+    <item nodeId="node-2592">
+        <command xml:space="preserve">ask sam about him</command>
+        <result xml:space="preserve">My name is Sam, I'm a perfect teammate.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2593"></child>
+        </children>
+    </item>
+    <item nodeId="node-2593">
+        <command xml:space="preserve">ask sam about wtf</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2594"></child>
+        </children>
+    </item>
+    <item nodeId="node-2594">
+        <command xml:space="preserve">ask sam about test</command>
+        <result xml:space="preserve">Of course I do, I everything fine?
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2595"></child>
+        </children>
+    </item>
+    <item nodeId="node-2595">
+        <command xml:space="preserve">ask sam about test</command>
+        <result xml:space="preserve">I already talk to you about that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2596"></child>
+        </children>
+    </item>
+    <item nodeId="node-2596">
+        <command xml:space="preserve">ask sam about something</command>
+        <result xml:space="preserve">I'm a magicien, and my name is Gandalf
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2597"></child>
+        </children>
+    </item>
+    <item nodeId="node-2597">
+        <command xml:space="preserve">ask sam about him</command>
+        <result xml:space="preserve">I already talk to you about that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2598"></child>
+        </children>
+    </item>
+    <item nodeId="node-2598">
+        <command xml:space="preserve">ask gandalf about something</command>
+        <result xml:space="preserve">I already talk to you about that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2599"></child>
+        </children>
+    </item>
+    <item nodeId="node-2599">
+        <command xml:space="preserve">ask gandalf</command>
+        <result xml:space="preserve">You could ask about him, something, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
