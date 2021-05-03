@@ -103,7 +103,17 @@ After asking someone about something:
 		otherwise:
 			say "[Response entry]";
 			if there is a Action entry:
-				Let text-action be a list of different things : {the noun, }
+				if "[Action entry]" is "move to rivendell":
+					if player consents:
+						say "[Result entry]";
+						add "[Index entry]" to the Answered List of the noun;
+						move the player to rivendell, without printing a room description;
+					otherwise:
+						say "As you please.";
+				if "[Action entry]" is "get weed":
+					say "[Result entry]";
+					add "[Index entry]" to the Answered List of the noun;
+					now the player have weed;
 			otherwise:
 				add "[Index entry]" to the Answered List of the noun;
 	
@@ -115,7 +125,7 @@ Table of Gandalf Responses
 Topic	Response	Index	Action	Result
 "[About]"	"My name is Gandalf, I'm a magicien."	"him"	--	""
 "something"	"I'm a magicien, and my name is Gandalf"	"something"	--	""
-"wtf"	"You really want to take the Eagle to go directly to mount doom ? "	"WTF"	"move to rivendell"	"You are transporting to mount doom be the eagle. You find a easy shortcut ! But wait... it seem that you are to weak for this kind of transport... we need to stop befor you trow up, sorry."
+"wtf"	"You really want to take the Eagle to go directly to mount doom ? "	"WTF"	"move to rivendell"	"You are transporting to mount doom be the eagle. You find a easy shortcut ! But wait... it seem that you are to weak for this kind of transport... we need to stop befor you trow up, sorry. You are now in Rivendell..."
 
 Table of Seconde Gandalf Responses
 Seconde Response
@@ -129,9 +139,9 @@ The Seconde Responses Table of Gandalf is Table of Seconde Gandalf Responses.
 
 Table of Sam Responses
 Topic	Response	Index	Action	Result
-"[About]"	"My name is Sam, I'm a perfect teammate."	"him"	""	""
-"something"	"I'm a magicien, and my name is Gandalf"	"something"	""	""
-"test"	"Of course I do, I everything fine?"	"WTF"	""	""
+"[About]"	"My name is Sam, I'm a perfect teammate."	"him"	--	""
+"something"	"I'm a magicien, and my name is Gandalf"	"something"	--	""
+"test"	"Of course I do, I everything fine?"	"WTF"	"get weed"	"Sam & Pip give you a nice hobbit tabaco..."
 
 Table of Seconde Sam Responses
 Seconde Response
@@ -145,8 +155,3 @@ The Seconde Responses Table of Sam & Pip is Table of Seconde Sam Responses.
 		
 chapter 4 - Scenario
 
-[if player consents:
-	say "[Result entry]";
-	move the player to rivendell;
-otherwise:
-	say "As you please.";]
