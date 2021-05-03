@@ -32,7 +32,7 @@ section 3 - The Shire
 
 The description of the Shire is "Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun, [Gandalf] towers above all even while sitting on his favorite chair.".
 The Ring is a thing. "DESCRIPTION".
-Weed is a thing. "This, this is...very high quality. From the smell alone you can tell that if smoked, this unassuming clump of greenery may very well gift you the high of a lifetime.".
+pipe-weed is a thing. "This, this is...very high quality. From the smell alone you can tell that if smoked, this unassuming clump of greenery may very well gift you the high of a lifetime.".
 A caracter is a kind of person. Gandalf and Sam & Pip are caracter in the shire.
 
 section 2 - Bag End
@@ -66,8 +66,6 @@ Chapter 3 - Settings
 A person can be visible or invisible. A person is usually visible.
 A caracter have a table name called the Responses Table. A caracter have a table name called the Seconde Responses Table. A caracter have a list of texts called Answered List.
 
-The player carry the ring and a lighter.
-
 section 2 - Actions
 
 [READ]
@@ -80,11 +78,11 @@ Carry out reading: say "[The quote]".
 Smoking is an action applying to one visible thing.
 Understand "smoke [something]" as smoking.
 
-Check smoking when the noun is not weed: instead say "Sounds like
+Check smoking when the noun is not pipe-weed: instead say "Sounds like
 something you might have tried in high school."
 
-Check smoking when the lighter is not held: instead say "OK, now where did
-you leave your lighter?"
+[Check smoking when the lighter is not held: instead say "OK, now where did
+you leave your lighter?"]
 
 Carry out smoking: say "You light [the noun] with your lighter and inhale
 deeply. And you find yourself teleported to Mount Doom!"
@@ -153,7 +151,7 @@ After asking someone about something:
 				if "[Action entry]" is "get weed":
 					say "[Result entry]";
 					add "[Index entry]" to the Answered List of the noun;
-					now the player have weed;
+					now the player have pipe-weed;
 			otherwise:
 				add "[Index entry]" to the Answered List of the noun;
 	
@@ -210,8 +208,6 @@ Seconde Response
 
 The Responses Table of Elf Lord is Table of Elf Responses.
 The Seconde Responses Table of Elf Lord is Table of Seconde Elf Responses.
-
-
 		
 chapter 4 - Scenario
 
@@ -219,7 +215,9 @@ section 1 - Introduction
 
 report reading the mysterious book:
 	say "What happend ??";
-	move player to Bag End. 
+	move player to Bag End;
+	now the player carry the ring.
+
 
 section 2 - Go to end
 
