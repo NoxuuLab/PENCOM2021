@@ -32,6 +32,7 @@ You can see an old table (on which is a mysterious book) here.
             <child nodeId="node-8374"></child>
             <child nodeId="node-8357"></child>
             <child nodeId="node-8353"></child>
+            <child nodeId="node-8549"></child>
             <child nodeId="node-8350"></child>
             <child nodeId="node-8343"></child>
             <child nodeId="node-8342"></child>
@@ -1028,6 +1029,148 @@ printed plural name: none
 indefinite article: none
 description: none
 initial appearance: none
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-8549">
+        <command xml:space="preserve">read book</command>
+        <result xml:space="preserve">...One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them In the Land of Mordor where the Shadows lie...
+
+What happend ??
+
+Bag End
+You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself.
+
+You can see a little table (on which are a little book and a map), a trunk closed (in which are a pipe and a bag of money), and a cupboard here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8550"></child>
+        </children>
+    </item>
+    <item nodeId="node-8550">
+        <command xml:space="preserve">go outside</command>
+        <result xml:space="preserve">
+shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun, Gandalf towers above all even while sitting on his favorite chair.
+
+You can see Sam &amp; Pip here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8551"></child>
+        </children>
+    </item>
+    <item nodeId="node-8551">
+        <command xml:space="preserve">Ask sam about test</command>
+        <result xml:space="preserve">Of course I do, I everything fine?Sam &amp; Pip give you a nice hobbit tabaco...
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8552"></child>
+        </children>
+    </item>
+    <item nodeId="node-8552">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  pipe-weed
+  a Ring
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8553"></child>
+        </children>
+    </item>
+    <item nodeId="node-8553">
+        <command xml:space="preserve">e pipe-weed</command>
+        <result xml:space="preserve">I only understood you as far as wanting to (go) e Sam &amp; Pip.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8559"></child>
+        </children>
+    </item>
+    <item nodeId="node-8559">
+        <command xml:space="preserve">exmaine weed</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8560"></child>
+        </children>
+    </item>
+    <item nodeId="node-8560">
+        <command xml:space="preserve">examine weed</command>
+        <result xml:space="preserve">You see nothing special about pipe-weed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8561"></child>
+        </children>
+    </item>
+    <item nodeId="node-8561">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  pipe-weed
+  a Ring
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8562"></child>
+        </children>
+    </item>
+    <item nodeId="node-8562">
+        <command xml:space="preserve">smoke weed</command>
+        <result xml:space="preserve">How do you plane to doing it... with your hand ? A pipe may be a good idea.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8563"></child>
+        </children>
+    </item>
+    <item nodeId="node-8563">
+        <command xml:space="preserve">smoke pipe-weed</command>
+        <result xml:space="preserve">How do you plane to doing it... with your hand ? A pipe may be a good idea.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8574"></child>
+        </children>
+    </item>
+    <item nodeId="node-8574">
+        <command xml:space="preserve">go inside</command>
+        <result xml:space="preserve">
+Bag End
+You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself.
+
+You can see a little table (on which are a little book and a map), a trunk closed (in which are a pipe and a bag of money), and a cupboard here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8575"></child>
+        </children>
+    </item>
+    <item nodeId="node-8575">
+        <command xml:space="preserve">open trunk</command>
+        <result xml:space="preserve">It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8588"></child>
+        </children>
+    </item>
+    <item nodeId="node-8588">
+        <command xml:space="preserve">smoke weed</command>
+        <result xml:space="preserve">How do you plane to doing it... with your hand ? A pipe may be a good idea.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8602"></child>
+        </children>
+    </item>
+    <item nodeId="node-8602">
+        <command xml:space="preserve">take the pipe</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

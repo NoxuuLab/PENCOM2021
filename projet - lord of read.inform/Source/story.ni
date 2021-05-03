@@ -32,14 +32,15 @@ section 3 - The Shire
 
 The description of the Shire is "Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun, [Gandalf] towers above all even while sitting on his favorite chair.".
 The Ring is a thing. "DESCRIPTION".
-pipe-weed is a thing. "This, this is...very high quality. From the smell alone you can tell that if smoked, this unassuming clump of greenery may very well gift you the high of a lifetime.".
+pipe-weed is a thing. "This, this is...very high quality. From the smell alone you can tell that if smoked, this unassuming clump of greenery may very well gift you the high of a lifetime.". Understand "weed" as pipe-weed.
+
 A caracter is a kind of person. Gandalf and Sam & Pip are caracter in the shire.
 
 section 2 - Bag End
 
 The description of Bag End is "You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself.".
-A little table, a trunk and a cupboard are in the bilbo's house.
-The description of the trunk is "An old and heavy thing, on which the name BAGGINS is roughly carved.". 
+A little table, a trunk and a cupboard are in the Bag End.
+The trunk is openable and closed. The description of the trunk is "An old and heavy thing, on which the name BAGGINS is roughly carved.". 
 The little book is a book on the little table. A map is on the little table.
 
 The description of the little book is "As green as fine summery grass, the title of the book stands boldly on its front [italic type] Surviving Your First High and Other Ways to Have the Best Time of Your Life With Weed [roman type]."
@@ -81,8 +82,7 @@ Understand "smoke [something]" as smoking.
 Check smoking when the noun is not pipe-weed: instead say "Sounds like
 something you might have tried in high school."
 
-[Check smoking when the lighter is not held: instead say "OK, now where did
-you leave your lighter?"]
+Check smoking when the pipe is not held: instead say "How do you plane to doing it... with your hand ? A pipe may be a good idea."
 
 Carry out smoking: say "You light [the noun] with your lighter and inhale
 deeply. And you find yourself teleported to Mount Doom!"
