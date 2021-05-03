@@ -1042,7 +1042,7 @@ What happend ??
 Bag End
 You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself.
 
-You can see a little table (on which are a little book and a map), a trunk closed (in which are a pipe and a bag of money), and a cupboard here.
+You can see a little table (on which are a little book and a map), a trunk (closed), and a cupboard here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1143,7 +1143,7 @@ You can see Sam &amp; Pip here.
 Bag End
 You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself.
 
-You can see a little table (on which are a little book and a map), a trunk closed (in which are a pipe and a bag of money), and a cupboard here.
+You can see a little table (on which are a little book and a map), a trunk (closed), and a cupboard here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1152,7 +1152,7 @@ You can see a little table (on which are a little book and a map), a trunk close
     </item>
     <item nodeId="node-8575">
         <command xml:space="preserve">open trunk</command>
-        <result xml:space="preserve">It isn't something you can open.
+        <result xml:space="preserve">You open the trunk, revealing a pipe and a bag of money.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1171,6 +1171,19 @@ You can see a little table (on which are a little book and a map), a trunk close
     <item nodeId="node-8602">
         <command xml:space="preserve">take the pipe</command>
         <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-8631"></child>
+        </children>
+    </item>
+    <item nodeId="node-8631">
+        <command xml:space="preserve">smoke weed</command>
+        <result xml:space="preserve">You light pipe-weed with your lighter and inhale deeply. And you find yourself teleported to Mount Doom!
+
+Mount Doom
+The heat is blistering, suffocating. Somewhere belove you licks of flame run along barren rock and molten lava churns at the mouth of the active volcano.  The ring hisses, dark things, promises of power and greed, it would even implore and beg if it was capable of such a thing.  
+ This could be the end of your story, the end of your adventure, will there be ships to whisk you away once you throw the ring to the flames of Mount Doom?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
