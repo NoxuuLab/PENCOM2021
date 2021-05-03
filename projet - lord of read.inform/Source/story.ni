@@ -29,10 +29,6 @@ In the Land of Mordor where the Shadows lie...[roman type][line break]".
 
 Understand "The Fellowship of the Ring" as book.  
 
-After reading the mysterious book: 
-move player to The Shire. 
-
-
 section 3 - The Shire
 
 The description of the Shire is "Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun, [Gandalf] towers above all even while sitting on his favorite chair.".
@@ -71,6 +67,7 @@ Chapter 3 - Settings
 A person can be visible or invisible. A person is usually visible.
 A caracter have a table name called the Responses Table. A caracter have a table name called the Seconde Responses Table. A caracter have a list of texts called Answered List.
 
+The player carry the ring and a lighter.
 
 section 2 - Actions
 
@@ -93,9 +90,6 @@ you leave your lighter?"
 
 Report smoking: say "You light [the noun] with your lighter and inhale
 deeply. And you find yourself teleported to Mount Doom!"
-
-Carry out smoking: now the noun is nowhere;
-	move the player to the Mount Doom;
 
 
 [DEPLACEMENT]
@@ -201,6 +195,13 @@ The Seconde Responses Table of Sam & Pip is Table of Seconde Sam Responses.
 		
 chapter 4 - Scenario
 
-section 2 - Bilbo's House
+section 1 - Introduction
 
-The player carries a weed and lighter.
+After reading the mysterious book:
+	move player to The Shire. 
+
+section 2 - Go to end
+
+Carry out smoking: 
+	now the noun is nowhere;
+	move the player to the Mount Doom;
