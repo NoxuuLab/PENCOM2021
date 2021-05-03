@@ -64,7 +64,7 @@ The description of the Mount Doom is "The heat is blistering, suffocating. Somew
 
 Chapter 3 - Settings
 
-A person can be visible or invisible. A person is usually visible.
+A person can be hidden. A person is usually not hidden.
 A caracter have a table name called the Responses Table. A caracter have a table name called the Seconde Responses Table. A caracter have a list of texts called Answered List.
 
 section 2 - Actions
@@ -101,8 +101,9 @@ list-asking is an action applying to one thing.
 Understand "ask [thing]" as list-asking.
 Understand "ask [thing] about" as list-asking.
 
-Check list-asking when the noun is not a person:
-	instead say "You can't ask any questions...".
+Check list-asking: 
+	if the noun is not a person, say "You can't ask any questions..." instead;
+	if the player is hidden, say "you should be visible to talk to someone!" instead;
 Report list-asking:
 	let T be the Responses Table of the noun;
 	if T is empty:
@@ -124,12 +125,13 @@ To list options from (T - a table name):
 
 [DIALOGUER]
 Understand "talk to [someone]" as a mistake ("To start a conversation, you need to use ASK [the noun] ABOUT something. Type 'ask [the noun] (about)' to see the available's topic.").
-Instead of telling someone about something, try asking the noun about it. Instead of answering the noun that something, try asking the noun about it.
+Instead of telling someone about something, try asking the noun about it. Instead of answering the noun that something, try asking the noun about it. the player has to bo not hidden to asking.
 
-Check asking it about:
-	if the player is invisible:
-		say "you should be visible to talk to someone!";
-		stop the action.
+Check asking someone about something:
+	if the player is hidden: 
+		say "you should be visible to talk to someone!" instead;
+	otherwise:
+		say "lolololol...";
 		
 After asking someone about something:
 	if the topic understood is a topic listed in the Responses Table of the noun:
@@ -154,6 +156,23 @@ After asking someone about something:
 					now the player have pipe-weed;
 			otherwise:
 				add "[Index entry]" to the Answered List of the noun;
+				
+[PUTTING THE RINGS!]
+Putting is an action applying to one carried thing. Understand "put [something]" as putting.
+Before putting something which is not carried by the player:
+		silently try taking the noun;
+		if the player is not holding the noun, stop the action;
+		say "You take [the noun] but...";
+Check putting:
+	if the noun is not the ring, say "... [it] won't fit on you. Where do you want to put [it] ?" instead;
+Carry out putting:
+	say "You have a bad feeling about this ring. Are you really sure you want to do that ?";
+	if player consents:
+		say "you slowly put the ring on your finger, with this bad feeling...";
+		now the player is hidden;
+		say "A wierd feeling is on you, your vision isn't the same, what happend ?";
+	otherwise:
+		say "Yeah, thaht better like this.";
 	
 section 3 - Speech Table
 
@@ -185,7 +204,7 @@ Table of Sam Responses
 Topic	Response	Index	Action	Result
 "[About]"	"My name is Sam, I'm a perfect teammate."	"him"	--	--
 "something"	"I'm a magicien, and my name is Gandalf"	"something"	--	--
-"test"	"Of course I do, I everything fine?"	"WTF"	"get weed"	"Sam & Pip give you a nice hobbit tabaco..."
+"test"	"Of course I do, I everything fine?"	"WTF"	"get weed"	"Sam & Pip give you a nice hobbit pipe-weed..."
 
 Table of Seconde Sam Responses
 Seconde Response
