@@ -19,12 +19,6 @@ The description of the old room is "Something here calls to you, like a whisper 
 
 
 A book is a kind of thing. A book has a text called the quote. 
-Understand the command "read" as something new.
-Reading is an action applying to a thing. Understand "read [something]" as reading.
-Check reading when the noun is not a book or a map: instead say "You can't read that."
-Check reading when the noun is not open: try opening the noun.
-Report reading: say "[The quote]"
-
 
 An old table is in the old room. The mysterious book is a book on the old table. 
 The description of the old table is "A sturdy wooden thing, with carvings along it's legs of delicate leaves and vines.". 
@@ -77,10 +71,15 @@ Chapter 3 - Settings
 A person can be visible or invisible. A person is usually visible.
 A caracter have a table name called the Responses Table. A caracter have a table name called the Seconde Responses Table. A caracter have a list of texts called Answered List.
 
-section 1 - Kinds
-
 
 section 2 - Actions
+
+[READ]
+Understand the command "read" as something new.
+Reading is an action applying to a thing. Understand "read [something]" as reading.
+Check reading when the noun is not a book or a map: instead say "You can't read that."
+Check reading when the noun is not open: try opening the noun.
+Report reading: say "[The quote]"
 
 [DEPLACEMENT]
 teleporting is an action applying to one thing.
