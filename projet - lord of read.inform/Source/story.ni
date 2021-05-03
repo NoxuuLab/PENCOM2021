@@ -132,12 +132,18 @@ After asking someone about something:
 			say "[Seconde Response entry]";
 		otherwise:
 			say "[Response entry]";
-			if "[Action entry]" is "y or n":
-				if player consents:
+			if there is a Action entry:
+				if "[Action entry]" is "move to rivendell":
+					if player consents:
+						say "[Result entry]";
+						add "[Index entry]" to the Answered List of the noun;
+						move the player to rivendell, without printing a room description;
+					otherwise:
+						say "As you please.";
+				if "[Action entry]" is "get weed":
 					say "[Result entry]";
-					move the player to rivendell;
-				otherwise:
-					say "As you please.";
+					add "[Index entry]" to the Answered List of the noun;
+					now the player have weed;
 			otherwise:
 				add "[Index entry]" to the Answered List of the noun;
 	
@@ -147,9 +153,9 @@ Understand "him/himself" or "who/what are you" or "his name/origin/capacity" as 
 
 Table of Gandalf Responses
 Topic	Response	Index	Action	Result
-"[About]"	"My name is Gandalf, I'm a magicien."	"him"	""	""
-"something"	"I'm a magicien, and my name is Gandalf"	"something"	""	""
-"wtf"	"You really want to take the Eagle to go directly to mount doom ? "	"WTF"	"y or n"	"You are transporting to mount doom be the eagle. You find a easy shortcut ! But wait... it seem that you are to weak for this kind of transport... we need to stop befor you trow up, sorry."
+"[About]"	"My name is Gandalf, I'm a magicien."	"him"	--	""
+"something"	"I'm a magicien, and my name is Gandalf"	"something"	--	""
+"wtf"	"You really want to take the Eagle to go directly to mount doom ? "	"WTF"	"move to rivendell"	"You are transporting to mount doom be the eagle. You find a easy shortcut ! But wait... it seem that you are to weak for this kind of transport... we need to stop befor you trow up, sorry. You are now in Rivendell..."
 
 Table of Seconde Gandalf Responses
 Seconde Response
@@ -163,9 +169,9 @@ The Seconde Responses Table of Gandalf is Table of Seconde Gandalf Responses.
 
 Table of Sam Responses
 Topic	Response	Index	Action	Result
-"[About]"	"My name is Sam, I'm a perfect teammate."	"him"	""	""
-"something"	"I'm a magicien, and my name is Gandalf"	"something"	""	""
-"test"	"Of course I do, I everything fine?"	"WTF"	""	""
+"[About]"	"My name is Sam, I'm a perfect teammate."	"him"	--	""
+"something"	"I'm a magicien, and my name is Gandalf"	"something"	--	""
+"test"	"Of course I do, I everything fine?"	"WTF"	"get weed"	"Sam & Pip give you a nice hobbit tabaco..."
 
 Table of Seconde Sam Responses
 Seconde Response
@@ -178,5 +184,4 @@ The Responses Table of Sam & Pip is Table of Sam Responses.
 The Seconde Responses Table of Sam & Pip is Table of Seconde Sam Responses.
 		
 chapter 4 - Scenario
-
 
