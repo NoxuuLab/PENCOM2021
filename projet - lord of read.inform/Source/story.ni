@@ -4,14 +4,14 @@ Use American dialect. Use the serial comma.
 
 chapter 1 - The Word
 
+The real world is a region.
+The old room is in the real world.
+
 The story is a region.
 The shire, the Bag End, Rivendell and Mount Doom are in the story.
 The shire is west of Rivendell.
 
 Inside from the shire is the Bag End.
-
-The real world is a region.
-The old room is in the real world.
 
 section 1 - Introduction - start
 
