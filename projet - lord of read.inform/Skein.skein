@@ -1802,11 +1802,12 @@ You can see Gandalf and Sam &amp; Pip here.
     </item>
     <item nodeId="node-1175">
         <command xml:space="preserve">ask gandalf</command>
-        <result xml:space="preserve">You could ask about him, What are you, or WTF.
+        <result xml:space="preserve">You could ask about him, something, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1183"></child>
+        <children><child nodeId="node-1247"></child>
+            <child nodeId="node-1183"></child>
             <child nodeId="node-1176"></child>
         </children>
     </item>
@@ -2061,6 +2062,32 @@ You can see a little table (on which are a little book and a map), a trunk (in w
 DESCRIPTION
 
 You can see Gandalf and Sam &amp; Pip here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1247">
+        <command xml:space="preserve">ask gandalf about him</command>
+        <result xml:space="preserve">My name is Gandalf, I'm a magicien.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1248"></child>
+        </children>
+    </item>
+    <item nodeId="node-1248">
+        <command xml:space="preserve">ask gandalf about wtf</command>
+        <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1249"></child>
+        </children>
+    </item>
+    <item nodeId="node-1249">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">You are transporting to mount doom be the eagle. You find a easy shortcut ! But wait... it seem that you are to weak for this kind of transport... we need to stop befor you trow up, sorry.
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

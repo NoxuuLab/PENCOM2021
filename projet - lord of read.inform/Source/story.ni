@@ -15,11 +15,28 @@ The old room is in the real world.
 
 section 1 - Introduction - start
 
-The description of the old room is "Something here calls to you, like a whisper in the wind or the faint rustling of the worn pages of a well-loved book. Around and above you the walls are covered in paint. Scattered scenes chase each other without order or thought, a majestic blue dragon flies over mountain peaks, a great lion roars at the foot of a white castle and on the ceiling someone too small to be a man smiles forlornly, behind him ships ready to sail in the unknown.".
+The description of the old room is "Something here calls to you, like a whisper in the wind or the faint rustling of the worn pages of a well-loved book. Around and above you the walls are covered in paint. Scattered scenes chase each other without order or thought, a majestic blue dragon flies over mountain peaks, a great lion roars at the foot of a white castle and on the ceiling someone too small to be a man smiles forlornly, behind him ships ready to sail in the unknown."
 
-An old table is in the old room. A mysterious book is on the old table. 
-The description of the table is "A sturdy wooden thing, with carvings along it's legs of delicate leaves and vines.". 
+
+A book is a kind of thing. A book has a text called the quote. 
+Understand the command "read" as something new.
+Reading is an action applying to a thing. Understand "read [something]" as reading.
+Check reading when the noun is not a book or a map: instead say "You can't read that."
+Check reading when the noun is not open: try opening the noun.
+Report reading: say "[The quote]"
+
+
+An old table is in the old room. The mysterious book is a book on the old table. 
+The description of the old table is "A sturdy wooden thing, with carvings along it's legs of delicate leaves and vines.". 
 The description of the mysterious book is "A hardback book, it's red cover frayed at the edges. If it weren't for the golden script on the spine no one would look twice at it. The title is enclosed in a circle: [italic type]The Fellowship of the Ring[roman type], underneath a name known by most: [italic type]J. R. R. Tolkien[roman type]»."
+The quote of the mysterious book is "[italic type]...One Ring to rule them all, One Ring to find them,
+One Ring to bring them all and in the darkness bind them
+In the Land of Mordor where the Shadows lie...[roman type][line break]". 
+
+Understand "The Fellowship of the Ring" as book.  
+
+After reading the mysterious book: 
+move player to The Shire. 
 
 
 section 3 - The Shire
@@ -34,7 +51,11 @@ section 2 - Bag End
 The description of Bag End is "You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself.".
 A little table, a trunk and a cupboard are in the bilbo's house.
 The description of the trunk is "An old and heavy thing, on which the name BAGGINS is roughly carved.". 
-A little book and a map are on the little table.
+The little book is a book on the little table. A map is on the little table.
+
+The description of the little book is "As green as fine summery grass, the title of the book stands boldly on its front [italic type] Surviving Your First High and Other Ways to Have the Best Time of Your Life With Weed [roman type]."
+The quote of the little book is "The hint". 
+
 A pipe and a bag of money are in the trunk.
 The description of the pipe is "A true hobbit [pipe]. Long, carved from wood, with glinting, leafy decorations on the bowl and the shank. You can almost hear Bilbo's voice in your head saying [italic type] No simple tobacco shall be smoked in my [pipe] Frodo. It was carved and created specifically for weed and [bold type] only [italic type] weed[roman type]."
 
@@ -57,6 +78,7 @@ A person can be visible or invisible. A person is usually visible.
 A caracter have a table name called the Responses Table. A caracter have a table name called the Seconde Responses Table. A caracter have a list of texts called Answered List.
 
 section 1 - Kinds
+
 
 section 2 - Actions
 
