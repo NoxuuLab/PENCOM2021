@@ -17,7 +17,6 @@ section 1 - Introduction - start
 
 The description of the old room is "Something here calls to you, like a whisper in the wind or the faint rustling of the worn pages of a well-loved book. Around and above you the walls are covered in paint. Scattered scenes chase each other without order or thought, a majestic blue dragon flies over mountain peaks, a great lion roars at the foot of a white castle and on the ceiling someone too small to be a man smiles forlornly, behind him ships ready to sail in the unknown."
 
-
 A book is a kind of thing. A book has a text called the quote. 
 
 An old table is in the old room. The mysterious book is a book on the old table. 
@@ -74,9 +73,8 @@ section 2 - Actions
 [READ]
 Understand the command "read" as something new.
 Reading is an action applying to a thing. Understand "read [something]" as reading.
-Check reading when the noun is not a book or a map: instead say "You can't read that."
-Check reading when the noun is not open: try opening the noun.
-Report reading: say "[The quote]"
+Check reading when the noun is not a book or a map: instead say "You can't read that.".
+Carry out reading: say "[The quote]".
 
 [SMOKING]
 Smoking is an action applying to one visible thing.
@@ -88,7 +86,7 @@ something you might have tried in high school."
 Check smoking when the lighter is not held: instead say "OK, now where did
 you leave your lighter?"
 
-Report smoking: say "You light [the noun] with your lighter and inhale
+Carry out smoking: say "You light [the noun] with your lighter and inhale
 deeply. And you find yourself teleported to Mount Doom!"
 
 
@@ -197,11 +195,12 @@ chapter 4 - Scenario
 
 section 1 - Introduction
 
-After reading the mysterious book:
-	move player to The Shire. 
+report reading the mysterious book:
+	say "What happend ??";
+	move player to Bag End. 
 
 section 2 - Go to end
 
-Carry out smoking: 
+Report smoking: 
 	now the noun is nowhere;
 	move the player to the Mount Doom;
