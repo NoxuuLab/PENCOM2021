@@ -2,7 +2,7 @@
 
 Use American dialect. Use the serial comma.
 
-chapter 1 - The Word
+chapter 1 - The World
 
 The story is a region.
 The shire, the Bilbo's House, Rivendell and Mount Doom are in the story.
@@ -23,6 +23,8 @@ section 3 - The Shire
 The description of the Shire is "DESCRIPTION".
 The Ring is a thing. "DESCRIPTION".
 Weed is a thing. "DESCRIPTION".
+Lighter is a thing. "DESCRIPTION"
+
 A caracter is a kind of person. Gandalf and Sam & Pip are caracter in the shire.
 
 section 2 - Bilbo's House
@@ -132,4 +134,22 @@ The Responses Table of Sam & Pip is Table of Sam Responses.
 		
 chapter 4 - Scenario
 
+section 2 - Bilbo's House
 
+The player carries a weed and lighter.
+Smoking is an action [out of world] applying to one [visible]
+[carried] thing.
+Understand "smoke [something]" as smoking.
+
+Check smoking when the noun is not weed: instead say "Sounds like
+something you might have tried in high school."
+
+Check smoking when the lighter is not held: instead say "OK, now where did
+you leave your lighter?"
+
+
+Report smoking: say "You light [the noun] with your lighter and inhale
+deeply. And you find yourself teleported to Mount Doom!"
+
+Carry out smoking: now the noun is nowhere;
+	move the player to the Mount Doom;
