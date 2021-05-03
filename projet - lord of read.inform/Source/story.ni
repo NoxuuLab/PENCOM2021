@@ -5,43 +5,51 @@ Use American dialect. Use the serial comma.
 chapter 1 - The Word
 
 The story is a region.
-The shire, the Bilbo's House, Rivendell and Mount Doom are in the story.
+The shire, the Bag End, Rivendell and Mount Doom are in the story.
 The shire is west of Rivendell.
 
-inside from the shire is the Bilbo's House.
+Inside from the shire is the Bag End.
 
 The real world is a region.
 The old room is in the real world.
 
 section 1 - Introduction - start
 
-The description of the old room is "DESCRIPTION".
-An old table is in the old room. An old book is on the old table.
+The description of the old room is "Something here calls to you, like a whisper in the wind or the faint rustling of the worn pages of a well-loved book. Around and above you the walls are covered in paint. Scattered scenes chase each other without order or thought, a majestic blue dragon flies over mountain peaks, a great lion roars at the foot of a white castle and on the ceiling someone too small to be a man smiles forlornly, behind him ships ready to sail in the unknown.".
+
+An old table is in the old room. A mysterious book is on the old table. 
+The description of the table is "A sturdy wooden thing, with carvings along it's legs of delicate leaves and vines.". 
+The description of the mysterious book is "A hardback book, it's red cover frayed at the edges. If it weren't for the golden script on the spine no one would look twice at it. The title is enclosed in a circle: [italic type]The Fellowship of the Ring[roman type], underneath a name known by most: [italic type]J. R. R. Tolkien[roman type]»."
+
 
 section 3 - The Shire
 
-The description of the Shire is "DESCRIPTION".
+The description of the Shire is "Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun, [Gandalf] towers above all even while sitting on his favorite chair.".
 The Ring is a thing. "DESCRIPTION".
-Weed is a thing. "DESCRIPTION".
+Weed is a thing. "This, this is...very high quality. From the smell alone you can tell that if smoked, this unassuming clump of greenery may very well gift you the high of a lifetime.".
 A caracter is a kind of person. Gandalf and Sam & Pip are caracter in the shire.
 
-section 2 - Bilbo's House
+section 2 - Bag End
 
-The description of Bilbo's House is "DESCRIPTION".
+The description of Bag End is "You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself.".
 A little table, a trunk and a cupboard are in the bilbo's house.
+The description of the trunk is "An old and heavy thing, on which the name BAGGINS is roughly carved.". 
 A little book and a map are on the little table.
 A pipe and a bag of money are in the trunk.
+The description of the pipe is "A true hobbit [pipe]. Long, carved from wood, with glinting, leafy decorations on the bowl and the shank. You can almost hear Bilbo's voice in your head saying [italic type] No simple tobacco shall be smoked in my [pipe] Frodo. It was carved and created specifically for weed and [bold type] only [italic type] weed[roman type]."
 
 section 4 - Rivendell
 
-The description of Rivendell is "DESCRIPTION". 
+The description of Rivendell is "At the edge of a narrow gorge, the peaceful elven town of [Rivendell] seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.". 
 The Elf Lord is a caracter in Rivendell.
 The pedestal is a supporter in rivendell.
-An old sword and a shirt in chainmail are on the pedestal.
+An old sword and the mithril shirt are on the pedestal.
+The description of the old sword is "A beautiful thing that would look extremely well tied around your hip. On the blade there is an inscription in what you assume to be elvish, maybe [Gandalf] would know how to translate it?". 
+The description of the mithril shirt is "Light to the touch, the strange chain mail shines softly. You don't know much about this stuff, but it must be special, or at the very least worth a pretty coin."
 
 section 5 - Mount Doom - end
 
-The description of the Mount Doom is "DESCRIPTION".
+The description of the Mount Doom is "The heat is blistering, suffocating. Somewhere belove you licks of flame run along barren rock and molten lava churns at the mouth of the active volcano. [If the player holds the ring] The ring hisses, dark things, promises of power and greed, it would even implore and beg if it was capable of such a thing. [otherwise] Even through you smoked out brain you remember that there was something important, something you should do here, a ring maybe? You di not forget the ring somewhere, right? RIGHT?! [end if] [line break] This could be the end of your story, the end of your adventure, will there be ships to whisk you away once you throw the ring to the flames of [Mount Doom]?".
 
 Chapter 3 - Settings
 
