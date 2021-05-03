@@ -102,12 +102,8 @@ After asking someone about something:
 			say "[Seconde Response entry]";
 		otherwise:
 			say "[Response entry]";
-			if "[Action entry]" is "y or n":
-				if player consents:
-					say "[Result entry]";
-					move the player to rivendell;
-				otherwise:
-					say "As you please.";
+			if there is a Action entry:
+				Let text-action be a list of different things : {the noun, }
 			otherwise:
 				add "[Index entry]" to the Answered List of the noun;
 	
@@ -117,9 +113,9 @@ Understand "him/himself" or "who/what are you" or "his name/origin/capacity" as 
 
 Table of Gandalf Responses
 Topic	Response	Index	Action	Result
-"[About]"	"My name is Gandalf, I'm a magicien."	"him"	""	""
-"something"	"I'm a magicien, and my name is Gandalf"	"something"	""	""
-"wtf"	"You really want to take the Eagle to go directly to mount doom ? "	"WTF"	"y or n"	"You are transporting to mount doom be the eagle. You find a easy shortcut ! But wait... it seem that you are to weak for this kind of transport... we need to stop befor you trow up, sorry."
+"[About]"	"My name is Gandalf, I'm a magicien."	"him"	--	""
+"something"	"I'm a magicien, and my name is Gandalf"	"something"	--	""
+"wtf"	"You really want to take the Eagle to go directly to mount doom ? "	"WTF"	"move to rivendell"	"You are transporting to mount doom be the eagle. You find a easy shortcut ! But wait... it seem that you are to weak for this kind of transport... we need to stop befor you trow up, sorry."
 
 Table of Seconde Gandalf Responses
 Seconde Response
@@ -149,4 +145,8 @@ The Seconde Responses Table of Sam & Pip is Table of Seconde Sam Responses.
 		
 chapter 4 - Scenario
 
-
+[if player consents:
+	say "[Result entry]";
+	move the player to rivendell;
+otherwise:
+	say "As you please.";]
