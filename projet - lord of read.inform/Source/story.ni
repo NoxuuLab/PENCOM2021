@@ -81,6 +81,23 @@ Check reading when the noun is not a book or a map: instead say "You can't read 
 Check reading when the noun is not open: try opening the noun.
 Report reading: say "[The quote]"
 
+[SMOKING]
+Smoking is an action applying to one visible thing.
+Understand "smoke [something]" as smoking.
+
+Check smoking when the noun is not weed: instead say "Sounds like
+something you might have tried in high school."
+
+Check smoking when the lighter is not held: instead say "OK, now where did
+you leave your lighter?"
+
+Report smoking: say "You light [the noun] with your lighter and inhale
+deeply. And you find yourself teleported to Mount Doom!"
+
+Carry out smoking: now the noun is nowhere;
+	move the player to the Mount Doom;
+
+
 [DEPLACEMENT]
 teleporting is an action applying to one thing.
 Understand "go to [any room]" as teleporting.
@@ -184,3 +201,6 @@ The Seconde Responses Table of Sam & Pip is Table of Seconde Sam Responses.
 		
 chapter 4 - Scenario
 
+section 2 - Bilbo's House
+
+The player carries a weed and lighter.
