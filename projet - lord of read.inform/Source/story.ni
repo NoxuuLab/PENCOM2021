@@ -46,7 +46,7 @@ The description of the Mount Doom is "DESCRIPTION".
 Chapter 3 - Settings
 
 A person can be visible or invisible. A person is usually visible.
-A caracter have a table name called the Responses Table. A caracter have a list of texts called Answered List.
+A caracter have a table name called the Responses Table. A caracter have a table name called the Seconde Responses Table. A caracter have a list of texts called Answered List.
 
 section 1 - Kinds
 
@@ -98,7 +98,8 @@ Check asking it about:
 After asking someone about something:
 	if the topic understood is a topic listed in the Responses Table of the noun:
 		if "[Index entry]" is listed in the Answered List of the noun:
-			say "I already talk to you about that.";
+			choose a random row in the Seconde Responses Table of the noun;
+			say "[Seconde Response entry]";
 		otherwise:
 			say "[Response entry]";
 			if "[Action entry]" is "y or n":
@@ -120,7 +121,15 @@ Topic	Response	Index	Action	Result
 "something"	"I'm a magicien, and my name is Gandalf"	"something"	""	""
 "wtf"	"You really want to take the Eagle to go directly to mount doom ? "	"WTF"	"y or n"	"You are transporting to mount doom be the eagle. You find a easy shortcut ! But wait... it seem that you are to weak for this kind of transport... we need to stop befor you trow up, sorry."
 
+Table of Seconde Gandalf Responses
+Seconde Response
+"I already talk to you abou that."
+"Are you Ok frodon, you seem to be more stupid as always..."
+"The answer is in the BOOK ! You fool..."
+"Yeah yeah, i'm busy little boy, stop asking me the same question again and again please."
+
 The Responses Table of Gandalf is Table of Gandalf Responses.
+The Seconde Responses Table of Gandalf is Table of Seconde Gandalf Responses.
 
 Table of Sam Responses
 Topic	Response	Index	Action	Result
@@ -128,7 +137,15 @@ Topic	Response	Index	Action	Result
 "something"	"I'm a magicien, and my name is Gandalf"	"something"	""	""
 "test"	"Of course I do, I everything fine?"	"WTF"	""	""
 
+Table of Seconde Sam Responses
+Seconde Response
+"Frodon, you already ask us that...."
+"We prefert to smoke than anwsering you again and again"
+"You seem bad Frodon, you need to rest for a bit. Come chill with us !"
+"Pip, you want to answer that again ? No Sam, I do not."
+
 The Responses Table of Sam & Pip is Table of Sam Responses.
+The Seconde Responses Table of Sam & Pip is Table of Seconde Sam Responses.
 		
 chapter 4 - Scenario
 
