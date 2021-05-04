@@ -30,7 +30,7 @@ An old table is in the old room. The mysterious book is a book on the old table.
 The description of the old table is "A sturdy wooden thing, with carvings along it's legs of delicate leaves and vines.". 
 The description of the mysterious book is "A hardback book, it's red cover frayed at the edges. If it weren't for the golden script on the spine no one would look twice at it. The title is enclosed in a circle: [italic type]The Fellowship of the Ring[roman type], underneath a name known by most: [italic type]J. R. R. Tolkien[roman type]»."
 The quote of the mysterious book is "[italic type]...One Ring to rule them all, One Ring to find them,
-One Ring to bring them all and in the darkness bind them
+One Ring to bring them all and in the darkness bind them.
 In the Land of Mordor where the Shadows lie...[roman type][line break]". 
 
 Understand "The Fellowship of the Ring" as book.  
@@ -42,7 +42,7 @@ move player to The Shire.
 section 3 - The Shire
 
 The description of the Shire is "Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun, [Gandalf] towers above all even while sitting on his favorite chair.".
-The Ring is a thing. "DESCRIPTION".
+The Ring is a thing. "A simple band of gold, when heated it reveals a script in Elvish runes. You can feel a dark power emanating from it.".
 Weed is a thing. "This, this is...very high quality. From the smell alone you can tell that if smoked, this unassuming clump of greenery may very well gift you the high of a lifetime.".
 A caracter is a kind of person. Gandalf and Sam & Pip are caracter in the shire.
 
@@ -86,7 +86,7 @@ section 2 - Actions
 teleporting is an action applying to one thing.
 Understand "go to [any room]" as teleporting.
 Check teleporting:
-    if the noun is not a room, say "people can only travel between location" instead.
+    if the noun is not a room, say "people can only travel between locations" instead.
 Carry out teleporting:
 	move the player to the noun[, without printing a room description];
 
