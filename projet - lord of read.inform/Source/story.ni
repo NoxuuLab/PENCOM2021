@@ -125,13 +125,11 @@ To list options from (T - a table name):
 
 [DIALOGUER]
 Understand "talk to [someone]" as a mistake ("To start a conversation, you need to use ASK [the noun] ABOUT something. Type 'ask [the noun] (about)' to see the available's topic.").
-Instead of telling someone about something, try asking the noun about it. Instead of answering the noun that something, try asking the noun about it. the player has to bo not hidden to asking.
+Instead of telling someone about something, try asking the noun about it. Instead of answering the noun that something, try asking the noun about it. 
 
 Check asking someone about something:
 	if the player is hidden: 
 		say "you should be visible to talk to someone!" instead;
-	otherwise:
-		say "lolololol...";
 		
 After asking someone about something:
 	if the topic understood is a topic listed in the Responses Table of the noun:
