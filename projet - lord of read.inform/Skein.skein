@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-1262">
+<Skein rootNode="node-1002">
     <generator>Inform Mac Client (Inform version )</generator>
-    <item nodeId="node-1262">
+    <item nodeId="node-1002">
         <command xml:space="preserve">projet - lord of read</command>
         <result xml:space="preserve">
 
@@ -18,50 +18,50 @@ You can see an old table (on which is a mysterious book) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1534"></child>
-            <child nodeId="node-1528"></child>
-            <child nodeId="node-1495"></child>
-            <child nodeId="node-1446"></child>
-            <child nodeId="node-1443"></child>
-            <child nodeId="node-1438"></child>
-            <child nodeId="node-1422"></child>
-            <child nodeId="node-1421"></child>
-            <child nodeId="node-1415"></child>
-            <child nodeId="node-1412"></child>
-            <child nodeId="node-1396"></child>
-            <child nodeId="node-1394"></child>
-            <child nodeId="node-1377"></child>
-            <child nodeId="node-1373"></child>
-            <child nodeId="node-1353"></child>
-            <child nodeId="node-1350"></child>
-            <child nodeId="node-1343"></child>
-            <child nodeId="node-1342"></child>
-            <child nodeId="node-1341"></child>
-            <child nodeId="node-1331"></child>
-            <child nodeId="node-1329"></child>
-            <child nodeId="node-1328"></child>
-            <child nodeId="node-1327"></child>
-            <child nodeId="node-1326"></child>
-            <child nodeId="node-1324"></child>
-            <child nodeId="node-1321"></child>
-            <child nodeId="node-1318"></child>
-            <child nodeId="node-1316"></child>
-            <child nodeId="node-1304"></child>
-            <child nodeId="node-1299"></child>
-            <child nodeId="node-1295"></child>
-            <child nodeId="node-1292"></child>
-            <child nodeId="node-1287"></child>
-            <child nodeId="node-1283"></child>
-            <child nodeId="node-1281"></child>
-            <child nodeId="node-1280"></child>
+        <children><child nodeId="node-1285"></child>
             <child nodeId="node-1279"></child>
-            <child nodeId="node-1278"></child>
-            <child nodeId="node-1273"></child>
-            <child nodeId="node-1269"></child>
-            <child nodeId="node-1263"></child>
+            <child nodeId="node-1246"></child>
+            <child nodeId="node-1197"></child>
+            <child nodeId="node-1194"></child>
+            <child nodeId="node-1189"></child>
+            <child nodeId="node-1173"></child>
+            <child nodeId="node-1172"></child>
+            <child nodeId="node-1166"></child>
+            <child nodeId="node-1163"></child>
+            <child nodeId="node-1147"></child>
+            <child nodeId="node-1134"></child>
+            <child nodeId="node-1117"></child>
+            <child nodeId="node-1113"></child>
+            <child nodeId="node-1093"></child>
+            <child nodeId="node-1090"></child>
+            <child nodeId="node-1083"></child>
+            <child nodeId="node-1082"></child>
+            <child nodeId="node-1081"></child>
+            <child nodeId="node-1071"></child>
+            <child nodeId="node-1069"></child>
+            <child nodeId="node-1068"></child>
+            <child nodeId="node-1067"></child>
+            <child nodeId="node-1066"></child>
+            <child nodeId="node-1064"></child>
+            <child nodeId="node-1061"></child>
+            <child nodeId="node-1058"></child>
+            <child nodeId="node-1056"></child>
+            <child nodeId="node-1044"></child>
+            <child nodeId="node-1039"></child>
+            <child nodeId="node-1035"></child>
+            <child nodeId="node-1032"></child>
+            <child nodeId="node-1027"></child>
+            <child nodeId="node-1023"></child>
+            <child nodeId="node-1021"></child>
+            <child nodeId="node-1020"></child>
+            <child nodeId="node-1019"></child>
+            <child nodeId="node-1018"></child>
+            <child nodeId="node-1013"></child>
+            <child nodeId="node-1009"></child>
+            <child nodeId="node-1003"></child>
         </children>
     </item>
-    <item nodeId="node-1263">
+    <item nodeId="node-1003">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Bilbo's House
@@ -71,10 +71,10 @@ You can see a little table (on which are a little book and a map), a trunk (in w
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1264"></child>
+        <children><child nodeId="node-1004"></child>
         </children>
     </item>
-    <item nodeId="node-1264">
+    <item nodeId="node-1004">
         <command xml:space="preserve">teleport to the little table</command>
         <result xml:space="preserve">wow! the little table
 Bilbo's House (on the little table)
@@ -88,28 +88,28 @@ wow!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1265"></child>
+        <children><child nodeId="node-1005"></child>
         </children>
     </item>
-    <item nodeId="node-1265">
+    <item nodeId="node-1005">
         <command xml:space="preserve">teleport to shire</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1266"></child>
+        <children><child nodeId="node-1006"></child>
         </children>
     </item>
-    <item nodeId="node-1266">
+    <item nodeId="node-1006">
         <command xml:space="preserve">teleport to the shire</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1267"></child>
+        <children><child nodeId="node-1007"></child>
         </children>
     </item>
-    <item nodeId="node-1267">
+    <item nodeId="node-1007">
         <command xml:space="preserve">teleport to the trunk</command>
         <result xml:space="preserve">wow! the trunk
 Bilbo's House (in the trunk)
@@ -123,179 +123,179 @@ wow!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1268"></child>
+        <children><child nodeId="node-1008"></child>
         </children>
     </item>
-    <item nodeId="node-1268">
+    <item nodeId="node-1008">
         <command xml:space="preserve">teleport to bilbo's house</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1269">
+    <item nodeId="node-1009">
         <command xml:space="preserve">teleprot to shrine</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1270"></child>
+        <children><child nodeId="node-1010"></child>
         </children>
     </item>
-    <item nodeId="node-1270">
+    <item nodeId="node-1010">
         <command xml:space="preserve">teleport to shrine</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1271"></child>
+        <children><child nodeId="node-1011"></child>
         </children>
     </item>
-    <item nodeId="node-1271">
+    <item nodeId="node-1011">
         <command xml:space="preserve">teleport to shire</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1272"></child>
+        <children><child nodeId="node-1012"></child>
         </children>
     </item>
-    <item nodeId="node-1272">
+    <item nodeId="node-1012">
         <command xml:space="preserve">teleport to shire</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1273">
+    <item nodeId="node-1013">
         <command xml:space="preserve">teleport to trunk</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1276"></child>
-            <child nodeId="node-1274"></child>
+        <children><child nodeId="node-1016"></child>
+            <child nodeId="node-1014"></child>
         </children>
     </item>
-    <item nodeId="node-1274">
+    <item nodeId="node-1014">
         <command xml:space="preserve">teleport to shire</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1275"></child>
+        <children><child nodeId="node-1015"></child>
         </children>
     </item>
-    <item nodeId="node-1275">
+    <item nodeId="node-1015">
         <command xml:space="preserve">teleport to book</command>
         <result xml:space="preserve">people can only travel between location
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1276">
+    <item nodeId="node-1016">
         <command xml:space="preserve">teleport to book</command>
         <result xml:space="preserve">people can only travel between location
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1277"></child>
+        <children><child nodeId="node-1017"></child>
         </children>
     </item>
-    <item nodeId="node-1277">
+    <item nodeId="node-1017">
         <command xml:space="preserve">teleport to shire</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1278">
+    <item nodeId="node-1018">
         <command xml:space="preserve">teleport to the shire</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1279">
+    <item nodeId="node-1019">
         <command xml:space="preserve">teleport to table</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1280">
+    <item nodeId="node-1020">
         <command xml:space="preserve">teleport to shrine</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1281">
+    <item nodeId="node-1021">
         <command xml:space="preserve">teleport to shire</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1282"></child>
+        <children><child nodeId="node-1022"></child>
         </children>
     </item>
-    <item nodeId="node-1282">
+    <item nodeId="node-1022">
         <command xml:space="preserve">teleport to table</command>
         <result xml:space="preserve">people can only travel between location
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1283">
+    <item nodeId="node-1023">
         <command xml:space="preserve">teleport to rivendell</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1284"></child>
+        <children><child nodeId="node-1024"></child>
         </children>
     </item>
-    <item nodeId="node-1284">
+    <item nodeId="node-1024">
         <command xml:space="preserve">teleport to book</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1285"></child>
+        <children><child nodeId="node-1025"></child>
         </children>
     </item>
-    <item nodeId="node-1285">
+    <item nodeId="node-1025">
         <command xml:space="preserve">teleport to book</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1286"></child>
+        <children><child nodeId="node-1026"></child>
         </children>
     </item>
-    <item nodeId="node-1286">
+    <item nodeId="node-1026">
         <command xml:space="preserve">teleport to weed</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1287">
+    <item nodeId="node-1027">
         <command xml:space="preserve">teleport to reviendell</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1288"></child>
+        <children><child nodeId="node-1028"></child>
         </children>
     </item>
-    <item nodeId="node-1288">
+    <item nodeId="node-1028">
         <command xml:space="preserve">teleport to rivendell</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1289"></child>
+        <children><child nodeId="node-1029"></child>
         </children>
     </item>
-    <item nodeId="node-1289">
+    <item nodeId="node-1029">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Bilbo's House
@@ -305,18 +305,18 @@ You can see a little table (on which are a little book and a map), a trunk (in w
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1290"></child>
+        <children><child nodeId="node-1030"></child>
         </children>
     </item>
-    <item nodeId="node-1290">
+    <item nodeId="node-1030">
         <command xml:space="preserve">teleport to trunk</command>
         <result xml:space="preserve">people can only travel between location
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1291"></child>
+        <children><child nodeId="node-1031"></child>
         </children>
     </item>
-    <item nodeId="node-1291">
+    <item nodeId="node-1031">
         <command xml:space="preserve">showme rivendell</command>
         <result xml:space="preserve">Rivendell - room
     Elf Lord - caracter
@@ -334,51 +334,51 @@ map region: story
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1292">
+    <item nodeId="node-1032">
         <command xml:space="preserve">teleport to mount doom</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1293"></child>
+        <children><child nodeId="node-1033"></child>
         </children>
     </item>
-    <item nodeId="node-1293">
+    <item nodeId="node-1033">
         <command xml:space="preserve">teleport to rivendell</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1294"></child>
+        <children><child nodeId="node-1034"></child>
         </children>
     </item>
-    <item nodeId="node-1294">
+    <item nodeId="node-1034">
         <command xml:space="preserve">teleport to gandalf</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1295">
+    <item nodeId="node-1035">
         <command xml:space="preserve">teleport to</command>
         <result xml:space="preserve">What do you want to teleport to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1298"></child>
-            <child nodeId="node-1296"></child>
+        <children><child nodeId="node-1038"></child>
+            <child nodeId="node-1036"></child>
         </children>
     </item>
-    <item nodeId="node-1296">
+    <item nodeId="node-1036">
         <command xml:space="preserve">teleport to house</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1297"></child>
+        <children><child nodeId="node-1037"></child>
         </children>
     </item>
-    <item nodeId="node-1297">
+    <item nodeId="node-1037">
         <command xml:space="preserve">go inside</command>
         <result xml:space="preserve">
 Bilbo's House
@@ -389,44 +389,44 @@ You can see a little table (on which are a little book and a map), a trunk (in w
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1298">
+    <item nodeId="node-1038">
         <command xml:space="preserve">teleport to bilbo's house</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1299">
+    <item nodeId="node-1039">
         <command xml:space="preserve">talk to gandalf</command>
         <result xml:space="preserve">To start a conversation, you need to use ASK Gandalf ABOUT something. Type "ask Gandalf (about)" to see the available's topic.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1300"></child>
+        <children><child nodeId="node-1040"></child>
         </children>
     </item>
-    <item nodeId="node-1300">
+    <item nodeId="node-1040">
         <command xml:space="preserve">ask gandalf about wtf</command>
         <result xml:space="preserve">Of course I do, I everything fine?</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1301"></child>
+        <children><child nodeId="node-1041"></child>
         </children>
     </item>
-    <item nodeId="node-1301">
+    <item nodeId="node-1041">
         <command xml:space="preserve">ask gandalf about</command>
         <result xml:space="preserve">Please answer yes or no.&gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1302"></child>
+        <children><child nodeId="node-1042"></child>
         </children>
     </item>
-    <item nodeId="node-1302">
+    <item nodeId="node-1042">
         <command xml:space="preserve">ask gandalf about him</command>
         <result xml:space="preserve">Please answer yes or no.&gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1303"></child>
+        <children><child nodeId="node-1043"></child>
         </children>
     </item>
-    <item nodeId="node-1303">
+    <item nodeId="node-1043">
         <command xml:space="preserve">yes</command>
         <result xml:space="preserve">You are transporting to mount doom be the eagle. You find a easy shortcut ! But wait... it seem that you are to weak for this kind of transport... we need to stop befor you trow up, sorry.
 Rivendell
@@ -437,51 +437,51 @@ You can see an Elf Lord and a pedestal (on which are an old sword and a shirt in
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1304">
+    <item nodeId="node-1044">
         <command xml:space="preserve">talk gandalf about him</command>
         <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1305"></child>
+        <children><child nodeId="node-1045"></child>
         </children>
     </item>
-    <item nodeId="node-1305">
+    <item nodeId="node-1045">
         <command xml:space="preserve">talk to gandalf</command>
         <result xml:space="preserve">To start a conversation, you need to use ASK Gandalf ABOUT something. Type "ask Gandalf (about)" to see the available's topic.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1306"></child>
+        <children><child nodeId="node-1046"></child>
         </children>
     </item>
-    <item nodeId="node-1306">
+    <item nodeId="node-1046">
         <command xml:space="preserve">ask Gandalf about him</command>
         <result xml:space="preserve">My name is Gandalf, I'm a magicien.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1307"></child>
+        <children><child nodeId="node-1047"></child>
         </children>
     </item>
-    <item nodeId="node-1307">
+    <item nodeId="node-1047">
         <command xml:space="preserve">ask Gandalf about him</command>
         <result xml:space="preserve">I already answered to this question.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1308"></child>
+        <children><child nodeId="node-1048"></child>
         </children>
     </item>
-    <item nodeId="node-1308">
+    <item nodeId="node-1048">
         <command xml:space="preserve">ask Gandalf about him</command>
         <result xml:space="preserve">I already answered to this question.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1309"></child>
+        <children><child nodeId="node-1049"></child>
         </children>
     </item>
-    <item nodeId="node-1309">
+    <item nodeId="node-1049">
         <command xml:space="preserve">showme gandalf</command>
         <result xml:space="preserve">Gandalf - caracter
 location: in the shire
@@ -498,66 +498,66 @@ Answered List: him
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1310"></child>
+        <children><child nodeId="node-1050"></child>
         </children>
     </item>
-    <item nodeId="node-1310">
+    <item nodeId="node-1050">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1311"></child>
+        <children><child nodeId="node-1051"></child>
         </children>
     </item>
-    <item nodeId="node-1311">
+    <item nodeId="node-1051">
         <command xml:space="preserve">ask Gandalf about wtf</command>
         <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1312"></child>
+        <children><child nodeId="node-1052"></child>
         </children>
     </item>
-    <item nodeId="node-1312">
+    <item nodeId="node-1052">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">As you please.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1313"></child>
+        <children><child nodeId="node-1053"></child>
         </children>
     </item>
-    <item nodeId="node-1313">
+    <item nodeId="node-1053">
         <command xml:space="preserve">ask Gandalf about wtf</command>
         <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1314"></child>
+        <children><child nodeId="node-1054"></child>
         </children>
     </item>
-    <item nodeId="node-1314">
+    <item nodeId="node-1054">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">As you please.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1315"></child>
+        <children><child nodeId="node-1055"></child>
         </children>
     </item>
-    <item nodeId="node-1315">
+    <item nodeId="node-1055">
         <command xml:space="preserve">ask sam about him</command>
         <result xml:space="preserve">My name is Sam, I'm a perfect teammate.Glulxe fatal error: Memory access out of range (1E025C0F)
 </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1316">
+    <item nodeId="node-1056">
         <command xml:space="preserve">take book</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1317"></child>
+        <children><child nodeId="node-1057"></child>
         </children>
     </item>
-    <item nodeId="node-1317">
+    <item nodeId="node-1057">
         <command xml:space="preserve">showme table</command>
         <result xml:space="preserve">table - supporter
     book
@@ -573,7 +573,7 @@ carrying capacity: 100
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1318">
+    <item nodeId="node-1058">
         <command xml:space="preserve">showme weed</command>
         <result xml:space="preserve">Weed - thing
 location: out of play
@@ -587,18 +587,18 @@ initial appearance: "DESCRIPTION"
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1320"></child>
-            <child nodeId="node-1319"></child>
+        <children><child nodeId="node-1060"></child>
+            <child nodeId="node-1059"></child>
         </children>
     </item>
-    <item nodeId="node-1319">
+    <item nodeId="node-1059">
         <command xml:space="preserve">showme stack of weed</command>
         <result xml:space="preserve">There seems to be no such object anywhere in the model world.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1320">
+    <item nodeId="node-1060">
         <command xml:space="preserve">showme gandalf</command>
         <result xml:space="preserve">Gandalf - thing
 location: in the Shire
@@ -613,7 +613,7 @@ initial appearance: none
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1321">
+    <item nodeId="node-1061">
         <command xml:space="preserve">showme supporter</command>
         <result xml:space="preserve">(the old table)
 old table - supporter
@@ -629,10 +629,10 @@ carrying capacity: 100
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1322"></child>
+        <children><child nodeId="node-1062"></child>
         </children>
     </item>
-    <item nodeId="node-1322">
+    <item nodeId="node-1062">
         <command xml:space="preserve">showme pedestal</command>
         <result xml:space="preserve">pedestal - supporter
 location: in Rivendell
@@ -646,10 +646,10 @@ carrying capacity: 100
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1323"></child>
+        <children><child nodeId="node-1063"></child>
         </children>
     </item>
-    <item nodeId="node-1323">
+    <item nodeId="node-1063">
         <command xml:space="preserve">showme trunk</command>
         <result xml:space="preserve">trunk - open container
     pipe
@@ -667,23 +667,23 @@ carrying capacity: 100
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1324">
+    <item nodeId="node-1064">
         <command xml:space="preserve">showme stack</command>
         <result xml:space="preserve">There seems to be no such object anywhere in the model world.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1325"></child>
+        <children><child nodeId="node-1065"></child>
         </children>
     </item>
-    <item nodeId="node-1325">
+    <item nodeId="node-1065">
         <command xml:space="preserve">showme weed</command>
         <result xml:space="preserve">There seems to be no such object anywhere in the model world.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1326">
+    <item nodeId="node-1066">
         <command xml:space="preserve">showme shire</command>
         <result xml:space="preserve">Shire - room
     Gandalf - caracter
@@ -698,7 +698,7 @@ description: "DESCRIPTION"
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1327">
+    <item nodeId="node-1067">
         <command xml:space="preserve">showme ring</command>
         <result xml:space="preserve">Ring - thing
 location: out of play
@@ -713,7 +713,7 @@ initial appearance: "DESCRIPTION"
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1328">
+    <item nodeId="node-1068">
         <command xml:space="preserve">showme lord</command>
         <result xml:space="preserve">Elf Lord - caracter
 location: in Rivendell
@@ -729,7 +729,7 @@ carrying capacity: 100
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1329">
+    <item nodeId="node-1069">
         <command xml:space="preserve">showme little table</command>
         <result xml:space="preserve">little table - supporter
     little book
@@ -745,10 +745,10 @@ carrying capacity: 100
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1330"></child>
+        <children><child nodeId="node-1070"></child>
         </children>
     </item>
-    <item nodeId="node-1330">
+    <item nodeId="node-1070">
         <command xml:space="preserve">showme pedestal</command>
         <result xml:space="preserve">pedestal - supporter
     old sword
@@ -765,7 +765,7 @@ carrying capacity: 100
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1331">
+    <item nodeId="node-1071">
         <command xml:space="preserve">showme gandalf</command>
         <result xml:space="preserve">Gandalf - caracter
 location: in the shire
@@ -783,10 +783,10 @@ Answered List:
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1332"></child>
+        <children><child nodeId="node-1072"></child>
         </children>
     </item>
-    <item nodeId="node-1332">
+    <item nodeId="node-1072">
         <command xml:space="preserve">go to shire</command>
         <result xml:space="preserve">shire
 Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun, Gandalf towers above all even while sitting on his favorite chair.
@@ -795,28 +795,28 @@ You can see Sam &amp; Pip here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1333"></child>
+        <children><child nodeId="node-1073"></child>
         </children>
     </item>
-    <item nodeId="node-1333">
+    <item nodeId="node-1073">
         <command xml:space="preserve">ask gandalf</command>
         <result xml:space="preserve">You could ask about him, something, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1334"></child>
+        <children><child nodeId="node-1074"></child>
         </children>
     </item>
-    <item nodeId="node-1334">
+    <item nodeId="node-1074">
         <command xml:space="preserve">go rivendell</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1335"></child>
+        <children><child nodeId="node-1075"></child>
         </children>
     </item>
-    <item nodeId="node-1335">
+    <item nodeId="node-1075">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Rivendell
@@ -826,49 +826,49 @@ You can see an Elf Lord and a pedestal (on which are an old sword and a mithril 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1336"></child>
+        <children><child nodeId="node-1076"></child>
         </children>
     </item>
-    <item nodeId="node-1336">
+    <item nodeId="node-1076">
         <command xml:space="preserve">ask elf</command>
         <result xml:space="preserve">You could ask about him or Gandalf.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1337"></child>
+        <children><child nodeId="node-1077"></child>
         </children>
     </item>
-    <item nodeId="node-1337">
+    <item nodeId="node-1077">
         <command xml:space="preserve">ask elf about is life</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1338"></child>
+        <children><child nodeId="node-1078"></child>
         </children>
     </item>
-    <item nodeId="node-1338">
+    <item nodeId="node-1078">
         <command xml:space="preserve">ask elf about his life</command>
         <result xml:space="preserve">I'm the Elf lord little boy.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1339"></child>
+        <children><child nodeId="node-1079"></child>
         </children>
     </item>
-    <item nodeId="node-1339">
+    <item nodeId="node-1079">
         <command xml:space="preserve">ask elf</command>
         <result xml:space="preserve">You could ask about him or Gandalf.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1340"></child>
+        <children><child nodeId="node-1080"></child>
         </children>
     </item>
-    <item nodeId="node-1340">
+    <item nodeId="node-1080">
         <command xml:space="preserve">ask elf about gandalf</command>
         <result xml:space="preserve">Gandalf is a fool.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1341">
+    <item nodeId="node-1081">
         <command xml:space="preserve">showme book</command>
         <result xml:space="preserve">book - thing
 location: on the table in the room
@@ -883,7 +883,7 @@ initial appearance: none
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1342">
+    <item nodeId="node-1082">
         <command xml:space="preserve">showme bilbo's house</command>
         <result xml:space="preserve">Bilbo's House - room
 singular-named, proper-named; lighted, unvisited
@@ -896,16 +896,16 @@ description: "DESCRIPTION"
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1343">
+    <item nodeId="node-1083">
         <command xml:space="preserve">show me the trunk</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1344"></child>
+        <children><child nodeId="node-1084"></child>
         </children>
     </item>
-    <item nodeId="node-1344">
+    <item nodeId="node-1084">
         <command xml:space="preserve">showme trunk</command>
         <result xml:space="preserve">trunk - open container
     pipe
@@ -922,11 +922,11 @@ carrying capacity: 100
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1346"></child>
-            <child nodeId="node-1345"></child>
+        <children><child nodeId="node-1086"></child>
+            <child nodeId="node-1085"></child>
         </children>
     </item>
-    <item nodeId="node-1345">
+    <item nodeId="node-1085">
         <command xml:space="preserve">showme weed</command>
         <result xml:space="preserve">weed - thing
 location: out of play
@@ -941,34 +941,34 @@ initial appearance: none
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1346">
+    <item nodeId="node-1086">
         <command xml:space="preserve">shoeme bilbo</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1347"></child>
+        <children><child nodeId="node-1087"></child>
         </children>
     </item>
-    <item nodeId="node-1347">
+    <item nodeId="node-1087">
         <command xml:space="preserve">showme bilbo</command>
         <result xml:space="preserve">There seems to be no such object anywhere in the model world.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1348"></child>
+        <children><child nodeId="node-1088"></child>
         </children>
     </item>
-    <item nodeId="node-1348">
+    <item nodeId="node-1088">
         <command xml:space="preserve">shwome bilbo's home</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1349"></child>
+        <children><child nodeId="node-1089"></child>
         </children>
     </item>
-    <item nodeId="node-1349">
+    <item nodeId="node-1089">
         <command xml:space="preserve">showme bilbo's home</command>
         <result xml:space="preserve">bilbo's home - open container
     little table - supporter
@@ -991,16 +991,16 @@ carrying capacity: 100
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1350">
+    <item nodeId="node-1090">
         <command xml:space="preserve">show me Sam</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1351"></child>
+        <children><child nodeId="node-1091"></child>
         </children>
     </item>
-    <item nodeId="node-1351">
+    <item nodeId="node-1091">
         <command xml:space="preserve">showme sam</command>
         <result xml:space="preserve">Sam &amp; Pip - caracter
 location: in the Shire
@@ -1015,10 +1015,10 @@ carrying capacity: 100
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1352"></child>
+        <children><child nodeId="node-1092"></child>
         </children>
     </item>
-    <item nodeId="node-1352">
+    <item nodeId="node-1092">
         <command xml:space="preserve">showme lord</command>
         <result xml:space="preserve">Elf Lord - thing
 location: in Rivendell
@@ -1033,7 +1033,7 @@ initial appearance: none
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1353">
+    <item nodeId="node-1093">
         <command xml:space="preserve">read book</command>
         <result xml:space="preserve">Holding your breath, you carefully open the book.
 
@@ -1051,10 +1051,10 @@ You can see a little table (on which are a green book and a map), a trunk (close
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1354"></child>
+        <children><child nodeId="node-1094"></child>
         </children>
     </item>
-    <item nodeId="node-1354">
+    <item nodeId="node-1094">
         <command xml:space="preserve">go outside</command>
         <result xml:space="preserve">
 Shire
@@ -1064,20 +1064,20 @@ You can see Sam &amp; Pip here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1360"></child>
-            <child nodeId="node-1355"></child>
+        <children><child nodeId="node-1100"></child>
+            <child nodeId="node-1095"></child>
         </children>
     </item>
-    <item nodeId="node-1355">
+    <item nodeId="node-1095">
         <command xml:space="preserve">go in bag end</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1356"></child>
+        <children><child nodeId="node-1096"></child>
         </children>
     </item>
-    <item nodeId="node-1356">
+    <item nodeId="node-1096">
         <command xml:space="preserve">go inside</command>
         <result xml:space="preserve">
 Bag End
@@ -1087,28 +1087,28 @@ You can see a little table (on which are a green book and a map), a trunk (close
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1357"></child>
+        <children><child nodeId="node-1097"></child>
         </children>
     </item>
-    <item nodeId="node-1357">
+    <item nodeId="node-1097">
         <command xml:space="preserve">read map</command>
         <result xml:space="preserve">Incredibly detailed, it is signed by one of your ancestors. Bag End stands proudly (if a bit larger than the scale would allow), in the middle of the Shire. To the east you can see great mountains and the city of Rinvendell and in the south, encased in a smudge of black ink, there is Mount Doom. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1358"></child>
+        <children><child nodeId="node-1098"></child>
         </children>
     </item>
-    <item nodeId="node-1358">
+    <item nodeId="node-1098">
         <command xml:space="preserve">x book</command>
         <result xml:space="preserve">You see nothing special about the green book.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1359"></child>
+        <children><child nodeId="node-1099"></child>
         </children>
     </item>
-    <item nodeId="node-1359">
+    <item nodeId="node-1099">
         <command xml:space="preserve">read book</command>
         <result xml:space="preserve">You open the green book at a random page.
 
@@ -1147,15 +1147,15 @@ The one that smoked and then was just gone.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1360">
+    <item nodeId="node-1100">
         <command xml:space="preserve">Ask sam about test</command>
         <result xml:space="preserve">Of course I do, I everything fine?Sam &amp; Pip give you a nice hobbit tabaco...
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1361"></child>
+        <children><child nodeId="node-1101"></child>
         </children>
     </item>
-    <item nodeId="node-1361">
+    <item nodeId="node-1101">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   pipe-weed
@@ -1163,37 +1163,37 @@ The one that smoked and then was just gone.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1362"></child>
+        <children><child nodeId="node-1102"></child>
         </children>
     </item>
-    <item nodeId="node-1362">
+    <item nodeId="node-1102">
         <command xml:space="preserve">e pipe-weed</command>
         <result xml:space="preserve">I only understood you as far as wanting to (go) e Sam &amp; Pip.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1363"></child>
+        <children><child nodeId="node-1103"></child>
         </children>
     </item>
-    <item nodeId="node-1363">
+    <item nodeId="node-1103">
         <command xml:space="preserve">exmaine weed</command>
         <result xml:space="preserve">That's not a verb I recognize.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1364"></child>
+        <children><child nodeId="node-1104"></child>
         </children>
     </item>
-    <item nodeId="node-1364">
+    <item nodeId="node-1104">
         <command xml:space="preserve">examine weed</command>
         <result xml:space="preserve">You see nothing special about pipe-weed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1365"></child>
+        <children><child nodeId="node-1105"></child>
         </children>
     </item>
-    <item nodeId="node-1365">
+    <item nodeId="node-1105">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   pipe-weed
@@ -1201,28 +1201,28 @@ The one that smoked and then was just gone.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1366"></child>
+        <children><child nodeId="node-1106"></child>
         </children>
     </item>
-    <item nodeId="node-1366">
+    <item nodeId="node-1106">
         <command xml:space="preserve">smoke weed</command>
         <result xml:space="preserve">How do you plane to doing it... with your hand ? A pipe may be a good idea.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1367"></child>
+        <children><child nodeId="node-1107"></child>
         </children>
     </item>
-    <item nodeId="node-1367">
+    <item nodeId="node-1107">
         <command xml:space="preserve">smoke pipe-weed</command>
         <result xml:space="preserve">How do you plane to doing it... with your hand ? A pipe may be a good idea.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1368"></child>
+        <children><child nodeId="node-1108"></child>
         </children>
     </item>
-    <item nodeId="node-1368">
+    <item nodeId="node-1108">
         <command xml:space="preserve">go inside</command>
         <result xml:space="preserve">
 Bag End
@@ -1232,37 +1232,37 @@ You can see a little table (on which are a little book and a map), a trunk (clos
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1369"></child>
+        <children><child nodeId="node-1109"></child>
         </children>
     </item>
-    <item nodeId="node-1369">
+    <item nodeId="node-1109">
         <command xml:space="preserve">open trunk</command>
         <result xml:space="preserve">You open the trunk, revealing a pipe and a bag of money.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1370"></child>
+        <children><child nodeId="node-1110"></child>
         </children>
     </item>
-    <item nodeId="node-1370">
+    <item nodeId="node-1110">
         <command xml:space="preserve">smoke weed</command>
         <result xml:space="preserve">How do you plane to doing it... with your hand ? A pipe may be a good idea.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1371"></child>
+        <children><child nodeId="node-1111"></child>
         </children>
     </item>
-    <item nodeId="node-1371">
+    <item nodeId="node-1111">
         <command xml:space="preserve">take the pipe</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1372"></child>
+        <children><child nodeId="node-1112"></child>
         </children>
     </item>
-    <item nodeId="node-1372">
+    <item nodeId="node-1112">
         <command xml:space="preserve">smoke weed</command>
         <result xml:space="preserve">You light pipe-weed with your lighter and inhale deeply. And you find yourself teleported to Mount Doom!
 
@@ -1273,41 +1273,41 @@ The heat is blistering, suffocating. Somewhere belove you licks of flame run alo
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1373">
+    <item nodeId="node-1113">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1374"></child>
+        <children><child nodeId="node-1114"></child>
         </children>
     </item>
-    <item nodeId="node-1374">
+    <item nodeId="node-1114">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1375"></child>
+        <children><child nodeId="node-1115"></child>
         </children>
     </item>
-    <item nodeId="node-1375">
+    <item nodeId="node-1115">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1376"></child>
+        <children><child nodeId="node-1116"></child>
         </children>
     </item>
-    <item nodeId="node-1376">
+    <item nodeId="node-1116">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1377">
+    <item nodeId="node-1117">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a Ring
@@ -1315,18 +1315,18 @@ The heat is blistering, suffocating. Somewhere belove you licks of flame run alo
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1379"></child>
-            <child nodeId="node-1378"></child>
+        <children><child nodeId="node-1119"></child>
+            <child nodeId="node-1118"></child>
         </children>
     </item>
-    <item nodeId="node-1378">
+    <item nodeId="node-1118">
         <command xml:space="preserve">take book</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1379">
+    <item nodeId="node-1119">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Rivendell
@@ -1336,10 +1336,10 @@ You can see an Elf Lord and a pedestal (on which are an old sword and a mithril 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1380"></child>
+        <children><child nodeId="node-1120"></child>
         </children>
     </item>
-    <item nodeId="node-1380">
+    <item nodeId="node-1120">
         <command xml:space="preserve">go to old room</command>
         <result xml:space="preserve">old room
 Something here calls to you, like a whisper in the wind or the faint rustling of the worn pages of a well-loved book. Around and above you the walls are covered in paint. Scattered scenes chase each other without order or thought, a majestic blue dragon flies over mountain peaks, a great lion roars at the foot of a white castle and on the ceiling someone too small to be a man smiles forlornly, behind him ships ready to sail in the unknown.
@@ -1348,10 +1348,10 @@ You can see an old table (on which is a mysterious book) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1381"></child>
+        <children><child nodeId="node-1121"></child>
         </children>
     </item>
-    <item nodeId="node-1381">
+    <item nodeId="node-1121">
         <command xml:space="preserve">read book</command>
         <result xml:space="preserve">...One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them In the Land of Mordor where the Shadows lie...
 
@@ -1362,10 +1362,10 @@ You find yourself in a cavernicolous and airy room. Doors, windows and ceilings 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1382"></child>
+        <children><child nodeId="node-1122"></child>
         </children>
     </item>
-    <item nodeId="node-1382">
+    <item nodeId="node-1122">
         <command xml:space="preserve">showme me</command>
         <result xml:space="preserve">yourself - person
     Ring
@@ -1382,28 +1382,28 @@ carrying capacity: 100
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1383"></child>
+        <children><child nodeId="node-1123"></child>
         </children>
     </item>
-    <item nodeId="node-1383">
+    <item nodeId="node-1123">
         <command xml:space="preserve">read book</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1384"></child>
+        <children><child nodeId="node-1124"></child>
         </children>
     </item>
-    <item nodeId="node-1384">
+    <item nodeId="node-1124">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1385"></child>
+        <children><child nodeId="node-1125"></child>
         </children>
     </item>
-    <item nodeId="node-1385">
+    <item nodeId="node-1125">
         <command xml:space="preserve">outside</command>
         <result xml:space="preserve">
 shire
@@ -1413,50 +1413,50 @@ You can see Sam &amp; Pip here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1386"></child>
+        <children><child nodeId="node-1126"></child>
         </children>
     </item>
-    <item nodeId="node-1386">
+    <item nodeId="node-1126">
         <command xml:space="preserve">ask gandalf about him¨</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1387"></child>
+        <children><child nodeId="node-1127"></child>
         </children>
     </item>
-    <item nodeId="node-1387">
+    <item nodeId="node-1127">
         <command xml:space="preserve">ask gandalf about him</command>
         <result xml:space="preserve">My name is Gandalf, I'm a magicien.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1388"></child>
+        <children><child nodeId="node-1128"></child>
         </children>
     </item>
-    <item nodeId="node-1388">
+    <item nodeId="node-1128">
         <command xml:space="preserve">ask gandalf about his name</command>
         <result xml:space="preserve">The answer is in the BOOK ! You fool...
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1389"></child>
+        <children><child nodeId="node-1129"></child>
         </children>
     </item>
-    <item nodeId="node-1389">
+    <item nodeId="node-1129">
         <command xml:space="preserve">ask gandalf</command>
         <result xml:space="preserve">You could ask about him, something, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1390"></child>
+        <children><child nodeId="node-1130"></child>
         </children>
     </item>
-    <item nodeId="node-1390">
+    <item nodeId="node-1130">
         <command xml:space="preserve">ask sam about test</command>
         <result xml:space="preserve">Of course I do, I everything fine?Sam &amp; Pip give you a nice hobbit tabaco...
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1391"></child>
+        <children><child nodeId="node-1131"></child>
         </children>
     </item>
-    <item nodeId="node-1391">
+    <item nodeId="node-1131">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   Weed
@@ -1465,10 +1465,10 @@ You can see Sam &amp; Pip here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1392"></child>
+        <children><child nodeId="node-1132"></child>
         </children>
     </item>
-    <item nodeId="node-1392">
+    <item nodeId="node-1132">
         <command xml:space="preserve">smoke weed</command>
         <result xml:space="preserve">You light Weed with your lighter and inhale deeply. And you find yourself teleported to Mount Doom!
 
@@ -1478,10 +1478,10 @@ The heat is blistering, suffocating. Somewhere belove you licks of flame run alo
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1393"></child>
+        <children><child nodeId="node-1133"></child>
         </children>
     </item>
-    <item nodeId="node-1393">
+    <item nodeId="node-1133">
         <command xml:space="preserve">showme me</command>
         <result xml:space="preserve">yourself - person
     Ring
@@ -1499,7 +1499,7 @@ carrying capacity: 100
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1394">
+    <item nodeId="node-1134">
         <command xml:space="preserve">go to the shire</command>
         <result xml:space="preserve">Shire
 Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun, Gandalf towers above all even while sitting on his favorite chair.
@@ -1508,12 +1508,12 @@ You can see Sam &amp; Pip here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1570"></child>
-            <child nodeId="node-1602"></child>
-            <child nodeId="node-1395"></child>
+        <children><child nodeId="node-1139"></child>
+            <child nodeId="node-1136"></child>
+            <child nodeId="node-1135"></child>
         </children>
     </item>
-    <item nodeId="node-1395">
+    <item nodeId="node-1135">
         <command xml:space="preserve">showme the shire</command>
         <result xml:space="preserve">Shire - room
 singular-named, improper-named; lighted, unvisited
@@ -1526,58 +1526,58 @@ description: "DESCRIPTION"
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1602">
+    <item nodeId="node-1136">
         <command xml:space="preserve">ask gandalf about the weather</command>
         <result xml:space="preserve">A lovely summery day, Frodo. The shadows of war are far but getting closer, soon even the Shire will know the end of its peace.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1605"></child>
+        <children><child nodeId="node-1137"></child>
         </children>
     </item>
-    <item nodeId="node-1605">
+    <item nodeId="node-1137">
         <command xml:space="preserve">ask gandalf</command>
         <result xml:space="preserve">You could ask about him, me, Mount Doom, the weather, life, books, pipe-weed, or the ring.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1606"></child>
+        <children><child nodeId="node-1138"></child>
         </children>
     </item>
-    <item nodeId="node-1606">
+    <item nodeId="node-1138">
         <command xml:space="preserve">ask sam</command>
         <result xml:space="preserve">You could ask about them, pipe-weed, or the quest.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1570">
+    <item nodeId="node-1139">
         <command xml:space="preserve">ask gandalf about life</command>
         <result xml:space="preserve">You shall not distract yourself with nonsensical and philosophical questions. If you are here to waste my time, go read a book.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1575"></child>
+        <children><child nodeId="node-1140"></child>
         </children>
     </item>
-    <item nodeId="node-1575">
+    <item nodeId="node-1140">
         <command xml:space="preserve">ask gandalf about the ring</command>
         <result xml:space="preserve">The object that you now have in your possession has many names Frodo: the One Ring, Isidur's Bane, the Ring of Power. It is a very dark and very powerful artifact, one that can only be destroyed where it was created: in the fire of Mount Doom.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1576"></child>
+        <children><child nodeId="node-1141"></child>
         </children>
     </item>
-    <item nodeId="node-1576">
+    <item nodeId="node-1141">
         <command xml:space="preserve">ask gandalf about mount doom</command>
         <result xml:space="preserve">The great volcano lies south of here, beyond the mountains. It is the only place where the ring may be vanquished, the final destination to your adventure. I could accompany you there… may I suggest we use the Eagles? They are great beasts and should take us to Mount Doom in no time at all. Would you like to leave right now?
 </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1577"></child>
+        <children><child nodeId="node-1142"></child>
         </children>
     </item>
-    <item nodeId="node-1577">
+    <item nodeId="node-1142">
         <command xml:space="preserve">y</command>
         <result xml:space="preserve">An easy shortcut! How lucky you are!
  You mount on a beautiful Eagle and soon you find yourself flying above the green Shire. Is that really Sam down there, he looks so little, so small, maybe a little too miniscule. Are we sure we are safe flying so high? DON'T LOOK DOWN, DON'T…
@@ -1592,43 +1592,43 @@ You can see an Elf Lord and a pedestal (on which are an old sword and a mithril 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1588"></child>
+        <children><child nodeId="node-1143"></child>
         </children>
     </item>
-    <item nodeId="node-1588">
+    <item nodeId="node-1143">
         <command xml:space="preserve">ask gandalf about the elf council</command>
         <result xml:space="preserve">They shall decide of your destiny Frodo, if after the Great Eagle Fail (as it is now known) they decide that you shan't continue, I would not blame them.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1589"></child>
+        <children><child nodeId="node-1144"></child>
         </children>
     </item>
-    <item nodeId="node-1589">
+    <item nodeId="node-1144">
         <command xml:space="preserve">ask gandalf ybout me</command>
         <result xml:space="preserve">I only understood you as far as wanting to ask Gandalf.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1590"></child>
+        <children><child nodeId="node-1145"></child>
         </children>
     </item>
-    <item nodeId="node-1590">
+    <item nodeId="node-1145">
         <command xml:space="preserve">ask gandalf about me</command>
         <result xml:space="preserve">Never in my life have I seen someone look so green. I brought you to Rivendell before you threw up on poor Mildred, she was not happy.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1591"></child>
+        <children><child nodeId="node-1146"></child>
         </children>
     </item>
-    <item nodeId="node-1591">
+    <item nodeId="node-1146">
         <command xml:space="preserve">ask gandalf about Mount Doom</command>
         <result xml:space="preserve">Yeah yeah, i'm busy little boy, stop asking me the same question again and again please.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1396">
+    <item nodeId="node-1147">
         <command xml:space="preserve">go to rivendell</command>
         <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
@@ -1637,61 +1637,61 @@ You can see an Elf Lord and a pedestal (on which are an old sword and a mithril 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1397"></child>
+        <children><child nodeId="node-1148"></child>
         </children>
     </item>
-    <item nodeId="node-1397">
+    <item nodeId="node-1148">
         <command xml:space="preserve">ask elf about sam</command>
         <result xml:space="preserve">Two brave hobbit. lol
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1398"></child>
+        <children><child nodeId="node-1149"></child>
         </children>
     </item>
-    <item nodeId="node-1398">
+    <item nodeId="node-1149">
         <command xml:space="preserve">ask elf about sam &amp; pip</command>
         <result xml:space="preserve">I have already answer that
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1399"></child>
+        <children><child nodeId="node-1150"></child>
         </children>
     </item>
-    <item nodeId="node-1399">
+    <item nodeId="node-1150">
         <command xml:space="preserve">ask lord</command>
         <result xml:space="preserve">You could ask about him or Sam &amp; Pip.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1400"></child>
+        <children><child nodeId="node-1151"></child>
         </children>
     </item>
-    <item nodeId="node-1400">
+    <item nodeId="node-1151">
         <command xml:space="preserve">ask sam</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1401"></child>
+        <children><child nodeId="node-1152"></child>
         </children>
     </item>
-    <item nodeId="node-1401">
+    <item nodeId="node-1152">
         <command xml:space="preserve">ask lord about sam</command>
         <result xml:space="preserve">I have already answer that
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1402"></child>
+        <children><child nodeId="node-1153"></child>
         </children>
     </item>
-    <item nodeId="node-1402">
+    <item nodeId="node-1153">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1403"></child>
+        <children><child nodeId="node-1154"></child>
         </children>
     </item>
-    <item nodeId="node-1403">
+    <item nodeId="node-1154">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 shire
@@ -1701,48 +1701,48 @@ You can see Sam &amp; Pip here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1404"></child>
+        <children><child nodeId="node-1155"></child>
         </children>
     </item>
-    <item nodeId="node-1404">
+    <item nodeId="node-1155">
         <command xml:space="preserve">ask gandalf about wtf</command>
         <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1405"></child>
+        <children><child nodeId="node-1156"></child>
         </children>
     </item>
-    <item nodeId="node-1405">
+    <item nodeId="node-1156">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">Please answer yes or no.&gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1406"></child>
+        <children><child nodeId="node-1157"></child>
         </children>
     </item>
-    <item nodeId="node-1406">
+    <item nodeId="node-1157">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">As you please.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1407"></child>
+        <children><child nodeId="node-1158"></child>
         </children>
     </item>
-    <item nodeId="node-1407">
+    <item nodeId="node-1158">
         <command xml:space="preserve">ask gandalf about wtf</command>
         <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1408"></child>
+        <children><child nodeId="node-1159"></child>
         </children>
     </item>
-    <item nodeId="node-1408">
+    <item nodeId="node-1159">
         <command xml:space="preserve">y</command>
         <result xml:space="preserve">You are transporting to mount doom be the eagle. You find a easy shortcut ! But wait... it seem that you are to weak for this kind of transport... we need to stop befor you trow up, sorry. You are now in Rivendell...
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1409"></child>
+        <children><child nodeId="node-1160"></child>
         </children>
     </item>
-    <item nodeId="node-1409">
+    <item nodeId="node-1160">
         <command xml:space="preserve">showme me</command>
         <result xml:space="preserve">yourself - person
     Ring
@@ -1759,10 +1759,10 @@ carrying capacity: 100
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1410"></child>
+        <children><child nodeId="node-1161"></child>
         </children>
     </item>
-    <item nodeId="node-1410">
+    <item nodeId="node-1161">
         <command xml:space="preserve">showme gandalf</command>
         <result xml:space="preserve">Gandalf - caracter
 location: in Rivendell
@@ -1780,17 +1780,17 @@ Answered List: WTF
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1411"></child>
+        <children><child nodeId="node-1162"></child>
         </children>
     </item>
-    <item nodeId="node-1411">
+    <item nodeId="node-1162">
         <command xml:space="preserve">ask gandalf</command>
         <result xml:space="preserve">You could ask about him, something, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1412">
+    <item nodeId="node-1163">
         <command xml:space="preserve">go inside</command>
         <result xml:space="preserve">
 Bilbo's House
@@ -1800,10 +1800,10 @@ You can see a little table (on which are a little book and a map), a trunk (in w
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1413"></child>
+        <children><child nodeId="node-1164"></child>
         </children>
     </item>
-    <item nodeId="node-1413">
+    <item nodeId="node-1164">
         <command xml:space="preserve">go outside</command>
         <result xml:space="preserve">
 shire
@@ -1813,53 +1813,53 @@ You can see Gandalf and Sam &amp; Pip here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1414"></child>
+        <children><child nodeId="node-1165"></child>
         </children>
     </item>
-    <item nodeId="node-1414">
+    <item nodeId="node-1165">
         <command xml:space="preserve">teleport to house</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1415">
+    <item nodeId="node-1166">
         <command xml:space="preserve">go</command>
         <result xml:space="preserve">You'll have to say which compass direction to go in.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1416"></child>
+        <children><child nodeId="node-1167"></child>
         </children>
     </item>
-    <item nodeId="node-1416">
+    <item nodeId="node-1167">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1417"></child>
+        <children><child nodeId="node-1168"></child>
         </children>
     </item>
-    <item nodeId="node-1417">
+    <item nodeId="node-1168">
         <command xml:space="preserve">go to the House</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1418"></child>
+        <children><child nodeId="node-1169"></child>
         </children>
     </item>
-    <item nodeId="node-1418">
+    <item nodeId="node-1169">
         <command xml:space="preserve">teleport to house</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1419"></child>
+        <children><child nodeId="node-1170"></child>
         </children>
     </item>
-    <item nodeId="node-1419">
+    <item nodeId="node-1170">
         <command xml:space="preserve">showme bilbo's house</command>
         <result xml:space="preserve">Bilbo's House - room
     little table - supporter
@@ -1878,33 +1878,33 @@ description: "DESCRIPTION"
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1420"></child>
+        <children><child nodeId="node-1171"></child>
         </children>
     </item>
-    <item nodeId="node-1420">
+    <item nodeId="node-1171">
         <command xml:space="preserve">enter the house</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1421">
+    <item nodeId="node-1172">
         <command xml:space="preserve">enter the house</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1422">
+    <item nodeId="node-1173">
         <command xml:space="preserve">enter the House</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1423"></child>
+        <children><child nodeId="node-1174"></child>
         </children>
     </item>
-    <item nodeId="node-1423">
+    <item nodeId="node-1174">
         <command xml:space="preserve">showme house</command>
         <result xml:space="preserve">Bilbo's House - room
     little table - supporter
@@ -1924,46 +1924,46 @@ map region: story
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1424"></child>
+        <children><child nodeId="node-1175"></child>
         </children>
     </item>
-    <item nodeId="node-1424">
+    <item nodeId="node-1175">
         <command xml:space="preserve">tke house</command>
         <result xml:space="preserve">That's not a verb I recognize.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1425"></child>
+        <children><child nodeId="node-1176"></child>
         </children>
     </item>
-    <item nodeId="node-1425">
+    <item nodeId="node-1176">
         <command xml:space="preserve">take hous</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1426"></child>
+        <children><child nodeId="node-1177"></child>
         </children>
     </item>
-    <item nodeId="node-1426">
+    <item nodeId="node-1177">
         <command xml:space="preserve">take house</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1427"></child>
+        <children><child nodeId="node-1178"></child>
         </children>
     </item>
-    <item nodeId="node-1427">
+    <item nodeId="node-1178">
         <command xml:space="preserve">go to house</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1428"></child>
+        <children><child nodeId="node-1179"></child>
         </children>
     </item>
-    <item nodeId="node-1428">
+    <item nodeId="node-1179">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Rivendell
@@ -1973,10 +1973,10 @@ You can see an Elf Lord and a pedestal (on which are an old sword and a shirt in
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1429"></child>
+        <children><child nodeId="node-1180"></child>
         </children>
     </item>
-    <item nodeId="node-1429">
+    <item nodeId="node-1180">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 shire
@@ -1986,73 +1986,73 @@ You can see Gandalf and Sam &amp; Pip here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1430"></child>
+        <children><child nodeId="node-1181"></child>
         </children>
     </item>
-    <item nodeId="node-1430">
+    <item nodeId="node-1181">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1431"></child>
+        <children><child nodeId="node-1182"></child>
         </children>
     </item>
-    <item nodeId="node-1431">
+    <item nodeId="node-1182">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1432"></child>
+        <children><child nodeId="node-1183"></child>
         </children>
     </item>
-    <item nodeId="node-1432">
+    <item nodeId="node-1183">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1433"></child>
+        <children><child nodeId="node-1184"></child>
         </children>
     </item>
-    <item nodeId="node-1433">
+    <item nodeId="node-1184">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1434"></child>
+        <children><child nodeId="node-1185"></child>
         </children>
     </item>
-    <item nodeId="node-1434">
+    <item nodeId="node-1185">
         <command xml:space="preserve">u</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1435"></child>
+        <children><child nodeId="node-1186"></child>
         </children>
     </item>
-    <item nodeId="node-1435">
+    <item nodeId="node-1186">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1436"></child>
+        <children><child nodeId="node-1187"></child>
         </children>
     </item>
-    <item nodeId="node-1436">
+    <item nodeId="node-1187">
         <command xml:space="preserve">go inside</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1437"></child>
+        <children><child nodeId="node-1188"></child>
         </children>
     </item>
-    <item nodeId="node-1437">
+    <item nodeId="node-1188">
         <command xml:space="preserve">go outside</command>
         <result xml:space="preserve">
 Bilbo's House
@@ -2063,7 +2063,7 @@ You can see a little table (on which are a little book and a map), a trunk (in w
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1438">
+    <item nodeId="node-1189">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Rivendell
@@ -2073,10 +2073,10 @@ You can see an Elf Lord and a pedestal (on which are an old sword and a shirt in
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1439"></child>
+        <children><child nodeId="node-1190"></child>
         </children>
     </item>
-    <item nodeId="node-1439">
+    <item nodeId="node-1190">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 shire
@@ -2086,10 +2086,10 @@ You can see Gandalf and Sam &amp; Pip here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1440"></child>
+        <children><child nodeId="node-1191"></child>
         </children>
     </item>
-    <item nodeId="node-1440">
+    <item nodeId="node-1191">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Bilbo's House
@@ -2097,10 +2097,10 @@ DESCRIPTION
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1441"></child>
+        <children><child nodeId="node-1192"></child>
         </children>
     </item>
-    <item nodeId="node-1441">
+    <item nodeId="node-1192">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 shire
@@ -2110,81 +2110,81 @@ You can see Gandalf and Sam &amp; Pip here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1442"></child>
+        <children><child nodeId="node-1193"></child>
         </children>
     </item>
-    <item nodeId="node-1442">
+    <item nodeId="node-1193">
         <command xml:space="preserve">teleport to rivendell</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1443">
+    <item nodeId="node-1194">
         <command xml:space="preserve">ask gandalf about wtf</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1444"></child>
+        <children><child nodeId="node-1195"></child>
         </children>
     </item>
-    <item nodeId="node-1444">
+    <item nodeId="node-1195">
         <command xml:space="preserve">ask gandalf about who are you</command>
         <result xml:space="preserve">My name is Gandalf, I'm a magicien.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1445"></child>
+        <children><child nodeId="node-1196"></child>
         </children>
     </item>
-    <item nodeId="node-1445">
+    <item nodeId="node-1196">
         <command xml:space="preserve">push</command>
         <result xml:space="preserve">Strong man
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1446">
+    <item nodeId="node-1197">
         <command xml:space="preserve">ask gandalf about him</command>
         <result xml:space="preserve">My name is Gandalf, I'm a magicien.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1469"></child>
-            <child nodeId="node-1458"></child>
-            <child nodeId="node-1449"></child>
-            <child nodeId="node-1447"></child>
+        <children><child nodeId="node-1220"></child>
+            <child nodeId="node-1209"></child>
+            <child nodeId="node-1200"></child>
+            <child nodeId="node-1198"></child>
         </children>
     </item>
-    <item nodeId="node-1447">
+    <item nodeId="node-1198">
         <command xml:space="preserve">ask sam about what are you</command>
         <result xml:space="preserve">My name is Sam, I'm a perfect teammate.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1448"></child>
+        <children><child nodeId="node-1199"></child>
         </children>
     </item>
-    <item nodeId="node-1448">
+    <item nodeId="node-1199">
         <command xml:space="preserve">ask sam about him</command>
         <result xml:space="preserve">I already take to you about that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1449">
+    <item nodeId="node-1200">
         <command xml:space="preserve">ask sam about him</command>
         <result xml:space="preserve">My name is Sam, I'm a perfect teammate.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1450"></child>
+        <children><child nodeId="node-1201"></child>
         </children>
     </item>
-    <item nodeId="node-1450">
+    <item nodeId="node-1201">
         <command xml:space="preserve">ask sam about what are you</command>
         <result xml:space="preserve">I already talk to you about that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1451"></child>
+        <children><child nodeId="node-1202"></child>
         </children>
     </item>
-    <item nodeId="node-1451">
+    <item nodeId="node-1202">
         <command xml:space="preserve">showme sam</command>
         <result xml:space="preserve">Sam &amp; Pip - caracter
 location: in the shire
@@ -2201,165 +2201,165 @@ Answered List: him
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1452"></child>
+        <children><child nodeId="node-1203"></child>
         </children>
     </item>
-    <item nodeId="node-1452">
+    <item nodeId="node-1203">
         <command xml:space="preserve">ask gandlaf about wtf</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1453"></child>
+        <children><child nodeId="node-1204"></child>
         </children>
     </item>
-    <item nodeId="node-1453">
+    <item nodeId="node-1204">
         <command xml:space="preserve">ask gandalf about wtf</command>
         <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1454"></child>
+        <children><child nodeId="node-1205"></child>
         </children>
     </item>
-    <item nodeId="node-1454">
+    <item nodeId="node-1205">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">As you please.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1455"></child>
+        <children><child nodeId="node-1206"></child>
         </children>
     </item>
-    <item nodeId="node-1455">
+    <item nodeId="node-1206">
         <command xml:space="preserve">ask sam about wtf</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1456"></child>
+        <children><child nodeId="node-1207"></child>
         </children>
     </item>
-    <item nodeId="node-1456">
+    <item nodeId="node-1207">
         <command xml:space="preserve">ask sam about test</command>
         <result xml:space="preserve">Of course I do, I everything fine?
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1457"></child>
+        <children><child nodeId="node-1208"></child>
         </children>
     </item>
-    <item nodeId="node-1457">
+    <item nodeId="node-1208">
         <command xml:space="preserve">ask sam about test</command>
         <result xml:space="preserve">I already talk to you about that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1458">
+    <item nodeId="node-1209">
         <command xml:space="preserve">ask gandalf about something</command>
         <result xml:space="preserve">I'm a magicien, and my name is Gandalf
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1459"></child>
+        <children><child nodeId="node-1210"></child>
         </children>
     </item>
-    <item nodeId="node-1459">
+    <item nodeId="node-1210">
         <command xml:space="preserve">ask gandalf about something</command>
         <result xml:space="preserve">I already talk to you about that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1460"></child>
+        <children><child nodeId="node-1211"></child>
         </children>
     </item>
-    <item nodeId="node-1460">
+    <item nodeId="node-1211">
         <command xml:space="preserve">ask gandalf about him</command>
         <result xml:space="preserve">I already talk to you about that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1461"></child>
+        <children><child nodeId="node-1212"></child>
         </children>
     </item>
-    <item nodeId="node-1461">
+    <item nodeId="node-1212">
         <command xml:space="preserve">ask sam about him</command>
         <result xml:space="preserve">My name is Sam, I'm a perfect teammate.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1462"></child>
+        <children><child nodeId="node-1213"></child>
         </children>
     </item>
-    <item nodeId="node-1462">
+    <item nodeId="node-1213">
         <command xml:space="preserve">ask sam about wtf</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1463"></child>
+        <children><child nodeId="node-1214"></child>
         </children>
     </item>
-    <item nodeId="node-1463">
+    <item nodeId="node-1214">
         <command xml:space="preserve">ask sam about test</command>
         <result xml:space="preserve">Of course I do, I everything fine?
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1464"></child>
+        <children><child nodeId="node-1215"></child>
         </children>
     </item>
-    <item nodeId="node-1464">
+    <item nodeId="node-1215">
         <command xml:space="preserve">ask sam about test</command>
         <result xml:space="preserve">I already talk to you about that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1465"></child>
+        <children><child nodeId="node-1216"></child>
         </children>
     </item>
-    <item nodeId="node-1465">
+    <item nodeId="node-1216">
         <command xml:space="preserve">ask sam about something</command>
         <result xml:space="preserve">I'm a magicien, and my name is Gandalf
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1466"></child>
+        <children><child nodeId="node-1217"></child>
         </children>
     </item>
-    <item nodeId="node-1466">
+    <item nodeId="node-1217">
         <command xml:space="preserve">ask sam about him</command>
         <result xml:space="preserve">I already talk to you about that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1467"></child>
+        <children><child nodeId="node-1218"></child>
         </children>
     </item>
-    <item nodeId="node-1467">
+    <item nodeId="node-1218">
         <command xml:space="preserve">ask gandalf about something</command>
         <result xml:space="preserve">I already talk to you about that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1468"></child>
+        <children><child nodeId="node-1219"></child>
         </children>
     </item>
-    <item nodeId="node-1468">
+    <item nodeId="node-1219">
         <command xml:space="preserve">ask gandalf</command>
         <result xml:space="preserve">You could ask about him, something, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1469">
+    <item nodeId="node-1220">
         <command xml:space="preserve">ask gandalf about him</command>
         <result xml:space="preserve">Yeah yeah, i'm busy little boy, stop asking me the same question again and again please.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1470"></child>
+        <children><child nodeId="node-1221"></child>
         </children>
     </item>
-    <item nodeId="node-1470">
+    <item nodeId="node-1221">
         <command xml:space="preserve">ask gandalf about him</command>
         <result xml:space="preserve">Are you Ok frodon, you seem to be more stupid as always...
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1485"></child>
-            <child nodeId="node-1471"></child>
+        <children><child nodeId="node-1236"></child>
+            <child nodeId="node-1222"></child>
         </children>
     </item>
-    <item nodeId="node-1471">
+    <item nodeId="node-1222">
         <command xml:space="preserve">showme gandalf</command>
         <result xml:space="preserve">Gandalf - caracter
 location: in the shire
@@ -2376,58 +2376,58 @@ Answered List:
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1472"></child>
+        <children><child nodeId="node-1223"></child>
         </children>
     </item>
-    <item nodeId="node-1472">
+    <item nodeId="node-1223">
         <command xml:space="preserve">ask gandalf about wtf</command>
         <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1473"></child>
+        <children><child nodeId="node-1224"></child>
         </children>
     </item>
-    <item nodeId="node-1473">
+    <item nodeId="node-1224">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">As you please.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1474"></child>
+        <children><child nodeId="node-1225"></child>
         </children>
     </item>
-    <item nodeId="node-1474">
+    <item nodeId="node-1225">
         <command xml:space="preserve">ask gandalf about wtf</command>
         <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1475"></child>
+        <children><child nodeId="node-1226"></child>
         </children>
     </item>
-    <item nodeId="node-1475">
+    <item nodeId="node-1226">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">As you please.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1476"></child>
+        <children><child nodeId="node-1227"></child>
         </children>
     </item>
-    <item nodeId="node-1476">
+    <item nodeId="node-1227">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1477"></child>
+        <children><child nodeId="node-1228"></child>
         </children>
     </item>
-    <item nodeId="node-1477">
+    <item nodeId="node-1228">
         <command xml:space="preserve">ask gandalf about wtf</command>
         <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1478"></child>
+        <children><child nodeId="node-1229"></child>
         </children>
     </item>
-    <item nodeId="node-1478">
+    <item nodeId="node-1229">
         <command xml:space="preserve">y</command>
         <result xml:space="preserve">You are transporting to mount doom be the eagle. You find a easy shortcut ! But wait... it seem that you are to weak for this kind of transport... we need to stop befor you trow up, sorry.
 Rivendell
@@ -2437,28 +2437,28 @@ You can see an Elf Lord and a pedestal (on which are an old sword and a shirt in
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1479"></child>
+        <children><child nodeId="node-1230"></child>
         </children>
     </item>
-    <item nodeId="node-1479">
+    <item nodeId="node-1230">
         <command xml:space="preserve">ask elf</command>
         <result xml:space="preserve">This person has nothing to say.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1480"></child>
+        <children><child nodeId="node-1231"></child>
         </children>
     </item>
-    <item nodeId="node-1480">
+    <item nodeId="node-1231">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1481"></child>
+        <children><child nodeId="node-1232"></child>
         </children>
     </item>
-    <item nodeId="node-1481">
+    <item nodeId="node-1232">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 shire
@@ -2468,216 +2468,216 @@ You can see Gandalf and Sam &amp; Pip here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1482"></child>
+        <children><child nodeId="node-1233"></child>
         </children>
     </item>
-    <item nodeId="node-1482">
+    <item nodeId="node-1233">
         <command xml:space="preserve">ask sam about him</command>
         <result xml:space="preserve">Glulxe fatal error: Memory access out of range (58231E03)
 </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1483"></child>
+        <children><child nodeId="node-1234"></child>
         </children>
     </item>
-    <item nodeId="node-1483">
+    <item nodeId="node-1234">
         <command xml:space="preserve">ask sam</command>
         <result xml:space="preserve">You could ask about Who are you, What are you, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1484"></child>
+        <children><child nodeId="node-1235"></child>
         </children>
     </item>
-    <item nodeId="node-1484">
+    <item nodeId="node-1235">
         <command xml:space="preserve">ask gandalf</command>
         <result xml:space="preserve">You could ask about him, What are you, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1485">
+    <item nodeId="node-1236">
         <command xml:space="preserve">ask gandalf about him</command>
         <result xml:space="preserve">Are you Ok frodon, you seem to be more stupid as always...
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1486"></child>
+        <children><child nodeId="node-1237"></child>
         </children>
     </item>
-    <item nodeId="node-1486">
+    <item nodeId="node-1237">
         <command xml:space="preserve">ask gandalf about him</command>
         <result xml:space="preserve">The answer is in the BOOK ! You fool...
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1487"></child>
+        <children><child nodeId="node-1238"></child>
         </children>
     </item>
-    <item nodeId="node-1487">
+    <item nodeId="node-1238">
         <command xml:space="preserve">ask gandalf about him</command>
         <result xml:space="preserve">I already talk to you abou that.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1488"></child>
+        <children><child nodeId="node-1239"></child>
         </children>
     </item>
-    <item nodeId="node-1488">
+    <item nodeId="node-1239">
         <command xml:space="preserve">ask gandalf about him</command>
         <result xml:space="preserve">Yeah yeah, i'm busy little boy, stop asking me the same question again and again please.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1489"></child>
+        <children><child nodeId="node-1240"></child>
         </children>
     </item>
-    <item nodeId="node-1489">
+    <item nodeId="node-1240">
         <command xml:space="preserve">ask gandalf about him</command>
         <result xml:space="preserve">Are you Ok frodon, you seem to be more stupid as always...
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1490"></child>
+        <children><child nodeId="node-1241"></child>
         </children>
     </item>
-    <item nodeId="node-1490">
+    <item nodeId="node-1241">
         <command xml:space="preserve">ask gandalf about him</command>
         <result xml:space="preserve">Yeah yeah, i'm busy little boy, stop asking me the same question again and again please.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1491"></child>
+        <children><child nodeId="node-1242"></child>
         </children>
     </item>
-    <item nodeId="node-1491">
+    <item nodeId="node-1242">
         <command xml:space="preserve">ask gandalf about him</command>
         <result xml:space="preserve">Are you Ok frodon, you seem to be more stupid as always...
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1492"></child>
+        <children><child nodeId="node-1243"></child>
         </children>
     </item>
-    <item nodeId="node-1492">
+    <item nodeId="node-1243">
         <command xml:space="preserve">ask gandalf about him</command>
         <result xml:space="preserve">Yeah yeah, i'm busy little boy, stop asking me the same question again and again please.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1493"></child>
+        <children><child nodeId="node-1244"></child>
         </children>
     </item>
-    <item nodeId="node-1493">
+    <item nodeId="node-1244">
         <command xml:space="preserve">ask gandalf about him</command>
         <result xml:space="preserve">I already talk to you abou that.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1494"></child>
+        <children><child nodeId="node-1245"></child>
         </children>
     </item>
-    <item nodeId="node-1494">
+    <item nodeId="node-1245">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1495">
+    <item nodeId="node-1246">
         <command xml:space="preserve">ask gandalf</command>
         <result xml:space="preserve">You could ask about him, something, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1525"></child>
-            <child nodeId="node-1503"></child>
-            <child nodeId="node-1496"></child>
+        <children><child nodeId="node-1276"></child>
+            <child nodeId="node-1254"></child>
+            <child nodeId="node-1247"></child>
         </children>
     </item>
-    <item nodeId="node-1496">
+    <item nodeId="node-1247">
         <command xml:space="preserve">wtf</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1497"></child>
+        <children><child nodeId="node-1248"></child>
         </children>
     </item>
-    <item nodeId="node-1497">
+    <item nodeId="node-1248">
         <command xml:space="preserve">WTF</command>
         <result xml:space="preserve">That's not a verb I recognize.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1498"></child>
+        <children><child nodeId="node-1249"></child>
         </children>
     </item>
-    <item nodeId="node-1498">
+    <item nodeId="node-1249">
         <command xml:space="preserve">ask gandalf WTF</command>
         <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1499"></child>
+        <children><child nodeId="node-1250"></child>
         </children>
     </item>
-    <item nodeId="node-1499">
+    <item nodeId="node-1250">
         <command xml:space="preserve">ask gandalf about wtf</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1500"></child>
+        <children><child nodeId="node-1251"></child>
         </children>
     </item>
-    <item nodeId="node-1500">
+    <item nodeId="node-1251">
         <command xml:space="preserve">ask gandalf about who are you</command>
         <result xml:space="preserve">My name is Gandalf, I'm a magicien
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1501"></child>
+        <children><child nodeId="node-1252"></child>
         </children>
     </item>
-    <item nodeId="node-1501">
+    <item nodeId="node-1252">
         <command xml:space="preserve">ask gandalf if he anderstand me</command>
         <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1502"></child>
+        <children><child nodeId="node-1253"></child>
         </children>
     </item>
-    <item nodeId="node-1502">
+    <item nodeId="node-1253">
         <command xml:space="preserve">ask gandalf who he is</command>
         <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1503">
+    <item nodeId="node-1254">
         <command xml:space="preserve">ask gandalf about who are you</command>
         <result xml:space="preserve">My name is Gandalf, I'm a magicien.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1504"></child>
+        <children><child nodeId="node-1255"></child>
         </children>
     </item>
-    <item nodeId="node-1504">
+    <item nodeId="node-1255">
         <command xml:space="preserve">ask sam about who are you</command>
         <result xml:space="preserve">My name is Sam, I'm a perfect teammate.Glulxe fatal error: Memory access out of range (19A0259)
 </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1505"></child>
+        <children><child nodeId="node-1256"></child>
         </children>
     </item>
-    <item nodeId="node-1505">
+    <item nodeId="node-1256">
         <command xml:space="preserve">ask sam</command>
         <result xml:space="preserve">You could ask about Who are you, What are you, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1506"></child>
+        <children><child nodeId="node-1257"></child>
         </children>
     </item>
-    <item nodeId="node-1506">
+    <item nodeId="node-1257">
         <command xml:space="preserve">ask gandalf</command>
         <result xml:space="preserve">You could ask about him, What are you, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1507"></child>
+        <children><child nodeId="node-1258"></child>
         </children>
     </item>
-    <item nodeId="node-1507">
+    <item nodeId="node-1258">
         <command xml:space="preserve">showme me</command>
         <result xml:space="preserve">yourself - person
 location: in the shire
@@ -2693,123 +2693,123 @@ Responses Table: (the empty table)
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1508"></child>
+        <children><child nodeId="node-1259"></child>
         </children>
     </item>
-    <item nodeId="node-1508">
+    <item nodeId="node-1259">
         <command xml:space="preserve">talk to gandalf</command>
         <result xml:space="preserve">To start a conversation, you need to use ASK Gandalf ABOUT something. Type "ask Gandalf (about)" to see the available's topic.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1509"></child>
+        <children><child nodeId="node-1260"></child>
         </children>
     </item>
-    <item nodeId="node-1509">
+    <item nodeId="node-1260">
         <command xml:space="preserve">ask gandalf about</command>
         <result xml:space="preserve">You could ask about him, What are you, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1510"></child>
+        <children><child nodeId="node-1261"></child>
         </children>
     </item>
-    <item nodeId="node-1510">
+    <item nodeId="node-1261">
         <command xml:space="preserve">ask gandalf</command>
         <result xml:space="preserve">You could ask about him, What are you, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1511"></child>
+        <children><child nodeId="node-1262"></child>
         </children>
     </item>
-    <item nodeId="node-1511">
+    <item nodeId="node-1262">
         <command xml:space="preserve">tell gandalf about who are you</command>
         <result xml:space="preserve">My name is Gandalf, I'm a magicien.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1512"></child>
+        <children><child nodeId="node-1263"></child>
         </children>
     </item>
-    <item nodeId="node-1512">
+    <item nodeId="node-1263">
         <command xml:space="preserve">ask gandalf about him</command>
         <result xml:space="preserve">My name is Gandalf, I'm a magicien.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1513"></child>
+        <children><child nodeId="node-1264"></child>
         </children>
     </item>
-    <item nodeId="node-1513">
+    <item nodeId="node-1264">
         <command xml:space="preserve">ask gandalf about eho are you</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1514"></child>
+        <children><child nodeId="node-1265"></child>
         </children>
     </item>
-    <item nodeId="node-1514">
+    <item nodeId="node-1265">
         <command xml:space="preserve">ask gandalf about who are you</command>
         <result xml:space="preserve">My name is Gandalf, I'm a magicien.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1515"></child>
+        <children><child nodeId="node-1266"></child>
         </children>
     </item>
-    <item nodeId="node-1515">
+    <item nodeId="node-1266">
         <command xml:space="preserve">ask gandalf about you</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1516"></child>
+        <children><child nodeId="node-1267"></child>
         </children>
     </item>
-    <item nodeId="node-1516">
+    <item nodeId="node-1267">
         <command xml:space="preserve">ask gandalf about his name</command>
         <result xml:space="preserve">My name is Gandalf, I'm a magicien.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1517"></child>
+        <children><child nodeId="node-1268"></child>
         </children>
     </item>
-    <item nodeId="node-1517">
+    <item nodeId="node-1268">
         <command xml:space="preserve">ask same about his name</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1518"></child>
+        <children><child nodeId="node-1269"></child>
         </children>
     </item>
-    <item nodeId="node-1518">
+    <item nodeId="node-1269">
         <command xml:space="preserve">ask sam about his name</command>
         <result xml:space="preserve">My name is Sam, I'm a perfect teammate.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1519"></child>
+        <children><child nodeId="node-1270"></child>
         </children>
     </item>
-    <item nodeId="node-1519">
+    <item nodeId="node-1270">
         <command xml:space="preserve">ask sam about him</command>
         <result xml:space="preserve">My name is Sam, I'm a perfect teammate.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1520"></child>
+        <children><child nodeId="node-1271"></child>
         </children>
     </item>
-    <item nodeId="node-1520">
+    <item nodeId="node-1271">
         <command xml:space="preserve">ask gandalf about did you</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1521"></child>
+        <children><child nodeId="node-1272"></child>
         </children>
     </item>
-    <item nodeId="node-1521">
+    <item nodeId="node-1272">
         <command xml:space="preserve">ask gandalf about did you anderstand me</command>
         <result xml:space="preserve">Of course I do, I everything fine?I can do an action here
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1522"></child>
+        <children><child nodeId="node-1273"></child>
         </children>
     </item>
-    <item nodeId="node-1522">
+    <item nodeId="node-1273">
         <command xml:space="preserve">go to house</command>
         <result xml:space="preserve">Bilbo's House
 DESCRIPTION
@@ -2818,19 +2818,19 @@ You can see a little table (on which are a little book and a map), a trunk (in w
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1523"></child>
+        <children><child nodeId="node-1274"></child>
         </children>
     </item>
-    <item nodeId="node-1523">
+    <item nodeId="node-1274">
         <command xml:space="preserve">talk to table</command>
         <result xml:space="preserve">You can only do that to something animate.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1524"></child>
+        <children><child nodeId="node-1275"></child>
         </children>
     </item>
-    <item nodeId="node-1524">
+    <item nodeId="node-1275">
         <command xml:space="preserve">go to shire</command>
         <result xml:space="preserve">shire
 DESCRIPTION
@@ -2840,22 +2840,22 @@ You can see Gandalf and Sam &amp; Pip here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1525">
+    <item nodeId="node-1276">
         <command xml:space="preserve">ask gandalf about him</command>
         <result xml:space="preserve">My name is Gandalf, I'm a magicien.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1526"></child>
+        <children><child nodeId="node-1277"></child>
         </children>
     </item>
-    <item nodeId="node-1526">
+    <item nodeId="node-1277">
         <command xml:space="preserve">ask gandalf about wtf</command>
         <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1527"></child>
+        <children><child nodeId="node-1278"></child>
         </children>
     </item>
-    <item nodeId="node-1527">
+    <item nodeId="node-1278">
         <command xml:space="preserve">yes</command>
         <result xml:space="preserve">You are transporting to mount doom be the eagle. You find a easy shortcut ! But wait... it seem that you are to weak for this kind of transport... we need to stop befor you trow up, sorry.
 Rivendell
@@ -2866,48 +2866,48 @@ You can see an Elf Lord and a pedestal (on which are an old sword and a mithril 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1528">
+    <item nodeId="node-1279">
         <command xml:space="preserve">ask Gandalf about</command>
         <result xml:space="preserve">You could ask about him, What are you, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1529"></child>
+        <children><child nodeId="node-1280"></child>
         </children>
     </item>
-    <item nodeId="node-1529">
+    <item nodeId="node-1280">
         <command xml:space="preserve">ask gandlaf about wtf</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1530"></child>
+        <children><child nodeId="node-1281"></child>
         </children>
     </item>
-    <item nodeId="node-1530">
+    <item nodeId="node-1281">
         <command xml:space="preserve">ask gandalf about wtf</command>
         <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1531"></child>
+        <children><child nodeId="node-1282"></child>
         </children>
     </item>
-    <item nodeId="node-1531">
+    <item nodeId="node-1282">
         <command xml:space="preserve"> no</command>
         <result xml:space="preserve">As you please.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1532"></child>
+        <children><child nodeId="node-1283"></child>
         </children>
     </item>
-    <item nodeId="node-1532">
+    <item nodeId="node-1283">
         <command xml:space="preserve">ask gandalf about wtf</command>
         <result xml:space="preserve">You really want to take the Eagle to go directly to mount doom ? </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1533"></child>
+        <children><child nodeId="node-1284"></child>
         </children>
     </item>
-    <item nodeId="node-1533">
+    <item nodeId="node-1284">
         <command xml:space="preserve"> yes</command>
         <result xml:space="preserve">You are transporting to mount doom be the eagle. You find a easy shortcut ! But wait... it seem that you are to weak for this kind of transport... we need to stop befor you trow up, sorry.
 Rivendell
@@ -2918,79 +2918,79 @@ You can see an Elf Lord and a pedestal (on which are an old sword and a shirt in
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1534">
+    <item nodeId="node-1285">
         <command xml:space="preserve">ask Gandalf</command>
         <result xml:space="preserve">You could ask about Who are you, What are you, or WTF.
 This person has nothing to say.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1535"></child>
+        <children><child nodeId="node-1286"></child>
         </children>
     </item>
-    <item nodeId="node-1535">
+    <item nodeId="node-1286">
         <command xml:space="preserve">ask Gandlaf about</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1536"></child>
+        <children><child nodeId="node-1287"></child>
         </children>
     </item>
-    <item nodeId="node-1536">
+    <item nodeId="node-1287">
         <command xml:space="preserve">ask Gandalf about</command>
         <result xml:space="preserve">You could ask about Who are you, What are you, or WTF.
 This person has nothing to say.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1537"></child>
+        <children><child nodeId="node-1288"></child>
         </children>
     </item>
-    <item nodeId="node-1537">
+    <item nodeId="node-1288">
         <command xml:space="preserve">ask Gandalf wtf</command>
         <result xml:space="preserve">I only understood you as far as wanting to ask Gandalf.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1538"></child>
+        <children><child nodeId="node-1289"></child>
         </children>
     </item>
-    <item nodeId="node-1538">
+    <item nodeId="node-1289">
         <command xml:space="preserve">ask Gandalf</command>
         <result xml:space="preserve">You could ask about Who are you, What are you, or WTF.
 This person has nothing to say.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1539"></child>
+        <children><child nodeId="node-1290"></child>
         </children>
     </item>
-    <item nodeId="node-1539">
+    <item nodeId="node-1290">
         <command xml:space="preserve">ask Gandalf about wtf</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1540"></child>
+        <children><child nodeId="node-1291"></child>
         </children>
     </item>
-    <item nodeId="node-1540">
+    <item nodeId="node-1291">
         <command xml:space="preserve">ask Gandalf about who are you</command>
         <result xml:space="preserve">My name is Gandalf, I'm a magicien.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1541"></child>
+        <children><child nodeId="node-1292"></child>
         </children>
     </item>
-    <item nodeId="node-1541">
+    <item nodeId="node-1292">
         <command xml:space="preserve">ask Gandalf wo are you</command>
         <result xml:space="preserve">I only understood you as far as wanting to ask Gandalf.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1542"></child>
+        <children><child nodeId="node-1293"></child>
         </children>
     </item>
-    <item nodeId="node-1542">
+    <item nodeId="node-1293">
         <command xml:space="preserve">showme me</command>
         <result xml:space="preserve">yourself - person
 location: in the shire
@@ -3006,116 +3006,116 @@ Responses Table: (the empty table)
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1543"></child>
+        <children><child nodeId="node-1294"></child>
         </children>
     </item>
-    <item nodeId="node-1543">
+    <item nodeId="node-1294">
         <command xml:space="preserve">ask sam</command>
         <result xml:space="preserve">You could ask about Who are you, What are you, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1544"></child>
+        <children><child nodeId="node-1295"></child>
         </children>
     </item>
-    <item nodeId="node-1544">
+    <item nodeId="node-1295">
         <command xml:space="preserve">ask table</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1545"></child>
+        <children><child nodeId="node-1296"></child>
         </children>
     </item>
-    <item nodeId="node-1545">
+    <item nodeId="node-1296">
         <command xml:space="preserve">ask sam</command>
         <result xml:space="preserve">You could ask about Who are you, What are you, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1546"></child>
+        <children><child nodeId="node-1297"></child>
         </children>
     </item>
-    <item nodeId="node-1546">
+    <item nodeId="node-1297">
         <command xml:space="preserve">ask gandalf</command>
         <result xml:space="preserve">You could ask about Who are you, What are you, or WTF.
 This person has nothing to say.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1547"></child>
+        <children><child nodeId="node-1298"></child>
         </children>
     </item>
-    <item nodeId="node-1547">
+    <item nodeId="node-1298">
         <command xml:space="preserve">ask gandalf about wtf</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1548"></child>
+        <children><child nodeId="node-1299"></child>
         </children>
     </item>
-    <item nodeId="node-1548">
+    <item nodeId="node-1299">
         <command xml:space="preserve">ask sam</command>
         <result xml:space="preserve">You could ask about Who are you, What are you, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1549"></child>
+        <children><child nodeId="node-1300"></child>
         </children>
     </item>
-    <item nodeId="node-1549">
+    <item nodeId="node-1300">
         <command xml:space="preserve">ask sam about</command>
         <result xml:space="preserve">You could ask about Who are you, What are you, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1550"></child>
+        <children><child nodeId="node-1301"></child>
         </children>
     </item>
-    <item nodeId="node-1550">
+    <item nodeId="node-1301">
         <command xml:space="preserve">ask sam &amp; pip</command>
         <result xml:space="preserve">You could ask about Who are you, What are you, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1551"></child>
+        <children><child nodeId="node-1302"></child>
         </children>
     </item>
-    <item nodeId="node-1551">
+    <item nodeId="node-1302">
         <command xml:space="preserve">ask gandalf</command>
         <result xml:space="preserve">You could ask about Who are you, What are you, or WTF.
 This person has nothing to say.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1552"></child>
+        <children><child nodeId="node-1303"></child>
         </children>
     </item>
-    <item nodeId="node-1552">
+    <item nodeId="node-1303">
         <command xml:space="preserve">ask sam about who are you</command>
         <result xml:space="preserve">My name is Gandalf, I'm a magicien.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1553"></child>
+        <children><child nodeId="node-1304"></child>
         </children>
     </item>
-    <item nodeId="node-1553">
+    <item nodeId="node-1304">
         <command xml:space="preserve">ask gandalf about who are you</command>
         <result xml:space="preserve">My name is Gandalf, I'm a magicien.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1554"></child>
+        <children><child nodeId="node-1305"></child>
         </children>
     </item>
-    <item nodeId="node-1554">
+    <item nodeId="node-1305">
         <command xml:space="preserve">teleport to mount doom</command>
         <result xml:space="preserve">That's not a verb I recognize.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1555"></child>
+        <children><child nodeId="node-1306"></child>
         </children>
     </item>
-    <item nodeId="node-1555">
+    <item nodeId="node-1306">
         <command xml:space="preserve">go to room</command>
         <result xml:space="preserve">old room
 DESCRIPTION
@@ -3124,10 +3124,10 @@ You can see an old table (on which is an old book) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1556"></child>
+        <children><child nodeId="node-1307"></child>
         </children>
     </item>
-    <item nodeId="node-1556">
+    <item nodeId="node-1307">
         <command xml:space="preserve">go to old room</command>
         <result xml:space="preserve">old room
 DESCRIPTION
@@ -3136,10 +3136,10 @@ You can see an old table (on which is an old book) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1557"></child>
+        <children><child nodeId="node-1308"></child>
         </children>
     </item>
-    <item nodeId="node-1557">
+    <item nodeId="node-1308">
         <command xml:space="preserve">go to rivendell</command>
         <result xml:space="preserve">Rivendell
 DESCRIPTION
@@ -3148,42 +3148,42 @@ You can see an Elf Lord and a pedestal (on which are an old sword and a shirt in
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1558"></child>
+        <children><child nodeId="node-1309"></child>
         </children>
     </item>
-    <item nodeId="node-1558">
+    <item nodeId="node-1309">
         <command xml:space="preserve">ask elf</command>
         <result xml:space="preserve">This person has nothing to say.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1559"></child>
+        <children><child nodeId="node-1310"></child>
         </children>
     </item>
-    <item nodeId="node-1559">
+    <item nodeId="node-1310">
         <command xml:space="preserve">ask elf about who are you</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1560"></child>
+        <children><child nodeId="node-1311"></child>
         </children>
     </item>
-    <item nodeId="node-1560">
+    <item nodeId="node-1311">
         <command xml:space="preserve">ask elf about who am I</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1561"></child>
+        <children><child nodeId="node-1312"></child>
         </children>
     </item>
-    <item nodeId="node-1561">
+    <item nodeId="node-1312">
         <command xml:space="preserve">ask sam</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1562"></child>
+        <children><child nodeId="node-1313"></child>
         </children>
     </item>
-    <item nodeId="node-1562">
+    <item nodeId="node-1313">
         <command xml:space="preserve">go to the shire</command>
         <result xml:space="preserve">shire
 DESCRIPTION
@@ -3192,19 +3192,19 @@ You can see Gandalf and Sam &amp; Pip here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1563"></child>
+        <children><child nodeId="node-1314"></child>
         </children>
     </item>
-    <item nodeId="node-1563">
+    <item nodeId="node-1314">
         <command xml:space="preserve">ask sam</command>
         <result xml:space="preserve">You could ask about Who are you, What are you, or WTF.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1564"></child>
+        <children><child nodeId="node-1315"></child>
         </children>
     </item>
-    <item nodeId="node-1564">
+    <item nodeId="node-1315">
         <command xml:space="preserve">showme me</command>
         <result xml:space="preserve">yourself - person
 location: in the shire
@@ -3220,20 +3220,20 @@ Responses Table: (the empty table)
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1565"></child>
+        <children><child nodeId="node-1316"></child>
         </children>
     </item>
-    <item nodeId="node-1565">
+    <item nodeId="node-1316">
         <command xml:space="preserve">show me Gandalf</command>
         <result xml:space="preserve">(first taking Gandalf)
 I don't suppose Gandalf would care for that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1566"></child>
+        <children><child nodeId="node-1317"></child>
         </children>
     </item>
-    <item nodeId="node-1566">
+    <item nodeId="node-1317">
         <command xml:space="preserve">showme Gandalf</command>
         <result xml:space="preserve">Gandalf - caracter
 location: in the shire

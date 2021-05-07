@@ -153,7 +153,7 @@ After asking someone about something:
 						add "[Index entry]" to the Answered List of the noun;
 						move the player to Rivendell[, without printing a room description];
 						move Sam & Pip to Rivendell;	
-						now The Responses Table of Sam & Pip is Table of Rinvendell Sam Responses;
+						now The Responses Table of Sam & Pip is Table of Rivendell Sam Responses;
 					otherwise:
 						say "As you please.";
 				if "[Action entry]" is "get weed":
