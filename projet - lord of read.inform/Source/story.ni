@@ -140,13 +140,20 @@ After asking someone about something:
 		otherwise:
 			say "[Response entry]";
 			if there is a Action entry:
-				if "[Action entry]" is "move to rivendell":
+				if "[Action entry]" is "move to rivendell by eagle":
 					if player consents:
 						say "[Result entry]";
 						add "[Index entry]" to the Answered List of the noun;
 						move the player to rivendell[, without printing a room description];
 						move Gandalf to rivendell;
 						now The Responses Table of Gandalf is Table of Rivendell Gandalf Responses;
+				if "[Action entry]" is "move to Rivendell by foot":
+					if player consents:
+						say "[Result entry]";
+						add "[Index entry]" to the Answered List of the noun;
+						move the player to Rivendell[, without printing a room description];
+						move Sam & Pip to Rivendell;	
+						now The Responses Table of Sam & Pip is Table of Rinvendell Sam Responses;
 					otherwise:
 						say "As you please.";
 				if "[Action entry]" is "get weed":
@@ -158,42 +165,60 @@ After asking someone about something:
 	
 Section 3 - Speech Table
 
-Understand "him/himself" or "who/what are you" or "his name/origin/capacity" or "his life" as "[About]".
+Understand "him/himself" or “them/themselves” or "who/what are you" or "his/their name/origin/capacity" or "his/their life" as "[About]".
+Understand “life” or “the universe” as “[philosophical questions]”. 
 Understand "Sam" or "Sam & Pip" or "Pip" as "[Sam]".
+
 
 Table of Gandalf Responses
 Topic	Response	Index	Action	Result
-"[About]"	"My name is Gandalf, I'm a magicien."	"him"	--	--
-"something"	"I'm a magicien, and my name is Gandalf"	"something"	--	--
-"wtf"	"You really want to take the Eagle to go directly to mount doom ? "	"WTF"	"move to rivendell"	"You are transporting to mount doom be the eagle. You find a easy shortcut ! But wait... it seem that you are to weak for this kind of transport... we need to stop befor you trow up, sorry. You are now in Rivendell..."
+"[About]"	"I am Gandalf the Grey. I was sent to Middle Earth to help destroy the ring that you now hold. I am an [italic type]Istar [bold type], a wizard of old.[line break]"	"him"	--	--
+"me"	"Did you smoke something? Are you alright? Is this some sort of test? You are Frodo Baggins, of course, hobbit of the Shire.[line break]"	"me"	--	--
+"Mount Doom"	"The great volcano lies south of here, beyond the mountains. It is the only place where the ring may be vanquished, the final destination to your adventure. I could accompany you there… may I suggest we use the Eagles? They are great beasts and should take us to Mount Doom in no time at all. Would you like to leave right now?[line break]"	"Mount Doom"	"move to rivendell by eagle"	"An easy shortcut! How lucky you are![line break] You mount on a beautiful Eagle and soon you find yourself flying above the green Shire. Is that really Sam down there, he looks so little, so small, maybe a little too miniscule. Are we sure we are safe flying so high? DON’T LOOK DOWN, DON’T…[paragraph break]It looks like you are too weak for this mode of transportation, we should stop before you throw up on yourself and the Eagle (she might eat you, they really like to keep themselves clean).[line break]You are now in Rivendell...[paragraph break]"
+“the weather”	"A lovely summery day, Frodo. The shadows of war are far but getting closer, soon even the Shire will know the end of its peace.[line break]"	"the weather"	--	--
+"[philosophical questions]"	"You shall not distract yourself with nonsensical and philosophical questions. If you are here to waste my time, go read a book.[line break]"	"life"	--	--
+"books"	"Ah, the keepers of knowledge. I don’t have any here with me at the moment, but I would bet my beard that Bilbo left you some interesting reads at Bag End.[line break]"	"books"	--	--
+"pipe-weed"	"Mmh… some of the finest weed is actually grown here in the Shire. If you manage to find some, be sure to share it with you dear friend Gandalf.[line break]"	"pipe-weed"	--	--
+"the ring"	"The object that you now have in your possession has many names Frodo: the One Ring, Isidur’s Bane, the Ring of Power. It is a very dark and very powerful artifact, one that can only be destroyed where it was created: in the fire of Mount Doom.[line break]"	"the ring"	--	--
 
 Table of Rivendell Gandalf Responses
 Topic	Response	Index	Action	Result
-"test"	"blablabla."	"test"	--	--
-"me"	"je parle francais mtn."	"me"	--	--
+"the Elf Council"	"They shall decide of your destiny Frodo, if after the Great Eagle Fail (as it is now known) they decide that you shan’t continue, I would not blame them.[line break]"	"the Elf Council"	--	--
+"me"	"Never in my life have I seen someone look so green. I brought you to Rivendell before you threw up on poor Mildred, she was not happy.[line break]"	"me"	--	--
+"Mount Doom"	"Still to the south. Why the ring had to fall in the hands of such a weak creature is beyond me…[line break]"	"Mount Doom"	--	--
+"Rivendell"	"A beautiful town built by the elves. You should be able to rest and recuperate here."	"Rivendell[line break]"	--	--
+"Mildred"	"The young Eagle took you as far as Rivendell but she refused to allow you on her back ever again. I am afraid that you should find another way to continue on your quest.[line break]"	"Mildred"	--	--
+"the quest"	"The Elf Council is still in session. I think you should wait and hear what they have to say.[line break]"	"the quest"	--	--
 
 Table of Seconde Gandalf Responses
 Seconde Response
-"I already talk to you abou that."
-"Are you Ok frodon, you seem to be more stupid as always..."
-"The answer is in the BOOK ! You fool..."
-"Yeah yeah, i'm busy little boy, stop asking me the same question again and again please."
+"I already talked to you about that."
+"Are you ok Frodo? You seem to be more stupid than usual..."
+"I already gave you the answer! You fool..."
+"Yeah yeah, I'm busy little boy, stop asking me the same questions again and again."
 
 The Responses Table of Gandalf is Table of Gandalf Responses.
 The Seconde Responses Table of Gandalf is Table of Seconde Gandalf Responses.
 
 Table of Sam Responses
 Topic	Response	Index	Action	Result
-"[About]"	"My name is Sam, I'm a perfect teammate."	"him"	--	--
-"something"	"I'm a magicien, and my name is Gandalf"	"something"	--	--
-"test"	"Of course I do, I everything fine?"	"WTF"	"get weed"	"Sam & Pip give you a nice hobbit tabaco..."
+"[About]"	"Frodo did you hit your head? I’m Sam, that’s Pip, we have been friends for ages.[line break]"	"them"	--	--
+"pipe-weed"	"Well…we stole, I mean borrowed! We borrowed some from old Dinodas while he was drunk. Would you like some?[line break]"	"pipe-weed"	"get weed"	"Sam & Pip give you some nice pipe-weed."
+"the quest"	"’Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don’t you think?’[line break] ‘Very serious, Sam…’[line break]. ‘Well, I guess as your friends we should accompany and make sure you don’t get eaten by an orc.’[line break] ‘We are such good friends…where should we start Sam?’[line break] ‘Maybe with the Elves? I think Rivendell lies east of here, should we go there Frodo? I think they could help.’[line break]"	"the quest"	"move to Rivendell by foot"	"The road is long, but Sam & Pip are good company. You share every meal, sing the songs of the Shire when you feel too tired to think and, in the end, you make your way to the elf’s city of Rivendell, where the Elf Council is deliberating on if and how much to help you in your quest.[paragraph break]"
+
+Table of Rivendell Sam Responses
+Topic	Response	Index	Action	Result
+"Rivendell"	"Such a wonderful place Frodo! We can bathe in the river and eat the weird elf bread and just enjoy the view for a while.[line break]"	"Rivendell"	--	--
+"Elf Council"	"Last we heard they were still deliberating, but I bet that they will soon be out.[line break]"	"Elf Council"	--	--
+"the ring"	"We don’t know, you were the one holding it, maybe you should check that you still have it.[line break]"	"the ring"	--	--
+"pipe-weed"	"I think we still have some, somewhere. Would you like any? It might help you relax…[line break]"	"pipe-weed"	"get weed"	"Sam & Pip give you some nice pipe-weed."
 
 Table of Seconde Sam Responses
 Seconde Response
-"Frodon, you already ask us that...."
-"We prefert to smoke than anwsering you again and again"
-"You seem bad Frodon, you need to rest for a bit. Come chill with us !"
-"Pip, you want to answer that again ? No Sam, I do not."
+"Frodo, you already asked us that...."
+"We would prefer to smoke rather than answering you again and again"
+"You seem a bit under the weather Frodo, you need to rest. Come chill with us !"
+"’Pip, you want to answer that again?’[line break]’No Sam, I do not.’"
 
 The Responses Table of Sam & Pip is Table of Sam Responses.
 The Seconde Responses Table of Sam & Pip is Table of Seconde Sam Responses.
