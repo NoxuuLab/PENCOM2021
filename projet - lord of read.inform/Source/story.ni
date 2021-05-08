@@ -41,9 +41,8 @@ A little table, a trunk and a cupboard are in the Bag End.
 The trunk is openable and closed. The description of the trunk is "An old and heavy thing, on which the name BAGGINS is roughly carved.". 
 The green book is a book on the little table. The map is a book on the little table.
 
-The description of the little book is "As green as fine summery grass, the title of the book stands boldly on its front '[italic type] Surviving Your First High and Other Ways to Have the Best Time of Your Life With Weed [roman type]'."
-The quote of the green book is "You open [the noun] at a random page.[paragraph break]
-[italic type]This is the story of the fellow from out of time and space [paragraph break]There was, once upon a time,[line break]a young lost fellow without dime.[line break]Taken by a book, he said[line break]but the hobbits just thought him mad.[line break]He looked around, and he went east,[line break]then west, then back, then flew on a great beast.[line break]For the life of him he could not remember,[line break]how he came to be or if it was July or December.[line break]He spoke with many, fought with few, [line break]but in the end, he decided to just enjoy the view.[line break] He rolled his weed, sat on a chair,[line break]took out his pipe and smoked without flair.[paragraph break]Here ends the story of the young fellow,[line break]he sure must have been relaxed and mellow,[line break]because soon he disappeared [line break]leaving behind not even a hair of beard,[line break]without a first breakfast, a second or a third;[line break]whispers say that he returned to his place of birth. [line break]But alas, no hobbit ever saw the fellow again,[line break]and so, with the best weed and the pipe most plain,[line break]they sometimes meet, under the summery sun,[line break]to enjoy a good smoke and pun,[line break]in honor of the fellow,[line break]who decided to stay mellow,[line break]despite being lost, and alone,[line break]adventurous and a bit injury prone. [paragraph break]The one that smoked and then was just gone.[roman type][line break]".
+The description of the green book is "As green as fine summery grass, the title of the book stands boldly on its front '[italic type] Surviving Your First High and Other Ways to Have the Best Time of Your Life With Weed [roman type]'."
+The quote of the green book is "You open [the noun] at a random page.[paragraph break][italic type]This is the story of the fellow from out of time and space [paragraph break]There was, once upon a time,[line break]a young lost fellow without dime.[line break]Taken by a book, he said[line break]but the hobbits just thought him mad.[line break]He looked around, and he went east,[line break]then west, then back, then flew on a great beast.[line break]For the life of him he could not remember,[line break]how he came to be or if it was July or December.[line break]He spoke with many, fought with few, [line break]but in the end, he decided to just enjoy the view.[line break] He rolled his weed, sat on a chair,[line break]took out his pipe and smoked without flair.[paragraph break]Here ends the story of the young fellow,[line break]he sure must have been relaxed and mellow,[line break]because soon he disappeared [line break]leaving behind not even a hair of beard,[line break]without a first breakfast, a second or a third;[line break]whispers say that he returned to his place of birth. [line break]But alas, no hobbit ever saw the fellow again,[line break]and so, with the best weed and the pipe most plain,[line break]they sometimes meet, under the summery sun,[line break]to enjoy a good smoke and pun,[line break]in honor of the fellow,[line break]who decided to stay mellow,[line break]despite being lost, and alone,[line break]adventurous and a bit injury prone. [paragraph break]The one that smoked and then was just gone.[roman type][line break]".
 The description of the map is "Pretty old, it was probably drawn by hand. You are not an expert, but you should be able to read it.".
 The quote of the map is "Incredibly detailed, it is signed by one of your ancestors. Bag End stands proudly (if a bit larger than the scale would allow), in the middle of the Shire. To the east you can see great mountains and the city of Rinvendell and in the south, encased in a smudge of black ink, there is Mount Doom. [line break]". 
 
@@ -225,12 +224,21 @@ The Seconde Responses Table of Sam & Pip is Table of Seconde Sam Responses.
 
 Table of Elf Responses
 Topic	Response	Index	Action	Result
-"[About]"	"I'm the Elf lord little boy."	"him"	--	--
-"[Sam]"	"Two brave hobbit. lol"	"Sam & Pip"	--	--
+"[About]"	"I am Elrond, Elf Lord of Rivendell. "	"him"	--	--
+"[Sam]"	"[if Sam & Pip are in Rivendell] You speak of the two brave hobbits ho accompanied you here? I think they are resting somewhere in the palace; our people enjoy their company very much. [otherwise] I do not know what a [italic type] Sam [roman type] and [italic type] Pip [roman type] are… [end if][line break]"	"Sam & Pip"	--	--
+"Gandalf"	"[if Gandalf is in Rivendell] The old fool should be here about…just look for the pointy hat amidst all the luscious hair of the elves and you shall find him. [otherwise] The wizard? How did you come to know him? He is always welcome in Rivendell. [end if][line break]"	"Gandalf"	--	--
+"Elf Council"	"The Elf Council is still in session, they are deciding if someone such as you is worthy of the quest of the destruction of the ring.[line break]"	"Elf Council"	--	--
+"Rivendell"	 "My gem, my precious town built on the river Bruinen, the place we came to call home. It a serene place young Frodo and I will not have you disrupt its peace.[line break]"	"Rivendell"	--	--
+"Mount Doom"	"The volcano lies somewhere south of here, but I do not know if you are ready for such a trip. You will wait for the Elf Council to deliberate, maybe they will find a worthy elf to throw the ring in the flames of Mount Doom.[line break]"	"Mount Doom"	--	--
+"The ring"	"[if player holds the ring] Still tied around your neck I believe, for how long however I do not know. [otherwise] Did you lose one of the most powerful artifacts know to Middle-Earth? YOU ARE A DISGRACE! I HOPE THE COUNCIL THROWS YOU IN THE RIVER! [end if][line break]"	--	--
+"The quest"	"The Elf Council shall decide if you are fit or not to continue…probably not.[line break]"	"the quest"	--	--	 
 
 Table of Seconde Elf Responses
 Seconde Response
-"I have already answer that"
+"I have already answered that Frodo, I will not repeat myself."
+"Frankly I had a bit more faith in the cleverness of hobbits, are you sure that your trip did not damage you permanently?" 
+"I have better things to do than answering the same question again and again." 
+
 
 The Responses Table of Elf Lord is Table of Elf Responses.
 The Seconde Responses Table of Elf Lord is Table of Seconde Elf Responses.
