@@ -143,15 +143,15 @@ After asking someone about something:
 					if player consents:
 						say "[Result entry]";
 						add "[Index entry]" to the Answered List of the noun;
-						move the player to rivendell[, without printing a room description];
 						move Gandalf to rivendell;
+						move the player to rivendell[, without printing a room description];
 						now The Responses Table of Gandalf is Table of Rivendell Gandalf Responses;
 				if "[Action entry]" is "move to Rivendell by foot":
 					if player consents:
 						say "[Result entry]";
 						add "[Index entry]" to the Answered List of the noun;
-						move the player to Rivendell[, without printing a room description];
 						move Sam & Pip to Rivendell;	
+						move the player to Rivendell[, without printing a room description];
 						now The Responses Table of Sam & Pip is Table of Rivendell Sam Responses;
 					otherwise:
 						say "As you please.";
