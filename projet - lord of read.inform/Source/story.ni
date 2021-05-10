@@ -163,7 +163,7 @@ After asking someone about something:
 				add "[Index entry]" to the Answered List of the noun;
 				
 [PUTTING THE RINGS!]
-Putting is an action applying to one carried thing. Understand "put [something]" as putting.
+Putting is an action applying to one carried thing. Understand "put [something]" or "put on [something]" as putting.
 Before putting something which is not carried by the player:
 		silently try taking the noun;
 		if the player is not holding the noun, stop the action;
