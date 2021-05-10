@@ -126,11 +126,10 @@ To list options from (T - a table name):
 Understand "talk to [someone]" as a mistake ("To start a conversation, you need to use ASK [the noun] ABOUT something. Type 'ask [the noun] (about)' to see the available's topic.").
 Instead of telling someone about something, try asking the noun about it. Instead of answering the noun that something, try asking the noun about it.
 
-Check asking it about:
-	if the player is invisible:
-		say "you should be visible to talk to someone!";
-		stop the action.
-		
+Check asking someone about something:
+	if the player is hidden: 
+		say "you should be visible to talk to someone!" instead;
+
 After asking someone about something:
 	if the topic understood is a topic listed in the Responses Table of the noun:
 		if "[Index entry]" is listed in the Answered List of the noun:

@@ -1205,6 +1205,8 @@ You can see Sam &amp; Pip here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-10799"></child>
+            <child nodeId="node-11046"></child>
+            <child nodeId="node-11036"></child>
             <child nodeId="node-10794"></child>
         </children>
     </item>
@@ -1283,6 +1285,194 @@ despite being lost, and alone,
 adventurous and a bit injury prone. 
 
 The one that smoked and then was just gone.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-11036">
+        <command xml:space="preserve">ask sam about the quest</command>
+        <result xml:space="preserve">"Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don't you think?"
+ "Very serious, Sam…"
+. "Well, I guess as your friends we should accompany and make sure you don't get eaten by an orc."
+ "We are such good friends…where should we start Sam?"
+ "Maybe with the Elves? I think Rivendell lies east of here, should we go there Frodo? I think they could help."
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11037"></child>
+        </children>
+    </item>
+    <item nodeId="node-11037">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">The road is long, but Sam &amp; Pip are good company. You share every meal, sing the songs of the Shire when you feel too tired to think and, in the end, you make your way to the elf's city of Rivendell, where the Elf Council is deliberating on if and how much to help you in your quest.
+
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see Sam &amp; Pip, an Elf Lord, and a pedestal (on which are an old sword and a mithril shirt) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11038"></child>
+        </children>
+    </item>
+    <item nodeId="node-11038">
+        <command xml:space="preserve">ask sam about him</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11039"></child>
+        </children>
+    </item>
+    <item nodeId="node-11039">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11040"></child>
+        </children>
+    </item>
+    <item nodeId="node-11040">
+        <command xml:space="preserve">ask sam</command>
+        <result xml:space="preserve">You could ask about Rivendell, Elf Council, the ring, or pipe-weed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11041"></child>
+        </children>
+    </item>
+    <item nodeId="node-11041">
+        <command xml:space="preserve">ask lord about him</command>
+        <result xml:space="preserve">I am Elrond, Elf Lord of Rivendell. 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11042"></child>
+        </children>
+    </item>
+    <item nodeId="node-11042">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun, Gandalf towers above all even while sitting on his favorite chair.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11043"></child>
+        </children>
+    </item>
+    <item nodeId="node-11043">
+        <command xml:space="preserve">ask gandalf about him</command>
+        <result xml:space="preserve">I am Gandalf the Grey. I was sent to Middle Earth to help destroy the ring that you now hold. I am an Istar , a wizard of old.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-11046">
+        <command xml:space="preserve">ask gandalf about him</command>
+        <result xml:space="preserve">I am Gandalf the Grey. I was sent to Middle Earth to help destroy the ring that you now hold. I am an Istar , a wizard of old.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11047"></child>
+        </children>
+    </item>
+    <item nodeId="node-11047">
+        <command xml:space="preserve">ask gandalf about life</command>
+        <result xml:space="preserve">You shall not distract yourself with nonsensical and philosophical questions. If you are here to waste my time, go read a book.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11048"></child>
+        </children>
+    </item>
+    <item nodeId="node-11048">
+        <command xml:space="preserve">ask gandalf</command>
+        <result xml:space="preserve">You could ask about him, me, Mount Doom, the weather, life, books, pipe-weed, or the ring.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11049"></child>
+        </children>
+    </item>
+    <item nodeId="node-11049">
+        <command xml:space="preserve">ask gandalf about mount doom</command>
+        <result xml:space="preserve">The great volcano lies south of here, beyond the mountains. It is the only place where the ring may be vanquished, the final destination to your adventure. I could accompany you there… may I suggest we use the Eagles? They are great beasts and should take us to Mount Doom in no time at all. Would you like to leave right now?
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11050"></child>
+        </children>
+    </item>
+    <item nodeId="node-11050">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">An easy shortcut! How lucky you are!
+ You mount on a beautiful Eagle and soon you find yourself flying above the green Shire. Is that really Sam down there, he looks so little, so small, maybe a little too miniscule. Are we sure we are safe flying so high? DON'T LOOK DOWN, DON'T…
+
+It looks like you are too weak for this mode of transportation, we should stop before you throw up on yourself and the Eagle (she might eat you, they really like to keep themselves clean).
+You are now in Rivendell...
+
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see Gandalf, an Elf Lord, and a pedestal (on which are an old sword and a mithril shirt) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11051"></child>
+        </children>
+    </item>
+    <item nodeId="node-11051">
+        <command xml:space="preserve">ask elf about him</command>
+        <result xml:space="preserve">I am Elrond, Elf Lord of Rivendell. 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11052"></child>
+        </children>
+    </item>
+    <item nodeId="node-11052">
+        <command xml:space="preserve">ask elf about him</command>
+        <result xml:space="preserve">I have better things to do than answering the same question again and again.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11053"></child>
+        </children>
+    </item>
+    <item nodeId="node-11053">
+        <command xml:space="preserve">ask elf about him</command>
+        <result xml:space="preserve">Frankly I had a bit more faith in the cleverness of hobbits, are you sure that your trip did not damage you permanently?
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11054"></child>
+        </children>
+    </item>
+    <item nodeId="node-11054">
+        <command xml:space="preserve">put the ring</command>
+        <result xml:space="preserve">You have a bad feeling about this ring. Are you really sure you want to do that ?
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11055"></child>
+        </children>
+    </item>
+    <item nodeId="node-11055">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">you slowly put the ring on your finger, with this bad feeling...
+A wierd feeling is on you, your vision isn't the same, what happend ?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11056"></child>
+        </children>
+    </item>
+    <item nodeId="node-11056">
+        <command xml:space="preserve">ask gandalf about the ring</command>
+        <result xml:space="preserve">you should be visible to talk to someone!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-11057"></child>
+        </children>
+    </item>
+    <item nodeId="node-11057">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
