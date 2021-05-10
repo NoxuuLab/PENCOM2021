@@ -17,7 +17,7 @@ Section 1 - Introduction - start
 
 The description of the old room is "Something here calls to you, like a whisper in the wind or the faint rustling of the worn pages of a well-loved book. Around and above you the walls are covered in paint. Scattered scenes chase each other without order or thought, a majestic blue dragon flies over mountain peaks, a great lion roars at the foot of a white castle and on the ceiling someone too small to be a man smiles forlornly, behind him ships ready to sail in the unknown."
 
-A book is a kind of thing. A book has a text called the quote. 
+A book is a kind of thing. A book has a text called the quote. A book can be known or unknown. A book is usually unknown. 
 
 An old table is in the old room. The mysterious book is a book on the old table. 
 The description of the old table is "A sturdy wooden thing, with carvings along it's legs of delicate leaves and vines.". 
@@ -42,7 +42,7 @@ The trunk is openable and closed. The description of the trunk is "An old and he
 The green book is a book on the little table. The map is a book on the little table.
 
 The description of the green book is "As green as fine summery grass, the title of the book stands boldly on its front '[italic type] Surviving Your First High and Other Ways to Have the Best Time of Your Life With Weed [roman type]'."
-The quote of the green book is "You open [the noun] at a random page.[paragraph break][italic type]This is the story of the fellow from out of time and space [paragraph break]There was, once upon a time,[line break]a young lost fellow without dime.[line break]Taken by a book, he said[line break]but the hobbits just thought him mad.[line break]He looked around, and he went east,[line break]then west, then back, then flew on a great beast.[line break]For the life of him he could not remember,[line break]how he came to be or if it was July or December.[line break]He spoke with many, fought with few, [line break]but in the end, he decided to just enjoy the view.[line break] He rolled his weed, sat on a chair,[line break]took out his pipe and smoked without flair.[paragraph break]Here ends the story of the young fellow,[line break]he sure must have been relaxed and mellow,[line break]because soon he disappeared [line break]leaving behind not even a hair of beard,[line break]without a first breakfast, a second or a third;[line break]whispers say that he returned to his place of birth. [line break]But alas, no hobbit ever saw the fellow again,[line break]and so, with the best weed and the pipe most plain,[line break]they sometimes meet, under the summery sun,[line break]to enjoy a good smoke and pun,[line break]in honor of the fellow,[line break]who decided to stay mellow,[line break]despite being lost, and alone,[line break]adventurous and a bit injury prone. [paragraph break]The one that smoked and then was just gone.[roman type][line break]".
+The quote of the green book is "[if the green book is unknown]You open [the noun] at a random page.[otherwise]You open [the noun] at the page you previously earmarked.[end if][paragraph break][italic type]This is the story of the fellow from out of time and space [paragraph break]There was, once upon a time,[line break]a young lost fellow without dime.[line break]Taken by a book, he said[line break]but the hobbits just thought him mad.[line break]He looked around, and he went east,[line break]then west, then back, then flew on a great beast.[line break]For the life of him he could not remember,[line break]how he came to be or if it was July or December.[line break]He spoke with many, fought with few, [line break]but in the end, he decided to just enjoy the view.[line break] He rolled his weed, sat on a chair,[line break]took out his pipe and smoked without flair.[paragraph break]Here ends the story of the young fellow,[line break]he sure must have been relaxed and mellow,[line break]because soon he disappeared [line break]leaving behind not even a hair of beard,[line break]without a first breakfast, a second or a third;[line break]whispers say that he returned to his place of birth. [line break]But alas, no hobbit ever saw the fellow again,[line break]and so, with the best weed and the pipe most plain,[line break]they sometimes meet, under the summery sun,[line break]to enjoy a good smoke and pun,[line break]in honor of the fellow,[line break]who decided to stay mellow,[line break]despite being lost, and alone,[line break]adventurous and a bit injury prone. [paragraph break]The one that smoked and then was just gone.[roman type][paragraph break][if the noun is unknown]You earmark the page and close the book, baffled.[otherwise]You mumble the rhymes to yourself a couple of times and then close [the noun].[end if][line break]".
 The description of the map is "Pretty old, it was probably drawn by hand. You are not an expert, but you should be able to read it.".
 The quote of the map is "Incredibly detailed, it is signed by one of your ancestors. Bag End stands proudly (if a bit larger than the scale would allow), in the middle of the Shire. To the east you can see great mountains and the city of Rinvendell and in the south, encased in a smudge of black ink, there is Mount Doom. [line break]". 
 
@@ -73,7 +73,9 @@ Section 2 - Actions
 Understand the command "read" as something new.
 Reading is an action applying to a thing. Understand "read [something]" as reading.
 Check reading when the noun is not a book: instead say "You can't read that.".
-Carry out reading: say "[The quote]".
+Carry out reading: 
+	say "[The quote]"; 
+	now the noun is known.
 
 [SMOKING]
 Smoking is an action applying to one visible thing.
