@@ -161,6 +161,23 @@ After asking someone about something:
 					now the player have pipe-weed;
 			otherwise:
 				add "[Index entry]" to the Answered List of the noun;
+				
+[PUTTING THE RINGS!]
+Putting is an action applying to one carried thing. Understand "put [something]" as putting.
+Before putting something which is not carried by the player:
+		silently try taking the noun;
+		if the player is not holding the noun, stop the action;
+		say "You take [the noun] but...";
+Check putting:
+	if the noun is not the ring, say "... [it] won't fit on you. Where do you want to put [it] ?" instead;
+Carry out putting:
+	say "You have a bad feeling about this ring. Are you really sure you want to do that ?";
+	if player consents:
+		say "you slowly put the ring on your finger, with this bad feeling...";
+		now the player is hidden;
+		say "A wierd feeling is on you, your vision isn't the same, what happend ?";
+	otherwise:
+		say "Yeah, that better like this.";
 	
 Section 3 - Speech Table
 
