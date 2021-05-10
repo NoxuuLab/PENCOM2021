@@ -64,7 +64,7 @@ The description of the Mount Doom is "The heat is blistering, suffocating. Somew
 
 Chapter 3 - Settings
 
-A person can be visible or invisible. A person is usually visible.
+A person can be visible or hidden. A person is usually visible.
 A caracter have a table name called the Responses Table. A caracter have a table name called the Seconde Responses Table. A caracter have a list of texts called Answered List.
 
 Section 2 - Actions
