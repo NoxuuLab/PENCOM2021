@@ -199,6 +199,7 @@ Topic	Response	Index	Action	Result
 "books"	"Ah, the keepers of knowledge. I don’t have any here with me at the moment, but I would bet my beard that Bilbo left you some interesting reads at Bag End.[line break]"	"books"	--	--
 "pipe-weed"	"Mmh… some of the finest weed is actually grown here in the Shire. If you manage to find some, be sure to share it with you dear friend Gandalf.[line break]"	"pipe-weed"	--	--
 "the ring"	"The object that you now have in your possession has many names Frodo: the One Ring, Isidur’s Bane, the Ring of Power. It is a very dark and very powerful artifact, one that can only be destroyed where it was created: in the fire of Mount Doom.[line break]"	"the ring"	--	--
+"the quest"	"A great adventure that will take you to places unknown. A long time ago the ring you now hold was created by Sauron, a great evil, to rule over Middle Earth. After a bloody war the ring was cut from its master’s hand and lost to the ages. Somehow your uncle Bilbo found it and passed it on to you Frodo. You are the one, the chosen, he who must go to Mount Doom and destroy the ring once and for all. Before the world is plunged in darkness.[line break]"	"the quest"	--	--
 
 Table of Rivendell Gandalf Responses
 Topic	Response	Index	Action	Result
