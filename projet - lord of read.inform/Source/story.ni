@@ -17,7 +17,7 @@ Section 1 - Introduction - start
 
 The description of the old room is "Something here calls to you, like a whisper in the wind or the faint rustling of the worn pages of a well-loved book. Around and above you the walls are covered in paint. Scattered scenes chase each other without order or thought, a majestic blue dragon flies over mountain peaks, a great lion roars at the foot of a white castle and on the ceiling someone too small to be a man smiles forlornly, behind him ships ready to sail in the unknown."
 
-A book is a kind of thing. A book has a text called the quote. 
+A book is a kind of thing. A book has a text called the quote. A book can be known or unknown. A book is usually unknown. 
 
 An old table is in the old room. The mysterious book is a book on the old table. 
 The description of the old table is "A sturdy wooden thing, with carvings along it's legs of delicate leaves and vines.". 
@@ -28,7 +28,7 @@ Understand "The Fellowship of the Ring" or "Fellowship of the Ring" as book.
 
 Section 3 - The Shire
 
-The description of the Shire is "Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun, [Gandalf] towers above all even while sitting on his favorite chair.".
+The description of the Shire is "Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun.[if Gandalf is in The Shire] [Gandalf] towers above all even while sitting on his favorite chair.[end if][if Sam & Pip are in The Shire] You can see [Sam & Pip] lounging on the grass.[end if][if there is no caracter in The Shire] Your friends must be in some other places at the moment.[end if]".
 The Ring is a thing. "A simple band of gold, when heated it reveals a script in Elvish runes. You can feel a dark power emanating from it.".
 Pipe-weed is a thing. "This, this is...very high quality. From the smell alone you can tell that if smoked, this unassuming clump of greenery may very well gift you the high of a lifetime.". Understand "weed" as pipe-weed.
 
@@ -41,8 +41,8 @@ A little table, a trunk and a cupboard are in the Bag End.
 The trunk is openable and closed. The description of the trunk is "An old and heavy thing, on which the name BAGGINS is roughly carved.". 
 The green book is a book on the little table. The map is a book on the little table.
 
-The description of the green book is "As green as fine summery grass, the title of the book stands boldly on its front '[italic type] Surviving Your First High and Other Ways to Have the Best Time of Your Life With Weed [roman type]'."
-The quote of the green book is "You open [the noun] at a random page.[paragraph break][italic type]This is the story of the fellow from out of time and space [paragraph break]There was, once upon a time,[line break]a young lost fellow without dime.[line break]Taken by a book, he said[line break]but the hobbits just thought him mad.[line break]He looked around, and he went east,[line break]then west, then back, then flew on a great beast.[line break]For the life of him he could not remember,[line break]how he came to be or if it was July or December.[line break]He spoke with many, fought with few, [line break]but in the end, he decided to just enjoy the view.[line break] He rolled his weed, sat on a chair,[line break]took out his pipe and smoked without flair.[paragraph break]Here ends the story of the young fellow,[line break]he sure must have been relaxed and mellow,[line break]because soon he disappeared [line break]leaving behind not even a hair of beard,[line break]without a first breakfast, a second or a third;[line break]whispers say that he returned to his place of birth. [line break]But alas, no hobbit ever saw the fellow again,[line break]and so, with the best weed and the pipe most plain,[line break]they sometimes meet, under the summery sun,[line break]to enjoy a good smoke and pun,[line break]in honor of the fellow,[line break]who decided to stay mellow,[line break]despite being lost, and alone,[line break]adventurous and a bit injury prone. [paragraph break]The one that smoked and then was just gone.[roman type][line break]".
+The description of the green book is "As green as fine summery grass, the title of the book stands boldly on its front '[italic type]Surviving Your First High and Other Ways to Have the Best Time of Your Life With Weed[roman type]'."
+The quote of the green book is "[if the green book is unknown]You open [the noun] at a random page.[otherwise]You open [the noun] at the page you previously earmarked.[end if][paragraph break][italic type]This is the story of the fellow from out of time and space [paragraph break]There was, once upon a time,[line break]a young lost fellow without dime.[line break]Taken by a book, he said[line break]but the hobbits just thought him mad.[line break]He looked around, and he went east,[line break]then west, then back, then flew on a great beast.[line break]For the life of him he could not remember,[line break]how he came to be or if it was July or December.[line break]He spoke with many, fought with few, [line break]but in the end, he decided to just enjoy the view.[line break] He rolled his weed, sat on a chair,[line break]took out his pipe and smoked without flair.[paragraph break]Here ends the story of the young fellow,[line break]he sure must have been relaxed and mellow,[line break]because soon he disappeared [line break]leaving behind not even a hair of beard,[line break]without a first breakfast, a second or a third;[line break]whispers say that he returned to his place of birth. [line break]But alas, no hobbit ever saw the fellow again,[line break]and so, with the best weed and the pipe most plain,[line break]they sometimes meet, under the summery sun,[line break]to enjoy a good smoke and pun,[line break]in honor of the fellow,[line break]who decided to stay mellow,[line break]despite being lost, and alone,[line break]adventurous and a bit injury prone. [paragraph break]The one that smoked and then was just gone.[roman type][paragraph break][if the noun is unknown]You earmark the page and close the book, baffled.[otherwise]You mumble the rhymes to yourself a couple of times and then close [the noun].[end if][line break]".
 The description of the map is "Pretty old, it was probably drawn by hand. You are not an expert, but you should be able to read it.".
 The quote of the map is "Incredibly detailed, it is signed by one of your ancestors. Bag End stands proudly (if a bit larger than the scale would allow), in the middle of the Shire. To the east you can see great mountains and the city of Rinvendell and in the south, encased in a smudge of black ink, there is Mount Doom. [line break]". 
 
@@ -73,7 +73,10 @@ Section 2 - Actions
 Understand the command "read" as something new.
 Reading is an action applying to a thing. Understand "read [something]" as reading.
 Check reading when the noun is not a book: instead say "You can't read that.".
-Carry out reading: say "[The quote]".
+Carry out reading: 
+	say "[The quote]"; 
+	now the noun is known.
+Understand "open [a book]" as reading. 
 
 [SMOKING]
 Smoking is an action applying to one visible thing.
@@ -264,9 +267,9 @@ Chapter 4 - Scenario
 Section 1 - Introduction
 
 After reading the mysterious book: 
-	say "You can barely make out a few sentences before words and letters begin to move in concentric swirls. You try to take a step back, but your fingers are stuck to the pages. WOOOOOSH. A great wind pulls at you and the only thing you can do is scream and scream in terror. You look one last time at the beautiful paintings on the walls and then everything goes black.  [line break] [line break]"; 
+	say "You can barely make out a few sentences before words and letters begin to move in concentric swirls. You try to take a step back, but your fingers are stuck to the pages.[line break]WOOOOOSH[line break] A great wind pulls at you and the only thing you can do is scream and scream in terror. You look one last time at the beautiful paintings on the walls and then everything goes black.  [line break] [line break]"; 
 	move player to Bag End; 
-	now the player carry the ring.
+	now the player carries the ring.
 
 
 Section 2 - Go to end
