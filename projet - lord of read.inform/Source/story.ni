@@ -182,11 +182,10 @@ Carry out putting:
 	otherwise:
 		say "Yeah, that better like this.";
 		
-<<<<<<< Updated upstream
-[WAITING CONSEIL]
-=======
+
+
 [WAITING COUNCIL]
->>>>>>> Stashed changes
+
 Waiting more is an action applying to one number.
 
 Understand "wait [a time period]" or "wait for [a time period]" or "wait for a/an [a time period]" or "wait a/an [a time period]" as waiting more.
@@ -196,11 +195,6 @@ Carry out waiting more:
 	decrease the target time by one minute;
 	while the time of day is not the target time:
 		follow the turn sequence rules.
-<<<<<<< Updated upstream
-
-
-=======
-		
 
 
 
