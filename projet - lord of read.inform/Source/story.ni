@@ -182,7 +182,11 @@ Carry out putting:
 	otherwise:
 		say "Yeah, that better like this.";
 		
+<<<<<<< Updated upstream
 [WAITING CONSEIL]
+=======
+[WAITING COUNCIL]
+>>>>>>> Stashed changes
 Waiting more is an action applying to one number.
 
 Understand "wait [a time period]" or "wait for [a time period]" or "wait for a/an [a time period]" or "wait a/an [a time period]" as waiting more.
@@ -192,8 +196,44 @@ Carry out waiting more:
 	decrease the target time by one minute;
 	while the time of day is not the target time:
 		follow the turn sequence rules.
+<<<<<<< Updated upstream
 
 
+=======
+		
+
+
+
+		
+section 2 - speech mecanism
+
+To copy (first table - a table name) to (second table - a table name):
+	repeat through first table:
+		let copied Topic be topics;
+		if there is a Topic entry, now the copied Topic is the Topic entry;
+		let copied Response be "blank";
+		if there is a Response entry, now the copied Response is the Response entry;
+		let copied Index be "blank";
+		if there is a Index entry, now the copied Index are the Index entry;
+		let copied Action be "blank";
+		if there is a Action entry, now the copied Action are the Action entry;
+		let copied Result be "blank";
+		if there is a Result entry, now the copied Result are the Result entry;
+		let copied subtopics be second table;
+		if there is a subtopics entry, now the copied subtopics are the subtopics entry;
+		let copied labels be 0;
+		if there is a subtopics entry, now the copied subtopics are the subtopics entry;
+		choose a blank row in the second table;	
+		now Topic entry is copied Topic;
+		now Response entry is copied Response;
+		now Index entry is copied Index;
+		if copied Action is not "blank", now Action entry is copied Action;
+		if copied Result is not "blank", now Result entry is copied Result;
+		if copied subtopics is not second table, now subtopics entry is copied subtopics;
+		now labels entry is copied labels.
+		
+Current conversation table is a table name that varies.
+>>>>>>> Stashed changes
 	
 Section 3 - Speech Table
 
