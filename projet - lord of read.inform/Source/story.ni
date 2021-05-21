@@ -58,6 +58,8 @@ An old sword and the mithril shirt are on the pedestal.
 The description of the old sword is "A beautiful thing that would look extremely well tied around your hip. On the blade there is an inscription in what you assume to be elvish, maybe [Gandalf] would know how to translate it?". 
 The description of the mithril shirt is "Light to the touch, the strange chain mail shines softly. You don't know much about this stuff, but it must be special, or at the very least worth a pretty coin."
 
+
+
 Section 5 - Mount Doom - end
 
 The description of the Mount Doom is "The heat is blistering, suffocating. Somewhere belove you licks of flame run along barren rock and molten lava churns at the mouth of the active volcano. [If the player holds the ring] The ring hisses, dark things, promises of power and greed, it would even implore and beg if it was capable of such a thing. [otherwise] Even through you smoked out brain you remember that there was something important, something you should do here, a ring maybe? You di not forget the ring somewhere, right? RIGHT?! [end if] [line break] This could be the end of your story, the end of your adventure, will there be ships to whisk you away once you throw the ring to the flames of [Mount Doom]?".
@@ -191,6 +193,45 @@ Carry out putting:
 		say "A wierd feeling is on you, your vision isn't the same, what happend ?";
 	otherwise:
 		say "Yeah, that better like this.";
+
+
+[WAITING FOR COUNCIL]
+
+After going to the Rivendell:
+		say "Hooray you win."
+
+Instead of going to the Rivendell:
+	If the player is in the Rivendell:
+		say "It's now [time of day in words].";
+		continue the action;
+	otherwise:
+		say "Oh no, can't get into the house."
+
+
+
+Hanging around until is an action applying to one time.
+
+Check hanging around until:
+	if the time of day is the time understood, say "It is [time understood] now!" instead;
+	if the time of day is after the time understood, say "It is too late for that now." instead.
+
+Carry out hanging around until:
+	while the time of day is before the time understood:
+		follow the turn sequence rules.
+
+Report hanging around until:
+	say "You yawn until [time understood]."
+
+Understand "wait until [time]" as hanging around until.
+
+
+At 11:45 PM:
+    say "Council begins, come here to hear my voice.";
+
+
+
+
+
 		
 section 2 - speech mecanism
 

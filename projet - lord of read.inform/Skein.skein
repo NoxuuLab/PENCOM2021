@@ -18,5 +18,401 @@ You can see an old table (on which is a mysterious book) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4148"></child>
+        </children>
+    </item>
+    <item nodeId="node-4148">
+        <command xml:space="preserve">open book</command>
+        <result xml:space="preserve">Holding your breath, you carefully open the book.
+
+"...One Ring to rule them all, One Ring to find them,
+One Ring to bring them all and in the darkness bind them.
+In the Land of Mordor where the Shadows lie..."
+
+You can barely make out a few sentences before words and letters begin to move in concentric swirls. You try to take a step back, but your fingers are stuck to the pages.
+WOOOOOSH
+ A great wind pulls at you and the only thing you can do is scream and scream in terror. You look one last time at the beautiful paintings on the walls and then everything goes black.  
+ 
+
+Bag End
+You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself. Outside you can hear the laughter of children and the chirping of birds.
+
+You can see a little table (on which are a green book and a map), a trunk (closed), and a cupboard here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4149"></child>
+        </children>
+    </item>
+    <item nodeId="node-4149">
+        <command xml:space="preserve">open green book</command>
+        <result xml:space="preserve">You open the green book at a random page.
+
+This is the story of the fellow from out of time and space 
+
+There was, once upon a time,
+a young lost fellow without dime.
+Taken by a book, he said
+but the hobbits just thought him mad.
+He looked around, and he went east,
+then west, then back, then flew on a great beast.
+For the life of him he could not remember,
+how he came to be or if it was July or December.
+He spoke with many, fought with few, 
+but in the end, he decided to just enjoy the view.
+ He rolled his weed, sat on a chair,
+took out his pipe and smoked without flair.
+
+Here ends the story of the young fellow,
+he sure must have been relaxed and mellow,
+because soon he disappeared 
+leaving behind not even a hair of beard,
+without a first breakfast, a second or a third;
+whispers say that he returned to his place of birth. 
+But alas, no hobbit ever saw the fellow again,
+and so, with the best weed and the pipe most plain,
+they sometimes meet, under the summery sun,
+to enjoy a good smoke and pun,
+in honor of the fellow,
+who decided to stay mellow,
+despite being lost, and alone,
+adventurous and a bit injury prone. 
+
+The one that smoked and then was just gone.
+
+You earmark the page and close the book, baffled.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4150"></child>
+        </children>
+    </item>
+    <item nodeId="node-4150">
+        <command xml:space="preserve">check</command>
+        <result xml:space="preserve">(the Ring)
+You see nothing special about the Ring.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4151"></child>
+        </children>
+    </item>
+    <item nodeId="node-4151">
+        <command xml:space="preserve">open trunk</command>
+        <result xml:space="preserve">You open the trunk, revealing a pipe and a bag of money.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4152"></child>
+        </children>
+    </item>
+    <item nodeId="node-4152">
+        <command xml:space="preserve">take pipe</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4153"></child>
+        </children>
+    </item>
+    <item nodeId="node-4153">
+        <command xml:space="preserve">take money</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4154"></child>
+        </children>
+    </item>
+    <item nodeId="node-4154">
+        <command xml:space="preserve">close trunk</command>
+        <result xml:space="preserve">You close the trunk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4155"></child>
+        </children>
+    </item>
+    <item nodeId="node-4155">
+        <command xml:space="preserve">opn trunk</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4156"></child>
+        </children>
+    </item>
+    <item nodeId="node-4156">
+        <command xml:space="preserve">open trunk</command>
+        <result xml:space="preserve">You open the trunk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4157"></child>
+        </children>
+    </item>
+    <item nodeId="node-4157">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4158"></child>
+        </children>
+    </item>
+    <item nodeId="node-4158">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4159"></child>
+        </children>
+    </item>
+    <item nodeId="node-4159">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4160"></child>
+        </children>
+    </item>
+    <item nodeId="node-4160">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4161"></child>
+        </children>
+    </item>
+    <item nodeId="node-4161">
+        <command xml:space="preserve">check cupboard</command>
+        <result xml:space="preserve">You see nothing special about the cupboard.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4162"></child>
+        </children>
+    </item>
+    <item nodeId="node-4162">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a bag of money
+  a pipe
+  a Ring
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4163"></child>
+        </children>
+    </item>
+    <item nodeId="node-4163">
+        <command xml:space="preserve">see</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4164"></child>
+        </children>
+    </item>
+    <item nodeId="node-4164">
+        <command xml:space="preserve">examining</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4165"></child>
+        </children>
+    </item>
+    <item nodeId="node-4165">
+        <command xml:space="preserve">looking</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4166"></child>
+        </children>
+    </item>
+    <item nodeId="node-4166">
+        <command xml:space="preserve">go to</command>
+        <result xml:space="preserve">What do you want to go to?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4167"></child>
+        </children>
+    </item>
+    <item nodeId="node-4167">
+        <command xml:space="preserve">rivendell</command>
+        <result xml:space="preserve">Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4168"></child>
+        </children>
+    </item>
+    <item nodeId="node-4168">
+        <command xml:space="preserve">go to</command>
+        <result xml:space="preserve">What do you want to go to?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4169"></child>
+        </children>
+    </item>
+    <item nodeId="node-4169">
+        <command xml:space="preserve">mount doom</command>
+        <result xml:space="preserve">Mount Doom
+The heat is blistering, suffocating. Somewhere belove you licks of flame run along barren rock and molten lava churns at the mouth of the active volcano.  The ring hisses, dark things, promises of power and greed, it would even implore and beg if it was capable of such a thing.  
+ This could be the end of your story, the end of your adventure, will there be ships to whisk you away once you throw the ring to the flames of Mount Doom?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4170"></child>
+        </children>
+    </item>
+    <item nodeId="node-4170">
+        <command xml:space="preserve">go to rivendell</command>
+        <result xml:space="preserve">Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4171"></child>
+        </children>
+    </item>
+    <item nodeId="node-4171">
+        <command xml:space="preserve">time</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4172"></child>
+        </children>
+    </item>
+    <item nodeId="node-4172">
+        <command xml:space="preserve">check time</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4198"></child>
+        </children>
+    </item>
+    <item nodeId="node-4198">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4251"></child>
+        </children>
+    </item>
+    <item nodeId="node-4251">
+        <command xml:space="preserve">check time</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4252"></child>
+        </children>
+    </item>
+    <item nodeId="node-4252">
+        <command xml:space="preserve">time</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4253"></child>
+        </children>
+    </item>
+    <item nodeId="node-4253">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4254"></child>
+        </children>
+    </item>
+    <item nodeId="node-4254">
+        <command xml:space="preserve">what time is it?</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4285"></child>
+        </children>
+    </item>
+    <item nodeId="node-4285">
+        <command xml:space="preserve">go</command>
+        <result xml:space="preserve">You'll have to say which compass direction to go in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4286"></child>
+        </children>
+    </item>
+    <item nodeId="node-4286">
+        <command xml:space="preserve">go riverdell</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4287"></child>
+        </children>
+    </item>
+    <item nodeId="node-4287">
+        <command xml:space="preserve">go rivendell</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4288"></child>
+        </children>
+    </item>
+    <item nodeId="node-4288">
+        <command xml:space="preserve">go to Rivendell</command>
+        <result xml:space="preserve">Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4323"></child>
+        </children>
+    </item>
+    <item nodeId="node-4323">
+        <command xml:space="preserve">go to</command>
+        <result xml:space="preserve">What do you want to go to?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4324"></child>
+        </children>
+    </item>
+    <item nodeId="node-4324">
+        <command xml:space="preserve">rivendell</command>
+        <result xml:space="preserve">Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
 </Skein>
