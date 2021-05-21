@@ -13,7 +13,35 @@ The Shire is west of Rivendell.
 
 Inside from the shire is the Bag End.
 
-Section 1 - Introduction - start
+Chapter 2 - Scenes
+
+Intro is a scene. Intro begins when play begins. Intro ends when Council begins.
+
+Council is a scene. Council begins when the player is in the Rivendell. 
+
+	
+Every turn when player is in the Rivendell: 
+	say "It is now [time of day + 1 minute]. Wait until [time understood], though."
+
+
+Hanging around until is an action applying to one time.
+Check hanging around until: 
+    if the time of day is the time understood, say "It is [time understood] now!" instead; 
+    if the time of day is after the time understood, say "It is too late for that now." instead.
+Carry out hanging around until: 
+	while the time of day is before the time understood: 
+		follow the turn sequence rules.
+Report hanging around until: 
+    say "You yawn until [time understood]."
+Understand "wait until [time]" as hanging around until.
+
+
+At 11:45 PM: 
+    say "Council starts now."; 
+
+
+
+Section 2 - Introduction - start
 
 The description of the old room is "Something here calls to you, like a whisper in the wind or the faint rustling of the worn pages of a well-loved book. Around and above you the walls are covered in paint. Scattered scenes chase each other without order or thought, a majestic blue dragon flies over mountain peaks, a great lion roars at the foot of a white castle and on the ceiling someone too small to be a man smiles forlornly, behind him ships ready to sail in the unknown."
 
@@ -34,7 +62,7 @@ Pipe-weed is a thing. "This, this is...very high quality. From the smell alone y
 
 A caracter is a kind of person. Gandalf and Sam & Pip are caracter in the shire.
 
-Section 2 - Bag End
+Section 4 - Bag End
 
 The description of Bag End is "You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself. Outside you can hear the laughter of children and the chirping of birds.".
 A little table, a trunk and a cupboard are in the Bag End.
@@ -49,7 +77,7 @@ The quote of the map is "Incredibly detailed, it is signed by one of your ancest
 A pipe and a bag of money are in the trunk.
 The description of the pipe is "A true hobbit [pipe]. Long, carved from wood, with glinting, leafy decorations on the bowl and the shank. You can almost hear Bilbo's voice in your head saying [italic type] No simple tobacco shall be smoked in my [pipe] Frodo. It was carved and created specifically for weed and [bold type] only [italic type] weed[roman type]."
 
-Section 4 - Rivendell
+Section 5 - Rivendell
 
 The description of Rivendell is "At the edge of a narrow gorge, the peaceful elven town of [Rivendell] seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.". 
 The Elf Lord is a caracter in Rivendell.
@@ -60,7 +88,7 @@ The description of the mithril shirt is "Light to the touch, the strange chain m
 
 
 
-Section 5 - Mount Doom - end
+Section 6 - Mount Doom - end
 
 The description of the Mount Doom is "The heat is blistering, suffocating. Somewhere belove you licks of flame run along barren rock and molten lava churns at the mouth of the active volcano. [If the player holds the ring] The ring hisses, dark things, promises of power and greed, it would even implore and beg if it was capable of such a thing. [otherwise] Even through you smoked out brain you remember that there was something important, something you should do here, a ring maybe? You di not forget the ring somewhere, right? RIGHT?! [end if] [line break] This could be the end of your story, the end of your adventure, will there be ships to whisk you away once you throw the ring to the flames of [Mount Doom]?".
 
@@ -197,34 +225,7 @@ Carry out putting:
 
 [WAITING FOR COUNCIL]
 
-Council is a scene. Council begins when the player is in the Rivendell.
 
-Instead of going to the Rivendell:
-	If the player is in the Rivendell:
-		say "It's now [time of day in words].";
-		continue the action;		
-	otherwise:
-		say "Oh no, can't get into the house."
-
-
-Hanging around until is an action applying to one time.
-
-Check hanging around until:
-	if the time of day is the time understood, say "It is [time understood] now!" instead;
-	if the time of day is after the time understood, say "It is too late for that now." instead.
-
-Carry out hanging around until:
-	while the time of day is before the time understood:
-		follow the turn sequence rules.
-
-Report hanging around until:
-	say "You yawn until [time understood]."
-
-Understand "wait until [time]" as hanging around until.
-
-
-At 11:45 PM:
-    say "Council begins, come here to hear my voice.";
 
 
 
