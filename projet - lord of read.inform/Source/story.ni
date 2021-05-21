@@ -197,16 +197,14 @@ Carry out putting:
 
 [WAITING FOR COUNCIL]
 
-After going to the Rivendell:
-		say "Hooray you win."
+Council is a scene. Council begins when the player is in the Rivendell.
 
 Instead of going to the Rivendell:
 	If the player is in the Rivendell:
 		say "It's now [time of day in words].";
-		continue the action;
+		continue the action;		
 	otherwise:
 		say "Oh no, can't get into the house."
-
 
 
 Hanging around until is an action applying to one time.
@@ -227,8 +225,6 @@ Understand "wait until [time]" as hanging around until.
 
 At 11:45 PM:
     say "Council begins, come here to hear my voice.";
-
-
 
 
 
