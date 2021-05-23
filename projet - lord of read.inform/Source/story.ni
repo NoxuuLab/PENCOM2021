@@ -16,15 +16,19 @@ Inside from the shire is the Bag End.
 Chapter 2 - Scenes
 
 Intro is a scene. Intro begins when play begins. Intro ends when Council begins.
+Council is a scene. Council begins when the player is in the Rivendell. [council finish when...add code here ]
 
-Council is a scene. Council begins when the player is in the Rivendell. 
-
-	
+[show time when council will starts and count the turns as minutes]	
+When Council begins: the ElfCouncil in 3 minutes from now.
 Every turn when player is in the Rivendell: 
-	say "It is now [time of day + 1 minute]. Wait until [time understood], though."
+	say "It is now [time of day + 1 minute]. Wait until Elf Council begins little bit from now."
+At the time when the ElfCouncil:
+	say "Council starts now!";
+	
 
-
-Hanging around until is an action applying to one time.
+[ Every turn when player is in the Rivendell: 
+	say "It is now [time of day + 1 minute]. Wait until [time understood], though."]	
+[Hanging around until is an action applying to one time.
 Check hanging around until: 
     if the time of day is the time understood, say "It is [time understood] now!" instead; 
     if the time of day is after the time understood, say "It is too late for that now." instead.
@@ -33,12 +37,11 @@ Carry out hanging around until:
 		follow the turn sequence rules.
 Report hanging around until: 
     say "You yawn until [time understood]."
-Understand "wait until [time]" as hanging around until.
+Understand "wait until [time]" as hanging around until.]
 
 
-At 11:45 PM: 
-    say "Council starts now."; 
-
+	[destruction of the ring]
+	
 
 
 Section 2 - Introduction - start
