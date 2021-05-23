@@ -18,13 +18,33 @@ Chapter 2 - Scenes
 Intro is a scene. Intro begins when play begins. Intro ends when Council begins.
 Council is a scene. Council begins when the player is in the Rivendell. [council finish when...add code here ]
 
-[show time when council will starts and count the turns as minutes]	
+[show time when council will starts and count the turns as minutes]
+
 When Council begins: the ElfCouncil in 3 minutes from now.
 Every turn when player is in the Rivendell: 
 	say "It is now [time of day + 1 minute]. Wait until Elf Council begins little bit from now."
 At the time when the ElfCouncil:
 	say "Council starts now!";
+
+
+
+
+[Understand "wait til/till/until/for [an interval]" as waiting until. Waiting until is an action applying to one interval. 
+
+Check waiting until:
+	if location is not regionally in Rivendell, say "[if location is regionally in Rivendell]You're not sure whether time passes or not[else]There's too much at stake to just wait around right now[end if]." instead.
 	
+Check waiting until:
+	if current interval is the interval understood, say "It's [current interval] now." instead.
+	
+Check waiting until:
+	if the interval understood is low tide or the interval understood is high tide, say "You don't know the tides here well enough to be sure when that might be, but you can try waiting for a certain number of hours, or until a certain time of day." instead.
+
+Carry out waiting until:
+	let target time be the time corresponding to the interval understood;
+	try waiting for ( 12:01 AM + the number of minutes between the time of day and target time minutes - 1 minute ) instead.]
+
+
 
 [ Every turn when player is in the Rivendell: 
 	say "It is now [time of day + 1 minute]. Wait until [time understood], though."]	
@@ -39,9 +59,13 @@ Report hanging around until:
     say "You yawn until [time understood]."
 Understand "wait until [time]" as hanging around until.]
 
+[check also this code for waiting https://blue-lacuna.textories.com/source/source_56.html ]
 
-	[destruction of the ring]
+
+	[throwing the ring to volcano]
 	
+Understand "throw [something] into [something]" as throwing it at.	
+
 
 
 Section 2 - Introduction - start

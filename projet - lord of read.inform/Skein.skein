@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-4145">
+<Skein rootNode="node-6044">
     <generator>Inform Mac Client (Inform version )</generator>
-    <item nodeId="node-4145">
+    <item nodeId="node-6044">
         <command xml:space="preserve">projet - lord of read</command>
         <result xml:space="preserve">
 
@@ -18,12 +18,13 @@ You can see an old table (on which is a mysterious book) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5953"></child>
-            <child nodeId="node-5918"></child>
-            <child nodeId="node-4148"></child>
+        <children><child nodeId="node-6282"></child>
+            <child nodeId="node-6265"></child>
+            <child nodeId="node-6249"></child>
+            <child nodeId="node-6045"></child>
         </children>
     </item>
-    <item nodeId="node-4148">
+    <item nodeId="node-6045">
         <command xml:space="preserve">open book</command>
         <result xml:space="preserve">Holding your breath, you carefully open the book.
 
@@ -43,10 +44,10 @@ You can see a little table (on which are a green book and a map), a trunk (close
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4149"></child>
+        <children><child nodeId="node-6046"></child>
         </children>
     </item>
-    <item nodeId="node-4149">
+    <item nodeId="node-6046">
         <command xml:space="preserve">open green book</command>
         <result xml:space="preserve">You open the green book at a random page.
 
@@ -86,119 +87,119 @@ You earmark the page and close the book, baffled.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4150"></child>
+        <children><child nodeId="node-6047"></child>
         </children>
     </item>
-    <item nodeId="node-4150">
+    <item nodeId="node-6047">
         <command xml:space="preserve">check</command>
         <result xml:space="preserve">(the Ring)
 You see nothing special about the Ring.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4151"></child>
+        <children><child nodeId="node-6048"></child>
         </children>
     </item>
-    <item nodeId="node-4151">
+    <item nodeId="node-6048">
         <command xml:space="preserve">open trunk</command>
         <result xml:space="preserve">You open the trunk, revealing a pipe and a bag of money.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4152"></child>
+        <children><child nodeId="node-6049"></child>
         </children>
     </item>
-    <item nodeId="node-4152">
+    <item nodeId="node-6049">
         <command xml:space="preserve">take pipe</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4153"></child>
+        <children><child nodeId="node-6050"></child>
         </children>
     </item>
-    <item nodeId="node-4153">
+    <item nodeId="node-6050">
         <command xml:space="preserve">take money</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4154"></child>
+        <children><child nodeId="node-6051"></child>
         </children>
     </item>
-    <item nodeId="node-4154">
+    <item nodeId="node-6051">
         <command xml:space="preserve">close trunk</command>
         <result xml:space="preserve">You close the trunk.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4155"></child>
+        <children><child nodeId="node-6052"></child>
         </children>
     </item>
-    <item nodeId="node-4155">
+    <item nodeId="node-6052">
         <command xml:space="preserve">opn trunk</command>
         <result xml:space="preserve">That's not a verb I recognize.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4156"></child>
+        <children><child nodeId="node-6053"></child>
         </children>
     </item>
-    <item nodeId="node-4156">
+    <item nodeId="node-6053">
         <command xml:space="preserve">open trunk</command>
         <result xml:space="preserve">You open the trunk.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4157"></child>
+        <children><child nodeId="node-6054"></child>
         </children>
     </item>
-    <item nodeId="node-4157">
+    <item nodeId="node-6054">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4158"></child>
+        <children><child nodeId="node-6055"></child>
         </children>
     </item>
-    <item nodeId="node-4158">
+    <item nodeId="node-6055">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4159"></child>
+        <children><child nodeId="node-6056"></child>
         </children>
     </item>
-    <item nodeId="node-4159">
+    <item nodeId="node-6056">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4160"></child>
+        <children><child nodeId="node-6057"></child>
         </children>
     </item>
-    <item nodeId="node-4160">
+    <item nodeId="node-6057">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4161"></child>
+        <children><child nodeId="node-6058"></child>
         </children>
     </item>
-    <item nodeId="node-4161">
+    <item nodeId="node-6058">
         <command xml:space="preserve">check cupboard</command>
         <result xml:space="preserve">You see nothing special about the cupboard.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4162"></child>
+        <children><child nodeId="node-6059"></child>
         </children>
     </item>
-    <item nodeId="node-4162">
+    <item nodeId="node-6059">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a bag of money
@@ -207,46 +208,46 @@ You see nothing special about the Ring.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4163"></child>
+        <children><child nodeId="node-6060"></child>
         </children>
     </item>
-    <item nodeId="node-4163">
+    <item nodeId="node-6060">
         <command xml:space="preserve">see</command>
         <result xml:space="preserve">That's not a verb I recognize.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4164"></child>
+        <children><child nodeId="node-6061"></child>
         </children>
     </item>
-    <item nodeId="node-4164">
+    <item nodeId="node-6061">
         <command xml:space="preserve">examining</command>
         <result xml:space="preserve">That's not a verb I recognize.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4165"></child>
+        <children><child nodeId="node-6062"></child>
         </children>
     </item>
-    <item nodeId="node-4165">
+    <item nodeId="node-6062">
         <command xml:space="preserve">looking</command>
         <result xml:space="preserve">That's not a verb I recognize.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4166"></child>
+        <children><child nodeId="node-6063"></child>
         </children>
     </item>
-    <item nodeId="node-4166">
+    <item nodeId="node-6063">
         <command xml:space="preserve">go to</command>
         <result xml:space="preserve">What do you want to go to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4167"></child>
+        <children><child nodeId="node-6064"></child>
         </children>
     </item>
-    <item nodeId="node-4167">
+    <item nodeId="node-6064">
         <command xml:space="preserve">rivendell</command>
         <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
@@ -257,19 +258,19 @@ It is now 9:15 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4168"></child>
+        <children><child nodeId="node-6065"></child>
         </children>
     </item>
-    <item nodeId="node-4168">
+    <item nodeId="node-6065">
         <command xml:space="preserve">go to</command>
         <result xml:space="preserve">What do you want to go to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4169"></child>
+        <children><child nodeId="node-6066"></child>
         </children>
     </item>
-    <item nodeId="node-4169">
+    <item nodeId="node-6066">
         <command xml:space="preserve">mount doom</command>
         <result xml:space="preserve">Mount Doom
 The heat is blistering, suffocating. Somewhere belove you licks of flame run along barren rock and molten lava churns at the mouth of the active volcano.  The ring hisses, dark things, promises of power and greed, it would even implore and beg if it was capable of such a thing.  
@@ -277,10 +278,10 @@ The heat is blistering, suffocating. Somewhere belove you licks of flame run alo
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4170"></child>
+        <children><child nodeId="node-6067"></child>
         </children>
     </item>
-    <item nodeId="node-4170">
+    <item nodeId="node-6067">
         <command xml:space="preserve">go to rivendell</command>
         <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
@@ -291,28 +292,28 @@ It is now 9:17 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4171"></child>
+        <children><child nodeId="node-6068"></child>
         </children>
     </item>
-    <item nodeId="node-4171">
+    <item nodeId="node-6068">
         <command xml:space="preserve">time</command>
         <result xml:space="preserve">That's not a verb I recognize.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4172"></child>
+        <children><child nodeId="node-6069"></child>
         </children>
     </item>
-    <item nodeId="node-4172">
+    <item nodeId="node-6069">
         <command xml:space="preserve">check time</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4198"></child>
+        <children><child nodeId="node-6070"></child>
         </children>
     </item>
-    <item nodeId="node-4198">
+    <item nodeId="node-6070">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
@@ -323,28 +324,28 @@ It is now 9:18 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4251"></child>
+        <children><child nodeId="node-6071"></child>
         </children>
     </item>
-    <item nodeId="node-4251">
+    <item nodeId="node-6071">
         <command xml:space="preserve">check time</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4252"></child>
+        <children><child nodeId="node-6072"></child>
         </children>
     </item>
-    <item nodeId="node-4252">
+    <item nodeId="node-6072">
         <command xml:space="preserve">time</command>
         <result xml:space="preserve">That's not a verb I recognize.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4253"></child>
+        <children><child nodeId="node-6073"></child>
         </children>
     </item>
-    <item nodeId="node-4253">
+    <item nodeId="node-6073">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
@@ -355,19 +356,19 @@ It is now 9:19 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4254"></child>
+        <children><child nodeId="node-6074"></child>
         </children>
     </item>
-    <item nodeId="node-4254">
+    <item nodeId="node-6074">
         <command xml:space="preserve">what time is it?</command>
         <result xml:space="preserve">That's not a verb I recognize.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4285"></child>
+        <children><child nodeId="node-6075"></child>
         </children>
     </item>
-    <item nodeId="node-4285">
+    <item nodeId="node-6075">
         <command xml:space="preserve">go</command>
         <result xml:space="preserve">You'll have to say which compass direction to go in.
 
@@ -375,28 +376,28 @@ It is now 9:20 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4286"></child>
+        <children><child nodeId="node-6076"></child>
         </children>
     </item>
-    <item nodeId="node-4286">
+    <item nodeId="node-6076">
         <command xml:space="preserve">go riverdell</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4287"></child>
+        <children><child nodeId="node-6077"></child>
         </children>
     </item>
-    <item nodeId="node-4287">
+    <item nodeId="node-6077">
         <command xml:space="preserve">go rivendell</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4288"></child>
+        <children><child nodeId="node-6078"></child>
         </children>
     </item>
-    <item nodeId="node-4288">
+    <item nodeId="node-6078">
         <command xml:space="preserve">go to Rivendell</command>
         <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
@@ -407,19 +408,19 @@ It is now 9:21 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4323"></child>
+        <children><child nodeId="node-6079"></child>
         </children>
     </item>
-    <item nodeId="node-4323">
+    <item nodeId="node-6079">
         <command xml:space="preserve">go to</command>
         <result xml:space="preserve">What do you want to go to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4324"></child>
+        <children><child nodeId="node-6080"></child>
         </children>
     </item>
-    <item nodeId="node-4324">
+    <item nodeId="node-6080">
         <command xml:space="preserve">rivendell</command>
         <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
@@ -430,19 +431,19 @@ It is now 9:22 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4397"></child>
+        <children><child nodeId="node-6081"></child>
         </children>
     </item>
-    <item nodeId="node-4397">
+    <item nodeId="node-6081">
         <command xml:space="preserve">going to rivendell</command>
         <result xml:space="preserve">That's not a verb I recognize.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4398"></child>
+        <children><child nodeId="node-6082"></child>
         </children>
     </item>
-    <item nodeId="node-4398">
+    <item nodeId="node-6082">
         <command xml:space="preserve">go to Rivendell</command>
         <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
@@ -453,10 +454,10 @@ It is now 9:23 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-4969"></child>
+        <children><child nodeId="node-6083"></child>
         </children>
     </item>
-    <item nodeId="node-4969">
+    <item nodeId="node-6083">
         <command xml:space="preserve">go to rivendell</command>
         <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
@@ -467,28 +468,28 @@ It is now 9:24 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5165"></child>
+        <children><child nodeId="node-6084"></child>
         </children>
     </item>
-    <item nodeId="node-5165">
+    <item nodeId="node-6084">
         <command xml:space="preserve">x</command>
         <result xml:space="preserve">What do you want to examine?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5166"></child>
+        <children><child nodeId="node-6085"></child>
         </children>
     </item>
-    <item nodeId="node-5166">
+    <item nodeId="node-6085">
         <command xml:space="preserve">council</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5167"></child>
+        <children><child nodeId="node-6086"></child>
         </children>
     </item>
-    <item nodeId="node-5167">
+    <item nodeId="node-6086">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -496,10 +497,10 @@ It is now 9:25 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5210"></child>
+        <children><child nodeId="node-6087"></child>
         </children>
     </item>
-    <item nodeId="node-5210">
+    <item nodeId="node-6087">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -507,173 +508,173 @@ It is now 9:26 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5254"></child>
+        <children><child nodeId="node-6088"></child>
         </children>
     </item>
-    <item nodeId="node-5254">
+    <item nodeId="node-6088">
         <command xml:space="preserve">ask</command>
         <result xml:space="preserve">What do you want to ask?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5255"></child>
+        <children><child nodeId="node-6089"></child>
         </children>
     </item>
-    <item nodeId="node-5255">
+    <item nodeId="node-6089">
         <command xml:space="preserve">ask gandalf</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5256"></child>
+        <children><child nodeId="node-6090"></child>
         </children>
     </item>
-    <item nodeId="node-5256">
+    <item nodeId="node-6090">
         <command xml:space="preserve">go to shire</command>
         <result xml:space="preserve">Shire
 Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Gandalf towers above all even while sitting on his favorite chair. You can see Sam &amp; Pip lounging on the grass.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5257"></child>
+        <children><child nodeId="node-6091"></child>
         </children>
     </item>
-    <item nodeId="node-5257">
+    <item nodeId="node-6091">
         <command xml:space="preserve">ask</command>
         <result xml:space="preserve">What do you want to ask?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5258"></child>
+        <children><child nodeId="node-6092"></child>
         </children>
     </item>
-    <item nodeId="node-5258">
+    <item nodeId="node-6092">
         <command xml:space="preserve">about</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5259"></child>
+        <children><child nodeId="node-6093"></child>
         </children>
     </item>
-    <item nodeId="node-5259">
+    <item nodeId="node-6093">
         <command xml:space="preserve">speak</command>
         <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5260"></child>
+        <children><child nodeId="node-6094"></child>
         </children>
     </item>
-    <item nodeId="node-5260">
+    <item nodeId="node-6094">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5261"></child>
+        <children><child nodeId="node-6095"></child>
         </children>
     </item>
-    <item nodeId="node-5261">
+    <item nodeId="node-6095">
         <command xml:space="preserve">dialoguer</command>
         <result xml:space="preserve">That's not a verb I recognize.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5262"></child>
+        <children><child nodeId="node-6096"></child>
         </children>
     </item>
-    <item nodeId="node-5262">
+    <item nodeId="node-6096">
         <command xml:space="preserve">who</command>
         <result xml:space="preserve">That's not a verb I recognize.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5263"></child>
+        <children><child nodeId="node-6097"></child>
         </children>
     </item>
-    <item nodeId="node-5263">
+    <item nodeId="node-6097">
         <command xml:space="preserve">talk to</command>
         <result xml:space="preserve">Whom do you want to talk to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5264"></child>
+        <children><child nodeId="node-6098"></child>
         </children>
     </item>
-    <item nodeId="node-5264">
+    <item nodeId="node-6098">
         <command xml:space="preserve">gandalf</command>
         <result xml:space="preserve">To start a conversation, you need to use ASK Gandalf ABOUT something. Type "ask Gandalf (about)" to see the available's topic.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5265"></child>
+        <children><child nodeId="node-6099"></child>
         </children>
     </item>
-    <item nodeId="node-5265">
+    <item nodeId="node-6099">
         <command xml:space="preserve">ask gandalf about</command>
         <result xml:space="preserve"> You could ask Gandalf about you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5266"></child>
+        <children><child nodeId="node-6100"></child>
         </children>
     </item>
-    <item nodeId="node-5266">
+    <item nodeId="node-6100">
         <command xml:space="preserve">ASK Gandalf ABOUT something.</command>
         <result xml:space="preserve">I d'ont see what you mean, sorry.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5267"></child>
+        <children><child nodeId="node-6101"></child>
         </children>
     </item>
-    <item nodeId="node-5267">
+    <item nodeId="node-6101">
         <command xml:space="preserve">ask gandalf</command>
         <result xml:space="preserve"> You could ask Gandalf about you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5268"></child>
+        <children><child nodeId="node-6102"></child>
         </children>
     </item>
-    <item nodeId="node-5268">
+    <item nodeId="node-6102">
         <command xml:space="preserve">talk to sam</command>
         <result xml:space="preserve">To start a conversation, you need to use ASK Sam &amp; Pip ABOUT something. Type "ask Sam &amp; Pip (about)" to see the available's topic.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5269"></child>
+        <children><child nodeId="node-6103"></child>
         </children>
     </item>
-    <item nodeId="node-5269">
+    <item nodeId="node-6103">
         <command xml:space="preserve">"ask Gandalf (about)"</command>
         <result xml:space="preserve">That's not a verb I recognize.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5270"></child>
+        <children><child nodeId="node-6104"></child>
         </children>
     </item>
-    <item nodeId="node-5270">
+    <item nodeId="node-6104">
         <command xml:space="preserve">ask Gandalf (about)</command>
         <result xml:space="preserve">I only understood you as far as wanting to ask Gandalf.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5271"></child>
+        <children><child nodeId="node-6105"></child>
         </children>
     </item>
-    <item nodeId="node-5271">
+    <item nodeId="node-6105">
         <command xml:space="preserve">ask gandalf about</command>
         <result xml:space="preserve"> You could ask Gandalf about you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5272"></child>
+        <children><child nodeId="node-6106"></child>
         </children>
     </item>
-    <item nodeId="node-5272">
+    <item nodeId="node-6106">
         <command xml:space="preserve">ask gandalf about me</command>
         <result xml:space="preserve">"Sire, who I am ?"... Did you smoke something? Are you alright? Is this some sort of test? You are Frodo Baggins, of course, hobbit of the Shire.
 
@@ -681,28 +682,28 @@ Now you could also ask Gandalf about him, the weather, or life.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5273"></child>
+        <children><child nodeId="node-6107"></child>
         </children>
     </item>
-    <item nodeId="node-5273">
+    <item nodeId="node-6107">
         <command xml:space="preserve">ask Gandalf about him</command>
         <result xml:space="preserve">I am Gandalf the Grey. I was sent to Middle Earth to help destroy the ring that you now hold. I am an Istar , a wizard of old.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5274"></child>
+        <children><child nodeId="node-6108"></child>
         </children>
     </item>
-    <item nodeId="node-5274">
+    <item nodeId="node-6108">
         <command xml:space="preserve">ask gandalf about ring</command>
         <result xml:space="preserve">I d'ont see what you mean, sorry.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5275"></child>
+        <children><child nodeId="node-6109"></child>
         </children>
     </item>
-    <item nodeId="node-5275">
+    <item nodeId="node-6109">
         <command xml:space="preserve">go to Rivendell</command>
         <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
@@ -713,10 +714,10 @@ It is now 9:36 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5276"></child>
+        <children><child nodeId="node-6110"></child>
         </children>
     </item>
-    <item nodeId="node-5276">
+    <item nodeId="node-6110">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -724,46 +725,46 @@ It is now 9:37 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5277"></child>
+        <children><child nodeId="node-6111"></child>
         </children>
     </item>
-    <item nodeId="node-5277">
+    <item nodeId="node-6111">
         <command xml:space="preserve">search</command>
         <result xml:space="preserve">What do you want to search?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5278"></child>
+        <children><child nodeId="node-6112"></child>
         </children>
     </item>
-    <item nodeId="node-5278">
+    <item nodeId="node-6112">
         <command xml:space="preserve">person</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5279"></child>
+        <children><child nodeId="node-6113"></child>
         </children>
     </item>
-    <item nodeId="node-5279">
+    <item nodeId="node-6113">
         <command xml:space="preserve">people</command>
         <result xml:space="preserve">That's not a verb I recognize.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5280"></child>
+        <children><child nodeId="node-6114"></child>
         </children>
     </item>
-    <item nodeId="node-5280">
+    <item nodeId="node-6114">
         <command xml:space="preserve">take</command>
         <result xml:space="preserve">What do you want to take?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5281"></child>
+        <children><child nodeId="node-6115"></child>
         </children>
     </item>
-    <item nodeId="node-5281">
+    <item nodeId="node-6115">
         <command xml:space="preserve">sword</command>
         <result xml:space="preserve">Taken.
 
@@ -771,19 +772,19 @@ It is now 9:38 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5282"></child>
+        <children><child nodeId="node-6116"></child>
         </children>
     </item>
-    <item nodeId="node-5282">
+    <item nodeId="node-6116">
         <command xml:space="preserve">take</command>
         <result xml:space="preserve">What do you want to take?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5283"></child>
+        <children><child nodeId="node-6117"></child>
         </children>
     </item>
-    <item nodeId="node-5283">
+    <item nodeId="node-6117">
         <command xml:space="preserve">mithril</command>
         <result xml:space="preserve">Taken.
 
@@ -791,10 +792,10 @@ It is now 9:39 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5284"></child>
+        <children><child nodeId="node-6118"></child>
         </children>
     </item>
-    <item nodeId="node-5284">
+    <item nodeId="node-6118">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a mithril shirt
@@ -807,10 +808,10 @@ It is now 9:40 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5359"></child>
+        <children><child nodeId="node-6119"></child>
         </children>
     </item>
-    <item nodeId="node-5359">
+    <item nodeId="node-6119">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -818,10 +819,10 @@ It is now 9:41 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5435"></child>
+        <children><child nodeId="node-6120"></child>
         </children>
     </item>
-    <item nodeId="node-5435">
+    <item nodeId="node-6120">
         <command xml:space="preserve">go to rivendell</command>
         <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
@@ -832,10 +833,10 @@ It is now 9:42 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5588"></child>
+        <children><child nodeId="node-6121"></child>
         </children>
     </item>
-    <item nodeId="node-5588">
+    <item nodeId="node-6121">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -843,10 +844,10 @@ It is now 9:43 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5589"></child>
+        <children><child nodeId="node-6122"></child>
         </children>
     </item>
-    <item nodeId="node-5589">
+    <item nodeId="node-6122">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -854,10 +855,10 @@ It is now 9:44 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5590"></child>
+        <children><child nodeId="node-6123"></child>
         </children>
     </item>
-    <item nodeId="node-5590">
+    <item nodeId="node-6123">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -865,10 +866,10 @@ It is now 9:45 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5591"></child>
+        <children><child nodeId="node-6124"></child>
         </children>
     </item>
-    <item nodeId="node-5591">
+    <item nodeId="node-6124">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -876,10 +877,10 @@ It is now 9:46 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5592"></child>
+        <children><child nodeId="node-6125"></child>
         </children>
     </item>
-    <item nodeId="node-5592">
+    <item nodeId="node-6125">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -887,10 +888,10 @@ It is now 9:47 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5593"></child>
+        <children><child nodeId="node-6126"></child>
         </children>
     </item>
-    <item nodeId="node-5593">
+    <item nodeId="node-6126">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -898,10 +899,10 @@ It is now 9:48 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5594"></child>
+        <children><child nodeId="node-6127"></child>
         </children>
     </item>
-    <item nodeId="node-5594">
+    <item nodeId="node-6127">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -909,10 +910,10 @@ It is now 9:49 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5595"></child>
+        <children><child nodeId="node-6128"></child>
         </children>
     </item>
-    <item nodeId="node-5595">
+    <item nodeId="node-6128">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -920,10 +921,10 @@ It is now 9:50 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5596"></child>
+        <children><child nodeId="node-6129"></child>
         </children>
     </item>
-    <item nodeId="node-5596">
+    <item nodeId="node-6129">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -931,10 +932,10 @@ It is now 9:51 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5597"></child>
+        <children><child nodeId="node-6130"></child>
         </children>
     </item>
-    <item nodeId="node-5597">
+    <item nodeId="node-6130">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -942,10 +943,10 @@ It is now 9:52 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5598"></child>
+        <children><child nodeId="node-6131"></child>
         </children>
     </item>
-    <item nodeId="node-5598">
+    <item nodeId="node-6131">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -953,10 +954,10 @@ It is now 9:53 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5599"></child>
+        <children><child nodeId="node-6132"></child>
         </children>
     </item>
-    <item nodeId="node-5599">
+    <item nodeId="node-6132">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -964,10 +965,10 @@ It is now 9:54 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5600"></child>
+        <children><child nodeId="node-6133"></child>
         </children>
     </item>
-    <item nodeId="node-5600">
+    <item nodeId="node-6133">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -975,10 +976,10 @@ It is now 9:55 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5601"></child>
+        <children><child nodeId="node-6134"></child>
         </children>
     </item>
-    <item nodeId="node-5601">
+    <item nodeId="node-6134">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -986,10 +987,10 @@ It is now 9:56 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5602"></child>
+        <children><child nodeId="node-6135"></child>
         </children>
     </item>
-    <item nodeId="node-5602">
+    <item nodeId="node-6135">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -997,10 +998,10 @@ It is now 9:57 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5603"></child>
+        <children><child nodeId="node-6136"></child>
         </children>
     </item>
-    <item nodeId="node-5603">
+    <item nodeId="node-6136">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1008,10 +1009,10 @@ It is now 9:58 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5604"></child>
+        <children><child nodeId="node-6137"></child>
         </children>
     </item>
-    <item nodeId="node-5604">
+    <item nodeId="node-6137">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1019,10 +1020,10 @@ It is now 9:59 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5605"></child>
+        <children><child nodeId="node-6138"></child>
         </children>
     </item>
-    <item nodeId="node-5605">
+    <item nodeId="node-6138">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1030,10 +1031,10 @@ It is now 10:00 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5606"></child>
+        <children><child nodeId="node-6139"></child>
         </children>
     </item>
-    <item nodeId="node-5606">
+    <item nodeId="node-6139">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1041,10 +1042,10 @@ It is now 10:01 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5607"></child>
+        <children><child nodeId="node-6140"></child>
         </children>
     </item>
-    <item nodeId="node-5607">
+    <item nodeId="node-6140">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1052,10 +1053,10 @@ It is now 10:02 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5608"></child>
+        <children><child nodeId="node-6141"></child>
         </children>
     </item>
-    <item nodeId="node-5608">
+    <item nodeId="node-6141">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1063,10 +1064,10 @@ It is now 10:03 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5609"></child>
+        <children><child nodeId="node-6142"></child>
         </children>
     </item>
-    <item nodeId="node-5609">
+    <item nodeId="node-6142">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1074,10 +1075,10 @@ It is now 10:04 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5610"></child>
+        <children><child nodeId="node-6143"></child>
         </children>
     </item>
-    <item nodeId="node-5610">
+    <item nodeId="node-6143">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1085,10 +1086,10 @@ It is now 10:05 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5611"></child>
+        <children><child nodeId="node-6144"></child>
         </children>
     </item>
-    <item nodeId="node-5611">
+    <item nodeId="node-6144">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1096,10 +1097,10 @@ It is now 10:06 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5612"></child>
+        <children><child nodeId="node-6145"></child>
         </children>
     </item>
-    <item nodeId="node-5612">
+    <item nodeId="node-6145">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1107,28 +1108,28 @@ It is now 10:07 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5613"></child>
+        <children><child nodeId="node-6146"></child>
         </children>
     </item>
-    <item nodeId="node-5613">
+    <item nodeId="node-6146">
         <command xml:space="preserve">zz</command>
         <result xml:space="preserve">That's not a verb I recognize.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5614"></child>
+        <children><child nodeId="node-6147"></child>
         </children>
     </item>
-    <item nodeId="node-5614">
+    <item nodeId="node-6147">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5615"></child>
+        <children><child nodeId="node-6148"></child>
         </children>
     </item>
-    <item nodeId="node-5615">
+    <item nodeId="node-6148">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1136,10 +1137,10 @@ It is now 10:08 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5616"></child>
+        <children><child nodeId="node-6149"></child>
         </children>
     </item>
-    <item nodeId="node-5616">
+    <item nodeId="node-6149">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1147,10 +1148,10 @@ It is now 10:09 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5617"></child>
+        <children><child nodeId="node-6150"></child>
         </children>
     </item>
-    <item nodeId="node-5617">
+    <item nodeId="node-6150">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1158,10 +1159,10 @@ It is now 10:10 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5618"></child>
+        <children><child nodeId="node-6151"></child>
         </children>
     </item>
-    <item nodeId="node-5618">
+    <item nodeId="node-6151">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1169,10 +1170,10 @@ It is now 10:11 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5619"></child>
+        <children><child nodeId="node-6152"></child>
         </children>
     </item>
-    <item nodeId="node-5619">
+    <item nodeId="node-6152">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1180,10 +1181,10 @@ It is now 10:12 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5620"></child>
+        <children><child nodeId="node-6153"></child>
         </children>
     </item>
-    <item nodeId="node-5620">
+    <item nodeId="node-6153">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1191,10 +1192,10 @@ It is now 10:13 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5621"></child>
+        <children><child nodeId="node-6154"></child>
         </children>
     </item>
-    <item nodeId="node-5621">
+    <item nodeId="node-6154">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1202,10 +1203,10 @@ It is now 10:14 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5622"></child>
+        <children><child nodeId="node-6155"></child>
         </children>
     </item>
-    <item nodeId="node-5622">
+    <item nodeId="node-6155">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1213,10 +1214,10 @@ It is now 10:15 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5623"></child>
+        <children><child nodeId="node-6156"></child>
         </children>
     </item>
-    <item nodeId="node-5623">
+    <item nodeId="node-6156">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1224,10 +1225,10 @@ It is now 10:16 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5624"></child>
+        <children><child nodeId="node-6157"></child>
         </children>
     </item>
-    <item nodeId="node-5624">
+    <item nodeId="node-6157">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1235,10 +1236,10 @@ It is now 10:17 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5625"></child>
+        <children><child nodeId="node-6158"></child>
         </children>
     </item>
-    <item nodeId="node-5625">
+    <item nodeId="node-6158">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1246,10 +1247,10 @@ It is now 10:18 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5626"></child>
+        <children><child nodeId="node-6159"></child>
         </children>
     </item>
-    <item nodeId="node-5626">
+    <item nodeId="node-6159">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1257,10 +1258,10 @@ It is now 10:19 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5627"></child>
+        <children><child nodeId="node-6160"></child>
         </children>
     </item>
-    <item nodeId="node-5627">
+    <item nodeId="node-6160">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1268,10 +1269,10 @@ It is now 10:20 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5628"></child>
+        <children><child nodeId="node-6161"></child>
         </children>
     </item>
-    <item nodeId="node-5628">
+    <item nodeId="node-6161">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1279,10 +1280,10 @@ It is now 10:21 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5629"></child>
+        <children><child nodeId="node-6162"></child>
         </children>
     </item>
-    <item nodeId="node-5629">
+    <item nodeId="node-6162">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1290,10 +1291,10 @@ It is now 10:22 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5630"></child>
+        <children><child nodeId="node-6163"></child>
         </children>
     </item>
-    <item nodeId="node-5630">
+    <item nodeId="node-6163">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1301,10 +1302,10 @@ It is now 10:23 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5631"></child>
+        <children><child nodeId="node-6164"></child>
         </children>
     </item>
-    <item nodeId="node-5631">
+    <item nodeId="node-6164">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1312,10 +1313,10 @@ It is now 10:24 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5632"></child>
+        <children><child nodeId="node-6165"></child>
         </children>
     </item>
-    <item nodeId="node-5632">
+    <item nodeId="node-6165">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1323,10 +1324,10 @@ It is now 10:25 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5633"></child>
+        <children><child nodeId="node-6166"></child>
         </children>
     </item>
-    <item nodeId="node-5633">
+    <item nodeId="node-6166">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1334,10 +1335,10 @@ It is now 10:26 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5634"></child>
+        <children><child nodeId="node-6167"></child>
         </children>
     </item>
-    <item nodeId="node-5634">
+    <item nodeId="node-6167">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1345,10 +1346,10 @@ It is now 10:27 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5635"></child>
+        <children><child nodeId="node-6168"></child>
         </children>
     </item>
-    <item nodeId="node-5635">
+    <item nodeId="node-6168">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1356,10 +1357,10 @@ It is now 10:28 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5636"></child>
+        <children><child nodeId="node-6169"></child>
         </children>
     </item>
-    <item nodeId="node-5636">
+    <item nodeId="node-6169">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1367,10 +1368,10 @@ It is now 10:29 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5637"></child>
+        <children><child nodeId="node-6170"></child>
         </children>
     </item>
-    <item nodeId="node-5637">
+    <item nodeId="node-6170">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1378,10 +1379,10 @@ It is now 10:30 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5638"></child>
+        <children><child nodeId="node-6171"></child>
         </children>
     </item>
-    <item nodeId="node-5638">
+    <item nodeId="node-6171">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1389,10 +1390,10 @@ It is now 10:31 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5639"></child>
+        <children><child nodeId="node-6172"></child>
         </children>
     </item>
-    <item nodeId="node-5639">
+    <item nodeId="node-6172">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1400,10 +1401,10 @@ It is now 10:32 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5640"></child>
+        <children><child nodeId="node-6173"></child>
         </children>
     </item>
-    <item nodeId="node-5640">
+    <item nodeId="node-6173">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1411,10 +1412,10 @@ It is now 10:33 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5641"></child>
+        <children><child nodeId="node-6174"></child>
         </children>
     </item>
-    <item nodeId="node-5641">
+    <item nodeId="node-6174">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1422,10 +1423,10 @@ It is now 10:34 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5642"></child>
+        <children><child nodeId="node-6175"></child>
         </children>
     </item>
-    <item nodeId="node-5642">
+    <item nodeId="node-6175">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1433,10 +1434,10 @@ It is now 10:35 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5643"></child>
+        <children><child nodeId="node-6176"></child>
         </children>
     </item>
-    <item nodeId="node-5643">
+    <item nodeId="node-6176">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1444,10 +1445,10 @@ It is now 10:36 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5644"></child>
+        <children><child nodeId="node-6177"></child>
         </children>
     </item>
-    <item nodeId="node-5644">
+    <item nodeId="node-6177">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1455,10 +1456,10 @@ It is now 10:37 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5645"></child>
+        <children><child nodeId="node-6178"></child>
         </children>
     </item>
-    <item nodeId="node-5645">
+    <item nodeId="node-6178">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1466,10 +1467,10 @@ It is now 10:38 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5646"></child>
+        <children><child nodeId="node-6179"></child>
         </children>
     </item>
-    <item nodeId="node-5646">
+    <item nodeId="node-6179">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1477,10 +1478,10 @@ It is now 10:39 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5647"></child>
+        <children><child nodeId="node-6180"></child>
         </children>
     </item>
-    <item nodeId="node-5647">
+    <item nodeId="node-6180">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1488,10 +1489,10 @@ It is now 10:40 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5648"></child>
+        <children><child nodeId="node-6181"></child>
         </children>
     </item>
-    <item nodeId="node-5648">
+    <item nodeId="node-6181">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1499,10 +1500,10 @@ It is now 10:41 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5649"></child>
+        <children><child nodeId="node-6182"></child>
         </children>
     </item>
-    <item nodeId="node-5649">
+    <item nodeId="node-6182">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1510,10 +1511,10 @@ It is now 10:42 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5650"></child>
+        <children><child nodeId="node-6183"></child>
         </children>
     </item>
-    <item nodeId="node-5650">
+    <item nodeId="node-6183">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1521,10 +1522,10 @@ It is now 10:43 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5651"></child>
+        <children><child nodeId="node-6184"></child>
         </children>
     </item>
-    <item nodeId="node-5651">
+    <item nodeId="node-6184">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1532,10 +1533,10 @@ It is now 10:44 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5652"></child>
+        <children><child nodeId="node-6185"></child>
         </children>
     </item>
-    <item nodeId="node-5652">
+    <item nodeId="node-6185">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1543,10 +1544,10 @@ It is now 10:45 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5653"></child>
+        <children><child nodeId="node-6186"></child>
         </children>
     </item>
-    <item nodeId="node-5653">
+    <item nodeId="node-6186">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1554,10 +1555,10 @@ It is now 10:46 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5654"></child>
+        <children><child nodeId="node-6187"></child>
         </children>
     </item>
-    <item nodeId="node-5654">
+    <item nodeId="node-6187">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1565,10 +1566,10 @@ It is now 10:47 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5655"></child>
+        <children><child nodeId="node-6188"></child>
         </children>
     </item>
-    <item nodeId="node-5655">
+    <item nodeId="node-6188">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1576,10 +1577,10 @@ It is now 10:48 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5656"></child>
+        <children><child nodeId="node-6189"></child>
         </children>
     </item>
-    <item nodeId="node-5656">
+    <item nodeId="node-6189">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1587,10 +1588,10 @@ It is now 10:49 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5657"></child>
+        <children><child nodeId="node-6190"></child>
         </children>
     </item>
-    <item nodeId="node-5657">
+    <item nodeId="node-6190">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1598,10 +1599,10 @@ It is now 10:50 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5658"></child>
+        <children><child nodeId="node-6191"></child>
         </children>
     </item>
-    <item nodeId="node-5658">
+    <item nodeId="node-6191">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1609,10 +1610,10 @@ It is now 10:51 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5659"></child>
+        <children><child nodeId="node-6192"></child>
         </children>
     </item>
-    <item nodeId="node-5659">
+    <item nodeId="node-6192">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1620,10 +1621,10 @@ It is now 10:52 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5660"></child>
+        <children><child nodeId="node-6193"></child>
         </children>
     </item>
-    <item nodeId="node-5660">
+    <item nodeId="node-6193">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1631,10 +1632,10 @@ It is now 10:53 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5661"></child>
+        <children><child nodeId="node-6194"></child>
         </children>
     </item>
-    <item nodeId="node-5661">
+    <item nodeId="node-6194">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1642,10 +1643,10 @@ It is now 10:54 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5662"></child>
+        <children><child nodeId="node-6195"></child>
         </children>
     </item>
-    <item nodeId="node-5662">
+    <item nodeId="node-6195">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1653,10 +1654,10 @@ It is now 10:55 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5663"></child>
+        <children><child nodeId="node-6196"></child>
         </children>
     </item>
-    <item nodeId="node-5663">
+    <item nodeId="node-6196">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1664,10 +1665,10 @@ It is now 10:56 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5664"></child>
+        <children><child nodeId="node-6197"></child>
         </children>
     </item>
-    <item nodeId="node-5664">
+    <item nodeId="node-6197">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1675,10 +1676,10 @@ It is now 10:57 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5665"></child>
+        <children><child nodeId="node-6198"></child>
         </children>
     </item>
-    <item nodeId="node-5665">
+    <item nodeId="node-6198">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1686,10 +1687,10 @@ It is now 10:58 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5666"></child>
+        <children><child nodeId="node-6199"></child>
         </children>
     </item>
-    <item nodeId="node-5666">
+    <item nodeId="node-6199">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1697,10 +1698,10 @@ It is now 10:59 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5667"></child>
+        <children><child nodeId="node-6200"></child>
         </children>
     </item>
-    <item nodeId="node-5667">
+    <item nodeId="node-6200">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1708,10 +1709,10 @@ It is now 11:00 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5668"></child>
+        <children><child nodeId="node-6201"></child>
         </children>
     </item>
-    <item nodeId="node-5668">
+    <item nodeId="node-6201">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1719,10 +1720,10 @@ It is now 11:01 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5669"></child>
+        <children><child nodeId="node-6202"></child>
         </children>
     </item>
-    <item nodeId="node-5669">
+    <item nodeId="node-6202">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1730,10 +1731,10 @@ It is now 11:02 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5670"></child>
+        <children><child nodeId="node-6203"></child>
         </children>
     </item>
-    <item nodeId="node-5670">
+    <item nodeId="node-6203">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1741,10 +1742,10 @@ It is now 11:03 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5671"></child>
+        <children><child nodeId="node-6204"></child>
         </children>
     </item>
-    <item nodeId="node-5671">
+    <item nodeId="node-6204">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1752,10 +1753,10 @@ It is now 11:04 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5672"></child>
+        <children><child nodeId="node-6205"></child>
         </children>
     </item>
-    <item nodeId="node-5672">
+    <item nodeId="node-6205">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1763,10 +1764,10 @@ It is now 11:05 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5673"></child>
+        <children><child nodeId="node-6206"></child>
         </children>
     </item>
-    <item nodeId="node-5673">
+    <item nodeId="node-6206">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1774,10 +1775,10 @@ It is now 11:06 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5674"></child>
+        <children><child nodeId="node-6207"></child>
         </children>
     </item>
-    <item nodeId="node-5674">
+    <item nodeId="node-6207">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1785,10 +1786,10 @@ It is now 11:07 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5675"></child>
+        <children><child nodeId="node-6208"></child>
         </children>
     </item>
-    <item nodeId="node-5675">
+    <item nodeId="node-6208">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1796,10 +1797,10 @@ It is now 11:08 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5676"></child>
+        <children><child nodeId="node-6209"></child>
         </children>
     </item>
-    <item nodeId="node-5676">
+    <item nodeId="node-6209">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1807,10 +1808,10 @@ It is now 11:09 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5677"></child>
+        <children><child nodeId="node-6210"></child>
         </children>
     </item>
-    <item nodeId="node-5677">
+    <item nodeId="node-6210">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1818,10 +1819,10 @@ It is now 11:10 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5678"></child>
+        <children><child nodeId="node-6211"></child>
         </children>
     </item>
-    <item nodeId="node-5678">
+    <item nodeId="node-6211">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1829,10 +1830,10 @@ It is now 11:11 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5679"></child>
+        <children><child nodeId="node-6212"></child>
         </children>
     </item>
-    <item nodeId="node-5679">
+    <item nodeId="node-6212">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1840,10 +1841,10 @@ It is now 11:12 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5680"></child>
+        <children><child nodeId="node-6213"></child>
         </children>
     </item>
-    <item nodeId="node-5680">
+    <item nodeId="node-6213">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1851,10 +1852,10 @@ It is now 11:13 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5681"></child>
+        <children><child nodeId="node-6214"></child>
         </children>
     </item>
-    <item nodeId="node-5681">
+    <item nodeId="node-6214">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1862,10 +1863,10 @@ It is now 11:14 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5682"></child>
+        <children><child nodeId="node-6215"></child>
         </children>
     </item>
-    <item nodeId="node-5682">
+    <item nodeId="node-6215">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1873,10 +1874,10 @@ It is now 11:15 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5683"></child>
+        <children><child nodeId="node-6216"></child>
         </children>
     </item>
-    <item nodeId="node-5683">
+    <item nodeId="node-6216">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1884,10 +1885,10 @@ It is now 11:16 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5684"></child>
+        <children><child nodeId="node-6217"></child>
         </children>
     </item>
-    <item nodeId="node-5684">
+    <item nodeId="node-6217">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1895,10 +1896,10 @@ It is now 11:17 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5685"></child>
+        <children><child nodeId="node-6218"></child>
         </children>
     </item>
-    <item nodeId="node-5685">
+    <item nodeId="node-6218">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1906,10 +1907,10 @@ It is now 11:18 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5686"></child>
+        <children><child nodeId="node-6219"></child>
         </children>
     </item>
-    <item nodeId="node-5686">
+    <item nodeId="node-6219">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1917,10 +1918,10 @@ It is now 11:19 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5687"></child>
+        <children><child nodeId="node-6220"></child>
         </children>
     </item>
-    <item nodeId="node-5687">
+    <item nodeId="node-6220">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1928,10 +1929,10 @@ It is now 11:20 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5688"></child>
+        <children><child nodeId="node-6221"></child>
         </children>
     </item>
-    <item nodeId="node-5688">
+    <item nodeId="node-6221">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1939,10 +1940,10 @@ It is now 11:21 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5689"></child>
+        <children><child nodeId="node-6222"></child>
         </children>
     </item>
-    <item nodeId="node-5689">
+    <item nodeId="node-6222">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1950,10 +1951,10 @@ It is now 11:22 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5690"></child>
+        <children><child nodeId="node-6223"></child>
         </children>
     </item>
-    <item nodeId="node-5690">
+    <item nodeId="node-6223">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1961,10 +1962,10 @@ It is now 11:23 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5691"></child>
+        <children><child nodeId="node-6224"></child>
         </children>
     </item>
-    <item nodeId="node-5691">
+    <item nodeId="node-6224">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1972,10 +1973,10 @@ It is now 11:24 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5692"></child>
+        <children><child nodeId="node-6225"></child>
         </children>
     </item>
-    <item nodeId="node-5692">
+    <item nodeId="node-6225">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1983,10 +1984,10 @@ It is now 11:25 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5693"></child>
+        <children><child nodeId="node-6226"></child>
         </children>
     </item>
-    <item nodeId="node-5693">
+    <item nodeId="node-6226">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -1994,10 +1995,10 @@ It is now 11:26 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5694"></child>
+        <children><child nodeId="node-6227"></child>
         </children>
     </item>
-    <item nodeId="node-5694">
+    <item nodeId="node-6227">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2005,10 +2006,10 @@ It is now 11:27 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5695"></child>
+        <children><child nodeId="node-6228"></child>
         </children>
     </item>
-    <item nodeId="node-5695">
+    <item nodeId="node-6228">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2016,10 +2017,10 @@ It is now 11:28 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5696"></child>
+        <children><child nodeId="node-6229"></child>
         </children>
     </item>
-    <item nodeId="node-5696">
+    <item nodeId="node-6229">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2027,10 +2028,10 @@ It is now 11:29 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5697"></child>
+        <children><child nodeId="node-6230"></child>
         </children>
     </item>
-    <item nodeId="node-5697">
+    <item nodeId="node-6230">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2038,10 +2039,10 @@ It is now 11:30 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5698"></child>
+        <children><child nodeId="node-6231"></child>
         </children>
     </item>
-    <item nodeId="node-5698">
+    <item nodeId="node-6231">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2049,10 +2050,10 @@ It is now 11:31 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5699"></child>
+        <children><child nodeId="node-6232"></child>
         </children>
     </item>
-    <item nodeId="node-5699">
+    <item nodeId="node-6232">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2060,10 +2061,10 @@ It is now 11:32 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5700"></child>
+        <children><child nodeId="node-6233"></child>
         </children>
     </item>
-    <item nodeId="node-5700">
+    <item nodeId="node-6233">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2071,10 +2072,10 @@ It is now 11:33 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5701"></child>
+        <children><child nodeId="node-6234"></child>
         </children>
     </item>
-    <item nodeId="node-5701">
+    <item nodeId="node-6234">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2082,10 +2083,10 @@ It is now 11:34 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5702"></child>
+        <children><child nodeId="node-6235"></child>
         </children>
     </item>
-    <item nodeId="node-5702">
+    <item nodeId="node-6235">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2093,10 +2094,10 @@ It is now 11:35 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5703"></child>
+        <children><child nodeId="node-6236"></child>
         </children>
     </item>
-    <item nodeId="node-5703">
+    <item nodeId="node-6236">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2104,10 +2105,10 @@ It is now 11:36 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5704"></child>
+        <children><child nodeId="node-6237"></child>
         </children>
     </item>
-    <item nodeId="node-5704">
+    <item nodeId="node-6237">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2115,10 +2116,10 @@ It is now 11:37 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5705"></child>
+        <children><child nodeId="node-6238"></child>
         </children>
     </item>
-    <item nodeId="node-5705">
+    <item nodeId="node-6238">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2126,10 +2127,10 @@ It is now 11:38 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5706"></child>
+        <children><child nodeId="node-6239"></child>
         </children>
     </item>
-    <item nodeId="node-5706">
+    <item nodeId="node-6239">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2137,10 +2138,10 @@ It is now 11:39 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5707"></child>
+        <children><child nodeId="node-6240"></child>
         </children>
     </item>
-    <item nodeId="node-5707">
+    <item nodeId="node-6240">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2148,10 +2149,10 @@ It is now 11:40 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5708"></child>
+        <children><child nodeId="node-6241"></child>
         </children>
     </item>
-    <item nodeId="node-5708">
+    <item nodeId="node-6241">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2159,10 +2160,10 @@ It is now 11:41 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5709"></child>
+        <children><child nodeId="node-6242"></child>
         </children>
     </item>
-    <item nodeId="node-5709">
+    <item nodeId="node-6242">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2170,10 +2171,10 @@ It is now 11:42 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5710"></child>
+        <children><child nodeId="node-6243"></child>
         </children>
     </item>
-    <item nodeId="node-5710">
+    <item nodeId="node-6243">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2181,10 +2182,10 @@ It is now 11:43 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5711"></child>
+        <children><child nodeId="node-6244"></child>
         </children>
     </item>
-    <item nodeId="node-5711">
+    <item nodeId="node-6244">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2192,10 +2193,10 @@ It is now 11:44 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5712"></child>
+        <children><child nodeId="node-6245"></child>
         </children>
     </item>
-    <item nodeId="node-5712">
+    <item nodeId="node-6245">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2203,10 +2204,10 @@ It is now 11:45 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5713"></child>
+        <children><child nodeId="node-6246"></child>
         </children>
     </item>
-    <item nodeId="node-5713">
+    <item nodeId="node-6246">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2214,10 +2215,10 @@ It is now 11:46 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5916"></child>
+        <children><child nodeId="node-6247"></child>
         </children>
     </item>
-    <item nodeId="node-5916">
+    <item nodeId="node-6247">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2225,10 +2226,10 @@ It is now 11:47 am. Wait until 6:41 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5917"></child>
+        <children><child nodeId="node-6248"></child>
         </children>
     </item>
-    <item nodeId="node-5917">
+    <item nodeId="node-6248">
         <command xml:space="preserve">wait</command>
         <result xml:space="preserve">Time passes.
 
@@ -2237,7 +2238,7 @@ It is now 11:48 am. Wait until 6:41 am, though.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-5918">
+    <item nodeId="node-6249">
         <command xml:space="preserve">go to rivendell</command>
         <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
@@ -2248,10 +2249,10 @@ It is now 9:01 am. Wait until Elf Council begins little bit from now.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5922"></child>
+        <children><child nodeId="node-6250"></child>
         </children>
     </item>
-    <item nodeId="node-5922">
+    <item nodeId="node-6250">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2259,10 +2260,10 @@ It is now 9:02 am. Wait until Elf Council begins little bit from now.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5923"></child>
+        <children><child nodeId="node-6251"></child>
         </children>
     </item>
-    <item nodeId="node-5923">
+    <item nodeId="node-6251">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2270,10 +2271,10 @@ It is now 9:03 am. Wait until Elf Council begins little bit from now.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5924"></child>
+        <children><child nodeId="node-6252"></child>
         </children>
     </item>
-    <item nodeId="node-5924">
+    <item nodeId="node-6252">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2283,10 +2284,10 @@ Council starts now!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5925"></child>
+        <children><child nodeId="node-6253"></child>
         </children>
     </item>
-    <item nodeId="node-5925">
+    <item nodeId="node-6253">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2294,10 +2295,10 @@ It is now 9:05 am. Wait until Elf Council begins at 7 minutes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5926"></child>
+        <children><child nodeId="node-6254"></child>
         </children>
     </item>
-    <item nodeId="node-5926">
+    <item nodeId="node-6254">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2305,10 +2306,10 @@ It is now 9:06 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5927"></child>
+        <children><child nodeId="node-6255"></child>
         </children>
     </item>
-    <item nodeId="node-5927">
+    <item nodeId="node-6255">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2316,10 +2317,10 @@ It is now 9:07 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5928"></child>
+        <children><child nodeId="node-6256"></child>
         </children>
     </item>
-    <item nodeId="node-5928">
+    <item nodeId="node-6256">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2327,10 +2328,10 @@ It is now 9:08 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5929"></child>
+        <children><child nodeId="node-6257"></child>
         </children>
     </item>
-    <item nodeId="node-5929">
+    <item nodeId="node-6257">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2338,10 +2339,10 @@ It is now 9:09 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5930"></child>
+        <children><child nodeId="node-6258"></child>
         </children>
     </item>
-    <item nodeId="node-5930">
+    <item nodeId="node-6258">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2349,10 +2350,10 @@ It is now 9:10 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5931"></child>
+        <children><child nodeId="node-6259"></child>
         </children>
     </item>
-    <item nodeId="node-5931">
+    <item nodeId="node-6259">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2360,10 +2361,10 @@ It is now 9:11 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5932"></child>
+        <children><child nodeId="node-6260"></child>
         </children>
     </item>
-    <item nodeId="node-5932">
+    <item nodeId="node-6260">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2371,10 +2372,10 @@ It is now 9:12 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5933"></child>
+        <children><child nodeId="node-6261"></child>
         </children>
     </item>
-    <item nodeId="node-5933">
+    <item nodeId="node-6261">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2382,10 +2383,10 @@ It is now 9:13 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5934"></child>
+        <children><child nodeId="node-6262"></child>
         </children>
     </item>
-    <item nodeId="node-5934">
+    <item nodeId="node-6262">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2393,10 +2394,10 @@ It is now 9:14 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5935"></child>
+        <children><child nodeId="node-6263"></child>
         </children>
     </item>
-    <item nodeId="node-5935">
+    <item nodeId="node-6263">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2404,10 +2405,10 @@ It is now 9:15 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5936"></child>
+        <children><child nodeId="node-6264"></child>
         </children>
     </item>
-    <item nodeId="node-5936">
+    <item nodeId="node-6264">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2418,16 +2419,16 @@ wombat!
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-5953">
+    <item nodeId="node-6265">
         <command xml:space="preserve">go to revendell</command>
         <result xml:space="preserve">That noun did not make sense in this context.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5954"></child>
+        <children><child nodeId="node-6266"></child>
         </children>
     </item>
-    <item nodeId="node-5954">
+    <item nodeId="node-6266">
         <command xml:space="preserve">go to Rivendell</command>
         <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
@@ -2438,10 +2439,10 @@ It is now 9:01 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5955"></child>
+        <children><child nodeId="node-6267"></child>
         </children>
     </item>
-    <item nodeId="node-5955">
+    <item nodeId="node-6267">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2449,10 +2450,10 @@ It is now 9:02 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5956"></child>
+        <children><child nodeId="node-6268"></child>
         </children>
     </item>
-    <item nodeId="node-5956">
+    <item nodeId="node-6268">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2460,10 +2461,10 @@ It is now 9:03 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5957"></child>
+        <children><child nodeId="node-6269"></child>
         </children>
     </item>
-    <item nodeId="node-5957">
+    <item nodeId="node-6269">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2471,10 +2472,10 @@ It is now 9:04 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5958"></child>
+        <children><child nodeId="node-6270"></child>
         </children>
     </item>
-    <item nodeId="node-5958">
+    <item nodeId="node-6270">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2482,10 +2483,10 @@ It is now 9:05 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5959"></child>
+        <children><child nodeId="node-6271"></child>
         </children>
     </item>
-    <item nodeId="node-5959">
+    <item nodeId="node-6271">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2493,10 +2494,10 @@ It is now 9:06 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5960"></child>
+        <children><child nodeId="node-6272"></child>
         </children>
     </item>
-    <item nodeId="node-5960">
+    <item nodeId="node-6272">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2504,10 +2505,10 @@ It is now 9:07 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5961"></child>
+        <children><child nodeId="node-6273"></child>
         </children>
     </item>
-    <item nodeId="node-5961">
+    <item nodeId="node-6273">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2515,10 +2516,10 @@ It is now 9:08 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5962"></child>
+        <children><child nodeId="node-6274"></child>
         </children>
     </item>
-    <item nodeId="node-5962">
+    <item nodeId="node-6274">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2526,10 +2527,10 @@ It is now 9:09 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5963"></child>
+        <children><child nodeId="node-6275"></child>
         </children>
     </item>
-    <item nodeId="node-5963">
+    <item nodeId="node-6275">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2537,10 +2538,10 @@ It is now 9:10 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5964"></child>
+        <children><child nodeId="node-6276"></child>
         </children>
     </item>
-    <item nodeId="node-5964">
+    <item nodeId="node-6276">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2548,10 +2549,10 @@ It is now 9:11 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5965"></child>
+        <children><child nodeId="node-6277"></child>
         </children>
     </item>
-    <item nodeId="node-5965">
+    <item nodeId="node-6277">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2559,10 +2560,10 @@ It is now 9:12 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5966"></child>
+        <children><child nodeId="node-6278"></child>
         </children>
     </item>
-    <item nodeId="node-5966">
+    <item nodeId="node-6278">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2570,10 +2571,10 @@ It is now 9:13 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5967"></child>
+        <children><child nodeId="node-6279"></child>
         </children>
     </item>
-    <item nodeId="node-5967">
+    <item nodeId="node-6279">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2581,10 +2582,10 @@ It is now 9:14 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5968"></child>
+        <children><child nodeId="node-6280"></child>
         </children>
     </item>
-    <item nodeId="node-5968">
+    <item nodeId="node-6280">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -2592,16 +2593,39 @@ It is now 9:15 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-5969"></child>
+        <children><child nodeId="node-6281"></child>
         </children>
     </item>
-    <item nodeId="node-5969">
+    <item nodeId="node-6281">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
 It is now 9:16 am. Wait until Council begins at 9:15.
 
 Council starts now!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-6282">
+        <command xml:space="preserve">go to mount doom</command>
+        <result xml:space="preserve">Mount Doom
+The heat is blistering, suffocating. Somewhere belove you licks of flame run along barren rock and molten lava churns at the mouth of the active volcano.  Even through you smoked out brain you remember that there was something important, something you should do here, a ring maybe? You di not forget the ring somewhere, right? RIGHT?!  
+ This could be the end of your story, the end of your adventure, will there be ships to whisk you away once you throw the ring to the flames of Mount Doom?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-6283"></child>
+        </children>
+    </item>
+    <item nodeId="node-6283">
+        <command xml:space="preserve">go to rivendell</command>
+        <result xml:space="preserve">Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+It is now 9:02 am. Wait until Elf Council begins little bit from now.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
