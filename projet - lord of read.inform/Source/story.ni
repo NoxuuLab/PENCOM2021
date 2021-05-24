@@ -13,15 +13,6 @@ The Shire is west of Rivendell.
 
 Inside from the shire is the Bag End.
 
-Chapter 2 - Scenes
-
-
-	[throwing the ring to volcano]
-	
-Understand "throw [something] into [something]" as throwing it at.	
-
-
-
 Section 2 - Introduction - start
 
 The description of the old room is "Something here calls to you, like a whisper in the wind or the faint rustling of the worn pages of a well-loved book. Around and above you the walls are covered in paint. Scattered scenes chase each other without order or thought, a majestic blue dragon flies over mountain peaks, a great lion roars at the foot of a white castle and on the ceiling someone too small to be a man smiles forlornly, behind him ships ready to sail in the unknown."
@@ -72,6 +63,8 @@ The description of the mithril shirt is "Light to the touch, the strange chain m
 Section 6 - Mount Doom - end
 
 The description of the Mount Doom is "The heat is blistering, suffocating. Somewhere belove you licks of flame run along barren rock and molten lava churns at the mouth of the active volcano. [If the player holds the ring] The ring hisses, dark things, promises of power and greed, it would even implore and beg if it was capable of such a thing. [otherwise] Even through you smoked out brain you remember that there was something important, something you should do here, a ring maybe? You di not forget the ring somewhere, right? RIGHT?! [end if] [line break] This could be the end of your story, the end of your adventure, will there be ships to whisk you away once you throw the ring to the flames of [Mount Doom]?".
+
+The volcano is an open container in Mount Doom.
 
 Chapter 3 - Settings
 
@@ -166,8 +159,6 @@ After asking someone about something:
 					move Sam & Pip to Rivendell;	
 					move the player to Rivendell[, without printing a room description];
 					now The Responses Table of Sam & Pip is Table of Rivendell Sam Responses;
-					the ElfCouncil in 3 minutes from now;
-					now the player is waiting the council;
 				otherwise:
 					say "As you please.";
 			if "[Action entry]" is "get weed":
@@ -211,9 +202,15 @@ Carry out putting:
 Instead of going to a room when the player is waiting the council:
 	say "wait the council !";
 Instead of smoking when the player is waiting the council:
-	say "There is a time for this";
+	say "There is a time for this.";
+	
 
-		
+[THROWING THINGS INTO THE LAVA]
+understand "lava/volcano" or "the lava/the volcano" as the volcano.
+Instead of inserting something into the volcano:
+	say "You throw [the noun] into the lava... you see [it] burning.";
+	now the noun is nowhere;
+
 section 2 - speech mecanism
 
 To copy (first table - a table name) to (second table - a table name):
@@ -248,6 +245,7 @@ Section 3 - Speech Table
 Understand "him/himself" or “them/themselves” or "who/what are you" or "his/their name/origin/capacity" or "his/their life" as "[About]".
 Understand “life” or “the universe” as “[philosophical questions]”. 
 Understand "Sam" or "Sam & Pip" or "Pip" as "[Sam]".
+Understand "weed/pipe-weed/pipe" as "[weed]".
 
 
 Table of Gandalf Responses
@@ -303,7 +301,7 @@ with 2 blank rows.
 
 Table of Sam Topics
 Topic	Response	Index	Action	Result	subtopics	labels
-"pipe-weed"	"Well…we stole, I mean borrowed! We borrowed some from old Dinodas while he was drunk. Would you like some?[line break]"	"pipe-weed"	"get weed"	"Sam & Pip give you some nice pipe-weed."	--	1
+"[weed]"	"Well…we stole, I mean borrowed! We borrowed some from old Dinodas while he was drunk. Would you like some?[line break]"	"pipe-weed"	"get weed"	"Sam & Pip give you some nice pipe-weed."	--	1
 "the quest"	"’Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don’t you think?’[line break] ‘Very serious, Sam…’[line break]. ‘Well, I guess as your friends we should accompany and make sure you don’t get eaten by an orc.’[line break] ‘We are such good friends…where should we start Sam?’[line break] ‘Maybe with the Elves? I think Rivendell lies east of here, should we go there Frodo? I think they could help.’[line break]"	"the quest"	"move to Rivendell by foot"	"The road is long, but Sam & Pip are good company. You share every meal, sing the songs of the Shire when you feel too tired to think and, in the end, you make your way to the elf’s city of Rivendell, where the Elf Council is deliberating on if and how much to help you in your quest.[paragraph break]"	--	1
 
 Table of Rivendell Sam Responses
@@ -360,14 +358,28 @@ After reading the mysterious book:
 	move player to Bag End; 
 	now the player carries the ring.
 	
-section 2 - Rivendell
+section 2 - wait the council at Rivendell
+
+Council is a scene. Council begins when the player is in Rivendell for the first time.
+When Council begins:
+	the ElfCouncil in 3 minutes from now;
+	now the player is waiting the council;
 
 At the time when the ElfCouncil:
 	say "Council starts now!";
 	now the player is not waiting the council;
 
-Section 3 - Go to end
+Section 3 - Go to Mount Doom
 
 Report smoking: 
 	now the noun is nowhere;
 	move the player to the Mount Doom;
+	if the player do not carry the ring:
+		end the story saying "bad answer";
+
+Section 4 - Go to end	
+
+Instead of inserting the ring into the volcano:
+	say "You throw the ring in the voclano tada !";
+	end the story saying "You have reached an impasse, a stalemate";
+	
