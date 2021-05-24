@@ -15,52 +15,6 @@ Inside from the shire is the Bag End.
 
 Chapter 2 - Scenes
 
-Intro is a scene. Intro begins when play begins. Intro ends when Council begins.
-Council is a scene. Council begins when the player is in the Rivendell. [council finish when...add code here ]
-
-[show time when council will starts and count the turns as minutes]
-
-When Council begins: the ElfCouncil in 3 minutes from now.
-Every turn when player is in the Rivendell: 
-	say "It is now [time of day + 1 minute]. Wait until Elf Council begins little bit from now."
-At the time when the ElfCouncil:
-	say "Council starts now!";
-
-
-
-
-[Understand "wait til/till/until/for [an interval]" as waiting until. Waiting until is an action applying to one interval. 
-
-Check waiting until:
-	if location is not regionally in Rivendell, say "[if location is regionally in Rivendell]You're not sure whether time passes or not[else]There's too much at stake to just wait around right now[end if]." instead.
-	
-Check waiting until:
-	if current interval is the interval understood, say "It's [current interval] now." instead.
-	
-Check waiting until:
-	if the interval understood is low tide or the interval understood is high tide, say "You don't know the tides here well enough to be sure when that might be, but you can try waiting for a certain number of hours, or until a certain time of day." instead.
-
-Carry out waiting until:
-	let target time be the time corresponding to the interval understood;
-	try waiting for ( 12:01 AM + the number of minutes between the time of day and target time minutes - 1 minute ) instead.]
-
-
-
-[ Every turn when player is in the Rivendell: 
-	say "It is now [time of day + 1 minute]. Wait until [time understood], though."]	
-[Hanging around until is an action applying to one time.
-Check hanging around until: 
-    if the time of day is the time understood, say "It is [time understood] now!" instead; 
-    if the time of day is after the time understood, say "It is too late for that now." instead.
-Carry out hanging around until: 
-	while the time of day is before the time understood: 
-		follow the turn sequence rules.
-Report hanging around until: 
-    say "You yawn until [time understood]."
-Understand "wait until [time]" as hanging around until.]
-
-[check also this code for waiting https://blue-lacuna.textories.com/source/source_56.html ]
-
 
 	[throwing the ring to volcano]
 	
@@ -122,7 +76,8 @@ The description of the Mount Doom is "The heat is blistering, suffocating. Somew
 Chapter 3 - Settings
 
 A person can be visible or hidden. A person is usually visible.
-A person can be chatting or not. A person is usually not chatting.
+A person can be waiting the council.
+A person can be chatting. A person is usually not chatting.
 A caracter have a table name called the Responses Table. A caracter have a table name called the Seconde Responses Table. A caracter have a list of texts called Answered List.
 
 Section 1 - Actions
@@ -211,6 +166,8 @@ After asking someone about something:
 					move Sam & Pip to Rivendell;	
 					move the player to Rivendell[, without printing a room description];
 					now The Responses Table of Sam & Pip is Table of Rivendell Sam Responses;
+					the ElfCouncil in 3 minutes from now;
+					now the player is waiting the council;
 				otherwise:
 					say "As you please.";
 			if "[Action entry]" is "get weed":
@@ -251,10 +208,10 @@ Carry out putting:
 
 
 [WAITING FOR COUNCIL]
-
-
-
-
+Instead of going to a room when the player is waiting the council:
+	say "wait the council !";
+Instead of smoking when the player is waiting the council:
+	say "There is a time for this";
 
 		
 section 2 - speech mecanism
@@ -402,9 +359,14 @@ After reading the mysterious book:
 	say "You can barely make out a few sentences before words and letters begin to move in concentric swirls. You try to take a step back, but your fingers are stuck to the pages.[line break]WOOOOOSH[line break] A great wind pulls at you and the only thing you can do is scream and scream in terror. You look one last time at the beautiful paintings on the walls and then everything goes black.  [line break] [line break]"; 
 	move player to Bag End; 
 	now the player carries the ring.
+	
+section 2 - Rivendell
 
+At the time when the ElfCouncil:
+	say "Council starts now!";
+	now the player is not waiting the council;
 
-Section 2 - Go to end
+Section 3 - Go to end
 
 Report smoking: 
 	now the noun is nowhere;
