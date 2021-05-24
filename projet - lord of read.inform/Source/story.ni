@@ -1,4 +1,4 @@
-"projet - lord of read" by Simon
+"projet - lord of read" by Simon, Tessa and Marcela
 
 Use American dialect. Use the serial comma.
 
@@ -13,12 +13,64 @@ The Shire is west of Rivendell.
 
 Inside from the shire is the Bag End.
 
-Section 1 - Introduction - start
+Chapter 2 - Scenes
 
-The description of the old room is "Something here calls to you, like a whisper in the wind or the faint rustling of the worn pages of a well-loved book. Around and above you the walls are covered in paint. You can’t seem to remember how you made it here. There are no doors, no way for you to get out, not even a window to suggest where in the world you are." 
+Intro is a scene. Intro begins when play begins. Intro ends when Council begins.
+Council is a scene. Council begins when the player is in the Rivendell. [council finish when...add code here ]
 
-The walls are scenery in the old room. "Scattered painted scenes chase each other without order or thought, a majestic golden eagle flies over mountain peaks, an elf stares hauntingly at a village perched on a waterfall  and on the ceiling someone too small to be a man smiles forlornly, behind him ships ready to sail in the unknown.". 
-Understand "paint" or "paintings" as walls. 
+[show time when council will starts and count the turns as minutes]
+
+When Council begins: the ElfCouncil in 3 minutes from now.
+Every turn when player is in the Rivendell: 
+	say "It is now [time of day + 1 minute]. Wait until Elf Council begins little bit from now."
+At the time when the ElfCouncil:
+	say "Council starts now!";
+
+
+
+
+[Understand "wait til/till/until/for [an interval]" as waiting until. Waiting until is an action applying to one interval. 
+
+Check waiting until:
+	if location is not regionally in Rivendell, say "[if location is regionally in Rivendell]You're not sure whether time passes or not[else]There's too much at stake to just wait around right now[end if]." instead.
+	
+Check waiting until:
+	if current interval is the interval understood, say "It's [current interval] now." instead.
+	
+Check waiting until:
+	if the interval understood is low tide or the interval understood is high tide, say "You don't know the tides here well enough to be sure when that might be, but you can try waiting for a certain number of hours, or until a certain time of day." instead.
+
+Carry out waiting until:
+	let target time be the time corresponding to the interval understood;
+	try waiting for ( 12:01 AM + the number of minutes between the time of day and target time minutes - 1 minute ) instead.]
+
+
+
+[ Every turn when player is in the Rivendell: 
+	say "It is now [time of day + 1 minute]. Wait until [time understood], though."]	
+[Hanging around until is an action applying to one time.
+Check hanging around until: 
+    if the time of day is the time understood, say "It is [time understood] now!" instead; 
+    if the time of day is after the time understood, say "It is too late for that now." instead.
+Carry out hanging around until: 
+	while the time of day is before the time understood: 
+		follow the turn sequence rules.
+Report hanging around until: 
+    say "You yawn until [time understood]."
+Understand "wait until [time]" as hanging around until.]
+
+[check also this code for waiting https://blue-lacuna.textories.com/source/source_56.html ]
+
+
+	[throwing the ring to volcano]
+	
+Understand "throw [something] into [something]" as throwing it at.	
+
+
+
+Section 2 - Introduction - start
+
+The description of the old room is "Something here calls to you, like a whisper in the wind or the faint rustling of the worn pages of a well-loved book. Around and above you the walls are covered in paint. Scattered scenes chase each other without order or thought, a majestic blue dragon flies over mountain peaks, a great lion roars at the foot of a white castle and on the ceiling someone too small to be a man smiles forlornly, behind him ships ready to sail in the unknown."
 
 A book is a kind of thing. A book has a text called the quote. A book can be known or unknown. A book is usually unknown. 
 
@@ -37,15 +89,12 @@ Pipe-weed is a thing. "This, this is...very high quality. From the smell alone y
 
 A caracter is a kind of person. Gandalf and Sam & Pip are caracter in the shire.
 
-Section 2 - Bag End
+Section 4 - Bag End
 
 The description of Bag End is "You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself. Outside you can hear the laughter of children and the chirping of birds.".
-A little table, a trunk, a cupboard and a cushy armchair are in Bag End.
+A little table, a trunk and a cupboard are in the Bag End.
 The trunk is openable and closed. The description of the trunk is "An old and heavy thing, on which the name BAGGINS is roughly carved.". 
 The green book is a book on the little table. The map is a book on the little table.
-The cupboard is openable and closed. A loaf of bread, an apple and a peach are in the cupboard. A loaf of bread, an apple and a peach are edible things. 
-The cushy armchiar is an enterable supporter. The cushy armchair is not portable. It is pushable between rooms.
-
 
 The description of the green book is "As green as fine summery grass, the title of the book stands boldly on its front '[italic type]Surviving Your First High and Other Ways to Have the Best Time of Your Life With Weed[roman type]'."
 The quote of the green book is "[if the green book is unknown]You open [the noun] at a random page.[otherwise]You open [the noun] at the page you previously earmarked.[end if][paragraph break][italic type]This is the story of the fellow from out of time and space [paragraph break]There was, once upon a time,[line break]a young lost fellow without dime.[line break]Taken by a book, he said[line break]but the hobbits just thought him mad.[line break]He looked around, and he went east,[line break]then west, then back, then flew on a great beast.[line break]For the life of him he could not remember,[line break]how he came to be or if it was July or December.[line break]He spoke with many, fought with few, [line break]but in the end, he decided to just enjoy the view.[line break] He rolled his weed, sat on a chair,[line break]took out his pipe and smoked without flair.[paragraph break]Here ends the story of the young fellow,[line break]he sure must have been relaxed and mellow,[line break]because soon he disappeared [line break]leaving behind not even a hair of beard,[line break]without a first breakfast, a second or a third;[line break]whispers say that he returned to his place of birth. [line break]But alas, no hobbit ever saw the fellow again,[line break]and so, with the best weed and the pipe most plain,[line break]they sometimes meet, under the summery sun,[line break]to enjoy a good smoke and pun,[line break]in honor of the fellow,[line break]who decided to stay mellow,[line break]despite being lost, and alone,[line break]adventurous and a bit injury prone. [paragraph break]The one that smoked and then was just gone.[roman type][paragraph break][if the noun is unknown]You earmark the page and close the book, baffled.[otherwise]You mumble the rhymes to yourself a couple of times and then close [the noun].[end if][line break]".
@@ -55,7 +104,7 @@ The quote of the map is "Incredibly detailed, it is signed by one of your ancest
 A pipe and a bag of money are in the trunk.
 The description of the pipe is "A true hobbit [pipe]. Long, carved from wood, with glinting, leafy decorations on the bowl and the shank. You can almost hear Bilbo's voice in your head saying [italic type] No simple tobacco shall be smoked in my [pipe] Frodo. It was carved and created specifically for weed and [bold type] only [italic type] weed[roman type]."
 
-Section 4 - Rivendell
+Section 5 - Rivendell
 
 The description of Rivendell is "At the edge of a narrow gorge, the peaceful elven town of [Rivendell] seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.". 
 The Elf Lord is a caracter in Rivendell.
@@ -64,7 +113,9 @@ An old sword and the mithril shirt are on the pedestal.
 The description of the old sword is "A beautiful thing that would look extremely well tied around your hip. On the blade there is an inscription in what you assume to be elvish, maybe [Gandalf] would know how to translate it?". 
 The description of the mithril shirt is "Light to the touch, the strange chain mail shines softly. You don't know much about this stuff, but it must be special, or at the very least worth a pretty coin."
 
-Section 5 - Mount Doom - end
+
+
+Section 6 - Mount Doom - end
 
 The description of the Mount Doom is "The heat is blistering, suffocating. Somewhere belove you licks of flame run along barren rock and molten lava churns at the mouth of the active volcano. [If the player holds the ring] The ring hisses, dark things, promises of power and greed, it would even implore and beg if it was capable of such a thing. [otherwise] Even through you smoked out brain you remember that there was something important, something you should do here, a ring maybe? You di not forget the ring somewhere, right? RIGHT?! [end if] [line break] This could be the end of your story, the end of your adventure, will there be ships to whisk you away once you throw the ring to the flames of [Mount Doom]?".
 
@@ -95,14 +146,8 @@ something you might have tried in high school."
 Check smoking when the pipe is not held: instead say "How do you plane to doing it... with your hand ? A pipe may be a good idea."
 
 Carry out smoking: say "You light [the noun] with your lighter and inhale
-deeply. You can almost feel the air moving inside your lungs, [the noun] sinking deep in your blood and your brain. Life is such a strange and wonderous thing and what matters if you’re stuck inside a version of Lord of the Rings where everyone treats you like an idiot? You know how this story begins and ends, if you could just turn to one of the last chapters, you could show them, show them all how the story of Frodo Baggins should have ended. You can see the pages in your mind, you turn and turn and turn them…and you find yourself teleported to Mount Doom!"
+deeply. And you find yourself teleported to Mount Doom!"
 
-[Eating]
-Check eating when the noun is edible: 
-	if the noun is a loaf of bread: 
-		say "Such a thick and crunchy crust! You cannot resist and eat the whole thing in three gigantic bites."; 
-	otherwise: 
-		say "You eat [the noun] with gusto."
 
 [DEPLACEMENT]
 teleporting is an action applying to one thing.
@@ -203,6 +248,14 @@ Carry out putting:
 		say "A wierd feeling is on you, your vision isn't the same, what happend ?";
 	otherwise:
 		say "Yeah, that better like this.";
+
+
+[WAITING FOR COUNCIL]
+
+
+
+
+
 		
 section 2 - speech mecanism
 
@@ -242,12 +295,12 @@ Understand "Sam" or "Sam & Pip" or "Pip" as "[Sam]".
 
 Table of Gandalf Responses
 Topic	Response	Index	Action	Result	subtopics	labels
-"me"	"'Sir, who I am ?'[line break]'Did you smoke something? Are you alright? Is this some sort of test? You are Frodo Baggins, of course, hobbit of the Shire.'[line break]"	"you"	--	--	Table of Gandalf Topics	0
+"me"	"'Sire, who I am ?'... Did you smoke something? Are you alright? Is this some sort of test? You are Frodo Baggins, of course, hobbit of the Shire.[line break]"	"you"	--	--	Table of Gandalf Topics	0
 with 5 blank rows.
 
 Table of Gandalf Topics
 Topic	Response	Index	Action	Result	subtopics	labels
-"[About]"	"I am Gandalf the Grey. I was sent to Middle Earth to help destroy the ring that you now hold. I am an [italic type]Istar[roman type], a wizard of old.[line break]"	"him"	--	--	--	1
+"[About]"	"I am Gandalf the Grey. I was sent to Middle Earth to help destroy the ring that you now hold. I am an [italic type]Istar [bold type], a wizard of old.[line break]"	"him"	--	--	--	1
 “the weather”	"A lovely summery day, Frodo. The shadows of war are far but getting closer, soon even the Shire will know the end of its peace.[line break]"	"the weather"	--	--	--	1
 "[philosophical questions]"	"You shall not distract yourself with nonsensical and philosophical questions. If you are here to waste my time, go read a book.[line break]"	"life"	--	--	Table of Gandalf Clues	1
 
@@ -266,9 +319,9 @@ Topic	Response	Index	Action	Result	subtopics	labels
 Table of Rivendell Gandalf Responses
 Topic	Response	Index	Action	Result	subtopics	labels
 "me"	"Never in my life have I seen someone look so green. I brought you to Rivendell before you threw up on poor Mildred, she was not happy.[line break]"	"me"	--	--	--	0
-"Rivendell"	"A beautiful town built by the elves. You should be able to rest and recuperate here.[line break]"	"Rivendell[line break]"	--	--	--	0
+"Rivendell"	"A beautiful town built by the elves. You should be able to rest and recuperate here."	"Rivendell[line break]"	--	--	--	0
 "Mildred"	"The young Eagle took you as far as Rivendell but she refused to allow you on her back ever again. I am afraid that you should find another way to continue on your quest.[line break]"	"Mildred"	--	--	--	0
-"the quest"	"The Elf Council is in session. I think you should wait and hear what they have to say.[line break]"	"the quest"	--	--	Table of Rivendell Gandalf Council Topics	0
+"the quest"	"The Elf Council is still in session. I think you should wait and hear what they have to say.[line break]"	"the quest"	--	--	Table of Rivendell Gandalf Council Topics	0
 with 2 blank rows.
 
 Table of Rivendell Gandalf Council Topics
@@ -315,9 +368,9 @@ The Seconde Responses Table of Sam & Pip is Table of Seconde Sam Responses.
 
 Table of Elf Responses
 Topic	Response	Index	Action	Result	subtopics	labels
-"[About]"	"I am Elrond, Elf Lord of Rivendell.[line break]"	"him"	--	--	Table of Elf Topics	0
-"[Sam]"	"[if Sam & Pip are in Rivendell] You speak of the two brave hobbits ho accompanied you here? I think they are resting somewhere in the palace; our people enjoy their company very much. [otherwise] I do not know what a[italic type] Sam[roman type] and[italic type] Pip[roman type] are… [end if][line break]"	"Sam & Pip"	--	--	--	0
-"Gandalf"	"[if Gandalf is in Rivendell]The old fool should be here about…just look for the pointy hat amidst all the luscious hair of the elves and you shall find him. [otherwise] The wizard? How did you come to know him? He is always welcome in Rivendell. [end if][line break]"	"Gandalf"	--	--	--	0
+"[About]"	"I am Elrond, Elf Lord of Rivendell. "	"him"	--	--	Table of Elf Topics	0
+"[Sam]"	"[if Sam & Pip are in Rivendell] You speak of the two brave hobbits ho accompanied you here? I think they are resting somewhere in the palace; our people enjoy their company very much. [otherwise] I do not know what a [italic type] Sam [roman type] and [italic type] Pip [roman type] are… [end if][line break]"	"Sam & Pip"	--	--	--	0
+"Gandalf"	"[if Gandalf is in Rivendell] The old fool should be here about…just look for the pointy hat amidst all the luscious hair of the elves and you shall find him. [otherwise] The wizard? How did you come to know him? He is always welcome in Rivendell. [end if][line break]"	"Gandalf"	--	--	--	0
 with 3 blank rows.
 
 Table of Elf Topics
@@ -329,7 +382,7 @@ Topic	Response	Index	Action	Result	subtopics	labels
 Table of Elf Quest Topic
 Topic	Response	Index	Action	Result	subtopics	labels
 "The quest"	"The Elf Council shall decide if you are fit or not to continue…probably not.[line break]"	"the quest"	--	--	--	2
-"The ring"	"[if player holds the ring] Still tied around your neck I believe, for how long however I do not know. [otherwise]Did you lose one of the most powerful artifacts know to Middle-Earth? YOU ARE A DISGRACE! I HOPE THE COUNCIL THROWS YOU IN THE RIVER! [end if][line break]"	"The ring"	--	--	--	2
+"The ring"	"[if player holds the ring] Still tied around your neck I believe, for how long however I do not know. [otherwise] Did you lose one of the most powerful artifacts know to Middle-Earth? YOU ARE A DISGRACE! I HOPE THE COUNCIL THROWS YOU IN THE RIVER! [end if][line break]"	"The ring"	--	--	--	2
 
 Table of Seconde Elf Responses
 Seconde Response
