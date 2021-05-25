@@ -15,7 +15,11 @@ Inside from the shire is the Bag End.
 
 Section 2 - Introduction - start
 
-The description of the old room is "Something here calls to you, like a whisper in the wind or the faint rustling of the worn pages of a well-loved book. Around and above you the walls are covered in paint. Scattered scenes chase each other without order or thought, a majestic blue dragon flies over mountain peaks, a great lion roars at the foot of a white castle and on the ceiling someone too small to be a man smiles forlornly, behind him ships ready to sail in the unknown."
+The description of the old room is "Something here calls to you, like a whisper in the wind or the faint rustling of the worn pages of a well-loved book. Around and above you the walls are covered in paint. You can’t seem to remember how you made it here. There are no doors, no way for you to get out, not even a window to suggest where in the world you are." 
+
+The walls are scenery in the old room. "Scattered painted scenes chase each other without order or thought, a majestic golden eagle flies over mountain peaks, an elf stares hauntingly at a village perched on a waterfall and on the ceiling someone too small to be a man smiles forlornly, behind him ships ready to sail in the unknown.". 
+Understand "paint" or "paintings" as walls. 
+
 
 A book is a kind of thing. A book has a text called the quote. A book can be known or unknown. A book is usually unknown. 
 
@@ -28,32 +32,34 @@ Understand "The Fellowship of the Ring" or "Fellowship of the Ring" as book.
 
 Section 3 - The Shire
 
-The description of the Shire is "Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun.[if Gandalf is in The Shire] [Gandalf] towers above all even while sitting on his favorite chair.[end if][if Sam & Pip are in The Shire] You can see [Sam & Pip] lounging on the grass.[end if][if there is no caracter in The Shire] Your friends must be in some other places at the moment.[end if]".
+The description of the Shire is "Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun.[if Gandalf is in The Shire] [Gandalf] towers above all even while sitting on his favorite chair.[end if][if Sam & Pip are in The Shire] You can see [Sam & Pip] lounging on the grass.[end if][if there is no character in The Shire] Your friends must be in some other places at the moment.[end if]".
 The Ring is a thing. "A simple band of gold, when heated it reveals a script in Elvish runes. You can feel a dark power emanating from it.".
 Pipe-weed is a thing. "This, this is...very high quality. From the smell alone you can tell that if smoked, this unassuming clump of greenery may very well gift you the high of a lifetime.". Understand "weed" as pipe-weed.
 
-A caracter is a kind of person. Gandalf and Sam & Pip are caracter in the shire.
+A character is a kind of person. Gandalf and Sam & Pip are character in the shire.
 
 Section 4 - Bag End
 
 The description of Bag End is "You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself. Outside you can hear the laughter of children and the chirping of birds.".
-A little table, a trunk and a cupboard are in the Bag End.
+A little table, a trunk, a cupboard and a cushy armchair are in Bag End.
 The trunk is openable and closed. The description of the trunk is "An old and heavy thing, on which the name BAGGINS is roughly carved.". 
 The green book is a book on the little table. The map is a book on the little table.
+The cupboard is openable and closed. A loaf of bread, an apple and a peach are in the cupboard. A loaf of bread, an apple and a peach are edible things. 
+The cushy armchair is an enterable supporter. The cushy armchair is not portable. It is pushable between rooms.
 
 The description of the green book is "As green as fine summery grass, the title of the book stands boldly on its front '[italic type]Surviving Your First High and Other Ways to Have the Best Time of Your Life With Weed[roman type]'."
 The quote of the green book is "[if the green book is unknown]You open [the noun] at a random page.[otherwise]You open [the noun] at the page you previously earmarked.[end if][paragraph break][italic type]This is the story of the fellow from out of time and space [paragraph break]There was, once upon a time,[line break]a young lost fellow without dime.[line break]Taken by a book, he said[line break]but the hobbits just thought him mad.[line break]He looked around, and he went east,[line break]then west, then back, then flew on a great beast.[line break]For the life of him he could not remember,[line break]how he came to be or if it was July or December.[line break]He spoke with many, fought with few, [line break]but in the end, he decided to just enjoy the view.[line break] He rolled his weed, sat on a chair,[line break]took out his pipe and smoked without flair.[paragraph break]Here ends the story of the young fellow,[line break]he sure must have been relaxed and mellow,[line break]because soon he disappeared [line break]leaving behind not even a hair of beard,[line break]without a first breakfast, a second or a third;[line break]whispers say that he returned to his place of birth. [line break]But alas, no hobbit ever saw the fellow again,[line break]and so, with the best weed and the pipe most plain,[line break]they sometimes meet, under the summery sun,[line break]to enjoy a good smoke and pun,[line break]in honor of the fellow,[line break]who decided to stay mellow,[line break]despite being lost, and alone,[line break]adventurous and a bit injury prone. [paragraph break]The one that smoked and then was just gone.[roman type][paragraph break][if the noun is unknown]You earmark the page and close the book, baffled.[otherwise]You mumble the rhymes to yourself a couple of times and then close [the noun].[end if][line break]".
 The description of the map is "Pretty old, it was probably drawn by hand. You are not an expert, but you should be able to read it.".
-The quote of the map is "Incredibly detailed, it is signed by one of your ancestors. Bag End stands proudly (if a bit larger than the scale would allow), in the middle of the Shire. To the east you can see great mountains and the city of Rinvendell and in the south, encased in a smudge of black ink, there is Mount Doom. [line break]". 
+The quote of the map is "Incredibly detailed, it is signed by one of your ancestors. Bag End stands proudly (if a bit larger than the scale would allow), in the middle of the Shire. To the east you can see great mountains and the city of Rivendell and in the south, encased in a smudge of black ink, there is Mount Doom. [line break]". 
 
 A pipe and a bag of money are in the trunk.
-The description of the pipe is "A true hobbit [pipe]. Long, carved from wood, with glinting, leafy decorations on the bowl and the shank. You can almost hear Bilbo's voice in your head saying [italic type] No simple tobacco shall be smoked in my [pipe] Frodo. It was carved and created specifically for weed and [bold type] only [italic type] weed[roman type]."
+The description of the pipe is "A true hobbit [pipe]. Long, carved from wood, with glinting, leafy decorations on the bowl and the shank. You can almost hear Bilbo's voice in your head saying '[italic type]No simple tobacco shall be smoked in my [pipe] Frodo. It was carved and created specifically for weed and [bold type]only [italic type]weed[roman type]'."
 
 Section 5 - Rivendell
 
 The description of Rivendell is "At the edge of a narrow gorge, the peaceful elven town of [Rivendell] seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.". 
-The Elf Lord is a caracter in Rivendell.
-The pedestal is a supporter in rivendell.
+The Elf Lord is a character in Rivendell.
+The pedestal is a supporter in Rivendell.
 An old sword and the mithril shirt are on the pedestal.
 The description of the old sword is "A beautiful thing that would look extremely well tied around your hip. On the blade there is an inscription in what you assume to be elvish, maybe [Gandalf] would know how to translate it?". 
 The description of the mithril shirt is "Light to the touch, the strange chain mail shines softly. You don't know much about this stuff, but it must be special, or at the very least worth a pretty coin."
@@ -71,7 +77,7 @@ Chapter 3 - Settings
 A person can be visible or hidden. A person is usually visible.
 A person can be waiting the council.
 A person can be chatting. A person is usually not chatting.
-A caracter have a table name called the Responses Table. A caracter have a table name called the Seconde Responses Table. A caracter have a list of texts called Answered List.
+A character have a table name called the Responses Table. A character have a table name called the Seconde Responses Table. A character have a list of texts called Answered List.
 
 Section 1 - Actions
 
@@ -91,10 +97,17 @@ Understand "smoke [something]" as smoking.
 Check smoking when the noun is not pipe-weed: instead say "Sounds like
 something you might have tried in high school."
 
-Check smoking when the pipe is not held: instead say "How do you plane to doing it... with your hand ? A pipe may be a good idea."
+Check smoking when the pipe is not held: instead say "How do you plane on doing it... with your hands? A pipe may be a good idea."
 
 Carry out smoking: say "You light [the noun] with your lighter and inhale
-deeply. And you find yourself teleported to Mount Doom!"
+deeply. You can almost feel the air moving inside your lungs, [the noun] sinking deep in your blood and your brain. Life is such a strange and wonderous thing and what matters if you’re stuck inside a version of [italic type]Lord of the Rings[roman type] where everyone treats you like an idiot? You know how this story begins and ends, if you could just turn to one of the last chapters, you could show them, show them all how the story of Frodo Baggins should have gone. You can see the pages in your mind, you turn and turn and turn them…and you find yourself teleported to Mount Doom!".
+
+[EATING]
+Check eating when the noun is edible: 
+	if the noun is a loaf of bread: 
+		say "Such a thick and crunchy crust! You cannot resist and eat the whole thing in three gigantic bites."; 
+	otherwise: 
+		say "You eat [the noun] with gusto.".
 
 
 [DEPLACEMENT]
@@ -180,20 +193,20 @@ After asking someone about something:
 			say "I d'ont see what you mean, sorry.";
 	now the player is not chatting;
 				
-[PUTTING THE RINGS!]
-Putting is an action applying to one carried thing. Understand "put [something]" or "put on [something]" as putting.
+[PUTTING ON THE RINGS!]
+Putting is an action applying to one carried thing. Understand "put [something]" or "put on [something]" or "put [something] on" as putting.
 Before putting something which is not carried by the player:
 		silently try taking the noun;
 		if the player is not holding the noun, stop the action;
 		say "You take [the noun] but...";
 Check putting:
-	if the noun is not the ring, say "... [it] won't fit on you. Where do you want to put [it] ?" instead;
+	if the noun is not the ring, say "... [it] won't fit on you. Where do you want to put [it]?" instead;
 Carry out putting:
-	say "You have a bad feeling about this ring. Are you really sure you want to do that ?";
+	say "You have a bad feeling about this ring. Are you really sure you want to do that?";
 	if player consents:
 		say "you slowly put the ring on your finger, with this bad feeling...";
 		now the player is hidden;
-		say "A wierd feeling is on you, your vision isn't the same, what happend ?";
+		say "A wierd feeling is on you, your vision isn't the same, what happend?";
 	otherwise:
 		say "Yeah, that better like this.";
 
@@ -211,7 +224,7 @@ Instead of inserting something into the volcano:
 	say "You throw [the noun] into the lava... you see [it] burning.";
 	now the noun is nowhere;
 
-section 2 - speech mecanism
+Section 2 - speech mechanism
 
 To copy (first table - a table name) to (second table - a table name):
 	repeat through first table:
@@ -255,7 +268,7 @@ with 5 blank rows.
 
 Table of Gandalf Topics
 Topic	Response	Index	Action	Result	subtopics	labels
-"[About]"	"I am Gandalf the Grey. I was sent to Middle Earth to help destroy the ring that you now hold. I am an [italic type]Istar [bold type], a wizard of old.[line break]"	"him"	--	--	--	1
+"[About]"	"I am Gandalf the Grey. I was sent to Middle Earth to help destroy the ring that you now hold. I am an [italic type]Istar[bold type], a wizard of old.[line break]"	"him"	--	--	--	1
 “the weather”	"A lovely summery day, Frodo. The shadows of war are far but getting closer, soon even the Shire will know the end of its peace.[line break]"	"the weather"	--	--	--	1
 "[philosophical questions]"	"You shall not distract yourself with nonsensical and philosophical questions. If you are here to waste my time, go read a book.[line break]"	"life"	--	--	Table of Gandalf Clues	1
 
@@ -354,7 +367,7 @@ Chapter 4 - Scenario
 Section 1 - Introduction
 
 After reading the mysterious book: 
-	say "You can barely make out a few sentences before words and letters begin to move in concentric swirls. You try to take a step back, but your fingers are stuck to the pages.[line break]WOOOOOSH[line break] A great wind pulls at you and the only thing you can do is scream and scream in terror. You look one last time at the beautiful paintings on the walls and then everything goes black.  [line break] [line break]"; 
+	say "You can barely make out a few sentences before words and letters begin to move in concentric swirls. You try to take a step back, but your fingers are stuck to the pages.[line break]WOOOOOSH[line break] A great wind pulls at you and the only thing you can do is scream and scream in terror. You look one last time at the beautiful paintings on the walls and then everything goes black.[line break][line break]"; 
 	move player to Bag End; 
 	now the player carries the ring.
 	
