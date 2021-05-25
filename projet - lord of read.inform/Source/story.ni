@@ -1,4 +1,4 @@
-"projet - lord of read" by Simon, Tessa and Marcela
+"Project - Lord of the Read" by Simon, Tessa and Marcela
 
 Use American dialect. Use the serial comma.
 
@@ -60,7 +60,7 @@ Section 5 - Rivendell
 The description of Rivendell is "At the edge of a narrow gorge, the peaceful elven town of [Rivendell] seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.". 
 The Elf Lord is a character in Rivendell.
 The pedestal is a supporter in Rivendell.
-An old sword and the mithril shirt are on the pedestal.
+An old sword and the mithril shirt are on the pedestal.The mithril shirt is a wearable thing. 
 The description of the old sword is "A beautiful thing that would look extremely well tied around your hip. On the blade there is an inscription in what you assume to be elvish, maybe [Gandalf] would know how to translate it?". 
 The description of the mithril shirt is "Light to the touch, the strange chain mail shines softly. You don't know much about this stuff, but it must be special, or at the very least worth a pretty coin."
 
@@ -68,7 +68,7 @@ The description of the mithril shirt is "Light to the touch, the strange chain m
 
 Section 6 - Mount Doom - end
 
-The description of the Mount Doom is "The heat is blistering, suffocating. Somewhere belove you licks of flame run along barren rock and molten lava churns at the mouth of the active volcano. [If the player holds the ring] The ring hisses, dark things, promises of power and greed, it would even implore and beg if it was capable of such a thing. [otherwise] Even through you smoked out brain you remember that there was something important, something you should do here, a ring maybe? You di not forget the ring somewhere, right? RIGHT?! [end if] [line break] This could be the end of your story, the end of your adventure, will there be ships to whisk you away once you throw the ring to the flames of [Mount Doom]?".
+The description of the Mount Doom is "The heat is blistering, suffocating. Somewhere belove you licks of flame run along barren rock and molten lava churns at the mouth of the active volcano. [If the player holds the ring] The ring hisses, dark things, promises of power and greed, it would even implore and beg if it was capable of such a thing. This could be the end of your story, the end of your adventure, will there be ships to whisk you away once you throw the ring to the flames of [Mount Doom]?[otherwise] Even through you smoked out brain you remember that there was something important, something you should do here, a ring maybe? You did not forget the ring somewhere, right? RIGHT?! [end if][line break]".
 
 The volcano is an open container in Mount Doom.
 
@@ -97,7 +97,7 @@ Understand "smoke [something]" as smoking.
 Check smoking when the noun is not pipe-weed: instead say "Sounds like
 something you might have tried in high school."
 
-Check smoking when the pipe is not held: instead say "How do you plane on doing it... with your hands? A pipe may be a good idea."
+Check smoking when the pipe is not held: instead say "How do you plan on doing it... with your hands? A pipe may be a good idea."
 
 Carry out smoking: say "You light [the noun] with your lighter and inhale
 deeply. You can almost feel the air moving inside your lungs, [the noun] sinking deep in your blood and your brain. Life is such a strange and wonderous thing and what matters if you’re stuck inside a version of [italic type]Lord of the Rings[roman type] where everyone treats you like an idiot? You know how this story begins and ends, if you could just turn to one of the last chapters, you could show them, show them all how the story of Frodo Baggins should have gone. You can see the pages in your mind, you turn and turn and turn them…and you find yourself teleported to Mount Doom!".
@@ -119,12 +119,12 @@ Carry out teleporting:
 	move the player to the noun[, without printing a room description];
 
 [SAVOIR QUOI DIRE]
-list-asking is an action applying to one thing.
+List-asking is an action applying to one thing.
 Understand "ask [thing]" as list-asking.
 Understand "ask [thing] about" as list-asking.
 
 Check list-asking when the noun is not a person:
-	instead say "You can't ask any questions...".
+	instead say "It’s not [italic type]that[roman type] kind of story. No talking to animals or inanimate objects here.".
 Report list-asking:
 	let T be the Responses Table of the noun;
 	if T is empty:
@@ -145,12 +145,12 @@ To list options from (T - a table name):
 		say "[index in row N of T].".
 
 [DIALOGUER]
-Understand "talk to [someone]" as a mistake ("To start a conversation, you need to use ASK [the noun] ABOUT something. Type 'ask [the noun] (about)' to see the available's topic.").
+Understand "talk to [someone]" as a mistake ("To start a conversation, you need to use ASK [the noun] ABOUT something. Type 'ask [the noun] (about)' to see the available topics.").
 Instead of telling someone about something, try asking the noun about it. Instead of answering the noun that something, try asking the noun about it.
 
 Check asking someone about something:
 	if the player is hidden: 
-		say "you should be visible to talk to someone!" instead;
+		say "You have to be visible to talk to someone!" instead.
 
 After asking someone about something:
 	now current conversation table is the Responses Table of the noun;
@@ -200,29 +200,29 @@ Before putting something which is not carried by the player:
 		if the player is not holding the noun, stop the action;
 		say "You take [the noun] but...";
 Check putting:
-	if the noun is not the ring, say "... [it] won't fit on you. Where do you want to put [it]?" instead;
+	if the noun is not the ring, say "... [it] won't fit on you. Where do you want to put [it]?" instead.
 Carry out putting:
 	say "You have a bad feeling about this ring. Are you really sure you want to do that?";
 	if player consents:
-		say "you slowly put the ring on your finger, with this bad feeling...";
+		say "You slowly put the ring on your finger, wary of the bad feeling.";
 		now the player is hidden;
-		say "A wierd feeling is on you, your vision isn't the same, what happend?";
+		say "This feels weird, you feel weird…your vision isn't the same, what happened?! You lift your hand in front of your eyes but…you can see through it! Are you invisible?!";
 	otherwise:
-		say "Yeah, that better like this.";
+		say "Yeah, it’s better this way.";
 
 
 [WAITING FOR COUNCIL]
 Instead of going to a room when the player is waiting the council:
-	say "wait the council !";
+	say "You should wait for the Council.";
 Instead of smoking when the player is waiting the council:
-	say "There is a time for this.";
+	say "There is a time and a place for smoking. Now is not that time (but it could be the place).".
 	
 
 [THROWING THINGS INTO THE LAVA]
-understand "lava/volcano" or "the lava/the volcano" as the volcano.
+Understand "lava" or "the lava/the volcano" as the volcano.
 Instead of inserting something into the volcano:
-	say "You throw [the noun] into the lava... you see [it] burning.";
-	now the noun is nowhere;
+	say "You throw [the noun] into the lava... you see [it] burning. A little anticlimactic if you ask me.";
+	now the noun is nowhere.
 
 Section 2 - speech mechanism
 
@@ -263,12 +263,12 @@ Understand "weed/pipe-weed/pipe" as "[weed]".
 
 Table of Gandalf Responses
 Topic	Response	Index	Action	Result	subtopics	labels
-"me"	"'Sire, who I am ?'... Did you smoke something? Are you alright? Is this some sort of test? You are Frodo Baggins, of course, hobbit of the Shire.[line break]"	"you"	--	--	Table of Gandalf Topics	0
+"me"	"'Sire, who I am?'... Did you smoke something? Are you alright? Is this some sort of test? You are Frodo Baggins, of course, hobbit of the Shire.[line break]"	"you"	--	--	Table of Gandalf Topics	0
 with 5 blank rows.
 
 Table of Gandalf Topics
 Topic	Response	Index	Action	Result	subtopics	labels
-"[About]"	"I am Gandalf the Grey. I was sent to Middle Earth to help destroy the ring that you now hold. I am an [italic type]Istar[bold type], a wizard of old.[line break]"	"him"	--	--	--	1
+"[About]"	"I am Gandalf the Grey. I was sent to Middle Earth to help destroy the ring that you now hold. I am an [italic type]Istar[roman type], a wizard of old.[line break]"	"him"	--	--	--	1
 “the weather”	"A lovely summery day, Frodo. The shadows of war are far but getting closer, soon even the Shire will know the end of its peace.[line break]"	"the weather"	--	--	--	1
 "[philosophical questions]"	"You shall not distract yourself with nonsensical and philosophical questions. If you are here to waste my time, go read a book.[line break]"	"life"	--	--	Table of Gandalf Clues	1
 
@@ -314,7 +314,7 @@ with 2 blank rows.
 
 Table of Sam Topics
 Topic	Response	Index	Action	Result	subtopics	labels
-"[weed]"	"Well…we stole, I mean borrowed! We borrowed some from old Dinodas while he was drunk. Would you like some?[line break]"	"pipe-weed"	"get weed"	"Sam & Pip give you some nice pipe-weed."	--	1
+"[weed]"	"'Well…we stole, I mean borrowed! We borrowed some from old Dinodas while he was drunk. Would you like some?'[line break]"	"pipe-weed"	"get weed"	"Sam & Pip give you some nice pipe-weed.[line break]"	--	1
 "the quest"	"’Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don’t you think?’[line break] ‘Very serious, Sam…’[line break]. ‘Well, I guess as your friends we should accompany and make sure you don’t get eaten by an orc.’[line break] ‘We are such good friends…where should we start Sam?’[line break] ‘Maybe with the Elves? I think Rivendell lies east of here, should we go there Frodo? I think they could help.’[line break]"	"the quest"	"move to Rivendell by foot"	"The road is long, but Sam & Pip are good company. You share every meal, sing the songs of the Shire when you feel too tired to think and, in the end, you make your way to the elf’s city of Rivendell, where the Elf Council is deliberating on if and how much to help you in your quest.[paragraph break]"	--	1
 
 Table of Rivendell Sam Responses
@@ -371,7 +371,7 @@ After reading the mysterious book:
 	move player to Bag End; 
 	now the player carries the ring.
 	
-section 2 - wait the council at Rivendell
+Section 2 - Wait the council at Rivendell
 
 Council is a scene. Council begins when the player is in Rivendell for the first time.
 When Council begins:
@@ -379,20 +379,20 @@ When Council begins:
 	now the player is waiting the council;
 
 At the time when the ElfCouncil:
-	say "Council starts now!";
-	now the player is not waiting the council;
+	say "A tall lady elf, her hands crossed behind her back, approaches you slowly. Her long dress swishes on the marble pavements. ‘I am Lady Amarië, messenger to Elf Council. Your plea for help in your quest has been discussed at long in the sacred halls of the council, the task of the destruction of the ring is one of great importance to all of Middle-Earth. That said, you are an incredibly weak hobbit Frodo Baggins and we do not think that you will be able to make it to Mount Doom and destroy the ring before Sauron finds you. You are unworthy, we will not help. In a few hundred years, maybe, a brave hobbit will be born to your line, one who will withstand the journey and its perils. In the meantime I advise you to go back to the Shire and enjoy a quiet and peaceful life.’ She turns around and slowly walks away. You would say something but you’re pretty sure your jaw has hit the floor at some point.";
+	now the player is not waiting the council.
 
 Section 3 - Go to Mount Doom
 
 Report smoking: 
 	now the noun is nowhere;
 	move the player to the Mount Doom;
-	if the player do not carry the ring:
-		end the story saying "bad answer";
+	if the player does not carry the ring:
+		end the story saying "[paragraph break]GAME OVER.[paragraph break] You somehow managed to forget the central element to the whole story (which, might we remind you, is called 'The Fellowship of the RING'). We wish to thank you in any case for having played, it has been fun (for us at least).[paragraph break] All the best to you, dear player, and if you want to try again, just remember to not forget the ring. Good luck!";
 
 Section 4 - Go to end	
 
 Instead of inserting the ring into the volcano:
-	say "You throw the ring in the voclano tada !";
-	end the story saying "You have reached an impasse, a stalemate";
+	say "The ring fights you; it thrashes in your fingers, it implores, in its whispered hisses, but you manage to throw it into the lava. You see it slowly melt away in the fires of the volcano. A great weight seems to have lifted from your shoulders.";
+	end the story saying "Despite the blistering and suffocating heat a great wind suddenly picks up. You know this feeling of being pulled in different directions, your hair flipping wildly about. [paragraph break]WOOOOOSH[paragraph break]You find yourself in the old room, the beautiful paintings are still there, as is the book, now closed and resting, unassuming, on the table. One thing is different, though, one thing has changed. There is a door now, a simple wooden door that you open with almost giddy satisfaction. As soon as you are outside you breathe a sigh of relief.[line break]Isn’t this library just beautiful? You came in here looking for your favorite book and you somehow got lost in between the racks. There was a…door? You turn around but all you see is a blank wall and nothing more. Mmh…something at the back of your mind whispers of a great adventure…something, with a book...and smoking? You really cannot remember now. Well, it must not be that important. It’s time to get something to eat anyway. You leave, never looking back, but feeling somewhat satisfied with yourself.".
 	
