@@ -48,7 +48,7 @@ The cupboard is openable and closed. A loaf of bread, an apple and a peach are i
 The cushy armchair is an enterable supporter. The cushy armchair is not portable. It is pushable between rooms.
 
 The description of the green book is "As green as fine summery grass, the title of the book stands boldly on its front '[italic type]Surviving Your First High and Other Ways to Have the Best Time of Your Life With Weed[roman type]'."
-The quote of the green book is "[if the green book is unknown]You open [the noun] at a random page.[otherwise]You open [the noun] at the page you previously earmarked.[end if][paragraph break][italic type]This is the story of the fellow from out of time and space [paragraph break]There was, once upon a time,[line break]a young lost fellow without dime.[line break]Taken by a book, he said[line break]but the hobbits just thought him mad.[line break]He looked around, and he went east,[line break]then west, then back, then flew on a great beast.[line break]For the life of him he could not remember,[line break]how he came to be or if it was July or December.[line break]He spoke with many, fought with few, [line break]but in the end, he decided to just enjoy the view.[line break] He rolled his weed, sat on a chair,[line break]took out his pipe and smoked without flair.[paragraph break]Here ends the story of the young fellow,[line break]he sure must have been relaxed and mellow,[line break]because soon he disappeared [line break]leaving behind not even a hair of beard,[line break]without a first breakfast, a second or a third;[line break]whispers say that he returned to his place of birth. [line break]But alas, no hobbit ever saw the fellow again,[line break]and so, with the best weed and the pipe most plain,[line break]they sometimes meet, under the summery sun,[line break]to enjoy a good smoke and pun,[line break]in honor of the fellow,[line break]who decided to stay mellow,[line break]despite being lost, and alone,[line break]adventurous and a bit injury prone. [paragraph break]The one that smoked and then was just gone.[roman type][paragraph break][if the noun is unknown]You earmark the page and close the book, baffled.[otherwise]You mumble the rhymes to yourself a couple of times and then close [the noun].[end if][line break]".
+The quote of the green book is "[if the green book is unknown]You open [the noun] at a random page.[otherwise]You open [the noun] at the page you previously earmarked.[end if][paragraph break][italic type]This is the story of the fellow from out of time and space [paragraph break]There was, once upon a time,[line break]a young lost fellow without dime.[line break]Taken by a book, he said[line break]but the hobbits just thought him mad.[line break]He looked around, and he went east,[line break]then west, then back, then flew on a great beast.[line break]For the life of him he could not remember,[line break]how he came to be or if it was July or December.[line break]He spoke with many, fought with few, [line break]but in the end, he decided to just enjoy the view.[line break]He rolled his weed, sat on a chair,[line break]took out his pipe and smoked without flair.[paragraph break]Here ends the story of the young fellow,[line break]he sure must have been relaxed and mellow,[line break]because soon he disappeared [line break]leaving behind not even a hair of beard,[line break]without a first breakfast, a second or a third;[line break]whispers say that he returned to his place of birth. [line break]But alas, no hobbit ever saw the fellow again,[line break]and so, with the best weed and the pipe most plain,[line break]they sometimes meet, under the summery sun,[line break]to enjoy a good smoke and pun,[line break]in honor of the fellow,[line break]who decided to stay mellow,[line break]despite being lost, and alone,[line break]adventurous and a bit injury prone. [paragraph break]The one that smoked and then was just gone.[roman type][paragraph break][if the noun is unknown]You earmark the page and close the book, baffled.[otherwise]You mumble the rhymes to yourself a couple of times and then close [the noun].[end if][line break]".
 The description of the map is "Pretty old, it was probably drawn by hand. You are not an expert, but you should be able to read it.".
 The quote of the map is "Incredibly detailed, it is signed by one of your ancestors. Bag End stands proudly (if a bit larger than the scale would allow), in the middle of the Shire. To the east you can see great mountains and the city of Rivendell and in the south, encased in a smudge of black ink, there is Mount Doom. [line break]". 
 
@@ -107,7 +107,7 @@ Check eating when the noun is edible:
 	if the noun is a loaf of bread: 
 		say "Such a thick and crunchy crust! You cannot resist and eat the whole thing in three gigantic bites."; 
 	otherwise: 
-		say "You eat [the noun] with gusto.".
+		say "You eat [the noun] with gusto." instead.
 
 
 [DEPLACEMENT]
@@ -280,7 +280,7 @@ Understand "weed/pipe-weed/pipe" as "[weed]".
 
 Table of Gandalf Responses
 Topic	Response	Index	Action	Result	subtopics	labels
-"me"	"'Sire, who I am?'... Did you smoke something? Are you alright? Is this some sort of test? You are Frodo Baggins, of course, hobbit of the Shire.[line break]"	"you"	--	--	Table of Gandalf Topics	0
+"me"	"'Sir, who I am?'... Did you smoke something? Are you alright? Is this some sort of test? You are Frodo Baggins, of course, hobbit of the Shire.[line break]"	"you"	--	--	Table of Gandalf Topics	0
 with 5 blank rows.
 
 Table of Gandalf Topics
@@ -392,11 +392,12 @@ Section 2 - Wait the council at Rivendell
 
 Council is a scene. Council begins when the player is in Rivendell for the first time.
 When Council begins:
+	say "The Elf Council is in session now. You should hear from them soon.";
 	the ElfCouncil in 3 minutes from now;
 	now the player is waiting the council;
 
 At the time when the ElfCouncil:
-	say "A tall lady elf, her hands crossed behind her back, approaches you slowly. Her long dress swishes on the marble pavements. ‘I am Lady Amarië, messenger to Elf Council. Your plea for help in your quest has been discussed at long in the sacred halls of the council, the task of the destruction of the ring is one of great importance to all of Middle-Earth. That said, you are an incredibly weak hobbit Frodo Baggins and we do not think that you will be able to make it to Mount Doom and destroy the ring before Sauron finds you. You are unworthy, we will not help. In a few hundred years, maybe, a brave hobbit will be born to your line, one who will withstand the journey and its perils. In the meantime I advise you to go back to the Shire and enjoy a quiet and peaceful life.’ She turns around and slowly walks away. You would say something but you’re pretty sure your jaw has hit the floor at some point.";
+	say "A tall lady elf, her hands crossed behind her back, approaches you slowly. Her long dress swishes on the marble pavements. ‘I am Lady Amarië, messenger to the Elf Council. Your plea for help in your quest has been discussed at long in the sacred halls of the council, the task of the destruction of the ring is one of great importance to all of Middle-Earth. That said, you are an incredibly weak hobbit Frodo Baggins and we do not think that you will be able to make it to Mount Doom and destroy the ring before Sauron finds you. You are unworthy, we will not help. In a few hundred years, maybe, a brave hobbit will be born to your line, one who will withstand the journey and its perils. In the meantime I advise you to go back to the Shire (west) and enjoy a quiet and peaceful life.’ She turns around and slowly walks away. You would say something but you’re pretty sure your jaw has hit the floor at some point.";
 	now the player is not waiting the council.
 
 Section 3 - Go to Mount Doom
