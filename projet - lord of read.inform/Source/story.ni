@@ -33,7 +33,7 @@ Understand "The Fellowship of the Ring" or "Fellowship of the Ring" as book.
 Section 3 - The Shire
 
 The description of the Shire is "Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun.[if Gandalf is in The Shire] [Gandalf] towers above all even while sitting on his favorite chair.[end if][if Sam & Pip are in The Shire] You can see [Sam & Pip] lounging on the grass.[end if][if there is no character in The Shire] Your friends must be in some other places at the moment.[end if]".
-The Ring is a thing. "A simple band of gold, when heated it reveals a script in Elvish runes. You can feel a dark power emanating from it.".
+The Ring is a wearable thing. "A simple band of gold, when heated it reveals a script in Elvish runes. You can feel a dark power emanating from it.".
 Pipe-weed is a thing. "This, this is...very high quality. From the smell alone you can tell that if smoked, this unassuming clump of greenery may very well gift you the high of a lifetime.". Understand "weed" as pipe-weed.
 
 A character is a kind of person. Gandalf and Sam & Pip are character in the shire.
@@ -150,7 +150,7 @@ Instead of telling someone about something, try asking the noun about it. Instea
 
 Check asking someone about something:
 	if the player is hidden: 
-		say "You have to be visible to talk to someone!" instead.
+		say "You ask [the noun] about [the second noun] but [if the noun is Sam & Pip]they don't[otherwise]he doesn't[end if] seem to see or hear you." instead.
 
 After asking someone about something:
 	now current conversation table is the Responses Table of the noun;
@@ -194,21 +194,38 @@ After asking someone about something:
 	now the player is not chatting;
 				
 [PUTTING ON THE RINGS!]
-Putting is an action applying to one carried thing. Understand "put [something]" or "put on [something]" or "put [something] on" as putting.
-Before putting something which is not carried by the player:
+Before wearing something which is not carried by the player:
 		silently try taking the noun;
 		if the player is not holding the noun, stop the action;
 		say "You take [the noun] but...";
-Check putting:
-	if the noun is not the ring, say "... [it] won't fit on you. Where do you want to put [it]?" instead.
-Carry out putting:
+		
+after wearing:
+	if the noun is not the ring:
+		say "... you not sure about the utility of wearing [it].[line break]";
+
+Before wearing when the noun is the ring:
 	say "You have a bad feeling about this ring. Are you really sure you want to do that?";
 	if player consents:
 		say "You slowly put the ring on your finger, wary of the bad feeling.";
+		now the player wear the noun;
 		now the player is hidden;
 		say "This feels weird, you feel weird…your vision isn't the same, what happened?! You lift your hand in front of your eyes but…you can see through it! Are you invisible?!";
 	otherwise:
 		say "Yeah, it’s better this way.";
+		stop the action;
+
+[REMOVE THE RINGS!]
+
+Before taking off when the noun is the ring:
+	say "Do you really want to let go of all this power that is surging in you? You feel so good and so strong right now.";
+	if player consents:
+		now the player is visible;
+	otherwise:
+		say "Yeah, it’s better this way.";
+		stop the action;
+		
+After taking off when the noun is the ring:
+	say "After removing the ring, you feel like you've escaped great danger.";
 
 
 [WAITING FOR COUNCIL]
