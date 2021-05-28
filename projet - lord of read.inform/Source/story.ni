@@ -56,7 +56,7 @@ The description of the Shire is "Round, colorful doors are set in the sprawling 
 
 Pipe-weed is a thing. "This, this is...very high quality. From the smell alone you can tell that if smoked, this unassuming clump of greenery may very well gift you the high of a lifetime.". Understand "weed" as pipe-weed.
 
-A character is a kind of person. Gandalf and Sam & Pip are character in the shire.
+A character is a kind of person. Gandalf, Sam & Pip are character in the shire.
 
 Section 4 - Rivendell
 
@@ -66,7 +66,6 @@ The pedestal is a supporter in Rivendell.
 An old sword and the mithril shirt are on the pedestal.The mithril shirt is a wearable thing. 
 The description of the old sword is "A beautiful thing that would look extremely well tied around your hip. On the blade there is an inscription in what you assume to be elvish, maybe [Gandalf] would know how to translate it?". 
 The description of the mithril shirt is "Light to the touch, the strange chain mail shines softly. You don't know much about this stuff, but it must be special, or at the very least worth a pretty coin."
-
 
 
 Section 5 - Mount Doom - end
@@ -80,7 +79,11 @@ Chapter 2 - Settings
 A person can be visible or hidden. A person is usually visible.
 A person can be waiting the council.
 A person can be chatting. A person is usually not chatting.
+A person can be followed. A person is usually not followed.
+A person can be able to go to Rivendell.
 A character have a table name called the Responses Table. A character have a table name called the Seconde Responses Table. A character have a list of texts called Answered List.
+A character can be following. A character is usually not following.
+A character has a list of room called Already Visited Room.
 
 Section 1 - Actions
 
@@ -112,14 +115,30 @@ Check eating when the noun is edible:
 	otherwise: 
 		say "You eat [the noun] with gusto." instead.
 
-
-[DEPLACEMENT]
-teleporting is an action applying to one thing.
-Understand "go to [any room]" as teleporting.
-Check teleporting:
-    if the noun is not a room, say "people can only travel between location" instead.
-Carry out teleporting:
-	move the player to the noun[, without printing a room description];
+[FOLLOW]
+Every turn:
+	repeat with NPC running through characters which are following:
+		now current conversation table is the Responses Table of NPC;
+		let current location be the location of the player;
+		let path be the best route from the location of NPC to the current location;
+		[évite d'ajouter la localisation deux fois]
+		if the location of NPC is not listed in the Already Visited Room of NPC:
+			add the location of NPC to the Already Visited Room of NPC;
+		[Déplace le joueur]
+		if path is not nothing:
+			now the player is followed;
+			silently try NPC going path;
+			[Ajoute du dialogue si le PNJ visite la salle pour la 1èere fois]
+			if current location is not listed in the Already Visited Room of NPC:
+				repeat through the Table of Characters Dialogues:
+					if the Character entry is NPC:
+						if the Room entry is the current location:
+							copy Table entry to The Responses Table of NPC;
+							[list options from the Table entry;]
+	if the player is followed:
+		let followers be the list of characters which are following;
+		say "[italic type][followers] [are] following you.";
+		now the player is not followed;
 
 [SAVOIR QUOI DIRE]
 List-asking is an action applying to one thing.
@@ -140,7 +159,7 @@ To list options from (T - a table name):
 	if N is 0:
 		say "This person has nothing to say.";
 	otherwise:
-		say "[if the player is chatting][line break][italic type]Now you could also ask[otherwise] You could ask[End if] [the noun] about ";
+		say "[if the player is chatting or the player is followed][line break][italic type]Now you could also ask[otherwise] You could ask [the noun][End if] about ";
 		repeat with X running from 1 to N minus 1:			
 			say "[index in row X of T][if N is greater than 2],[end if] ";
 		if N is greater than 1:
@@ -165,16 +184,15 @@ After asking someone about something:
 				if player consents:
 					say "[Result entry]";
 					add "[Index entry]" to the Answered List of the noun;
-					move Gandalf to rivendell;
-					move the player to rivendell[, without printing a room description];
-					now The Responses Table of Gandalf is Table of Rivendell Gandalf Responses;
+					now the noun is following;
+					move the player to rivendell;
+				otherwise:
+					say "As you please.";
 			if "[Action entry]" is "move to Rivendell by foot":
 				if player consents:
 					say "[Result entry]";
 					add "[Index entry]" to the Answered List of the noun;
-					move Sam & Pip to Rivendell;	
-					move the player to Rivendell[, without printing a room description];
-					now The Responses Table of Sam & Pip is Table of Rivendell Sam Responses;
+					now the noun is following;
 				otherwise:
 					say "As you please.";
 			if "[Action entry]" is "get weed":
@@ -279,11 +297,18 @@ Understand “life” or “the universe” as “[philosophical questions]”.
 Understand "Sam" or "Sam & Pip" or "Pip" as "[Sam]".
 Understand "weed/pipe-weed/pipe" as "[weed]".
 
+Table of Characters Dialogues
+Character	Room	Table
+Sam & Pip	The Shire	Table of Sam Responses
+Sam & Pip	Rivendell	Table of Rivendell Sam Responses
+Gandalf	The Shire	Table of Gandalf Responses
+Gandalf	Rivendell	Table of Rivendell Gandalf Responses
+
 
 Table of Gandalf Responses
 Topic	Response	Index	Action	Result	subtopics	labels
 "me"	"'Sir, who I am?'... Did you smoke something? Are you alright? Is this some sort of test? You are Frodo Baggins, of course, hobbit of the Shire.[line break]"	"you"	--	--	Table of Gandalf Topics	0
-with 5 blank rows.
+with 11 blank rows.
 
 Table of Gandalf Topics
 Topic	Response	Index	Action	Result	subtopics	labels
@@ -329,7 +354,7 @@ The Seconde Responses Table of Gandalf is Table of Seconde Gandalf Responses.
 Table of Sam Responses
 Topic	Response	Index	Action	Result	subtopics	labels
 "[About]"	"Frodo did you hit your head? I’m Sam, that’s Pip, we have been friends for ages.[line break]"	"them"	--	--	Table of Sam Topics	0
-with 2 blank rows.
+with 6 blank rows.
 
 Table of Sam Topics
 Topic	Response	Index	Action	Result	subtopics	labels
@@ -390,7 +415,12 @@ After reading the mysterious book:
 	move player to Bag End; 
 	now the player carries the ring.
 	
-Section 2 - Wait the council at Rivendell
+Section 2 - Going to Rivendell with Sam & Pip
+
+Instead of going to Rivendell when no characters is following:
+	say "This is the way for Rivendell, but history doesn't want you to go into the woods alone, sorry.";
+	
+Section 3 - Wait the council at Rivendell
 
 Council is a scene. Council begins when the player is in Rivendell for the first time.
 When Council begins:
@@ -402,7 +432,7 @@ At the time when the ElfCouncil:
 	say "A tall lady elf, her hands crossed behind her back, approaches you slowly. Her long dress swishes on the marble pavements. ‘I am Lady Amarië, messenger to the Elf Council. Your plea for help in your quest has been discussed at long in the sacred halls of the council, the task of the destruction of the ring is one of great importance to all of Middle-Earth. That said, you are an incredibly weak hobbit Frodo Baggins and we do not think that you will be able to make it to Mount Doom and destroy the ring before Sauron finds you. You are unworthy, we will not help. In a few hundred years, maybe, a brave hobbit will be born to your line, one who will withstand the journey and its perils. In the meantime I advise you to go back to the Shire (west) and enjoy a quiet and peaceful life.’ She turns around and slowly walks away. You would say something but you’re pretty sure your jaw has hit the floor at some point.";
 	now the player is not waiting the council.
 
-Section 3 - Go to Mount Doom
+Section 4 - Go to Mount Doom
 
 Report smoking: 
 	now the noun is nowhere;
@@ -410,13 +440,13 @@ Report smoking:
 	if the player does not carry the ring:
 		end the story saying "[paragraph break]GAME OVER.[paragraph break] You somehow managed to forget the central element to the whole story (which, might we remind you, is called 'The Fellowship of the RING'). We wish to thank you in any case for having played, it has been fun (for us at least).[paragraph break] All the best to you, dear player, and if you want to try again, just remember to not forget the ring. Good luck!";
 
-Section 4 - Go to end	
+Section 5 - Go to end	
 
 Instead of inserting the ring into the volcano:
 	say "The ring fights you; it thrashes in your fingers, it implores, in its whispered hisses, but you manage to throw it into the lava. You see it slowly melt away in the fires of the volcano. A great weight seems to have lifted from your shoulders.";
 	end the story saying "Despite the blistering and suffocating heat a great wind suddenly picks up. You know this feeling of being pulled in different directions, your hair flipping wildly about. [paragraph break]WOOOOOSH[paragraph break]You find yourself in the old room, the beautiful paintings are still there, as is the book, now closed and resting, unassuming, on the table. One thing is different, though, one thing has changed. There is a door now, a simple wooden door that you open with almost giddy satisfaction. As soon as you are outside you breathe a sigh of relief.[line break]Isn’t this library just beautiful? You came in here looking for your favorite book and you somehow got lost in between the racks. There was a…door? You turn around but all you see is a blank wall and nothing more. Mmh…something at the back of your mind whispers of a great adventure…something, with a book...and smoking? You really cannot remember now. Well, it must not be that important. It’s time to get something to eat anyway. You leave, never looking back, but feeling somewhat satisfied with yourself.".
 	
-Section bonus - Too Greed (Ring fail)
+Section 6 - Too Greed (Ring fail)
 
 Every turn:
 	if the player is wearing the ring:
@@ -428,3 +458,13 @@ Every turn:
 			say "You feel the Great Eye following you.";
 	otherwise if the usage limit of the ring is less than 10:
 		increase the usage limit of the ring by 1;
+		
+Chapter 5 - Debug
+
+[TELEPROTATION]
+teleporting is an action applying to one thing.
+Understand "go to [any room]" as teleporting.
+Check teleporting:
+    if the noun is not a room, say "people can only travel between location" instead.
+Carry out teleporting:
+	move the player to the noun[, without printing a room description];

@@ -26,7 +26,140 @@ You can see an old table (on which is a mysterious book) here.
             <child nodeId="node-3167"></child>
             <child nodeId="node-3141"></child>
             <child nodeId="node-3083"></child>
+            <child nodeId="node-4149"></child>
         </children>
+    </item>
+    <item nodeId="node-4149">
+        <command xml:space="preserve">read the book</command>
+        <result xml:space="preserve">Holding your breath, you carefully open the book.
+
+"...One Ring to rule them all, One Ring to find them,
+One Ring to bring them all and in the darkness bind them.
+In the Land of Mordor where the Shadows lie..."
+
+You can barely make out a few sentences before words and letters begin to move in concentric swirls. You try to take a step back, but your fingers are stuck to the pages.
+WOOOOOSH
+ A great wind pulls at you and the only thing you can do is scream and scream in terror. You look one last time at the beautiful paintings on the walls and then everything goes black.
+
+
+Bag End
+You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself. Outside you can hear the laughter of children and the chirping of birds.
+
+You can see a little table (on which are a green book and a map), a trunk (closed), a cupboard (closed), and a cushy armchair here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4150"></child>
+        </children>
+    </item>
+    <item nodeId="node-4150">
+        <command xml:space="preserve">read the book</command>
+        <result xml:space="preserve">You open the green book at a random page.
+
+This is the story of the fellow from out of time and space 
+
+There was, once upon a time,
+a young lost fellow without dime.
+Taken by a book, he said
+but the hobbits just thought him mad.
+He looked around, and he went east,
+then west, then back, then flew on a great beast.
+For the life of him he could not remember,
+how he came to be or if it was July or December.
+He spoke with many, fought with few, 
+but in the end, he decided to just enjoy the view.
+He rolled his weed, sat on a chair,
+took out his pipe and smoked without flair.
+
+Here ends the story of the young fellow,
+he sure must have been relaxed and mellow,
+because soon he disappeared 
+leaving behind not even a hair of beard,
+without a first breakfast, a second or a third;
+whispers say that he returned to his place of birth. 
+But alas, no hobbit ever saw the fellow again,
+and so, with the best weed and the pipe most plain,
+they sometimes meet, under the summery sun,
+to enjoy a good smoke and pun,
+in honor of the fellow,
+who decided to stay mellow,
+despite being lost, and alone,
+adventurous and a bit injury prone. 
+
+The one that smoked and then was just gone.
+
+You earmark the page and close the book, baffled.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4151"></child>
+        </children>
+    </item>
+    <item nodeId="node-4151">
+        <command xml:space="preserve">book</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4152"></child>
+        </children>
+    </item>
+    <item nodeId="node-4152">
+        <command xml:space="preserve">show me book</command>
+        <result xml:space="preserve">(first taking the green book)
+As green as fine summery grass, the title of the book stands boldly on its front "Surviving Your First High and Other Ways to Have the Best Time of Your Life With Weed".
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4153"></child>
+        </children>
+    </item>
+    <item nodeId="node-4153">
+        <command xml:space="preserve">go outside</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Gandalf towers above all even while sitting on his favorite chair. You can see Sam &amp; Pip lounging on the grass.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4154"></child>
+        </children>
+    </item>
+    <item nodeId="node-4154">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4155"></child>
+        </children>
+    </item>
+    <item nodeId="node-4155">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">This is the way for Rivendell, but history doesn't want you to go into the woods alone, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4170"></child>
+        </children>
+    </item>
+    <item nodeId="node-4170">
+        <command xml:space="preserve">showme me</command>
+        <result xml:space="preserve">yourself - person
+    green book - book
+    Ring
+location: in the Shire
+singular-named, proper-named; unlit, inedible, portable; male, visible
+list grouping key: none
+printed name: "yourself"
+printed plural name: "people"
+indefinite article: none
+description: "As good-looking as ever."
+initial appearance: none
+carrying capacity: 100
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-3083">
         <command xml:space="preserve">read book</command>
@@ -778,7 +911,10 @@ Round, colorful doors are set in the sprawling green hills, from the tops of whi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-3091"></child>
+        <children><child nodeId="node-5408"></child>
+            <child nodeId="node-4957"></child>
+            <child nodeId="node-4189"></child>
+            <child nodeId="node-3091"></child>
             <child nodeId="node-3477"></child>
         </children>
     </item>
@@ -1456,6 +1592,1238 @@ You take off the Ring.
     <item nodeId="node-3140">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">Yeah, it's better this way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-4189">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">This is the way for Rivendell, but history doesn't want you to go into the woods alone, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4190"></child>
+        </children>
+    </item>
+    <item nodeId="node-4190">
+        <command xml:space="preserve">ask sam</command>
+        <result xml:space="preserve"> You could ask Sam &amp; Pip about them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4191"></child>
+        </children>
+    </item>
+    <item nodeId="node-4191">
+        <command xml:space="preserve">ask sam &amp; Pip about them</command>
+        <result xml:space="preserve">Frodo did you hit your head? I'm Sam, that's Pip, we have been friends for ages.
+
+Now you could also ask Sam &amp; Pip about pipe-weed or the quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4192"></child>
+        </children>
+    </item>
+    <item nodeId="node-4192">
+        <command xml:space="preserve">ask sam &amp; Pip about the quest</command>
+        <result xml:space="preserve">"Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don't you think?"
+ "Very serious, Sam…"
+. "Well, I guess as your friends we should accompany and make sure you don't get eaten by an orc."
+ "We are such good friends…where should we start Sam?"
+ "Maybe with the Elves? I think Rivendell lies east of here, should we go there Frodo? I think they could help."
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4193"></child>
+        </children>
+    </item>
+    <item nodeId="node-4193">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">The road is long, but Sam &amp; Pip are good company. You share every meal, sing the songs of the Shire when you feel too tired to think and, in the end, you make your way to the elf's city of Rivendell, where the Elf Council is deliberating on if and how much to help you in your quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4194"></child>
+        </children>
+    </item>
+    <item nodeId="node-4194">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+The Elf Council is in session now. You should hear from them soon.
+
+Sam &amp; Pip are following you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4195"></child>
+        </children>
+    </item>
+    <item nodeId="node-4195">
+        <command xml:space="preserve">ask sam about</command>
+        <result xml:space="preserve"> You could ask Sam &amp; Pip about pipe-weed, Rivendell, Elf Council, the ring, or pipe-weed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4196"></child>
+        </children>
+    </item>
+    <item nodeId="node-4196">
+        <command xml:space="preserve">ask sam about</command>
+        <result xml:space="preserve"> You could ask Sam &amp; Pip about pipe-weed, Rivendell, Elf Council, the ring, or pipe-weed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4197"></child>
+        </children>
+    </item>
+    <item nodeId="node-4197">
+        <command xml:space="preserve">showme sam</command>
+        <result xml:space="preserve">Sam &amp; Pip - character
+location: in Rivendell
+singular-named, proper-named; unlit, inedible, portable; male, visible; following
+list grouping key: none
+printed name: "Sam &amp; Pip"
+printed plural name: "characters"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Responses Table: Table of Sam Responses
+Seconde Responses Table: Table of Seconde Sam Responses
+Answered List: them and the quest
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4209"></child>
+        </children>
+    </item>
+    <item nodeId="node-4209">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+A tall lady elf, her hands crossed behind her back, approaches you slowly. Her long dress swishes on the marble pavements. "I am Lady Amarië, messenger to the Elf Council. Your plea for help in your quest has been discussed at long in the sacred halls of the council, the task of the destruction of the ring is one of great importance to all of Middle-Earth. That said, you are an incredibly weak hobbit Frodo Baggins and we do not think that you will be able to make it to Mount Doom and destroy the ring before Sauron finds you. You are unworthy, we will not help. In a few hundred years, maybe, a brave hobbit will be born to your line, one who will withstand the journey and its perils. In the meantime I advise you to go back to the Shire (west) and enjoy a quiet and peaceful life." She turns around and slowly walks away. You would say something but you're pretty sure your jaw has hit the floor at some point.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4234"></child>
+        </children>
+    </item>
+    <item nodeId="node-4234">
+        <command xml:space="preserve">go to mount doom</command>
+        <result xml:space="preserve">Mount Doom
+The heat is blistering, suffocating. Somewhere belove you licks of flame run along barren rock and molten lava churns at the mouth of the active volcano.  The ring hisses, dark things, promises of power and greed, it would even implore and beg if it was capable of such a thing. This could be the end of your story, the end of your adventure, will there be ships to whisk you away once you throw the ring to the flames of Mount Doom?
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4235"></child>
+        </children>
+    </item>
+    <item nodeId="node-4235">
+        <command xml:space="preserve">ask sam</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4250"></child>
+        </children>
+    </item>
+    <item nodeId="node-4250">
+        <command xml:space="preserve">go to the shire</command>
+        <result xml:space="preserve">Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Gandalf towers above all even while sitting on his favorite chair.
+
+Sam &amp; Pip are following you.
+
+*** Run-time problem P25: Attempt to choose a blank row in a table with none left: table 'Table of Sam Responses'.
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4251"></child>
+        </children>
+    </item>
+    <item nodeId="node-4251">
+        <command xml:space="preserve">ask sam about</command>
+        <result xml:space="preserve"> You could ask Sam &amp; Pip about pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, or pipe-weed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4252"></child>
+        </children>
+    </item>
+    <item nodeId="node-4252">
+        <command xml:space="preserve">go inside</command>
+        <result xml:space="preserve">
+Bag End
+You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself. Outside you can hear the laughter of children and the chirping of birds.
+
+You can see a little table (on which are a green book and a map), a trunk (closed), a cupboard (closed), and a cushy armchair here.
+
+Sam &amp; Pip are following you.
+
+*** Run-time problem P25: Attempt to choose a blank row in a table with none left: table 'Table of Sam Responses'.
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4253"></child>
+        </children>
+    </item>
+    <item nodeId="node-4253">
+        <command xml:space="preserve">ask sam</command>
+        <result xml:space="preserve"> You could ask Sam &amp; Pip about pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, or pipe-weed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4272"></child>
+        </children>
+    </item>
+    <item nodeId="node-4272">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4273"></child>
+        </children>
+    </item>
+    <item nodeId="node-4273">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4274"></child>
+        </children>
+    </item>
+    <item nodeId="node-4274">
+        <command xml:space="preserve">go outside</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Gandalf towers above all even while sitting on his favorite chair.
+
+Sam &amp; Pip are following you.
+
+*** Run-time problem P25: Attempt to choose a blank row in a table with none left: table 'Table of Sam Responses'.
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4674"></child>
+        </children>
+    </item>
+    <item nodeId="node-4674">
+        <command xml:space="preserve">ask sam</command>
+        <result xml:space="preserve"> You could ask Sam &amp; Pip about pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, or pipe-weed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4675"></child>
+        </children>
+    </item>
+    <item nodeId="node-4675">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4676"></child>
+        </children>
+    </item>
+    <item nodeId="node-4676">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+Sam &amp; Pip are following you.
+
+*** Run-time problem P25: Attempt to choose a blank row in a table with none left: table 'Table of Sam Responses'.
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4677"></child>
+        </children>
+    </item>
+    <item nodeId="node-4677">
+        <command xml:space="preserve">ask sam</command>
+        <result xml:space="preserve"> You could ask Sam &amp; Pip about pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, pipe-weed, Rivendell, Elf Council, the ring, pipe-weed, or pipe-weed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4728"></child>
+        </children>
+    </item>
+    <item nodeId="node-4728">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4729"></child>
+        </children>
+    </item>
+    <item nodeId="node-4729">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Gandalf towers above all even while sitting on his favorite chair.
+
+Sam &amp; Pip are following you.
+
+*** Run-time problem P25: Attempt to choose a blank row in a table with none left: table 'Table of Sam Responses'.
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4730"></child>
+        </children>
+    </item>
+    <item nodeId="node-4730">
+        <command xml:space="preserve">ask gandalf about me</command>
+        <result xml:space="preserve">"Sir, who I am?"... Did you smoke something? Are you alright? Is this some sort of test? You are Frodo Baggins, of course, hobbit of the Shire.
+
+Now you could also ask Gandalf about him, the weather, or life.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4731"></child>
+        </children>
+    </item>
+    <item nodeId="node-4731">
+        <command xml:space="preserve">ask gandalf about wather</command>
+        <result xml:space="preserve">I d'ont see what you mean, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4732"></child>
+        </children>
+    </item>
+    <item nodeId="node-4732">
+        <command xml:space="preserve">ask gandalf about the wather</command>
+        <result xml:space="preserve">I d'ont see what you mean, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4733"></child>
+        </children>
+    </item>
+    <item nodeId="node-4733">
+        <command xml:space="preserve">ask gandalf about the weather</command>
+        <result xml:space="preserve">A lovely summery day, Frodo. The shadows of war are far but getting closer, soon even the Shire will know the end of its peace.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4734"></child>
+        </children>
+    </item>
+    <item nodeId="node-4734">
+        <command xml:space="preserve">ask gandalf about life</command>
+        <result xml:space="preserve">You shall not distract yourself with nonsensical and philosophical questions. If you are here to waste my time, go read a book.
+
+Now you could also ask Gandalf about books, pipe-weed, or the quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4735"></child>
+        </children>
+    </item>
+    <item nodeId="node-4735">
+        <command xml:space="preserve">ask gandalf about the quest</command>
+        <result xml:space="preserve">A great adventure that will take you to places unknown. A long time ago the ring you now hold was created by Sauron, a great evil, to rule over Middle Earth. After a bloody war the ring was cut from its master's hand and lost to the ages. Somehow your uncle Bilbo found it and passed it on to you Frodo. You are the one, the chosen, he who must go to Mount Doom and destroy the ring once and for all. Before the world is plunged in darkness.
+
+Now you could also ask Gandalf about the ring or Mount Doom.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4736"></child>
+        </children>
+    </item>
+    <item nodeId="node-4736">
+        <command xml:space="preserve">ask gandalf about Mount Doom</command>
+        <result xml:space="preserve">The great volcano lies south of here, beyond the mountains. It is the only place where the ring may be vanquished, the final destination to your adventure. I could accompany you there… may I suggest we use the Eagles? They are great beasts and should take us to Mount Doom in no time at all. Would you like to leave right now?
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4737"></child>
+        </children>
+    </item>
+    <item nodeId="node-4737">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">An easy shortcut! How lucky you are!
+ You mount on a beautiful Eagle and soon you find yourself flying above the green Shire. Is that really Sam down there, he looks so little, so small, maybe a little too miniscule. Are we sure we are safe flying so high? DON'T LOOK DOWN, DON'T…
+
+It looks like you are too weak for this mode of transportation, we should stop before you throw up on yourself and the Eagle (she might eat you, they really like to keep themselves clean).
+You are now in Rivendell...
+
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+Gandalf are following you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4738"></child>
+        </children>
+    </item>
+    <item nodeId="node-4738">
+        <command xml:space="preserve">showme sam</command>
+        <result xml:space="preserve">Sam &amp; Pip - character
+location: in the Shire
+singular-named, proper-named; unlit, inedible, portable; male, visible; following
+list grouping key: none
+printed name: "Sam &amp; Pip"
+printed plural name: "characters"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Responses Table: Table of Sam Responses
+Seconde Responses Table: Table of Seconde Sam Responses
+Answered List: them and the quest
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4739"></child>
+        </children>
+    </item>
+    <item nodeId="node-4739">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4740"></child>
+        </children>
+    </item>
+    <item nodeId="node-4740">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. You can see Sam &amp; Pip lounging on the grass.
+
+Gandalf are following you.
+
+*** Run-time problem P25: Attempt to choose a blank row in a table with none left: table 'Table of Gandalf Responses'.
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4741"></child>
+        </children>
+    </item>
+    <item nodeId="node-4741">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+Gandalf are following you.
+
+*** Run-time problem P25: Attempt to choose a blank row in a table with none left: table 'Table of Gandalf Responses'.
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4742"></child>
+        </children>
+    </item>
+    <item nodeId="node-4742">
+        <command xml:space="preserve">showme sam</command>
+        <result xml:space="preserve">Sam &amp; Pip - character
+location: in the Shire
+singular-named, proper-named; unlit, inedible, portable; male, visible; following
+list grouping key: none
+printed name: "Sam &amp; Pip"
+printed plural name: "characters"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Responses Table: Table of Sam Responses
+Seconde Responses Table: Table of Seconde Sam Responses
+Answered List: them and the quest
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4783"></child>
+        </children>
+    </item>
+    <item nodeId="node-4783">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. You can see Sam &amp; Pip lounging on the grass.
+
+Gandalf are following you.
+
+*** Run-time problem P25: Attempt to choose a blank row in a table with none left: table 'Table of Gandalf Responses'.
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4784"></child>
+        </children>
+    </item>
+    <item nodeId="node-4784">
+        <command xml:space="preserve">ask gandalf</command>
+        <result xml:space="preserve"> You could ask Gandalf about him, books, pipe-weed, the ring, me, Rivendell
+, Mildred, the quest, him, books, pipe-weed, the ring, me, Rivendell
+, Mildred, the quest, him, books, pipe-weed, the ring, me, Rivendell
+, Mildred, the quest, him, books, pipe-weed, the ring, me, Rivendell
+, Mildred, the quest, him, books, pipe-weed, the ring, me, Rivendell
+, Mildred, the quest, him, books, pipe-weed, the ring, me, Rivendell
+, Mildred, the quest, him, books, pipe-weed, the ring, me, Rivendell
+, Mildred, the quest, him, books, pipe-weed, the ring, me, Rivendell
+, Mildred, the quest, him, books, pipe-weed, the ring, me, Rivendell
+, Mildred, the quest, him, books, pipe-weed, the ring, me, Rivendell
+, Mildred, the quest, him, books, pipe-weed, the ring, me, Rivendell
+, Mildred, the quest, him, books, pipe-weed, the ring, me, Rivendell
+, Mildred, the quest, him, books, pipe-weed, the ring, me, Rivendell
+, Mildred, the quest, him, books, pipe-weed, the ring, me, Rivendell
+, or Rivendell
+.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-4957">
+        <command xml:space="preserve">ask sam about</command>
+        <result xml:space="preserve"> You could ask Sam &amp; Pip about them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4958"></child>
+        </children>
+    </item>
+    <item nodeId="node-4958">
+        <command xml:space="preserve">ask sam about them</command>
+        <result xml:space="preserve">Frodo did you hit your head? I'm Sam, that's Pip, we have been friends for ages.
+
+Now you could also ask about pipe-weed or the quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4959"></child>
+        </children>
+    </item>
+    <item nodeId="node-4959">
+        <command xml:space="preserve">ask sam about the quest</command>
+        <result xml:space="preserve">"Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don't you think?"
+ "Very serious, Sam…"
+. "Well, I guess as your friends we should accompany and make sure you don't get eaten by an orc."
+ "We are such good friends…where should we start Sam?"
+ "Maybe with the Elves? I think Rivendell lies east of here, should we go there Frodo? I think they could help."
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4960"></child>
+        </children>
+    </item>
+    <item nodeId="node-4960">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">The road is long, but Sam &amp; Pip are good company. You share every meal, sing the songs of the Shire when you feel too tired to think and, in the end, you make your way to the elf's city of Rivendell, where the Elf Council is deliberating on if and how much to help you in your quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4961"></child>
+        </children>
+    </item>
+    <item nodeId="node-4961">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4962"></child>
+        </children>
+    </item>
+    <item nodeId="node-4962">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+The Elf Council is in session now. You should hear from them soon.
+
+Sam &amp; Pip is following you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4963"></child>
+        </children>
+    </item>
+    <item nodeId="node-4963">
+        <command xml:space="preserve">ask sam about</command>
+        <result xml:space="preserve"> You could ask Sam &amp; Pip about pipe-weed, Rivendell, Elf Council, the ring, or pipe-weed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4964"></child>
+        </children>
+    </item>
+    <item nodeId="node-4964">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You should wait for the Council.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4965"></child>
+        </children>
+    </item>
+    <item nodeId="node-4965">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You should wait for the Council.
+
+A tall lady elf, her hands crossed behind her back, approaches you slowly. Her long dress swishes on the marble pavements. "I am Lady Amarië, messenger to the Elf Council. Your plea for help in your quest has been discussed at long in the sacred halls of the council, the task of the destruction of the ring is one of great importance to all of Middle-Earth. That said, you are an incredibly weak hobbit Frodo Baggins and we do not think that you will be able to make it to Mount Doom and destroy the ring before Sauron finds you. You are unworthy, we will not help. In a few hundred years, maybe, a brave hobbit will be born to your line, one who will withstand the journey and its perils. In the meantime I advise you to go back to the Shire (west) and enjoy a quiet and peaceful life." She turns around and slowly walks away. You would say something but you're pretty sure your jaw has hit the floor at some point.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4966"></child>
+        </children>
+    </item>
+    <item nodeId="node-4966">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Gandalf towers above all even while sitting on his favorite chair.
+
+Sam &amp; Pip is following you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4979"></child>
+        </children>
+    </item>
+    <item nodeId="node-4979">
+        <command xml:space="preserve">showme sam</command>
+        <result xml:space="preserve">Sam &amp; Pip - character
+location: in the Shire
+singular-named, proper-named; unlit, inedible, portable; male, visible; following
+list grouping key: none
+printed name: "Sam &amp; Pip"
+printed plural name: "characters"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Responses Table: Table of Sam Responses
+Seconde Responses Table: Table of Seconde Sam Responses
+Answered List: them and the quest
+Already Visited Room: Shire and Rivendell
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5006"></child>
+        </children>
+    </item>
+    <item nodeId="node-5006">
+        <command xml:space="preserve">go inside</command>
+        <result xml:space="preserve">
+Bag End
+You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself. Outside you can hear the laughter of children and the chirping of birds.
+
+You can see a little table (on which are a green book and a map), a trunk (closed), a cupboard (closed), and a cushy armchair here.
+
+Sam &amp; Pip is following you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5007"></child>
+        </children>
+    </item>
+    <item nodeId="node-5007">
+        <command xml:space="preserve">ask sam</command>
+        <result xml:space="preserve"> You could ask Sam &amp; Pip about pipe-weed, Rivendell, Elf Council, the ring, or pipe-weed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5053"></child>
+        </children>
+    </item>
+    <item nodeId="node-5053">
+        <command xml:space="preserve">ask sam about elf council</command>
+        <result xml:space="preserve">Last we heard they were still deliberating, but I bet that they will soon be out.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5086"></child>
+        </children>
+    </item>
+    <item nodeId="node-5086">
+        <command xml:space="preserve">ask sam</command>
+        <result xml:space="preserve"> You could ask Sam &amp; Pip about pipe-weed, Rivendell, the ring, or pipe-weed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5155"></child>
+        </children>
+    </item>
+    <item nodeId="node-5155">
+        <command xml:space="preserve">go outside</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Gandalf towers above all even while sitting on his favorite chair.
+
+Sam &amp; Pip is following you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5156"></child>
+        </children>
+    </item>
+    <item nodeId="node-5156">
+        <command xml:space="preserve">ask gandalf about me</command>
+        <result xml:space="preserve">"Sir, who I am?"... Did you smoke something? Are you alright? Is this some sort of test? You are Frodo Baggins, of course, hobbit of the Shire.
+
+Now you could also ask about him, the weather, or life.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5157"></child>
+        </children>
+    </item>
+    <item nodeId="node-5157">
+        <command xml:space="preserve">ask gandalf about the life</command>
+        <result xml:space="preserve">I d'ont see what you mean, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5158"></child>
+        </children>
+    </item>
+    <item nodeId="node-5158">
+        <command xml:space="preserve">ask gandalf about life</command>
+        <result xml:space="preserve">You shall not distract yourself with nonsensical and philosophical questions. If you are here to waste my time, go read a book.
+
+Now you could also ask about books, pipe-weed, or the quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5159"></child>
+        </children>
+    </item>
+    <item nodeId="node-5159">
+        <command xml:space="preserve">ask gandalf about the quest</command>
+        <result xml:space="preserve">A great adventure that will take you to places unknown. A long time ago the ring you now hold was created by Sauron, a great evil, to rule over Middle Earth. After a bloody war the ring was cut from its master's hand and lost to the ages. Somehow your uncle Bilbo found it and passed it on to you Frodo. You are the one, the chosen, he who must go to Mount Doom and destroy the ring once and for all. Before the world is plunged in darkness.
+
+Now you could also ask about the ring or Mount Doom.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5160"></child>
+        </children>
+    </item>
+    <item nodeId="node-5160">
+        <command xml:space="preserve">ask gandalf about Mount Doom</command>
+        <result xml:space="preserve">The great volcano lies south of here, beyond the mountains. It is the only place where the ring may be vanquished, the final destination to your adventure. I could accompany you there… may I suggest we use the Eagles? They are great beasts and should take us to Mount Doom in no time at all. Would you like to leave right now?
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5161"></child>
+        </children>
+    </item>
+    <item nodeId="node-5161">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">An easy shortcut! How lucky you are!
+ You mount on a beautiful Eagle and soon you find yourself flying above the green Shire. Is that really Sam down there, he looks so little, so small, maybe a little too miniscule. Are we sure we are safe flying so high? DON'T LOOK DOWN, DON'T…
+
+It looks like you are too weak for this mode of transportation, we should stop before you throw up on yourself and the Eagle (she might eat you, they really like to keep themselves clean).
+You are now in Rivendell...
+
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+Gandalf and Sam &amp; Pip are following you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5186"></child>
+        </children>
+    </item>
+    <item nodeId="node-5186">
+        <command xml:space="preserve">ask gandalf</command>
+        <result xml:space="preserve"> You could ask Gandalf about him, the weather, books, pipe-weed, the ring, me, Rivendell
+, Mildred, or the quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5237"></child>
+        </children>
+    </item>
+    <item nodeId="node-5237">
+        <command xml:space="preserve">showme gandalf</command>
+        <result xml:space="preserve">Gandalf - character
+location: in Rivendell
+singular-named, proper-named; unlit, inedible, portable; male, visible; following
+list grouping key: none
+printed name: "Gandalf"
+printed plural name: "characters"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Responses Table: Table of Gandalf Responses
+Seconde Responses Table: Table of Seconde Gandalf Responses
+Answered List: you, life, the quest, and Mount Doom
+Already Visited Room: Shire and Rivendell
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5238"></child>
+        </children>
+    </item>
+    <item nodeId="node-5238">
+        <command xml:space="preserve">showme sam</command>
+        <result xml:space="preserve">Sam &amp; Pip - character
+location: in Rivendell
+singular-named, proper-named; unlit, inedible, portable; male, visible; following
+list grouping key: none
+printed name: "Sam &amp; Pip"
+printed plural name: "characters"
+indefinite article: none
+description: none
+initial appearance: none
+carrying capacity: 100
+Responses Table: Table of Sam Responses
+Seconde Responses Table: Table of Seconde Sam Responses
+Answered List: them, the quest, and Elf Council
+Already Visited Room: Shire, Rivendell, and Bag End
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5293"></child>
+        </children>
+    </item>
+    <item nodeId="node-5293">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Your friends must be in some other places at the moment.
+
+Gandalf and Sam &amp; Pip are following you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5408">
+        <command xml:space="preserve">ask gandalf about</command>
+        <result xml:space="preserve"> You could ask Gandalf about you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5409"></child>
+        </children>
+    </item>
+    <item nodeId="node-5409">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5410"></child>
+        </children>
+    </item>
+    <item nodeId="node-5410">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">This is the way for Rivendell, but history doesn't want you to go into the woods alone, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5411"></child>
+        </children>
+    </item>
+    <item nodeId="node-5411">
+        <command xml:space="preserve">ask gandalf about me</command>
+        <result xml:space="preserve">"Sir, who I am?"... Did you smoke something? Are you alright? Is this some sort of test? You are Frodo Baggins, of course, hobbit of the Shire.
+
+Now you could also ask about him, the weather, or life.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5412"></child>
+        </children>
+    </item>
+    <item nodeId="node-5412">
+        <command xml:space="preserve">ask gandalf about life</command>
+        <result xml:space="preserve">You shall not distract yourself with nonsensical and philosophical questions. If you are here to waste my time, go read a book.
+
+Now you could also ask about books, pipe-weed, or the quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5513"></child>
+            <child nodeId="node-5413"></child>
+        </children>
+    </item>
+    <item nodeId="node-5413">
+        <command xml:space="preserve">ask gandalf about the quest</command>
+        <result xml:space="preserve">A great adventure that will take you to places unknown. A long time ago the ring you now hold was created by Sauron, a great evil, to rule over Middle Earth. After a bloody war the ring was cut from its master's hand and lost to the ages. Somehow your uncle Bilbo found it and passed it on to you Frodo. You are the one, the chosen, he who must go to Mount Doom and destroy the ring once and for all. Before the world is plunged in darkness.
+
+Now you could also ask about the ring or Mount Doom.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5414"></child>
+        </children>
+    </item>
+    <item nodeId="node-5414">
+        <command xml:space="preserve">ask gandalf about Mount doom</command>
+        <result xml:space="preserve">The great volcano lies south of here, beyond the mountains. It is the only place where the ring may be vanquished, the final destination to your adventure. I could accompany you there… may I suggest we use the Eagles? They are great beasts and should take us to Mount Doom in no time at all. Would you like to leave right now?
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5415"></child>
+        </children>
+    </item>
+    <item nodeId="node-5415">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">An easy shortcut! How lucky you are!
+ You mount on a beautiful Eagle and soon you find yourself flying above the green Shire. Is that really Sam down there, he looks so little, so small, maybe a little too miniscule. Are we sure we are safe flying so high? DON'T LOOK DOWN, DON'T…
+
+It looks like you are too weak for this mode of transportation, we should stop before you throw up on yourself and the Eagle (she might eat you, they really like to keep themselves clean).
+You are now in Rivendell...
+
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+The Elf Council is in session now. You should hear from them soon.
+
+Gandalf is following you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5416"></child>
+        </children>
+    </item>
+    <item nodeId="node-5416">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5417"></child>
+        </children>
+    </item>
+    <item nodeId="node-5417">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5430"></child>
+        </children>
+    </item>
+    <item nodeId="node-5430">
+        <command xml:space="preserve">r</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5431"></child>
+        </children>
+    </item>
+    <item nodeId="node-5431">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+A tall lady elf, her hands crossed behind her back, approaches you slowly. Her long dress swishes on the marble pavements. "I am Lady Amarië, messenger to the Elf Council. Your plea for help in your quest has been discussed at long in the sacred halls of the council, the task of the destruction of the ring is one of great importance to all of Middle-Earth. That said, you are an incredibly weak hobbit Frodo Baggins and we do not think that you will be able to make it to Mount Doom and destroy the ring before Sauron finds you. You are unworthy, we will not help. In a few hundred years, maybe, a brave hobbit will be born to your line, one who will withstand the journey and its perils. In the meantime I advise you to go back to the Shire (west) and enjoy a quiet and peaceful life." She turns around and slowly walks away. You would say something but you're pretty sure your jaw has hit the floor at some point.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5432"></child>
+        </children>
+    </item>
+    <item nodeId="node-5432">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. You can see Sam &amp; Pip lounging on the grass.
+
+Gandalf is following you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5433"></child>
+        </children>
+    </item>
+    <item nodeId="node-5433">
+        <command xml:space="preserve">ask gandalf</command>
+        <result xml:space="preserve"> You could ask Gandalf about him, the weather, books, pipe-weed, the ring, me, Rivendell
+, Mildred, or the quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5434"></child>
+        </children>
+    </item>
+    <item nodeId="node-5434">
+        <command xml:space="preserve">ask sam about them</command>
+        <result xml:space="preserve">Frodo did you hit your head? I'm Sam, that's Pip, we have been friends for ages.
+
+Now you could also ask about pipe-weed or the quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5435"></child>
+        </children>
+    </item>
+    <item nodeId="node-5435">
+        <command xml:space="preserve">ask sam about the quest</command>
+        <result xml:space="preserve">"Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don't you think?"
+ "Very serious, Sam…"
+. "Well, I guess as your friends we should accompany and make sure you don't get eaten by an orc."
+ "We are such good friends…where should we start Sam?"
+ "Maybe with the Elves? I think Rivendell lies east of here, should we go there Frodo? I think they could help."
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5436"></child>
+        </children>
+    </item>
+    <item nodeId="node-5436">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">The road is long, but Sam &amp; Pip are good company. You share every meal, sing the songs of the Shire when you feel too tired to think and, in the end, you make your way to the elf's city of Rivendell, where the Elf Council is deliberating on if and how much to help you in your quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5437"></child>
+        </children>
+    </item>
+    <item nodeId="node-5437">
+        <command xml:space="preserve">ask sam about</command>
+        <result xml:space="preserve"> You could ask Sam &amp; Pip about pipe-weed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5438"></child>
+        </children>
+    </item>
+    <item nodeId="node-5438">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5439"></child>
+        </children>
+    </item>
+    <item nodeId="node-5439">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+Gandalf and Sam &amp; Pip are following you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5513">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5514"></child>
+        </children>
+    </item>
+    <item nodeId="node-5514">
+        <command xml:space="preserve">ask gandalf about the quest</command>
+        <result xml:space="preserve">A great adventure that will take you to places unknown. A long time ago the ring you now hold was created by Sauron, a great evil, to rule over Middle Earth. After a bloody war the ring was cut from its master's hand and lost to the ages. Somehow your uncle Bilbo found it and passed it on to you Frodo. You are the one, the chosen, he who must go to Mount Doom and destroy the ring once and for all. Before the world is plunged in darkness.
+
+Now you could also ask about the ring or Mount Doom.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5515"></child>
+        </children>
+    </item>
+    <item nodeId="node-5515">
+        <command xml:space="preserve">ask gandalf about mount doom</command>
+        <result xml:space="preserve">The great volcano lies south of here, beyond the mountains. It is the only place where the ring may be vanquished, the final destination to your adventure. I could accompany you there… may I suggest we use the Eagles? They are great beasts and should take us to Mount Doom in no time at all. Would you like to leave right now?
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5516"></child>
+        </children>
+    </item>
+    <item nodeId="node-5516">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">An easy shortcut! How lucky you are!
+ You mount on a beautiful Eagle and soon you find yourself flying above the green Shire. Is that really Sam down there, he looks so little, so small, maybe a little too miniscule. Are we sure we are safe flying so high? DON'T LOOK DOWN, DON'T…
+
+It looks like you are too weak for this mode of transportation, we should stop before you throw up on yourself and the Eagle (she might eat you, they really like to keep themselves clean).
+You are now in Rivendell...
+
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+The Elf Council is in session now. You should hear from them soon.
+
+Gandalf is following you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5517"></child>
+        </children>
+    </item>
+    <item nodeId="node-5517">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5518"></child>
+        </children>
+    </item>
+    <item nodeId="node-5518">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5519"></child>
+        </children>
+    </item>
+    <item nodeId="node-5519">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+A tall lady elf, her hands crossed behind her back, approaches you slowly. Her long dress swishes on the marble pavements. "I am Lady Amarië, messenger to the Elf Council. Your plea for help in your quest has been discussed at long in the sacred halls of the council, the task of the destruction of the ring is one of great importance to all of Middle-Earth. That said, you are an incredibly weak hobbit Frodo Baggins and we do not think that you will be able to make it to Mount Doom and destroy the ring before Sauron finds you. You are unworthy, we will not help. In a few hundred years, maybe, a brave hobbit will be born to your line, one who will withstand the journey and its perils. In the meantime I advise you to go back to the Shire (west) and enjoy a quiet and peaceful life." She turns around and slowly walks away. You would say something but you're pretty sure your jaw has hit the floor at some point.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5520"></child>
+        </children>
+    </item>
+    <item nodeId="node-5520">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. You can see Sam &amp; Pip lounging on the grass.
+
+Gandalf is following you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5521"></child>
+        </children>
+    </item>
+    <item nodeId="node-5521">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+Gandalf is following you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5522"></child>
+        </children>
+    </item>
+    <item nodeId="node-5522">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. You can see Sam &amp; Pip lounging on the grass.
+
+Gandalf is following you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5523"></child>
+        </children>
+    </item>
+    <item nodeId="node-5523">
+        <command xml:space="preserve">ask sam about them</command>
+        <result xml:space="preserve">Frodo did you hit your head? I'm Sam, that's Pip, we have been friends for ages.
+
+Now you could also ask about pipe-weed or the quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5524"></child>
+        </children>
+    </item>
+    <item nodeId="node-5524">
+        <command xml:space="preserve">ask sam about the quest</command>
+        <result xml:space="preserve">"Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don't you think?"
+ "Very serious, Sam…"
+. "Well, I guess as your friends we should accompany and make sure you don't get eaten by an orc."
+ "We are such good friends…where should we start Sam?"
+ "Maybe with the Elves? I think Rivendell lies east of here, should we go there Frodo? I think they could help."
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5525"></child>
+        </children>
+    </item>
+    <item nodeId="node-5525">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">The road is long, but Sam &amp; Pip are good company. You share every meal, sing the songs of the Shire when you feel too tired to think and, in the end, you make your way to the elf's city of Rivendell, where the Elf Council is deliberating on if and how much to help you in your quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5526"></child>
+        </children>
+    </item>
+    <item nodeId="node-5526">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5527"></child>
+        </children>
+    </item>
+    <item nodeId="node-5527">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+Gandalf and Sam &amp; Pip are following you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5528"></child>
+        </children>
+    </item>
+    <item nodeId="node-5528">
+        <command xml:space="preserve">ask gandalf about</command>
+        <result xml:space="preserve"> You could ask Gandalf about him, the weather, books, pipe-weed, the ring, me, Rivendell
+, Mildred, or the quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5529"></child>
+        </children>
+    </item>
+    <item nodeId="node-5529">
+        <command xml:space="preserve">ask sam about</command>
+        <result xml:space="preserve"> You could ask Sam &amp; Pip about pipe-weed, Rivendell, Elf Council, the ring, or pipe-weed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
