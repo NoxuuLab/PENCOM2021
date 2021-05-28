@@ -179,11 +179,15 @@ After asking someone about something:
 	now the player is chatting;
 	if the topic understood is a topic listed in current conversation table:
 		say "[Response entry]";
+		if there is a subtopics entry:
+			copy subtopics entry to current conversation table;
+			list options from subtopics entry;
 		if there is a Action entry:
 			if "[Action entry]" is "move to rivendell by eagle":
 				if player consents:
 					say "[Result entry]";
 					add "[Index entry]" to the Answered List of the noun;
+					blank out the whole row;
 					now the noun is following;
 					move the player to rivendell;
 				otherwise:
@@ -192,6 +196,7 @@ After asking someone about something:
 				if player consents:
 					say "[Result entry]";
 					add "[Index entry]" to the Answered List of the noun;
+					blank out the whole row;
 					now the noun is following;
 				otherwise:
 					say "As you please.";
@@ -199,12 +204,10 @@ After asking someone about something:
 				say "[Result entry]";
 				add "[Index entry]" to the Answered List of the noun;
 				now the player have pipe-weed;
+				blank out the whole row;
 		otherwise:
 			add "[Index entry]" to the Answered List of the noun;
-		if there is a subtopics entry:
-			copy subtopics entry to current conversation table;
-			list options from subtopics entry;
-		blank out the whole row;
+			blank out the whole row;
 		sort current conversation table in labels order;
 	otherwise:
 		if the topic understood is listed in the Answered List of the noun:

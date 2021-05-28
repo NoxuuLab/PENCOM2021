@@ -913,6 +913,7 @@ Round, colorful doors are set in the sprawling green hills, from the tops of whi
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-5408"></child>
             <child nodeId="node-4957"></child>
+            <child nodeId="node-5532"></child>
             <child nodeId="node-4189"></child>
             <child nodeId="node-3091"></child>
             <child nodeId="node-3477"></child>
@@ -2095,6 +2096,45 @@ Gandalf are following you.
 , Mildred, the quest, him, books, pipe-weed, the ring, me, Rivendell
 , or Rivendell
 .
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-5532">
+        <command xml:space="preserve">ask sam about them</command>
+        <result xml:space="preserve">Frodo did you hit your head? I'm Sam, that's Pip, we have been friends for ages.
+
+Now you could also ask about pipe-weed or the quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5533"></child>
+        </children>
+    </item>
+    <item nodeId="node-5533">
+        <command xml:space="preserve">ask sam about the quest</command>
+        <result xml:space="preserve">"Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don't you think?"
+ "Very serious, Sam…"
+. "Well, I guess as your friends we should accompany and make sure you don't get eaten by an orc."
+ "We are such good friends…where should we start Sam?"
+ "Maybe with the Elves? I think Rivendell lies east of here, should we go there Frodo? I think they could help."
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5534"></child>
+        </children>
+    </item>
+    <item nodeId="node-5534">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">As you please.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-5535"></child>
+        </children>
+    </item>
+    <item nodeId="node-5535">
+        <command xml:space="preserve">ask sam about</command>
+        <result xml:space="preserve"> You could ask Sam &amp; Pip about pipe-weed or the quest.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
