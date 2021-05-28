@@ -1,6 +1,7 @@
 "Project - Lord of the Read" by Simon, Tessa and Marcela
 
 Use American dialect. Use the serial comma.
+Release along with an interpreter.
 
 Chapter 1 - The Word
 
