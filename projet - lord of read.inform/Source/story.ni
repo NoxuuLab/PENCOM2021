@@ -13,7 +13,7 @@ The Shire is west of Rivendell.
 
 Inside from the shire is the Bag End.
 
-Section 2 - Introduction - start
+Section 1 - Introduction - start
 
 The description of the old room is "Something here calls to you, like a whisper in the wind or the faint rustling of the worn pages of a well-loved book. Around and above you the walls are covered in paint. You can’t seem to remember how you made it here. There are no doors, no way for you to get out, not even a window to suggest where in the world you are." 
 
@@ -30,15 +30,7 @@ The quote of the mysterious book is "Holding your breath, you carefully open the
 
 Understand "The Fellowship of the Ring" or "Fellowship of the Ring" as book.  
 
-Section 3 - The Shire
-
-The description of the Shire is "Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun.[if Gandalf is in The Shire] [Gandalf] towers above all even while sitting on his favorite chair.[end if][if Sam & Pip are in The Shire] You can see [Sam & Pip] lounging on the grass.[end if][if there is no character in The Shire] Your friends must be in some other places at the moment.[end if]".
-The Ring is a wearable thing. "A simple band of gold, when heated it reveals a script in Elvish runes. You can feel a dark power emanating from it.".
-Pipe-weed is a thing. "This, this is...very high quality. From the smell alone you can tell that if smoked, this unassuming clump of greenery may very well gift you the high of a lifetime.". Understand "weed" as pipe-weed.
-
-A character is a kind of person. Gandalf and Sam & Pip are character in the shire.
-
-Section 4 - Bag End
+Section 2 - Bag End
 
 The description of Bag End is "You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself. Outside you can hear the laughter of children and the chirping of birds.".
 A little table, a trunk, a cupboard and a cushy armchair are in Bag End.
@@ -55,7 +47,18 @@ The quote of the map is "Incredibly detailed, it is signed by one of your ancest
 A pipe and a bag of money are in the trunk.
 The description of the pipe is "A true hobbit [pipe]. Long, carved from wood, with glinting, leafy decorations on the bowl and the shank. You can almost hear Bilbo's voice in your head saying '[italic type]No simple tobacco shall be smoked in my [pipe] Frodo. It was carved and created specifically for weed and [bold type]only [italic type]weed[roman type]'."
 
-Section 5 - Rivendell
+[THE RING]
+The Ring is a wearable thing. "A simple band of gold, when heated it reveals a script in Elvish runes. You can feel a dark power emanating from it.". The Ring has a number called usage limit. The usage limit of the ring is usually 10.
+
+Section 3 - The Shire
+
+The description of the Shire is "Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun.[if Gandalf is in The Shire] [Gandalf] towers above all even while sitting on his favorite chair.[end if][if Sam & Pip are in The Shire] You can see [Sam & Pip] lounging on the grass.[end if][if there is no character in The Shire] Your friends must be in some other places at the moment.[end if]".
+
+Pipe-weed is a thing. "This, this is...very high quality. From the smell alone you can tell that if smoked, this unassuming clump of greenery may very well gift you the high of a lifetime.". Understand "weed" as pipe-weed.
+
+A character is a kind of person. Gandalf and Sam & Pip are character in the shire.
+
+Section 4 - Rivendell
 
 The description of Rivendell is "At the edge of a narrow gorge, the peaceful elven town of [Rivendell] seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.". 
 The Elf Lord is a character in Rivendell.
@@ -66,13 +69,13 @@ The description of the mithril shirt is "Light to the touch, the strange chain m
 
 
 
-Section 6 - Mount Doom - end
+Section 5 - Mount Doom - end
 
-The description of the Mount Doom is "The heat is blistering, suffocating. Somewhere belove you licks of flame run along barren rock and molten lava churns at the mouth of the active volcano. [If the player holds the ring] The ring hisses, dark things, promises of power and greed, it would even implore and beg if it was capable of such a thing. This could be the end of your story, the end of your adventure, will there be ships to whisk you away once you throw the ring to the flames of [Mount Doom]?[otherwise] Even through you smoked out brain you remember that there was something important, something you should do here, a ring maybe? You did not forget the ring somewhere, right? RIGHT?! [end if][line break]".
+The description of the Mount Doom is "The heat is blistering, suffocating. Somewhere belove you licks of flame run along barren rock and molten lava churns at the mouth of the active [volcano]. [If the player holds the ring] The ring hisses, dark things, promises of power and greed, it would even implore and beg if it was capable of such a thing. This could be the end of your story, the end of your adventure, will there be ships to whisk you away once you throw the ring to the flames of [Mount Doom]?[otherwise] Even through you smoked out brain you remember that there was something important, something you should do here, a ring maybe? You did not forget the ring somewhere, right? RIGHT?! [end if][line break]".
 
 The volcano is an open container in Mount Doom.
 
-Chapter 3 - Settings
+Chapter 2 - Settings
 
 A person can be visible or hidden. A person is usually visible.
 A person can be waiting the council.
@@ -150,7 +153,7 @@ Instead of telling someone about something, try asking the noun about it. Instea
 
 Check asking someone about something:
 	if the player is hidden: 
-		say "You ask [the noun] about [the second noun] but [if the noun is Sam & Pip]they don't[otherwise]he doesn't[end if] seem to see or hear you." instead.
+		say "You ask [the noun] about [the topic understood] but [if the noun is Sam & Pip]they don't[otherwise]he doesn't[end if] seem to see or hear you." instead.
 
 After asking someone about something:
 	now current conversation table is the Responses Table of the noun;
@@ -202,20 +205,19 @@ Before wearing something which is not carried by the player:
 after wearing:
 	if the noun is not the ring:
 		say "... you not sure about the utility of wearing [it].[line break]";
+	otherwise:
+		say "This feels weird, you feel weird…your vision isn't the same, what happened?! You lift your hand in front of your eyes but…you can see through it! Are you invisible?!";
 
 Before wearing when the noun is the ring:
 	say "You have a bad feeling about this ring. Are you really sure you want to do that?";
 	if player consents:
 		say "You slowly put the ring on your finger, wary of the bad feeling.";
-		now the player wear the noun;
 		now the player is hidden;
-		say "This feels weird, you feel weird…your vision isn't the same, what happened?! You lift your hand in front of your eyes but…you can see through it! Are you invisible?!";
 	otherwise:
 		say "Yeah, it’s better this way.";
 		stop the action;
 
 [REMOVE THE RINGS!]
-
 Before taking off when the noun is the ring:
 	say "Do you really want to let go of all this power that is surging in you? You feel so good and so strong right now.";
 	if player consents:
@@ -236,7 +238,7 @@ Instead of smoking when the player is waiting the council:
 	
 
 [THROWING THINGS INTO THE LAVA]
-Understand "lava" or "the lava/the volcano" as the volcano.
+Understand "lava" or "the lava/the volcano" or "Mount Doom" as the volcano.
 Instead of inserting something into the volcano:
 	say "You throw [the noun] into the lava... you see [it] burning. A little anticlimactic if you ask me.";
 	now the noun is nowhere.
@@ -414,3 +416,15 @@ Instead of inserting the ring into the volcano:
 	say "The ring fights you; it thrashes in your fingers, it implores, in its whispered hisses, but you manage to throw it into the lava. You see it slowly melt away in the fires of the volcano. A great weight seems to have lifted from your shoulders.";
 	end the story saying "Despite the blistering and suffocating heat a great wind suddenly picks up. You know this feeling of being pulled in different directions, your hair flipping wildly about. [paragraph break]WOOOOOSH[paragraph break]You find yourself in the old room, the beautiful paintings are still there, as is the book, now closed and resting, unassuming, on the table. One thing is different, though, one thing has changed. There is a door now, a simple wooden door that you open with almost giddy satisfaction. As soon as you are outside you breathe a sigh of relief.[line break]Isn’t this library just beautiful? You came in here looking for your favorite book and you somehow got lost in between the racks. There was a…door? You turn around but all you see is a blank wall and nothing more. Mmh…something at the back of your mind whispers of a great adventure…something, with a book...and smoking? You really cannot remember now. Well, it must not be that important. It’s time to get something to eat anyway. You leave, never looking back, but feeling somewhat satisfied with yourself.".
 	
+Section bonus - Too Greed (Ring fail)
+
+Every turn:
+	if the player is wearing the ring:
+		decrease the usage limit of the ring by 2;
+		if the usage limit of the ring is less than 1:
+			say "You see a nazgul on the back of a dragon rushing towards you. No time to escape, he picks you up in his claw.[line break]You who wanted to go to modror, I think it's successful. But yeah, it was not to give the ring to Sauron, you knew it yet, didn't you?";
+			end the story saying "Game Over";
+		otherwise if the usage limit of the ring is less than 5:
+			say "You feel the Great Eye following you.";
+	otherwise if the usage limit of the ring is less than 10:
+		increase the usage limit of the ring by 1;
