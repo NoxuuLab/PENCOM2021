@@ -64,14 +64,14 @@ Section 4 - Rivendell
 The description of Rivendell is "At the edge of a narrow gorge, the peaceful elven town of [Rivendell] seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.". 
 The Elf Lord is a character in Rivendell.
 The pedestal is a supporter in Rivendell.
-An old sword and the mithril shirt are on the pedestal.The mithril shirt is a wearable thing. 
+An old sword and the mithril shirt are on the pedestal. The mithril shirt is a wearable thing. 
 The description of the old sword is "A beautiful thing that would look extremely well tied around your hip. On the blade there is an inscription in what you assume to be elvish, maybe [Gandalf] would know how to translate it?". 
 The description of the mithril shirt is "Light to the touch, the strange chain mail shines softly. You don't know much about this stuff, but it must be special, or at the very least worth a pretty coin."
 
 
 Section 5 - Mount Doom - end
 
-The description of the Mount Doom is "The heat is blistering, suffocating. Somewhere belove you licks of flame run along barren rock and molten lava churns at the mouth of the active [volcano]. [If the player holds the ring] The ring hisses, dark things, promises of power and greed, it would even implore and beg if it was capable of such a thing. This could be the end of your story, the end of your adventure, will there be ships to whisk you away once you throw the ring to the flames of [Mount Doom]?[otherwise] Even through you smoked out brain you remember that there was something important, something you should do here, a ring maybe? You did not forget the ring somewhere, right? RIGHT?! [end if][line break]".
+The description of the Mount Doom is "The heat is blistering, suffocating. Somewhere below you licks of flames run along barren rock and molten lava churns at the mouth of the active [volcano]. [If the player holds the ring] The ring hisses, dark things, promises of power and greed, it would even implore and beg if it was capable of such a thing. This could be the end of your story, the end of your adventure, will there be ships to whisk you away once you throw the ring to the flames of [Mount Doom]?[otherwise] Even through you smoked out brain you remember that there was something important, something you should do here, a ring maybe? You did not forget the ring somewhere, right? RIGHT?! [end if][line break]".
 
 The volcano is an open container in Mount Doom.
 
@@ -101,8 +101,11 @@ Understand "open [a book]" as reading.
 Smoking is an action applying to one visible thing.
 Understand "smoke [something]" as smoking.
 
-Check smoking when the noun is not pipe-weed: instead say "Sounds like
-something you might have tried in high school."
+Check smoking when the noun is not pipe-weed: 
+	if the noun is the pipe:
+		say "It’s empty, unfortunately." instead; 
+	otherwise:
+	 	say "Sounds like something you might have tried in high school." instead. 
 
 Check smoking when the pipe is not held: instead say "How do you plan on doing it... with your hands? A pipe may be a good idea."
 
@@ -112,7 +115,7 @@ deeply. You can almost feel the air moving inside your lungs, [the noun] sinking
 [EATING]
 Check eating when the noun is edible: 
 	if the noun is a loaf of bread: 
-		say "Such a thick and crunchy crust! You cannot resist and eat the whole thing in three gigantic bites."; 
+		say "Such a thick and crunchy crust! You cannot resist and eat the whole thing in three gigantic bites." instead; 
 	otherwise: 
 		say "You eat [the noun] with gusto." instead.
 
@@ -138,7 +141,7 @@ Every turn:
 							[list options from the Table entry;]
 	if the player is followed:
 		let followers be the list of characters which are following;
-		say "[italic type][followers] [are] following you.";
+		say "[italic type][followers] [are] here with you.";
 		now the player is not followed;
 
 [SAVOIR QUOI DIRE]
@@ -260,7 +263,7 @@ Instead of smoking when the player is waiting the council:
 	
 
 [THROWING THINGS INTO THE LAVA]
-Understand "lava" or "the lava/the volcano" or "Mount Doom" as the volcano.
+Understand "lava" or "the lava/the volcano" or "Mount Doom" or "flames" as the volcano.
 Instead of inserting something into the volcano:
 	say "You throw [the noun] into the lava... you see [it] burning. A little anticlimactic if you ask me.";
 	now the noun is nowhere.
@@ -450,14 +453,14 @@ Instead of inserting the ring into the volcano:
 	say "The ring fights you; it thrashes in your fingers, it implores, in its whispered hisses, but you manage to throw it into the lava. You see it slowly melt away in the fires of the volcano. A great weight seems to have lifted from your shoulders.";
 	end the story saying "Despite the blistering and suffocating heat a great wind suddenly picks up. You know this feeling of being pulled in different directions, your hair flipping wildly about. [paragraph break]WOOOOOSH[paragraph break]You find yourself in the old room, the beautiful paintings are still there, as is the book, now closed and resting, unassuming, on the table. One thing is different, though, one thing has changed. There is a door now, a simple wooden door that you open with almost giddy satisfaction. As soon as you are outside you breathe a sigh of relief.[line break]Isn’t this library just beautiful? You came in here looking for your favorite book and you somehow got lost in between the racks. There was a…door? You turn around but all you see is a blank wall and nothing more. Mmh…something at the back of your mind whispers of a great adventure…something, with a book...and smoking? You really cannot remember now. Well, it must not be that important. It’s time to get something to eat anyway. You leave, never looking back, but feeling somewhat satisfied with yourself.".
 	
-Section 6 - Too Greed (Ring fail)
+Section 6 - Too Greedy (Ring fail)
 
 Every turn:
 	if the player is wearing the ring:
 		decrease the usage limit of the ring by 2;
 		if the usage limit of the ring is less than 1:
-			say "You see a nazgul on the back of a dragon rushing towards you. No time to escape, he picks you up in his claw.[line break]You who wanted to go to modror, I think it's successful. But yeah, it was not to give the ring to Sauron, you knew it yet, didn't you?";
-			end the story saying "Game Over";
+			say "You see a nazgul on the back of a dragon rushing towards you. No time to escape, he picks you up in his claws.[line break]You wanted to go to Mordor, right? Well, you’re there. But yeah, the plan was not to give the ring to Sauron so that he may rule all of Middle Earth, but you already knew that didn't you?";
+			end the story saying "[paragraph break]GAME OVER[paragraph break]Your greed for power was your downfall. There is probably an important life lesson to learn here about but who are we to judge. We wish to thank you in any case for having played, it has been fun (for us at least).[paragraph break]All the best to you, dear player, and if you want to try again, just remember to not let the bad guy win. Good luck!";
 		otherwise if the usage limit of the ring is less than 5:
 			say "You feel the Great Eye following you.";
 	otherwise if the usage limit of the ring is less than 10:
