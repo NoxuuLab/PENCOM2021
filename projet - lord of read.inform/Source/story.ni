@@ -131,17 +131,23 @@ Every turn:
 		[Déplace le joueur]
 		if path is not nothing:
 			now the player is followed;
-			silently try NPC going path;
-			[Ajoute du dialogue si le PNJ visite la salle pour la 1èere fois]
-			if current location is not listed in the Already Visited Room of NPC:
-				repeat through the Table of Characters Dialogues:
-					if the Character entry is NPC:
-						if the Room entry is the current location:
-							copy Table entry to The Responses Table of NPC;
-							[list options from the Table entry;]
+			if the player is hidden:
+				now NPC is not following;
+			otherwise:
+				silently try NPC going path;
+				[Ajoute du dialogue si le PNJ visite la salle pour la 1èere fois]
+				if current location is not listed in the Already Visited Room of NPC:
+					repeat through the Table of Characters Dialogues:
+						if the Character entry is NPC:
+							if the Room entry is the current location:
+								copy Table entry to The Responses Table of NPC;
+								[list options from the Table entry;]
 	if the player is followed:
-		let followers be the list of characters which are following;
-		say "[italic type][followers] [are] here with you.";
+		if the player is hidden:
+			say "[italic type]You look around but no one seems to have followed you anymore.";
+		otherwise:
+			let followers be the list of characters which are following;
+			say "[italic type][followers] followed you.";
 		now the player is not followed;
 
 [SAVOIR QUOI DIRE]
@@ -469,9 +475,9 @@ Every turn:
 Chapter 5 - Debug
 
 [TELEPROTATION]
-teleporting is an action applying to one thing.
+[teleporting is an action applying to one thing.
 Understand "go to [any room]" as teleporting.
 Check teleporting:
     if the noun is not a room, say "people can only travel between location" instead.
 Carry out teleporting:
-	move the player to the noun[, without printing a room description];
+	move the player to the noun;]
