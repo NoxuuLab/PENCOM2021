@@ -35,9 +35,9 @@ Section 2 - Bag End
 
 The description of Bag End is "You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself. Outside you can hear the laughter of children and the chirping of birds.".
 A little table, a trunk, a cupboard and a cushy armchair are in Bag End.
-The trunk is openable and closed. The description of the trunk is "An old and heavy thing, on which the name BAGGINS is roughly carved.". 
+The trunk is openable, closed and not portable. The description of the trunk is "An old and heavy thing, on which the name BAGGINS is roughly carved.". 
 The green book is a book on the little table. The map is a book on the little table.
-The cupboard is openable and closed. A loaf of bread, an apple and a peach are in the cupboard. A loaf of bread, an apple and a peach are edible things. 
+The cupboard is openable, closed and not portable. A loaf of bread, an apple and a peach are in the cupboard. A loaf of bread, an apple and a peach are edible things. 
 The cushy armchair is an enterable supporter. The cushy armchair is not portable. It is pushable between rooms.
 
 The description of the green book is "As green as fine summery grass, the title of the book stands boldly on its front '[italic type]Surviving Your First High and Other Ways to Have the Best Time of Your Life With Weed[roman type]'."
