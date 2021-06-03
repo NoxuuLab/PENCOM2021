@@ -2369,6 +2369,18 @@ You look around but no one seems to have followed you anymore.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7782"></child>
+        </children>
+    </item>
+    <item nodeId="node-7782">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a Ring (being worn)
+
+You feel the Great Eye following you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-7224">
         <command xml:space="preserve">ask sam about the quest</command>

@@ -50,6 +50,7 @@ The description of the pipe is "A true hobbit [pipe]. Long, carved from wood, wi
 
 [THE RING]
 The Ring is a wearable thing. "A simple band of gold, when heated it reveals a script in Elvish runes. You can feel a dark power emanating from it.". The Ring has a number called usage limit. The usage limit of the ring is usually 10.
+The indefinite article of the ring is "The".
 
 Section 3 - The Shire
 
@@ -425,6 +426,7 @@ Section 1 - Introduction
 
 After reading the mysterious book: 
 	say "You can barely make out a few sentences before words and letters begin to move in concentric swirls. You try to take a step back, but your fingers are stuck to the pages.[line break]WOOOOOSH[line break] A great wind pulls at you and the only thing you can do is scream and scream in terror. You look one last time at the beautiful paintings on the walls and then everything goes black.[line break][line break]"; 
+	now the mysterious book is nowhere;
 	move player to Bag End; 
 	now the player carries the ring.
 	
