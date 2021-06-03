@@ -268,12 +268,17 @@ Instead of going to a room when the player is waiting the council:
 Instead of smoking when the player is waiting the council:
 	say "There is a time and a place for smoking. Now is not that time (but it could be the place).".
 	
-
 [THROWING THINGS INTO THE LAVA]
 Understand "lava" or "the lava/the volcano" or "Mount Doom" or "flames" as the volcano.
 Instead of inserting something into the volcano:
 	say "You throw [the noun] into the lava... you see [it] burning. A little anticlimactic if you ask me.";
 	now the noun is nowhere.
+
+Instead of inserting the player into the volcano:
+	if the player carries the ring or the player is wearing the ring:
+		say "Unable to throw this powerful ring into the flames, you decide to disappear with it into the magma. Holding the ring in the palm of your hand, you get ready to perform the last dives of your short life. After having gathered all your courage, you are closing your eyes and leting yourself go forward ... But you don't fall.[line break]Turning around, you see that a strange creature has held you back from this deadly fall. Encouraged by this act of kindness emanating from this hostile creature, you rethink about your homeland and your friends... Like that, you decide to get rid of the ring by throwing it into the volcano instead.";
+	otherwise:
+		say "What a brave act for a weak creature as you. But you forgot something important didn't you ?";
 
 Section 2 - speech mechanism
 
@@ -459,7 +464,7 @@ Section 5 - Go to end
 
 Instead of inserting the ring into the volcano:
 	say "The ring fights you; it thrashes in your fingers, it implores, in its whispered hisses, but you manage to throw it into the lava. You see it slowly melt away in the fires of the volcano. A great weight seems to have lifted from your shoulders.";
-	end the story saying "Despite the blistering and suffocating heat a great wind suddenly picks up. You know this feeling of being pulled in different directions, your hair flipping wildly about. [paragraph break]WOOOOOSH[paragraph break]You find yourself in the old room, the beautiful paintings are still there, as is the book, now closed and resting, unassuming, on the table. One thing is different, though, one thing has changed. There is a door now, a simple wooden door that you open with almost giddy satisfaction. As soon as you are outside you breathe a sigh of relief.[line break]Isn’t this library just beautiful? You came in here looking for your favorite book and you somehow got lost in between the racks. There was a…door? You turn around but all you see is a blank wall and nothing more. Mmh…something at the back of your mind whispers of a great adventure…something, with a book...and smoking? You really cannot remember now. Well, it must not be that important. It’s time to get something to eat anyway. You leave, never looking back, but feeling somewhat satisfied with yourself.".
+	end the story saying "Despite the blistering and suffocating heat a great wind suddenly picks up. You know this feeling of being pulled in different directions, your hair flipping wildly about. [paragraph break]WOOOOOSH[paragraph break]You find yourself in the old room, the beautiful paintings are still there, as is the book, now closed and resting, unassuming, on the table. One thing is different, though, one thing has changed. There is a door now, a simple wooden door that you open with almost giddy satisfaction. As soon as you are outside you breathe a sigh of relief.[line break]Isn’t this library just beautiful? You came in here looking for your favorite book and you somehow got lost in between the racks. There was a…door? You turn around but all you see is a blank wall and nothing more. Mmh…something at the back of your mind whispers of a great adventure…something, with a book...and smoking? You really cannot remember now. Well, it must not be that important. It’s time to get something to eat anyway. You leave, never looking back, but feeling somewhat satisfied with yourself.".		
 	
 Section 6 - Too Greedy (Ring fail)
 

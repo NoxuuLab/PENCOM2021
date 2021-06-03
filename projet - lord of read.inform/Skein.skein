@@ -2109,7 +2109,8 @@ Now you could also ask about pipe-weed or the quest.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-7219"></child>
+        <children><child nodeId="node-7917"></child>
+            <child nodeId="node-7219"></child>
         </children>
     </item>
     <item nodeId="node-7219">
@@ -2136,6 +2137,106 @@ Now you could also ask about pipe-weed or the quest.
     <item nodeId="node-7221">
         <command xml:space="preserve">ask sam about</command>
         <result xml:space="preserve"> You could ask Sam &amp; Pip about pipe-weed or the quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-7917">
+        <command xml:space="preserve">ask sam about pipe-weed</command>
+        <result xml:space="preserve">"Well…we stole, I mean borrowed! We borrowed some from old Dinodas while he was drunk. Would you like some?"
+Sam &amp; Pip give you some nice pipe-weed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7918"></child>
+        </children>
+    </item>
+    <item nodeId="node-7918">
+        <command xml:space="preserve">go inside</command>
+        <result xml:space="preserve">
+Bag End
+You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself. Outside you can hear the laughter of children and the chirping of birds.
+
+You can see a little table (on which are a green book and a map), a trunk (closed), a cupboard (closed), and a cushy armchair here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7919"></child>
+        </children>
+    </item>
+    <item nodeId="node-7919">
+        <command xml:space="preserve">open trunk</command>
+        <result xml:space="preserve">You open the trunk, revealing a pipe and a bag of money.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7920"></child>
+        </children>
+    </item>
+    <item nodeId="node-7920">
+        <command xml:space="preserve">take pipe</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7921"></child>
+        </children>
+    </item>
+    <item nodeId="node-7921">
+        <command xml:space="preserve">smoke weed</command>
+        <result xml:space="preserve">You light Pipe-weed with your lighter and inhale deeply. You can almost feel the air moving inside your lungs, Pipe-weed sinking deep in your blood and your brain. Life is such a strange and wonderous thing and what matters if you're stuck inside a version of Lord of the Rings where everyone treats you like an idiot? You know how this story begins and ends, if you could just turn to one of the last chapters, you could show them, show them all how the story of Frodo Baggins should have gone. You can see the pages in your mind, you turn and turn and turn them…and you find yourself teleported to Mount Doom!
+
+Mount Doom
+The heat is blistering, suffocating. Somewhere below you licks of flames run along barren rock and molten lava churns at the mouth of the active volcano.  The ring hisses, dark things, promises of power and greed, it would even implore and beg if it was capable of such a thing. This could be the end of your story, the end of your adventure, will there be ships to whisk you away once you throw the ring to the flames of Mount Doom?
+
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7922"></child>
+        </children>
+    </item>
+    <item nodeId="node-7922">
+        <command xml:space="preserve">throw me in the lava</command>
+        <result xml:space="preserve">Unable to throw this powerful ring into the flames, you decide to disappear with it into the magma. Holding the ring in the palm of your hand, you get ready to perform the last dives of your short life. After having gathered all your courage, you are closing your eyes and leting yourself go forward ... But you don't fall.
+Turning around, you see that a strange creature has held you back from this deadly fall. Encouraged by this act of kindness emanating from this hostile creature, you rethink about your homeland and your friends... Like that, you decide to get rid of the ring by throwing it into the volcano instead.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7941"></child>
+        </children>
+    </item>
+    <item nodeId="node-7941">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a pipe
+  The Ring
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7942"></child>
+        </children>
+    </item>
+    <item nodeId="node-7942">
+        <command xml:space="preserve">throw pipe into the lava</command>
+        <result xml:space="preserve">You throw the pipe into the lava... you see it burning. A little anticlimactic if you ask me.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7976"></child>
+        </children>
+    </item>
+    <item nodeId="node-7976">
+        <command xml:space="preserve">drop ring</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7977"></child>
+        </children>
+    </item>
+    <item nodeId="node-7977">
+        <command xml:space="preserve">throw me into the lava</command>
+        <result xml:space="preserve">What a brave act for a weak creature as you. But you forgot something important didn't you ?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2375,9 +2476,18 @@ You look around but no one seems to have followed you anymore.
     <item nodeId="node-7782">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
-  a Ring (being worn)
+  The Ring (being worn)
 
 You feel the Great Eye following you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-7913"></child>
+        </children>
+    </item>
+    <item nodeId="node-7913">
+        <command xml:space="preserve">ask sam about pipe-weed</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
