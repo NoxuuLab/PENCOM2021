@@ -182,7 +182,8 @@ You can see a little table (on which are a green book and a map), a trunk (close
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1075"></child>
+        <children><child nodeId="node-2249"></child>
+            <child nodeId="node-1075"></child>
             <child nodeId="node-1795"></child>
             <child nodeId="node-1912"></child>
             <child nodeId="node-1850"></child>
@@ -1027,7 +1028,145 @@ Round, colorful doors are set in the sprawling green hills, from the tops of whi
         <children><child nodeId="node-2023"></child>
             <child nodeId="node-1913"></child>
             <child nodeId="node-2033"></child>
+            <child nodeId="node-2129"></child>
         </children>
+    </item>
+    <item nodeId="node-2129">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">This is the way for Rivendell, but history doesn't want you to go into the woods alone, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2130"></child>
+        </children>
+    </item>
+    <item nodeId="node-2130">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">lol
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2131"></child>
+        </children>
+    </item>
+    <item nodeId="node-2131">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">lol
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2132"></child>
+        </children>
+    </item>
+    <item nodeId="node-2132">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">lol
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2133"></child>
+        </children>
+    </item>
+    <item nodeId="node-2133">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">lol
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2134"></child>
+        </children>
+    </item>
+    <item nodeId="node-2134">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">lol
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2135"></child>
+        </children>
+    </item>
+    <item nodeId="node-2135">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">lol
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2136"></child>
+        </children>
+    </item>
+    <item nodeId="node-2136">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">lol
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2137"></child>
+        </children>
+    </item>
+    <item nodeId="node-2137">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">lol
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2138"></child>
+        </children>
+    </item>
+    <item nodeId="node-2138">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">lol
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2139"></child>
+        </children>
+    </item>
+    <item nodeId="node-2139">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">lol
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2140"></child>
+        </children>
+    </item>
+    <item nodeId="node-2140">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">This is the way for Rivendell, but history doesn't want you to go into the woods alone, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2141"></child>
+        </children>
+    </item>
+    <item nodeId="node-2141">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">This is the way for Rivendell, but history doesn't want you to go into the woods alone, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2142"></child>
+        </children>
+    </item>
+    <item nodeId="node-2142">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">lol
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2143"></child>
+        </children>
+    </item>
+    <item nodeId="node-2143">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">lol
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2246"></child>
+        </children>
+    </item>
+    <item nodeId="node-2246">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">lol
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2247"></child>
+        </children>
+    </item>
+    <item nodeId="node-2247">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">lol
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-2033">
         <command xml:space="preserve">ask sam about them</command>
@@ -3397,6 +3536,45 @@ A tall lady elf, her hands crossed behind her back, approaches you slowly. Her l
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2104"></child>
+        </children>
+    </item>
+    <item nodeId="node-2104">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see Sam &amp; Pip, an Elf Lord, and a pedestal (on which are an old sword and a mithril shirt) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2105"></child>
+        </children>
+    </item>
+    <item nodeId="node-2105">
+        <command xml:space="preserve">take pedestal</command>
+        <result xml:space="preserve">That's fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2106"></child>
+        </children>
+    </item>
+    <item nodeId="node-2106">
+        <command xml:space="preserve">help</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2107"></child>
+        </children>
+    </item>
+    <item nodeId="node-2107">
+        <command xml:space="preserve">h</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1227">
         <command xml:space="preserve">ask sam about the quest</command>
@@ -4104,6 +4282,391 @@ Gandalf and Sam &amp; Pip are following you.
         <command xml:space="preserve">ask sam about</command>
         <result xml:space="preserve"> You could ask Sam &amp; Pip about pipe-weed, Rivendell, Elf Council, the ring, or pipe-weed.
 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2249">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2250"></child>
+        </children>
+    </item>
+    <item nodeId="node-2250">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2251"></child>
+        </children>
+    </item>
+    <item nodeId="node-2251">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2252"></child>
+        </children>
+    </item>
+    <item nodeId="node-2252">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+(You heard some noise OUTSIDE, you maybe can try to go there?)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2253"></child>
+        </children>
+    </item>
+    <item nodeId="node-2253">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2254"></child>
+        </children>
+    </item>
+    <item nodeId="node-2254">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2255"></child>
+        </children>
+    </item>
+    <item nodeId="node-2255">
+        <command xml:space="preserve">in</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2384"></child>
+        </children>
+    </item>
+    <item nodeId="node-2384">
+        <command xml:space="preserve">out</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Gandalf towers above all even while sitting on his favorite chair. You can see Sam &amp; Pip lounging on the grass.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2385"></child>
+        </children>
+    </item>
+    <item nodeId="node-2385">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">This is the way for Rivendell, but history doesn't want you to go into the woods alone, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2386"></child>
+        </children>
+    </item>
+    <item nodeId="node-2386">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">This is the way for Rivendell, but history doesn't want you to go into the woods alone, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2387"></child>
+        </children>
+    </item>
+    <item nodeId="node-2387">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">This is the way for Rivendell, but history doesn't want you to go into the woods alone, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2388"></child>
+        </children>
+    </item>
+    <item nodeId="node-2388">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">This is the way for Rivendell, but history doesn't want you to go into the woods alone, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2389"></child>
+        </children>
+    </item>
+    <item nodeId="node-2389">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">This is the way for Rivendell, but history doesn't want you to go into the woods alone, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2390"></child>
+        </children>
+    </item>
+    <item nodeId="node-2390">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2391"></child>
+        </children>
+    </item>
+    <item nodeId="node-2391">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2392"></child>
+        </children>
+    </item>
+    <item nodeId="node-2392">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2393"></child>
+        </children>
+    </item>
+    <item nodeId="node-2393">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2394"></child>
+        </children>
+    </item>
+    <item nodeId="node-2394">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2395"></child>
+        </children>
+    </item>
+    <item nodeId="node-2395">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2396"></child>
+        </children>
+    </item>
+    <item nodeId="node-2396">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2397"></child>
+        </children>
+    </item>
+    <item nodeId="node-2397">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2398"></child>
+        </children>
+    </item>
+    <item nodeId="node-2398">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2399"></child>
+        </children>
+    </item>
+    <item nodeId="node-2399">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2472"></child>
+        </children>
+    </item>
+    <item nodeId="node-2472">
+        <command xml:space="preserve">ask gandalf about him</command>
+        <result xml:space="preserve">I d'ont see what you mean, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2473"></child>
+        </children>
+    </item>
+    <item nodeId="node-2473">
+        <command xml:space="preserve">ask gandalf about you</command>
+        <result xml:space="preserve">"Sir, who I am?"... Did you smoke something? Are you alright? Is this some sort of test? You are Frodo Baggins, of course, hobbit of the Shire.
+
+Now you could also ask about him, the weather, or life.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2474"></child>
+        </children>
+    </item>
+    <item nodeId="node-2474">
+        <command xml:space="preserve">ask gandalf about him</command>
+        <result xml:space="preserve">I am Gandalf the Grey. I was sent to Middle Earth to help destroy the ring that you now hold. I am an Istar, a wizard of old.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2475"></child>
+        </children>
+    </item>
+    <item nodeId="node-2475">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2476"></child>
+        </children>
+    </item>
+    <item nodeId="node-2476">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2477"></child>
+        </children>
+    </item>
+    <item nodeId="node-2477">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2478"></child>
+        </children>
+    </item>
+    <item nodeId="node-2478">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2479"></child>
+        </children>
+    </item>
+    <item nodeId="node-2479">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2480"></child>
+        </children>
+    </item>
+    <item nodeId="node-2480">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+(If you are feeling lost, you maybe need a map... or a book ?! )
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2481"></child>
+        </children>
+    </item>
+    <item nodeId="node-2481">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2618"></child>
+        </children>
+    </item>
+    <item nodeId="node-2618">
+        <command xml:space="preserve">inside</command>
+        <result xml:space="preserve">
+Bag End
+You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself. Outside you can hear the laughter of children and the chirping of birds.
+
+You can see a little table (on which are a green book and a map), a trunk (closed), a cupboard (closed), and a cushy armchair here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2619"></child>
+        </children>
+    </item>
+    <item nodeId="node-2619">
+        <command xml:space="preserve">out</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Gandalf towers above all even while sitting on his favorite chair. You can see Sam &amp; Pip lounging on the grass.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2620"></child>
+        </children>
+    </item>
+    <item nodeId="node-2620">
+        <command xml:space="preserve">ask sam about him</command>
+        <result xml:space="preserve">Frodo did you hit your head? I'm Sam, that's Pip, we have been friends for ages.
+
+Now you could also ask about pipe-weed or the quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2621"></child>
+        </children>
+    </item>
+    <item nodeId="node-2621">
+        <command xml:space="preserve">ask sam about weed</command>
+        <result xml:space="preserve">"Well…we stole, I mean borrowed! We borrowed some from old Dinodas while he was drunk. Would you like some?"
+
+Sam &amp; Pip give you some nice pipe-weed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2622"></child>
+        </children>
+    </item>
+    <item nodeId="node-2622">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2623"></child>
+        </children>
+    </item>
+    <item nodeId="node-2623">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2624"></child>
+        </children>
+    </item>
+    <item nodeId="node-2624">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2625"></child>
+        </children>
+    </item>
+    <item nodeId="node-2625">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+(If you are feeling lost, you maybe need a map... or a book ?! Maybe just chilling is better after all. )
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>

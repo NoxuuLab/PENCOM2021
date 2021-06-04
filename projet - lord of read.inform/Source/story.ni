@@ -88,6 +88,7 @@ A person can be able to go to Rivendell.
 A character have a table name called the Responses Table. A character have a table name called the Seconde Responses Table. A character have a list of texts called Answered List.
 A character can be following. A character is usually not following.
 A character has a list of room called Already Visited Room.
+		
 
 Section 1 - Actions
 
@@ -434,6 +435,22 @@ The Responses Table of Elf Lord is Table of Elf Responses.
 The Seconde Responses Table of Elf Lord is Table of Seconde Elf Responses.
 		
 Chapter 4 - Scenario
+
+section 0 - Help
+
+going nowhere is acting confused.
+
+Instead of going nowhere:
+	say "[We] [can't go] that way.";
+	if acting confused for the fourth turn:
+		if the player is in the old room:
+			say "[line break](You really just need to READ this book.)";
+		otherwise if the player is in bag end:
+			say "[line break](You heard some noise OUTSIDE, you maybe can try to go there?)";
+		otherwise if the player is in mount doom:
+			say "[line break](You know what appened on this story don't you ? Frodo try to THROW the ring into the lava, something like that.)";
+		otherwise:
+			say "[line break](If you are feeling lost, you maybe need a map... or a book ?! [if the player carry pipe-weed]Maybe just chilling is better after all. [end if])"; 
 
 Section 1 - Introduction
 
