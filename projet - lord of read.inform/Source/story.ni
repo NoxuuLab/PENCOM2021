@@ -451,6 +451,16 @@ Instead of going nowhere:
 			say "[line break](You know what appened on this story don't you ? Frodo try to THROW the ring into the lava, something like that.)";
 		otherwise:
 			say "[line break](If you are feeling lost, you maybe need a map... or a book ?! [if the player carry pipe-weed]Maybe just chilling is better after all. [end if])"; 
+			
+Instead of burning the ring:
+	say "The Ring can't be destroy ! But that's the spirit...".
+	
+Instead of cutting the ring:
+	say "The Ring can't be destroy !".
+	
+Instead of attacking the ring:
+	say "The Ring can't be destroy !".
+	
 
 Section 1 - Introduction
 
@@ -507,9 +517,9 @@ Every turn:
 Chapter 5 - Debug
 
 [TELEPROTATION]
-[teleporting is an action applying to one thing.
+teleporting is an action applying to one thing.
 Understand "go to [any room]" as teleporting.
 Check teleporting:
     if the noun is not a room, say "people can only travel between location" instead.
 Carry out teleporting:
-	move the player to the noun;]
+	move the player to the noun;
