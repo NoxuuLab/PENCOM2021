@@ -1,4 +1,4 @@
-"Project - Lord of the Read" by Simon, Tessa and Marcela
+"Lord of the Read" by Simon, Tessa and Marcela
 
 Use American dialect. Use the serial comma.
 Release along with an interpreter.
@@ -203,7 +203,7 @@ After asking someone about something:
 					move the player to rivendell;
 				otherwise:
 					say "As you please.";
-			if "[Action entry]" is "move to Rivendell by foot":
+			otherwise if "[Action entry]" is "move to Rivendell by foot":
 				if player consents:
 					say "[Result entry]";
 					add "[Index entry]" to the Answered List of the noun;
@@ -211,7 +211,7 @@ After asking someone about something:
 					now the noun is following;
 				otherwise:
 					say "As you please.";
-			if "[Action entry]" is "get weed":
+			otherwise if "[Action entry]" is "get weed":
 				say "[Result entry]";
 				add "[Index entry]" to the Answered List of the noun;
 				now the player have pipe-weed;
