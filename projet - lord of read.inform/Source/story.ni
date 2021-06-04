@@ -64,7 +64,7 @@ Section 4 - Rivendell
 
 The description of Rivendell is "At the edge of a narrow gorge, the peaceful elven town of [Rivendell] seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.". 
 The Elf Lord is a character in Rivendell.
-The pedestal is a supporter in Rivendell.
+The pedestal is a supporter in Rivendell. The carrying capacity of the pedestal is 3. 
 An old sword and the mithril shirt are on the pedestal. The mithril shirt is a wearable thing. 
 The description of the old sword is "A beautiful thing that would look extremely well tied around your hip. On the blade there is an inscription in what you assume to be elvish, maybe [Gandalf] would know how to translate it?". 
 The description of the mithril shirt is "Light to the touch, the strange chain mail shines softly. You don't know much about this stuff, but it must be special, or at the very least worth a pretty coin."
@@ -352,12 +352,12 @@ Topic	Response	Index	Action	Result	subtopics	labels
 "me"	"Never in my life have I seen someone look so green. I brought you to Rivendell before you threw up on poor Mildred, she was not happy.[line break]"	"me"	--	--	--	0
 "Rivendell"	"A beautiful town built by the elves. You should be able to rest and recuperate here."	"Rivendell[line break]"	--	--	--	0
 "Mildred"	"The young Eagle took you as far as Rivendell but she refused to allow you on her back ever again. I am afraid that you should find another way to continue on your quest.[line break]"	"Mildred"	--	--	--	0
-"the quest"	"The Elf Council is still in session. I think you should wait and hear what they have to say.[line break]"	"the quest"	--	--	Table of Rivendell Gandalf Council Topics	0
+"the quest"	"[if the player is waiting the council]The Elf Council is still in session. I think you should wait and hear what they have to say. [otherwise]The Elf Council has deemed you too weak to continue. I think it best to return to the Shire (west).[end if][line break]"	"the quest"	--	--	Table of Rivendell Gandalf Council Topics	0
 with 2 blank rows.
 
 Table of Rivendell Gandalf Council Topics
 Topic	Response	Index	Action	Result	subtopics	labels
-"the Elf Council"	"They shall decide of your destiny Frodo, if after the Great Eagle Fail (as it is now known) they decide that you shan’t continue, I would not blame them.[line break]"	"the Elf Council"	--	--	--	1
+"the Elf Council"	"[if the player is waiting the council]They shall decide of your destiny Frodo, if after the Great Eagle Fail (as it is now known) they decide that you shan’t continue, I would not blame them. [otherwise]It may seem unfair to you, young Frodo, but the elves have survived in Middle Earth for thousands of years. It would be wise to do as they say.[end if][line break]"	"the Elf Council"	--	--	--	1
 "Mount Doom"	"Still to the south. Why the ring had to fall in the hands of such a weak creature is beyond me…[line break]"	"Mount Doom"	--	--	--	1
 
 Table of Seconde Gandalf Responses
@@ -383,7 +383,7 @@ Topic	Response	Index	Action	Result	subtopics	labels
 Table of Rivendell Sam Responses
 Topic	Response	Index	Action	Result	subtopics	labels
 "Rivendell"	"Such a wonderful place Frodo! We can bathe in the river and eat the weird elf bread and just enjoy the view for a while.[line break]"	"Rivendell"	--	--	--	0
-"Elf Council"	"Last we heard they were still deliberating, but I bet that they will soon be out.[line break]"	"Elf Council"	--	--	--	0
+"Elf Council"	"[if the player is waiting the council]Last we heard they were still deliberating, but I bet that they will soon be out.[otherwise]'The lady was not really nice but look on the positive side! We get to go back to the Shire (west) and enjoy some peace and tranquility, what say you Pip?'[line break] 'Oh Sam, I can already see us, lunging in the sun, enjoying some sandwiches and a good smoke. That is the life, isn’t it Sam?'[line break]'Yes it is, it definitely is.'[end if][line break]"	"Elf Council"	--	--	--	0
 "the ring"	"We don’t know, you were the one holding it, maybe you should check that you still have it.[line break]"	"the ring"	--	--	--	0
 "pipe-weed"	"I think we still have some, somewhere. Would you like any? It might help you relax…[line break]"	"pipe-weed"	"get weed"	"Sam & Pip give you some nice pipe-weed."	--	0
 
@@ -406,13 +406,13 @@ with 3 blank rows.
 
 Table of Elf Topics
 Topic	Response	Index	Action	Result	subtopics	labels
-"Elf Council"	"The Elf Council is still in session, they are deciding if someone such as you is worthy of the quest of the destruction of the ring.[line break]"	"Elf Council"	--	--	Table of Elf Quest Topic	1
+"Elf Council"	"[if the player is waiting the council]The Elf Council is still in session, they are deciding if someone such as you is worthy of the quest of the destruction of the ring.[otherwise]The decision of the Elf Council is final and I have to admit I feel somewhat relived that you were not the one chosen for such a task. Go back to the Shire (west), Frodo, enjoy life, have many children, I am sure one of them will be up to the task.[end if][line break]"	"Elf Council"	--	--	Table of Elf Quest Topic	1
 "Rivendell"	 "My gem, my precious town built on the river Bruinen, the place we came to call home. It a serene place young Frodo and I will not have you disrupt its peace.[line break]"	"Rivendell"	--	--	--	1
 "Mount Doom"	"The volcano lies somewhere south of here, but I do not know if you are ready for such a trip. You will wait for the Elf Council to deliberate, maybe they will find a worthy elf to throw the ring in the flames of Mount Doom.[line break]"	"Mount Doom"	--	--	--	1
 
 Table of Elf Quest Topic
 Topic	Response	Index	Action	Result	subtopics	labels
-"The quest"	"The Elf Council shall decide if you are fit or not to continue…probably not.[line break]"	"the quest"	--	--	--	2
+"The quest"	"[if the player is waiting the council]The Elf Council shall decide if you are fit or not to continue…probably not.[otherwise]Do not insist, hobbit, the Elf Council has deemed you unworthy.[end if][line break]"	"the quest"	--	--	--	2
 "The ring"	"[if player holds the ring] Still tied around your neck I believe, for how long however I do not know. [otherwise] Did you lose one of the most powerful artifacts know to Middle-Earth? YOU ARE A DISGRACE! I HOPE THE COUNCIL THROWS YOU IN THE RIVER! [end if][line break]"	"The ring"	--	--	--	2
 
 Table of Seconde Elf Responses
