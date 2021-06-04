@@ -517,9 +517,9 @@ Every turn:
 Chapter 5 - Debug
 
 [TELEPROTATION]
-teleporting is an action applying to one thing.
+[teleporting is an action applying to one thing.
 Understand "go to [any room]" as teleporting.
 Check teleporting:
     if the noun is not a room, say "people can only travel between location" instead.
 Carry out teleporting:
-	move the player to the noun;
+	move the player to the noun;]
