@@ -14,7 +14,7 @@ The Shire is west of Rivendell.
 
 Inside from the shire is the Bag End.
 
-Section 1 - Introduction - start
+Section 1 - Introduction - Start
 
 The description of the old room is "Something here calls to you, like a whisper in the wind or the faint rustling of the worn pages of a well-loved book. Around and above you the walls are covered in paint. You can’t seem to remember how you made it here. There are no doors, no way for you to get out, not even a window to suggest where in the world you are." 
 
@@ -388,7 +388,7 @@ with 6 blank rows.
 Table of Sam Topics
 Topic	Response	Index	Action	Result	subtopics	labels
 "[weed]"	"'Well…we stole, I mean borrowed! We borrowed some from old Dinodas while he was drunk. Would you like some?'[line break]"	"pipe-weed"	"get weed"	"[line break][italic type]Sam & Pip give you some nice pipe-weed.[line break]"	--	1
-"[quest]"	"’Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don’t you think?’[line break] ‘Very serious, Sam…’[line break]. ‘Well, I guess as your friends we should accompany and make sure you don’t get eaten by an orc.’[line break] ‘We are such good friends…where should we start Sam?’[line break] ‘Maybe with the Elves? I think Rivendell lies east of here, should we go there Frodo? I think they could help.’[line break]"	"the quest"	"move to Rivendell by foot"	"The road is long, but Sam & Pip are good company. You share every meal, sing the songs of the Shire when you feel too tired to think and, in the end, you make your way to the elf’s city of Rivendell, where the Elf Council is deliberating on if and how much to help you in your quest.[paragraph break]"	--	1
+"[quest]"	"'Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don’t you think?'[line break] 'Very serious, Sam…'[line break] 'Dangerous as well, I have heard stories of orcs lying in wait to eat unassuming hobbits.'[line break] 'Maybe it would be better to ask someone for help, but who?'[line break] 'What about the Elves? I think Rivendell lies east of here, they could probably help.'[line break] 'Well Sam, we cannot really send him out there alone, now, can we?'[line break] 'Of course Pip, you’re right. Should we accompany you Frodo?'[paragraph break]"	"the quest"	"move to Rivendell by foot"	"[italic type]You can now go east, to the elven city of Rivendell. As it should be, Sam & Pip will accompany you on this great adventure.[roman type][paragraph break]"	--	1
 
 Table of Rivendell Sam Responses
 Topic	Response	Index	Action	Result	subtopics	labels
@@ -438,28 +438,28 @@ Chapter 4 - Scenario
 
 section 0 - Help
 
-going nowhere is acting confused.
+Going nowhere is acting confused.
 
 Instead of going nowhere:
 	say "[We] [can't go] that way.";
 	if acting confused for the fourth turn:
 		if the player is in the old room:
-			say "[line break](You really just need to READ this book.)";
+			say "[line break](You really just need to READ the book.)";
 		otherwise if the player is in bag end:
 			say "[line break](You heard some noise OUTSIDE, you maybe can try to go there?)";
 		otherwise if the player is in mount doom:
-			say "[line break](You know what appened on this story don't you ? Frodo try to THROW the ring into the lava, something like that.)";
+			say "[line break](You know what appened in this story, don't you? Frodo tried to THROW the ring into the lava, or something like that.)";
 		otherwise:
-			say "[line break](If you are feeling lost, you maybe need a map... or a book ?! [if the player carry pipe-weed]Maybe just chilling is better after all. [end if])"; 
+			say "[line break](If you are lost, you may be in need of a map... or a book if you are feeling unconventional[if the player carries pipe-weed] Oh well, is that some pipe-weed you are carrying around? Maybe it would be best to chill after all then, where is your pipe? A good smoke sounds like a splendid idea right about now.[end if]')"; 
 			
 Instead of burning the ring:
-	say "The Ring can't be destroy ! But that's the spirit...".
+	say "[The noun] can only be destroyed by the fiery pits of Mount Doom. But that's the spirit...".
 	
 Instead of cutting the ring:
-	say "The Ring can't be destroy !".
+	say "[The noun] can only be destroyed by the fiery pits of Mount Doom. But that's the spirit...".
 	
 Instead of attacking the ring:
-	say "The Ring can't be destroy !".
+	say "[The noun] can only be destroyed by the fiery pits of Mount Doom. But that's the spirit...".
 	
 
 Section 1 - Introduction
@@ -467,13 +467,13 @@ Section 1 - Introduction
 After reading the mysterious book: 
 	say "You can barely make out a few sentences before words and letters begin to move in concentric swirls. You try to take a step back, but your fingers are stuck to the pages.[line break]WOOOOOSH[line break] A great wind pulls at you and the only thing you can do is scream and scream in terror. You look one last time at the beautiful paintings on the walls and then everything goes black.[line break][line break]"; 
 	now the mysterious book is nowhere;
-	move player to Bag End; 
+	move player to Bag End;
 	now the player carries the ring.
 	
 Section 2 - Going to Rivendell with Sam & Pip
 
 Instead of going to Rivendell when no characters is following:
-	say "This is the way for Rivendell, but history doesn't want you to go into the woods alone, sorry.";
+	say "This is the way for Rivendell, but the story doesn't allow you to go into the woods alone, sorry.";
 	
 Section 3 - Wait the council at Rivendell
 
