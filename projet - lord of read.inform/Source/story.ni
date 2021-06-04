@@ -92,7 +92,7 @@ A character has a list of room called Already Visited Room.
 
 Section 1 - Actions
 
-[READ]
+[READING]
 Understand the command "read" as something new.
 Reading is an action applying to a thing. Understand "read [something]" as reading.
 Check reading when the noun is not a book: instead say "You can't read that.".
@@ -228,20 +228,20 @@ After asking someone about something:
 			choose a random row in the Seconde Responses Table of the noun;
 			say "[Seconde Response entry]";
 		otherwise:
-			say "I d'ont see what you mean, sorry.";
-	now the player is not chatting;
+			say "I don’t see what you mean, sorry.";
+	now the player is not chatting.
 				
-[PUTTING ON THE RINGS!]
+[PUTTING ON THE RING]
 Before wearing something which is not carried by the player:
 		silently try taking the noun;
 		if the player is not holding the noun, stop the action;
-		say "You take [the noun] but...";
+		say "You take [the noun] but...".
 		
-after wearing:
+After wearing:
 	if the noun is not the ring:
-		say "... you not sure about the utility of wearing [it].[line break]";
+		say "... you are not sure about the utility of wearing [it].[line break]";
 	otherwise:
-		say "This feels weird, you feel weird…your vision isn't the same, what happened?! You lift your hand in front of your eyes but…you can see through it! Are you invisible?!";
+		say "This feels weird, you feel weird…your vision isn't the same, what happened?! You lift your hand in front of your eyes but…you can see through it! Are you invisible?!".
 
 Before wearing when the noun is the ring:
 	say "You have a bad feeling about this ring. Are you really sure you want to do that?";
@@ -250,9 +250,9 @@ Before wearing when the noun is the ring:
 		now the player is hidden;
 	otherwise:
 		say "Yeah, it’s better this way.";
-		stop the action;
+		stop the action.
 
-[REMOVE THE RINGS!]
+[REMOVE THE RING]
 Before taking off when the noun is the ring:
 	say "Do you really want to let go of all this power that is surging in you? You feel so good and so strong right now.";
 	if player consents:
@@ -279,9 +279,9 @@ Instead of inserting something into the volcano:
 
 Instead of inserting the player into the volcano:
 	if the player carries the ring or the player is wearing the ring:
-		say "Unable to throw this powerful ring into the flames, you decide to disappear with it into the magma. Holding the ring in the palm of your hand, you get ready to perform the last dives of your short life. After having gathered all your courage, you are closing your eyes and leting yourself go forward ... But you don't fall.[line break]Turning around, you see that a strange creature has held you back from this deadly fall. Encouraged by this act of kindness emanating from this hostile creature, you rethink about your homeland and your friends... Like that, you decide to get rid of the ring by throwing it into the volcano instead.";
+		say "Unable to throw this powerful ring into the flames, you decide to disappear with it into the magma. Holding the ring in the palm of your hand, you get ready to perform the last dive of your short life. After having gathered all your courage, you close your eyes and let yourself drop forward ...But you don't fall.[line break]Turning around, you see a strange creature holding you back. Encouraged by this act of kindness emanating from the hostile creature, you think about your homeland and your friends…This quest has already taken so much from you, it should not have your life as well. You decide to throw the ring in the volcano instead.";
 	otherwise:
-		say "What a brave act for a weak creature as you. But you forgot something important didn't you ?";
+		say "That would probably work if you were, you know, actually carrying the ring.[line break]".
 
 Section 2 - speech mechanism
 
@@ -436,7 +436,7 @@ The Seconde Responses Table of Elf Lord is Table of Seconde Elf Responses.
 		
 Chapter 4 - Scenario
 
-section 0 - Help
+Section 0 - Help
 
 Going nowhere is acting confused.
 
@@ -473,7 +473,7 @@ After reading the mysterious book:
 Section 2 - Going to Rivendell with Sam & Pip
 
 Instead of going to Rivendell when no characters is following:
-	say "This is the way for Rivendell, but the story doesn't allow you to go into the woods alone, sorry.";
+	say "This is the way for Rivendell, but the story doesn't allow you to go into the woods alone, sorry.[line break]";
 	
 Section 3 - Wait the council at Rivendell
 

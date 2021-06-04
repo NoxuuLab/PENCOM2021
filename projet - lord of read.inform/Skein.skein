@@ -18,13 +18,13 @@ You can see an old table (on which is a mysterious book) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1843"></child>
-            <child nodeId="node-1826"></child>
-            <child nodeId="node-1809"></child>
-            <child nodeId="node-1792"></child>
-            <child nodeId="node-1788"></child>
-            <child nodeId="node-1742"></child>
-            <child nodeId="node-1726"></child>
+        <children><child nodeId="node-1863"></child>
+            <child nodeId="node-1846"></child>
+            <child nodeId="node-1829"></child>
+            <child nodeId="node-1812"></child>
+            <child nodeId="node-1808"></child>
+            <child nodeId="node-1762"></child>
+            <child nodeId="node-1746"></child>
             <child nodeId="node-1467"></child>
             <child nodeId="node-1441"></child>
             <child nodeId="node-1011"></child>
@@ -4967,8 +4967,8 @@ You can see a little table (on which are a green book and a map), a trunk (close
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1912"></child>
-            <child nodeId="node-1719"></child>
+        <children><child nodeId="node-1745"></child>
+            <child nodeId="node-1738"></child>
             <child nodeId="node-1712"></child>
             <child nodeId="node-1709"></child>
             <child nodeId="node-1506"></child>
@@ -7615,12 +7615,12 @@ Round, colorful doors are set in the sprawling green hills, from the tops of whi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1713"></child>
-            <child nodeId="node-1855"></child>
-            <child nodeId="node-1864"></child>
+        <children><child nodeId="node-1732"></child>
+            <child nodeId="node-1725"></child>
+            <child nodeId="node-1713"></child>
         </children>
     </item>
-    <item nodeId="node-1864">
+    <item nodeId="node-1713">
         <command xml:space="preserve">ask sam about them</command>
         <result xml:space="preserve">Frodo did you hit your head? I'm Sam, that's Pip, we have been friends for ages.
 
@@ -7628,21 +7628,21 @@ Now you could also ask about pipe-weed or the quest.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1898"></child>
-            <child nodeId="node-1893"></child>
-            <child nodeId="node-1865"></child>
+        <children><child nodeId="node-1720"></child>
+            <child nodeId="node-1718"></child>
+            <child nodeId="node-1714"></child>
         </children>
     </item>
-    <item nodeId="node-1865">
+    <item nodeId="node-1714">
         <command xml:space="preserve">ask sam anout the quest</command>
         <result xml:space="preserve">I only understood you as far as wanting to ask Sam &amp; Pip.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1866"></child>
+        <children><child nodeId="node-1715"></child>
         </children>
     </item>
-    <item nodeId="node-1866">
+    <item nodeId="node-1715">
         <command xml:space="preserve">ask sam about the quest</command>
         <result xml:space="preserve">"Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don't you think?"
  "Very serious, Sam…"
@@ -7654,26 +7654,26 @@ Now you could also ask about pipe-weed or the quest.
 
 </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1867"></child>
+        <children><child nodeId="node-1716"></child>
         </children>
     </item>
-    <item nodeId="node-1867">
+    <item nodeId="node-1716">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">As you please.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1868"></child>
+        <children><child nodeId="node-1717"></child>
         </children>
     </item>
-    <item nodeId="node-1868">
+    <item nodeId="node-1717">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">This is the way for Rivendell, but history doesn't want you to go into the woods alone, sorry.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1893">
+    <item nodeId="node-1718">
         <command xml:space="preserve">ask sam about the quest</command>
         <result xml:space="preserve">"Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don't you think?"
  "Very serious, Sam…"
@@ -7685,17 +7685,17 @@ Now you could also ask about pipe-weed or the quest.
 
 </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1894"></child>
+        <children><child nodeId="node-1719"></child>
         </children>
     </item>
-    <item nodeId="node-1894">
+    <item nodeId="node-1719">
         <command xml:space="preserve">y</command>
         <result xml:space="preserve">You can now go east, to the elven city of Rivendell. As it should be, Sam &amp; Pip will accompany you on this great adventure.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1898">
+    <item nodeId="node-1720">
         <command xml:space="preserve">ask sam about pipe-weed</command>
         <result xml:space="preserve">"Well…we stole, I mean borrowed! We borrowed some from old Dinodas while he was drunk. Would you like some?"
 
@@ -7703,62 +7703,62 @@ Sam &amp; Pip give you some nice pipe-weed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1899"></child>
+        <children><child nodeId="node-1721"></child>
         </children>
     </item>
-    <item nodeId="node-1899">
+    <item nodeId="node-1721">
         <command xml:space="preserve">yes</command>
         <result xml:space="preserve">That was a rhetorical question.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1900"></child>
+        <children><child nodeId="node-1722"></child>
         </children>
     </item>
-    <item nodeId="node-1900">
+    <item nodeId="node-1722">
         <command xml:space="preserve">go nowhere</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1901"></child>
+        <children><child nodeId="node-1723"></child>
         </children>
     </item>
-    <item nodeId="node-1901">
+    <item nodeId="node-1723">
         <command xml:space="preserve">act confused</command>
         <result xml:space="preserve">That's not a verb I recognize.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1902"></child>
+        <children><child nodeId="node-1724"></child>
         </children>
     </item>
-    <item nodeId="node-1902">
+    <item nodeId="node-1724">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">This is the way for Rivendell, but history doesn't want you to go into the woods alone, sorry.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1855">
+    <item nodeId="node-1725">
         <command xml:space="preserve">ask sam about me</command>
         <result xml:space="preserve">I d'ont see what you mean, sorry.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1856"></child>
+        <children><child nodeId="node-1726"></child>
         </children>
     </item>
-    <item nodeId="node-1856">
+    <item nodeId="node-1726">
         <command xml:space="preserve">ask sam about</command>
         <result xml:space="preserve"> You could ask Sam &amp; Pip about them.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1857"></child>
+        <children><child nodeId="node-1727"></child>
         </children>
     </item>
-    <item nodeId="node-1857">
+    <item nodeId="node-1727">
         <command xml:space="preserve">ask sam about them</command>
         <result xml:space="preserve">Frodo did you hit your head? I'm Sam, that's Pip, we have been friends for ages.
 
@@ -7766,10 +7766,10 @@ Now you could also ask about pipe-weed or the quest.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1858"></child>
+        <children><child nodeId="node-1728"></child>
         </children>
     </item>
-    <item nodeId="node-1858">
+    <item nodeId="node-1728">
         <command xml:space="preserve">ask sam about the quest</command>
         <result xml:space="preserve">"Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don't you think?"
  "Very serious, Sam…"
@@ -7778,26 +7778,26 @@ Now you could also ask about pipe-weed or the quest.
  "Maybe with the Elves? I think Rivendell lies east of here, should we go there Frodo? I think they could help."
 </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1859"></child>
+        <children><child nodeId="node-1729"></child>
         </children>
     </item>
-    <item nodeId="node-1859">
+    <item nodeId="node-1729">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">Please answer yes or no.&gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1860"></child>
+        <children><child nodeId="node-1730"></child>
         </children>
     </item>
-    <item nodeId="node-1860">
+    <item nodeId="node-1730">
         <command xml:space="preserve">y</command>
         <result xml:space="preserve">The road is long, but Sam &amp; Pip are good company. You share every meal, sing the songs of the Shire when you feel too tired to think and, in the end, you make your way to the elf's city of Rivendell, where the Elf Council is deliberating on if and how much to help you in your quest.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1861"></child>
+        <children><child nodeId="node-1731"></child>
         </children>
     </item>
-    <item nodeId="node-1861">
+    <item nodeId="node-1731">
         <command xml:space="preserve">go east</command>
         <result xml:space="preserve">
 Rivendell
@@ -7812,7 +7812,7 @@ Sam &amp; Pip followed you.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1713">
+    <item nodeId="node-1732">
         <command xml:space="preserve">ask gandalf about me</command>
         <result xml:space="preserve">"Sir, who I am?"... Did you smoke something? Are you alright? Is this some sort of test? You are Frodo Baggins, of course, hobbit of the Shire.
 
@@ -7820,10 +7820,10 @@ Now you could also ask about him, the weather, or life.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1714"></child>
+        <children><child nodeId="node-1733"></child>
         </children>
     </item>
-    <item nodeId="node-1714">
+    <item nodeId="node-1733">
         <command xml:space="preserve">ask gandalf about life</command>
         <result xml:space="preserve">You shall not distract yourself with nonsensical and philosophical questions. If you are here to waste my time, go read a book.
 
@@ -7831,10 +7831,10 @@ Now you could also ask about books, pipe-weed, or the quest.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1715"></child>
+        <children><child nodeId="node-1734"></child>
         </children>
     </item>
-    <item nodeId="node-1715">
+    <item nodeId="node-1734">
         <command xml:space="preserve">ask gandalf about the quest</command>
         <result xml:space="preserve">A great adventure that will take you to places unknown. A long time ago the ring you now hold was created by Sauron, a great evil, to rule over Middle Earth. After a bloody war the ring was cut from its master's hand and lost to the ages. Somehow your uncle Bilbo found it and passed it on to you Frodo. You are the one, the chosen, he who must go to Mount Doom and destroy the ring once and for all. Before the world is plunged in darkness.
 
@@ -7842,27 +7842,27 @@ Now you could also ask about the ring or Mount Doom.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1716"></child>
+        <children><child nodeId="node-1735"></child>
         </children>
     </item>
-    <item nodeId="node-1716">
+    <item nodeId="node-1735">
         <command xml:space="preserve">ask gandalf about mt doom</command>
         <result xml:space="preserve">I d'ont see what you mean, sorry.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1717"></child>
+        <children><child nodeId="node-1736"></child>
         </children>
     </item>
-    <item nodeId="node-1717">
+    <item nodeId="node-1736">
         <command xml:space="preserve">ask gandalf about Mount Doom</command>
         <result xml:space="preserve">The great volcano lies south of here, beyond the mountains. It is the only place where the ring may be vanquished, the final destination to your adventure. I could accompany you there… may I suggest we use the Eagles? They are great beasts and should take us to Mount Doom in no time at all. Would you like to leave right now?
 </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1718"></child>
+        <children><child nodeId="node-1737"></child>
         </children>
     </item>
-    <item nodeId="node-1718">
+    <item nodeId="node-1737">
         <command xml:space="preserve">y</command>
         <result xml:space="preserve">An easy shortcut! How lucky you are!
  You mount on a beautiful Eagle and soon you find yourself flying above the green Shire. Is that really Sam down there, he looks so little, so small, maybe a little too miniscule. Are we sure we are safe flying so high? DON'T LOOK DOWN, DON'T…
@@ -7885,34 +7885,35 @@ Gandalf is following you.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1719">
+    <item nodeId="node-1738">
         <command xml:space="preserve">drop ring</command>
         <result xml:space="preserve">Dropped.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1720"></child>
+        <children><child nodeId="node-1893"></child>
+            <child nodeId="node-1739"></child>
         </children>
     </item>
-    <item nodeId="node-1720">
+    <item nodeId="node-1739">
         <command xml:space="preserve">open trunk</command>
         <result xml:space="preserve">You open the trunk, revealing a pipe and a bag of money.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1721"></child>
+        <children><child nodeId="node-1740"></child>
         </children>
     </item>
-    <item nodeId="node-1721">
+    <item nodeId="node-1740">
         <command xml:space="preserve">take pipe</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1722"></child>
+        <children><child nodeId="node-1741"></child>
         </children>
     </item>
-    <item nodeId="node-1722">
+    <item nodeId="node-1741">
         <command xml:space="preserve">go outside</command>
         <result xml:space="preserve">
 Shire
@@ -7920,10 +7921,10 @@ Round, colorful doors are set in the sprawling green hills, from the tops of whi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1723"></child>
+        <children><child nodeId="node-1742"></child>
         </children>
     </item>
-    <item nodeId="node-1723">
+    <item nodeId="node-1742">
         <command xml:space="preserve">ask sam about them</command>
         <result xml:space="preserve">Frodo did you hit your head? I'm Sam, that's Pip, we have been friends for ages.
 
@@ -7931,20 +7932,20 @@ Now you could also ask Sam &amp; Pip about pipe-weed or the quest.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1724"></child>
+        <children><child nodeId="node-1743"></child>
         </children>
     </item>
-    <item nodeId="node-1724">
+    <item nodeId="node-1743">
         <command xml:space="preserve">ask sam about weed</command>
         <result xml:space="preserve">"Well…we stole, I mean borrowed! We borrowed some from old Dinodas while he was drunk. Would you like some?"
 Sam &amp; Pip give you some nice pipe-weed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1725"></child>
+        <children><child nodeId="node-1744"></child>
         </children>
     </item>
-    <item nodeId="node-1725">
+    <item nodeId="node-1744">
         <command xml:space="preserve">smoke weed</command>
         <result xml:space="preserve">You light Pipe-weed with your lighter and inhale deeply. You can almost feel the air moving inside your lungs, Pipe-weed sinking deep in your blood and your brain. Life is such a strange and wonderous thing and what matters if you're stuck inside a version of Lord of the Rings where everyone treats you like an idiot? You know how this story begins and ends, if you could just turn to one of the last chapters, you could show them, show them all how the story of Frodo Baggins should have gone. You can see the pages in your mind, you turn and turn and turn them…and you find yourself teleported to Mount Doom!
 
@@ -7971,175 +7972,133 @@ Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1912">
-        <command xml:space="preserve">burn ring</command>
-        <result xml:space="preserve">The Ring can only be destroyed by the fiery pits of Mount Doom. But that's the spirit...
+    <item nodeId="node-1893">
+        <command xml:space="preserve">go to mount doom</command>
+        <result xml:space="preserve">Mount Doom
+The heat is blistering, suffocating. Somewhere below you licks of flames run along barren rock and molten lava churns at the mouth of the active volcano.  Even through you smoked out brain you remember that there was something important, something you should do here, a ring maybe? You did not forget the ring somewhere, right? RIGHT?! 
+
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1894"></child>
+        </children>
     </item>
-    <item nodeId="node-1726">
+    <item nodeId="node-1894">
         <command xml:space="preserve">go to the shire</command>
         <result xml:space="preserve">Shire
 Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Gandalf towers above all even while sitting on his favorite chair. You can see Sam &amp; Pip lounging on the grass.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1727"></child>
+        <children><child nodeId="node-1895"></child>
         </children>
     </item>
-    <item nodeId="node-1727">
+    <item nodeId="node-1895">
         <command xml:space="preserve">ask sam about them</command>
         <result xml:space="preserve">Frodo did you hit your head? I'm Sam, that's Pip, we have been friends for ages.
 
-Now you could also ask Sam &amp; Pip about pipe-weed or the quest.
+Now you could also ask about pipe-weed or the quest.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1728"></child>
+        <children><child nodeId="node-1896"></child>
         </children>
     </item>
-    <item nodeId="node-1728">
-        <command xml:space="preserve">ask sam about the quest</command>
-        <result xml:space="preserve">"Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don't you think?"
- "Very serious, Sam…"
-. "Well, I guess as your friends we should accompany and make sure you don't get eaten by an orc."
- "We are such good friends…where should we start Sam?"
- "Maybe with the Elves? I think Rivendell lies east of here, should we go there Frodo? I think they could help."
-</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1729"></child>
-        </children>
-    </item>
-    <item nodeId="node-1729">
-        <command xml:space="preserve">y</command>
-        <result xml:space="preserve">The road is long, but Sam &amp; Pip are good company. You share every meal, sing the songs of the Shire when you feel too tired to think and, in the end, you make your way to the elf's city of Rivendell, where the Elf Council is deliberating on if and how much to help you in your quest.
-
-Rivendell
-At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
-
-You can see Sam &amp; Pip, an Elf Lord, and a pedestal (on which are an old sword and a mithril shirt) here.
+    <item nodeId="node-1896">
+        <command xml:space="preserve">ask sam about pipeweed</command>
+        <result xml:space="preserve">I don't see what you mean, sorry.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1730"></child>
+        <children><child nodeId="node-1897"></child>
         </children>
     </item>
-    <item nodeId="node-1730">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
+    <item nodeId="node-1897">
+        <command xml:space="preserve">ask sam about weed</command>
+        <result xml:space="preserve">"Well…we stole, I mean borrowed! We borrowed some from old Dinodas while he was drunk. Would you like some?"
+
+Sam &amp; Pip give you some nice pipe-weed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1731"></child>
+        <children><child nodeId="node-1898"></child>
         </children>
     </item>
-    <item nodeId="node-1731">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1732"></child>
-        </children>
-    </item>
-    <item nodeId="node-1732">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
-Council starts now!
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1733"></child>
-        </children>
-    </item>
-    <item nodeId="node-1733">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1734"></child>
-        </children>
-    </item>
-    <item nodeId="node-1734">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">You can't go that way.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1735"></child>
-        </children>
-    </item>
-    <item nodeId="node-1735">
-        <command xml:space="preserve">w</command>
+    <item nodeId="node-1898">
+        <command xml:space="preserve">go inside</command>
         <result xml:space="preserve">
-Shire
-Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Gandalf towers above all even while sitting on his favorite chair.
+Bag End
+You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself. Outside you can hear the laughter of children and the chirping of birds.
+
+You can see The Ring, a little table (on which are a green book and a map), a trunk (closed), a cupboard (closed), and a cushy armchair here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1736"></child>
+        <children><child nodeId="node-1899"></child>
         </children>
     </item>
-    <item nodeId="node-1736">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Rivendell
-At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
-
-You can see Sam &amp; Pip, an Elf Lord, and a pedestal (on which are an old sword and a mithril shirt) here.
+    <item nodeId="node-1899">
+        <command xml:space="preserve">open trunk</command>
+        <result xml:space="preserve">You open the trunk, revealing a pipe and a bag of money.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1737"></child>
+        <children><child nodeId="node-1900"></child>
         </children>
     </item>
-    <item nodeId="node-1737">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
+    <item nodeId="node-1900">
+        <command xml:space="preserve">take pipe</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1738"></child>
+        <children><child nodeId="node-1901"></child>
         </children>
     </item>
-    <item nodeId="node-1738">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
+    <item nodeId="node-1901">
+        <command xml:space="preserve">smoke weed</command>
+        <result xml:space="preserve">You light Pipe-weed with your lighter and inhale deeply. You can almost feel the air moving inside your lungs, Pipe-weed sinking deep in your blood and your brain. Life is such a strange and wonderous thing and what matters if you're stuck inside a version of Lord of the Rings where everyone treats you like an idiot? You know how this story begins and ends, if you could just turn to one of the last chapters, you could show them, show them all how the story of Frodo Baggins should have gone. You can see the pages in your mind, you turn and turn and turn them…and you find yourself teleported to Mount Doom!
+
+Mount Doom
+The heat is blistering, suffocating. Somewhere below you licks of flames run along barren rock and molten lava churns at the mouth of the active volcano.  Even through you smoked out brain you remember that there was something important, something you should do here, a ring maybe? You did not forget the ring somewhere, right? RIGHT?! 
+
+
+
+
+    *** 
+
+GAME OVER.
+
+ You somehow managed to forget the central element to the whole story (which, might we remind you, is called "The Fellowship of the RING"). We wish to thank you in any case for having played, it has been fun (for us at least).
+
+ All the best to you, dear player, and if you want to try again, just remember to not forget the ring. Good luck! ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1745">
+        <command xml:space="preserve">burn ring</command>
+        <result xml:space="preserve">The Ring can only be destroyed by the fiery pits of Mount Doom. But that's the spirit...
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1739"></child>
+        <children><child nodeId="node-1875"></child>
         </children>
     </item>
-    <item nodeId="node-1739">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
+    <item nodeId="node-1875">
+        <command xml:space="preserve">read map</command>
+        <result xml:space="preserve">Incredibly detailed, it is signed by one of your ancestors. Bag End stands proudly (if a bit larger than the scale would allow), in the middle of the Shire. To the east you can see great mountains and the city of Rivendell and in the south, encased in a smudge of black ink, there is Mount Doom. 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1740"></child>
+        <children><child nodeId="node-1876"></child>
         </children>
     </item>
-    <item nodeId="node-1740">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1741"></child>
-        </children>
-    </item>
-    <item nodeId="node-1741">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
-    <item nodeId="node-1742">
+    <item nodeId="node-1876">
         <command xml:space="preserve">go to rivendell</command>
         <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
@@ -8150,53 +8109,22 @@ The Elf Council is in session now. You should hear from them soon.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1782"></child>
-            <child nodeId="node-1772"></child>
-            <child nodeId="node-1771"></child>
-            <child nodeId="node-1758"></child>
-            <child nodeId="node-1743"></child>
+        <children><child nodeId="node-1877"></child>
         </children>
     </item>
-    <item nodeId="node-1743">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
+    <item nodeId="node-1877">
+        <command xml:space="preserve">put mithril shirt on</command>
+        <result xml:space="preserve">You take the mithril shirt but...
 
-It is now 9:02 am. Wait until Elf Council begins little bit from now.
+... you are not sure about the utility of wearing it.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1744"></child>
-        </children>
-    </item>
-    <item nodeId="node-1744">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
-It is now 9:03 am. Wait until Elf Council begins little bit from now.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1745"></child>
-        </children>
-    </item>
-    <item nodeId="node-1745">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
-It is now 9:04 am. Wait until Elf Council begins little bit from now.
-
-Council starts now!
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1746"></child>
-        </children>
     </item>
     <item nodeId="node-1746">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
-It is now 9:05 am. Wait until Elf Council begins at 7 minutes.
+        <command xml:space="preserve">go to the shire</command>
+        <result xml:space="preserve">Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Gandalf towers above all even while sitting on his favorite chair. You can see Sam &amp; Pip lounging on the grass.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -8204,10 +8132,10 @@ It is now 9:05 am. Wait until Elf Council begins at 7 minutes.
         </children>
     </item>
     <item nodeId="node-1747">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
+        <command xml:space="preserve">ask sam about them</command>
+        <result xml:space="preserve">Frodo did you hit your head? I'm Sam, that's Pip, we have been friends for ages.
 
-It is now 9:06 am. Wait until 12:00 am, though.
+Now you could also ask Sam &amp; Pip about pipe-weed or the quest.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -8215,21 +8143,25 @@ It is now 9:06 am. Wait until 12:00 am, though.
         </children>
     </item>
     <item nodeId="node-1748">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
-It is now 9:07 am. Wait until 12:00 am, though.
-
-&gt;</result>
+        <command xml:space="preserve">ask sam about the quest</command>
+        <result xml:space="preserve">"Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don't you think?"
+ "Very serious, Sam…"
+. "Well, I guess as your friends we should accompany and make sure you don't get eaten by an orc."
+ "We are such good friends…where should we start Sam?"
+ "Maybe with the Elves? I think Rivendell lies east of here, should we go there Frodo? I think they could help."
+</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1749"></child>
         </children>
     </item>
     <item nodeId="node-1749">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">The road is long, but Sam &amp; Pip are good company. You share every meal, sing the songs of the Shire when you feel too tired to think and, in the end, you make your way to the elf's city of Rivendell, where the Elf Council is deliberating on if and how much to help you in your quest.
 
-It is now 9:08 am. Wait until 12:00 am, though.
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see Sam &amp; Pip, an Elf Lord, and a pedestal (on which are an old sword and a mithril shirt) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -8240,8 +8172,6 @@ It is now 9:08 am. Wait until 12:00 am, though.
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
-It is now 9:09 am. Wait until 12:00 am, though.
-
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1751"></child>
@@ -8250,8 +8180,6 @@ It is now 9:09 am. Wait until 12:00 am, though.
     <item nodeId="node-1751">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
-
-It is now 9:10 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -8262,7 +8190,7 @@ It is now 9:10 am. Wait until 12:00 am, though.
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
-It is now 9:11 am. Wait until 12:00 am, though.
+Council starts now!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -8273,18 +8201,14 @@ It is now 9:11 am. Wait until 12:00 am, though.
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
-It is now 9:12 am. Wait until 12:00 am, though.
-
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1754"></child>
         </children>
     </item>
     <item nodeId="node-1754">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
-It is now 9:13 am. Wait until 12:00 am, though.
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -8292,10 +8216,10 @@ It is now 9:13 am. Wait until 12:00 am, though.
         </children>
     </item>
     <item nodeId="node-1755">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
-
-It is now 9:14 am. Wait until 12:00 am, though.
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Gandalf towers above all even while sitting on his favorite chair.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -8303,10 +8227,12 @@ It is now 9:14 am. Wait until 12:00 am, though.
         </children>
     </item>
     <item nodeId="node-1756">
-        <command xml:space="preserve">z</command>
-        <result xml:space="preserve">Time passes.
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
 
-It is now 9:15 am. Wait until 12:00 am, though.
+You can see Sam &amp; Pip, an Elf Lord, and a pedestal (on which are an old sword and a mithril shirt) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -8317,16 +8243,14 @@ It is now 9:15 am. Wait until 12:00 am, though.
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
-It is now 9:16 am. Wait until 12:00 am, though.
-
-wombat!
-
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1758"></child>
+        </children>
     </item>
     <item nodeId="node-1758">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">wait the council !
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -8334,8 +8258,8 @@ wombat!
         </children>
     </item>
     <item nodeId="node-1759">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">wait the council !
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -8343,10 +8267,8 @@ wombat!
         </children>
     </item>
     <item nodeId="node-1760">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">wait the council !
-
-Council starts now!
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -8354,32 +8276,35 @@ Council starts now!
         </children>
     </item>
     <item nodeId="node-1761">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Shire
-Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Gandalf towers above all even while sitting on his favorite chair. You can see Sam &amp; Pip lounging on the grass.
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1762"></child>
-        </children>
     </item>
     <item nodeId="node-1762">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Rivendell
+        <command xml:space="preserve">go to rivendell</command>
+        <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
 
 You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
 
+The Elf Council is in session now. You should hear from them soon.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1763"></child>
+        <children><child nodeId="node-1802"></child>
+            <child nodeId="node-1792"></child>
+            <child nodeId="node-1791"></child>
+            <child nodeId="node-1778"></child>
+            <child nodeId="node-1763"></child>
         </children>
     </item>
     <item nodeId="node-1763">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
+
+It is now 9:02 am. Wait until Elf Council begins little bit from now.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -8387,8 +8312,10 @@ You can see an Elf Lord and a pedestal (on which are an old sword and a mithril 
         </children>
     </item>
     <item nodeId="node-1764">
-        <command xml:space="preserve"></command>
-        <result xml:space="preserve">I beg your pardon?
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+It is now 9:03 am. Wait until Elf Council begins little bit from now.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -8399,6 +8326,10 @@ You can see an Elf Lord and a pedestal (on which are an old sword and a mithril 
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
+It is now 9:04 am. Wait until Elf Council begins little bit from now.
+
+Council starts now!
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1766"></child>
@@ -8407,6 +8338,8 @@ You can see an Elf Lord and a pedestal (on which are an old sword and a mithril 
     <item nodeId="node-1766">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
+
+It is now 9:05 am. Wait until Elf Council begins at 7 minutes.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -8417,6 +8350,8 @@ You can see an Elf Lord and a pedestal (on which are an old sword and a mithril 
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
+It is now 9:06 am. Wait until 12:00 am, though.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1768"></child>
@@ -8426,14 +8361,18 @@ You can see an Elf Lord and a pedestal (on which are an old sword and a mithril 
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
+It is now 9:07 am. Wait until 12:00 am, though.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1769"></child>
         </children>
     </item>
     <item nodeId="node-1769">
-        <command xml:space="preserve">throw the ring into lava</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+It is now 9:08 am. Wait until 12:00 am, though.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -8441,13 +8380,217 @@ You can see an Elf Lord and a pedestal (on which are an old sword and a mithril 
         </children>
     </item>
     <item nodeId="node-1770">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+It is now 9:09 am. Wait until 12:00 am, though.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1771"></child>
+        </children>
+    </item>
+    <item nodeId="node-1771">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+It is now 9:10 am. Wait until 12:00 am, though.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1772"></child>
+        </children>
+    </item>
+    <item nodeId="node-1772">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+It is now 9:11 am. Wait until 12:00 am, though.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1773"></child>
+        </children>
+    </item>
+    <item nodeId="node-1773">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+It is now 9:12 am. Wait until 12:00 am, though.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1774"></child>
+        </children>
+    </item>
+    <item nodeId="node-1774">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+It is now 9:13 am. Wait until 12:00 am, though.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1775"></child>
+        </children>
+    </item>
+    <item nodeId="node-1775">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+It is now 9:14 am. Wait until 12:00 am, though.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1776"></child>
+        </children>
+    </item>
+    <item nodeId="node-1776">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+It is now 9:15 am. Wait until 12:00 am, though.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1777"></child>
+        </children>
+    </item>
+    <item nodeId="node-1777">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+It is now 9:16 am. Wait until 12:00 am, though.
+
+wombat!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1778">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">wait the council !
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1779"></child>
+        </children>
+    </item>
+    <item nodeId="node-1779">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">wait the council !
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1780"></child>
+        </children>
+    </item>
+    <item nodeId="node-1780">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">wait the council !
+
+Council starts now!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1781"></child>
+        </children>
+    </item>
+    <item nodeId="node-1781">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Gandalf towers above all even while sitting on his favorite chair. You can see Sam &amp; Pip lounging on the grass.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1782"></child>
+        </children>
+    </item>
+    <item nodeId="node-1782">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1783"></child>
+        </children>
+    </item>
+    <item nodeId="node-1783">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1784"></child>
+        </children>
+    </item>
+    <item nodeId="node-1784">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1785"></child>
+        </children>
+    </item>
+    <item nodeId="node-1785">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1786"></child>
+        </children>
+    </item>
+    <item nodeId="node-1786">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1787"></child>
+        </children>
+    </item>
+    <item nodeId="node-1787">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1788"></child>
+        </children>
+    </item>
+    <item nodeId="node-1788">
+        <command xml:space="preserve">z</command>
+        <result xml:space="preserve">Time passes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1789"></child>
+        </children>
+    </item>
+    <item nodeId="node-1789">
+        <command xml:space="preserve">throw the ring into lava</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1790"></child>
+        </children>
+    </item>
+    <item nodeId="node-1790">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying nothing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1771">
+    <item nodeId="node-1791">
         <command xml:space="preserve">put mithril shirt on</command>
         <result xml:space="preserve">(first taking the mithril shirt)
 You put on the mithril shirt.
@@ -8455,7 +8598,7 @@ You put on the mithril shirt.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1772">
+    <item nodeId="node-1792">
         <command xml:space="preserve">go to bag end</command>
         <result xml:space="preserve">Bag End
 You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself. Outside you can hear the laughter of children and the chirping of birds.
@@ -8464,28 +8607,28 @@ You can see a little table (on which are a green book and a map), a trunk (close
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1773"></child>
+        <children><child nodeId="node-1793"></child>
         </children>
     </item>
-    <item nodeId="node-1773">
+    <item nodeId="node-1793">
         <command xml:space="preserve">take book</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1774"></child>
+        <children><child nodeId="node-1794"></child>
         </children>
     </item>
-    <item nodeId="node-1774">
+    <item nodeId="node-1794">
         <command xml:space="preserve">go to rinvendell</command>
         <result xml:space="preserve">That noun did not make sense in this context.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1775"></child>
+        <children><child nodeId="node-1795"></child>
         </children>
     </item>
-    <item nodeId="node-1775">
+    <item nodeId="node-1795">
         <command xml:space="preserve">go to rivendell</command>
         <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
@@ -8496,28 +8639,28 @@ A tall lady elf, her hands crossed behind her back, approaches you slowly. Her l
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1776"></child>
+        <children><child nodeId="node-1796"></child>
         </children>
     </item>
-    <item nodeId="node-1776">
+    <item nodeId="node-1796">
         <command xml:space="preserve">put ring on pedestal</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1777"></child>
+        <children><child nodeId="node-1797"></child>
         </children>
     </item>
-    <item nodeId="node-1777">
+    <item nodeId="node-1797">
         <command xml:space="preserve">put book on pedestal</command>
         <result xml:space="preserve">You put the green book on the pedestal.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1778"></child>
+        <children><child nodeId="node-1798"></child>
         </children>
     </item>
-    <item nodeId="node-1778">
+    <item nodeId="node-1798">
         <command xml:space="preserve">go to bag end</command>
         <result xml:space="preserve">Bag End
 You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself. Outside you can hear the laughter of children and the chirping of birds.
@@ -8526,19 +8669,19 @@ You can see a little table (on which is a map), a trunk (closed), a cupboard (cl
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1779"></child>
+        <children><child nodeId="node-1799"></child>
         </children>
     </item>
-    <item nodeId="node-1779">
+    <item nodeId="node-1799">
         <command xml:space="preserve">take map</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1780"></child>
+        <children><child nodeId="node-1800"></child>
         </children>
     </item>
-    <item nodeId="node-1780">
+    <item nodeId="node-1800">
         <command xml:space="preserve">go to rivendell</command>
         <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
@@ -8547,36 +8690,36 @@ You can see an Elf Lord and a pedestal (on which are a green book, an old sword,
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1781"></child>
+        <children><child nodeId="node-1801"></child>
         </children>
     </item>
-    <item nodeId="node-1781">
+    <item nodeId="node-1801">
         <command xml:space="preserve">put map on pedestal</command>
         <result xml:space="preserve">There is no more room on the pedestal.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1782">
+    <item nodeId="node-1802">
         <command xml:space="preserve">ask elf lord about</command>
         <result xml:space="preserve"> You could ask the Elf Lord about him, Sam &amp; Pip, or Gandalf.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1783"></child>
+        <children><child nodeId="node-1803"></child>
         </children>
     </item>
-    <item nodeId="node-1783">
+    <item nodeId="node-1803">
         <command xml:space="preserve">ask elf lord about him</command>
         <result xml:space="preserve">I am Elrond, Elf Lord of Rivendell. 
 Now you could also ask about Elf Council, Rivendell, or Mount Doom.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1784"></child>
+        <children><child nodeId="node-1804"></child>
         </children>
     </item>
-    <item nodeId="node-1784">
+    <item nodeId="node-1804">
         <command xml:space="preserve">ask elf lord about rivendell</command>
         <result xml:space="preserve">My gem, my precious town built on the river Bruinen, the place we came to call home. It a serene place young Frodo and I will not have you disrupt its peace.
 
@@ -8584,10 +8727,10 @@ A tall lady elf, her hands crossed behind her back, approaches you slowly. Her l
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1785"></child>
+        <children><child nodeId="node-1805"></child>
         </children>
     </item>
-    <item nodeId="node-1785">
+    <item nodeId="node-1805">
         <command xml:space="preserve">ask elf lord about elf council</command>
         <result xml:space="preserve">The decision of the Elf Council is final and I have to admit I feel somewhat relived that you were not the one chosen for such a task. Go back to the Shire (west), Frodo, enjoy life, have many children, I am sure one of them will be up to the task.
 
@@ -8595,19 +8738,19 @@ Now you could also ask about the quest or The ring.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1786"></child>
+        <children><child nodeId="node-1806"></child>
         </children>
     </item>
-    <item nodeId="node-1786">
+    <item nodeId="node-1806">
         <command xml:space="preserve">ask elf lord about the quest</command>
         <result xml:space="preserve">Do not insist, hobbit, the Elf Council has deemed you unworthy.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1787"></child>
+        <children><child nodeId="node-1807"></child>
         </children>
     </item>
-    <item nodeId="node-1787">
+    <item nodeId="node-1807">
         <command xml:space="preserve">go west</command>
         <result xml:space="preserve">
 Shire
@@ -8616,16 +8759,16 @@ Round, colorful doors are set in the sprawling green hills, from the tops of whi
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1788">
+    <item nodeId="node-1808">
         <command xml:space="preserve">go to rivendel</command>
         <result xml:space="preserve">That noun did not make sense in this context.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1789"></child>
+        <children><child nodeId="node-1809"></child>
         </children>
     </item>
-    <item nodeId="node-1789">
+    <item nodeId="node-1809">
         <command xml:space="preserve">go to rivendell</command>
         <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
@@ -8634,35 +8777,35 @@ You can see an Elf Lord and a pedestal (on which are an old sword and a mithril 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1790"></child>
+        <children><child nodeId="node-1810"></child>
         </children>
     </item>
-    <item nodeId="node-1790">
+    <item nodeId="node-1810">
         <command xml:space="preserve">take mithril shirt</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1791"></child>
+        <children><child nodeId="node-1811"></child>
         </children>
     </item>
-    <item nodeId="node-1791">
+    <item nodeId="node-1811">
         <command xml:space="preserve">put mithril shirt on</command>
         <result xml:space="preserve">You can't wear that!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1792">
+    <item nodeId="node-1812">
         <command xml:space="preserve">go to revendell</command>
         <result xml:space="preserve">That noun did not make sense in this context.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1793"></child>
+        <children><child nodeId="node-1813"></child>
         </children>
     </item>
-    <item nodeId="node-1793">
+    <item nodeId="node-1813">
         <command xml:space="preserve">go to Rivendell</command>
         <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
@@ -8673,10 +8816,10 @@ It is now 9:01 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1794"></child>
+        <children><child nodeId="node-1814"></child>
         </children>
     </item>
-    <item nodeId="node-1794">
+    <item nodeId="node-1814">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -8684,10 +8827,10 @@ It is now 9:02 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1795"></child>
+        <children><child nodeId="node-1815"></child>
         </children>
     </item>
-    <item nodeId="node-1795">
+    <item nodeId="node-1815">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -8695,10 +8838,10 @@ It is now 9:03 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1796"></child>
+        <children><child nodeId="node-1816"></child>
         </children>
     </item>
-    <item nodeId="node-1796">
+    <item nodeId="node-1816">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -8706,10 +8849,10 @@ It is now 9:04 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1797"></child>
+        <children><child nodeId="node-1817"></child>
         </children>
     </item>
-    <item nodeId="node-1797">
+    <item nodeId="node-1817">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -8717,10 +8860,10 @@ It is now 9:05 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1798"></child>
+        <children><child nodeId="node-1818"></child>
         </children>
     </item>
-    <item nodeId="node-1798">
+    <item nodeId="node-1818">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -8728,10 +8871,10 @@ It is now 9:06 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1799"></child>
+        <children><child nodeId="node-1819"></child>
         </children>
     </item>
-    <item nodeId="node-1799">
+    <item nodeId="node-1819">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -8739,10 +8882,10 @@ It is now 9:07 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1800"></child>
+        <children><child nodeId="node-1820"></child>
         </children>
     </item>
-    <item nodeId="node-1800">
+    <item nodeId="node-1820">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -8750,10 +8893,10 @@ It is now 9:08 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1801"></child>
+        <children><child nodeId="node-1821"></child>
         </children>
     </item>
-    <item nodeId="node-1801">
+    <item nodeId="node-1821">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -8761,10 +8904,10 @@ It is now 9:09 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1802"></child>
+        <children><child nodeId="node-1822"></child>
         </children>
     </item>
-    <item nodeId="node-1802">
+    <item nodeId="node-1822">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -8772,10 +8915,10 @@ It is now 9:10 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1803"></child>
+        <children><child nodeId="node-1823"></child>
         </children>
     </item>
-    <item nodeId="node-1803">
+    <item nodeId="node-1823">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -8783,10 +8926,10 @@ It is now 9:11 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1804"></child>
+        <children><child nodeId="node-1824"></child>
         </children>
     </item>
-    <item nodeId="node-1804">
+    <item nodeId="node-1824">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -8794,10 +8937,10 @@ It is now 9:12 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1805"></child>
+        <children><child nodeId="node-1825"></child>
         </children>
     </item>
-    <item nodeId="node-1805">
+    <item nodeId="node-1825">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -8805,10 +8948,10 @@ It is now 9:13 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1806"></child>
+        <children><child nodeId="node-1826"></child>
         </children>
     </item>
-    <item nodeId="node-1806">
+    <item nodeId="node-1826">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -8816,10 +8959,10 @@ It is now 9:14 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1807"></child>
+        <children><child nodeId="node-1827"></child>
         </children>
     </item>
-    <item nodeId="node-1807">
+    <item nodeId="node-1827">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -8827,10 +8970,10 @@ It is now 9:15 am. Wait until Council begins at 9:15.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1808"></child>
+        <children><child nodeId="node-1828"></child>
         </children>
     </item>
-    <item nodeId="node-1808">
+    <item nodeId="node-1828">
         <command xml:space="preserve">z</command>
         <result xml:space="preserve">Time passes.
 
@@ -8841,49 +8984,49 @@ Council starts now!
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1809">
+    <item nodeId="node-1829">
         <command xml:space="preserve">go to mount doom</command>
         <result xml:space="preserve">Mount Doom
-The heat is blistering, suffocating. Somewhere belove you licks of flame run along barren rock and molten lava churns at the mouth of the active volcano.  Even through you smoked out brain you remember that there was something important, something you should do here, a ring maybe? You did not forget the ring somewhere, right? RIGHT?! 
+The heat is blistering, suffocating. Somewhere below you licks of flames run along barren rock and molten lava churns at the mouth of the active volcano.  Even through you smoked out brain you remember that there was something important, something you should do here, a ring maybe? You did not forget the ring somewhere, right? RIGHT?! 
 
-
-You can see a volcano (empty) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1825"></child>
-            <child nodeId="node-1810"></child>
+        <children><child nodeId="node-1845"></child>
+            <child nodeId="node-1903"></child>
+            <child nodeId="node-1889"></child>
+            <child nodeId="node-1830"></child>
         </children>
     </item>
-    <item nodeId="node-1810">
+    <item nodeId="node-1830">
         <command xml:space="preserve">throw yourself into the volcano</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1811"></child>
+        <children><child nodeId="node-1831"></child>
         </children>
     </item>
-    <item nodeId="node-1811">
+    <item nodeId="node-1831">
         <command xml:space="preserve">throw yourself</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1812"></child>
+        <children><child nodeId="node-1832"></child>
         </children>
     </item>
-    <item nodeId="node-1812">
+    <item nodeId="node-1832">
         <command xml:space="preserve">go to the shire</command>
         <result xml:space="preserve">Shire
 Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Gandalf towers above all even while sitting on his favorite chair. You can see Sam &amp; Pip lounging on the grass.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1813"></child>
+        <children><child nodeId="node-1833"></child>
         </children>
     </item>
-    <item nodeId="node-1813">
+    <item nodeId="node-1833">
         <command xml:space="preserve">go inside</command>
         <result xml:space="preserve">
 Bag End
@@ -8893,37 +9036,37 @@ You can see a little table (on which are a green book and a map), a trunk (close
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1814"></child>
+        <children><child nodeId="node-1834"></child>
         </children>
     </item>
-    <item nodeId="node-1814">
+    <item nodeId="node-1834">
         <command xml:space="preserve">open trunk</command>
         <result xml:space="preserve">You open the trunk, revealing a pipe and a bag of money.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1815"></child>
+        <children><child nodeId="node-1835"></child>
         </children>
     </item>
-    <item nodeId="node-1815">
+    <item nodeId="node-1835">
         <command xml:space="preserve">take the pipe</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1816"></child>
+        <children><child nodeId="node-1836"></child>
         </children>
     </item>
-    <item nodeId="node-1816">
+    <item nodeId="node-1836">
         <command xml:space="preserve">go ouside</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1817"></child>
+        <children><child nodeId="node-1837"></child>
         </children>
     </item>
-    <item nodeId="node-1817">
+    <item nodeId="node-1837">
         <command xml:space="preserve">go outside</command>
         <result xml:space="preserve">
 Shire
@@ -8931,10 +9074,10 @@ Round, colorful doors are set in the sprawling green hills, from the tops of whi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1818"></child>
+        <children><child nodeId="node-1838"></child>
         </children>
     </item>
-    <item nodeId="node-1818">
+    <item nodeId="node-1838">
         <command xml:space="preserve">ask sam about them</command>
         <result xml:space="preserve">Frodo did you hit your head? I'm Sam, that's Pip, we have been friends for ages.
 
@@ -8942,45 +9085,45 @@ Now you could also ask Sam &amp; Pip about pipe-weed or the quest.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1819"></child>
+        <children><child nodeId="node-1839"></child>
         </children>
     </item>
-    <item nodeId="node-1819">
+    <item nodeId="node-1839">
         <command xml:space="preserve">ask sam about pipe</command>
         <result xml:space="preserve">Well…we stole, I mean borrowed! We borrowed some from old Dinodas while he was drunk. Would you like some?
 Sam &amp; Pip give you some nice pipe-weed.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1820"></child>
+        <children><child nodeId="node-1840"></child>
         </children>
     </item>
-    <item nodeId="node-1820">
+    <item nodeId="node-1840">
         <command xml:space="preserve">ask sam about weed</command>
         <result xml:space="preserve">I d'ont see what you mean, sorry.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1821"></child>
+        <children><child nodeId="node-1841"></child>
         </children>
     </item>
-    <item nodeId="node-1821">
+    <item nodeId="node-1841">
         <command xml:space="preserve">ask sam about pip-weed</command>
         <result xml:space="preserve">I d'ont see what you mean, sorry.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1822"></child>
+        <children><child nodeId="node-1842"></child>
         </children>
     </item>
-    <item nodeId="node-1822">
+    <item nodeId="node-1842">
         <command xml:space="preserve">ask sam about pipe-weed</command>
         <result xml:space="preserve">We would prefer to smoke rather than answering you again and again
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1823"></child>
+        <children><child nodeId="node-1843"></child>
         </children>
     </item>
-    <item nodeId="node-1823">
+    <item nodeId="node-1843">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   Pipe-weed
@@ -8988,10 +9131,10 @@ Sam &amp; Pip give you some nice pipe-weed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1824"></child>
+        <children><child nodeId="node-1844"></child>
         </children>
     </item>
-    <item nodeId="node-1824">
+    <item nodeId="node-1844">
         <command xml:space="preserve">smoke weed</command>
         <result xml:space="preserve">You light Pipe-weed with your lighter and inhale deeply. And you find yourself teleported to Mount Doom!
 
@@ -9011,7 +9154,29 @@ Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1825">
+    <item nodeId="node-1889">
+        <command xml:space="preserve">throw yourself into the lava</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1890"></child>
+        </children>
+    </item>
+    <item nodeId="node-1890">
+        <command xml:space="preserve">throw me into the volcano</command>
+        <result xml:space="preserve">That would probably work if you were, you know, actually carrying the ring
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1903">
+        <command xml:space="preserve">throw me into the lava</command>
+        <result xml:space="preserve">That would probably work if you were, you know, actually carrying the ring.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1845">
         <command xml:space="preserve">go to rivendell</command>
         <result xml:space="preserve">Rivendell
 At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
@@ -9023,7 +9188,7 @@ It is now 9:02 am. Wait until Elf Council begins little bit from now.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1826">
+    <item nodeId="node-1846">
         <command xml:space="preserve">go to bag end</command>
         <result xml:space="preserve">Bag End
 You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself. Outside you can hear the laughter of children and the chirping of birds.
@@ -9032,64 +9197,64 @@ You can see a little table (on which are a green book and a map), a trunk (close
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1839"></child>
-            <child nodeId="node-1829"></child>
-            <child nodeId="node-1827"></child>
+        <children><child nodeId="node-1859"></child>
+            <child nodeId="node-1849"></child>
+            <child nodeId="node-1847"></child>
         </children>
     </item>
-    <item nodeId="node-1827">
+    <item nodeId="node-1847">
         <command xml:space="preserve">take trunk</command>
         <result xml:space="preserve">That's fixed in place.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1828"></child>
+        <children><child nodeId="node-1848"></child>
         </children>
     </item>
-    <item nodeId="node-1828">
+    <item nodeId="node-1848">
         <command xml:space="preserve">take cupboard</command>
         <result xml:space="preserve">That's fixed in place.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1829">
+    <item nodeId="node-1849">
         <command xml:space="preserve">open trunk</command>
         <result xml:space="preserve">You open the trunk, revealing a pipe and a bag of money.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1830"></child>
+        <children><child nodeId="node-1850"></child>
         </children>
     </item>
-    <item nodeId="node-1830">
+    <item nodeId="node-1850">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1831"></child>
+        <children><child nodeId="node-1851"></child>
         </children>
     </item>
-    <item nodeId="node-1831">
+    <item nodeId="node-1851">
         <command xml:space="preserve">take pipe</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1832"></child>
+        <children><child nodeId="node-1852"></child>
         </children>
     </item>
-    <item nodeId="node-1832">
+    <item nodeId="node-1852">
         <command xml:space="preserve">smoke pipe</command>
         <result xml:space="preserve">It's empty unfortunately.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1833"></child>
+        <children><child nodeId="node-1853"></child>
         </children>
     </item>
-    <item nodeId="node-1833">
+    <item nodeId="node-1853">
         <command xml:space="preserve">go outside</command>
         <result xml:space="preserve">
 Shire
@@ -9097,96 +9262,96 @@ Round, colorful doors are set in the sprawling green hills, from the tops of whi
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1834"></child>
+        <children><child nodeId="node-1854"></child>
         </children>
     </item>
-    <item nodeId="node-1834">
+    <item nodeId="node-1854">
         <command xml:space="preserve">ask gandalf</command>
         <result xml:space="preserve"> You could ask Gandalf about you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1835"></child>
+        <children><child nodeId="node-1855"></child>
         </children>
     </item>
-    <item nodeId="node-1835">
+    <item nodeId="node-1855">
         <command xml:space="preserve">talk to gandalf</command>
         <result xml:space="preserve">To start a conversation, you need to use ASK Gandalf ABOUT something. Type "ask Gandalf (about)" to see the available topics.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1836"></child>
+        <children><child nodeId="node-1856"></child>
         </children>
     </item>
-    <item nodeId="node-1836">
+    <item nodeId="node-1856">
         <command xml:space="preserve">ask gandalf about</command>
         <result xml:space="preserve"> You could ask Gandalf about you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1837"></child>
+        <children><child nodeId="node-1857"></child>
         </children>
     </item>
-    <item nodeId="node-1837">
+    <item nodeId="node-1857">
         <command xml:space="preserve">ask gandalf</command>
         <result xml:space="preserve"> You could ask Gandalf about you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1838"></child>
+        <children><child nodeId="node-1858"></child>
         </children>
     </item>
-    <item nodeId="node-1838">
+    <item nodeId="node-1858">
         <command xml:space="preserve">ask gandalf (about)</command>
         <result xml:space="preserve">I only understood you as far as wanting to ask Gandalf.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1839">
+    <item nodeId="node-1859">
         <command xml:space="preserve">open cupboard</command>
         <result xml:space="preserve">You open the cupboard, revealing a loaf of bread, an apple, and a peach.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1840"></child>
+        <children><child nodeId="node-1860"></child>
         </children>
     </item>
-    <item nodeId="node-1840">
+    <item nodeId="node-1860">
         <command xml:space="preserve">eat apple</command>
         <result xml:space="preserve">You eat the apple with gusto.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1841"></child>
+        <children><child nodeId="node-1861"></child>
         </children>
     </item>
-    <item nodeId="node-1841">
+    <item nodeId="node-1861">
         <command xml:space="preserve">eat peach</command>
         <result xml:space="preserve">You eat the peach with gusto.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1842"></child>
+        <children><child nodeId="node-1862"></child>
         </children>
     </item>
-    <item nodeId="node-1842">
+    <item nodeId="node-1862">
         <command xml:space="preserve">eat bread</command>
         <result xml:space="preserve">Such a thick and crunchy crust! You cannot resist and eat the whole thing in three gigantic bites.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1843">
+    <item nodeId="node-1863">
         <command xml:space="preserve">burn ring</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1844"></child>
+        <children><child nodeId="node-1864"></child>
         </children>
     </item>
-    <item nodeId="node-1844">
+    <item nodeId="node-1864">
         <command xml:space="preserve">read book</command>
         <result xml:space="preserve">Holding your breath, you carefully open the book.
 
@@ -9206,37 +9371,37 @@ You can see a little table (on which are a green book and a map), a trunk (close
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1845"></child>
+        <children><child nodeId="node-1865"></child>
         </children>
     </item>
-    <item nodeId="node-1845">
+    <item nodeId="node-1865">
         <command xml:space="preserve">burn ring</command>
         <result xml:space="preserve">The Ring can't be destroy ! But that's the spirit...
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1846"></child>
+        <children><child nodeId="node-1866"></child>
         </children>
     </item>
-    <item nodeId="node-1846">
+    <item nodeId="node-1866">
         <command xml:space="preserve">cut the ring</command>
         <result xml:space="preserve">The Ring can't be destroy !
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1847"></child>
+        <children><child nodeId="node-1867"></child>
         </children>
     </item>
-    <item nodeId="node-1847">
+    <item nodeId="node-1867">
         <command xml:space="preserve">destroy the ring</command>
         <result xml:space="preserve">The Ring can't be destroy !
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1848"></child>
+        <children><child nodeId="node-1868"></child>
         </children>
     </item>
-    <item nodeId="node-1848">
+    <item nodeId="node-1868">
         <command xml:space="preserve">go to mount doom</command>
         <result xml:space="preserve">Mount Doom
 The heat is blistering, suffocating. Somewhere below you licks of flames run along barren rock and molten lava churns at the mouth of the active volcano.  The ring hisses, dark things, promises of power and greed, it would even implore and beg if it was capable of such a thing. This could be the end of your story, the end of your adventure, will there be ships to whisk you away once you throw the ring to the flames of Mount Doom?
@@ -9244,19 +9409,19 @@ The heat is blistering, suffocating. Somewhere below you licks of flames run alo
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1849"></child>
+        <children><child nodeId="node-1869"></child>
         </children>
     </item>
-    <item nodeId="node-1849">
+    <item nodeId="node-1869">
         <command xml:space="preserve">jump into the lava</command>
         <result xml:space="preserve">I only understood you as far as wanting to jump.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1850"></child>
+        <children><child nodeId="node-1870"></child>
         </children>
     </item>
-    <item nodeId="node-1850">
+    <item nodeId="node-1870">
         <command xml:space="preserve">jump into the lava</command>
         <result xml:space="preserve">I only understood you as far as wanting to jump.
 
