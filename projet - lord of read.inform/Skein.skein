@@ -183,7 +183,11 @@ You can see a little table (on which are a green book and a map), a trunk (close
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1075"></child>
+            <child nodeId="node-1795"></child>
+            <child nodeId="node-1912"></child>
+            <child nodeId="node-1850"></child>
             <child nodeId="node-1018"></child>
+            <child nodeId="node-1790"></child>
             <child nodeId="node-1012"></child>
         </children>
     </item>
@@ -239,6 +243,40 @@ You can see a volcano (empty) here.
     <item nodeId="node-1017">
         <command xml:space="preserve">throw the book into volcano</command>
         <result xml:space="preserve">You throw the green book into the lava... you see it burning.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1790">
+        <command xml:space="preserve">sit on chair</command>
+        <result xml:space="preserve">You get onto the cushy armchair.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1791"></child>
+        </children>
+    </item>
+    <item nodeId="node-1791">
+        <command xml:space="preserve">sit off the chair</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1792"></child>
+        </children>
+    </item>
+    <item nodeId="node-1792">
+        <command xml:space="preserve">sit off chair</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1793"></child>
+        </children>
+    </item>
+    <item nodeId="node-1793">
+        <command xml:space="preserve">go out the chair</command>
+        <result xml:space="preserve">I only understood you as far as wanting to go outside.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -902,6 +940,532 @@ You who wanted to go to modror, I think it's successful. But yeah, it was not to
 
 Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
 &gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1850">
+        <command xml:space="preserve">outside</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Gandalf towers above all even while sitting on his favorite chair. You can see Sam &amp; Pip lounging on the grass.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1851"></child>
+        </children>
+    </item>
+    <item nodeId="node-1851">
+        <command xml:space="preserve">ask gandlaf about him</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1852"></child>
+        </children>
+    </item>
+    <item nodeId="node-1852">
+        <command xml:space="preserve">ask gandalf about him</command>
+        <result xml:space="preserve">I d'ont see what you mean, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1853"></child>
+        </children>
+    </item>
+    <item nodeId="node-1853">
+        <command xml:space="preserve">ask gandalf about me</command>
+        <result xml:space="preserve">"Sir, who I am?"... Did you smoke something? Are you alright? Is this some sort of test? You are Frodo Baggins, of course, hobbit of the Shire.
+
+Now you could also ask about him, the weather, or life.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1854"></child>
+        </children>
+    </item>
+    <item nodeId="node-1854">
+        <command xml:space="preserve">ask about the climate</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1855"></child>
+        </children>
+    </item>
+    <item nodeId="node-1855">
+        <command xml:space="preserve">ask about the weather</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1870"></child>
+        </children>
+    </item>
+    <item nodeId="node-1870">
+        <command xml:space="preserve">ask gandalf about the weather</command>
+        <result xml:space="preserve">I d'ont see what you mean, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1871"></child>
+        </children>
+    </item>
+    <item nodeId="node-1871">
+        <command xml:space="preserve">ask gandalf about the climate</command>
+        <result xml:space="preserve">I d'ont see what you mean, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1912">
+        <command xml:space="preserve">out</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Gandalf towers above all even while sitting on his favorite chair. You can see Sam &amp; Pip lounging on the grass.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2023"></child>
+            <child nodeId="node-1913"></child>
+            <child nodeId="node-2033"></child>
+        </children>
+    </item>
+    <item nodeId="node-2033">
+        <command xml:space="preserve">ask sam about them</command>
+        <result xml:space="preserve">Frodo did you hit your head? I'm Sam, that's Pip, we have been friends for ages.
+
+Now you could also ask about pipe-weed or the quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2034"></child>
+        </children>
+    </item>
+    <item nodeId="node-2034">
+        <command xml:space="preserve">ask sam about the quest</command>
+        <result xml:space="preserve">"Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don't you think?"
+ "Very serious, Sam…"
+. "Well, I guess as your friends we should accompany and make sure you don't get eaten by an orc."
+ "We are such good friends…where should we start Sam?"
+ "Maybe with the Elves? I think Rivendell lies east of here, should we go there Frodo? I think they could help."
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2039"></child>
+        </children>
+    </item>
+    <item nodeId="node-2039">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">The road is long, but Sam &amp; Pip are good company. You share every meal, sing the songs of the Shire when you feel too tired to think and, in the end, you make your way to the elf's city of Rivendell, where the Elf Council is deliberating on if and how much to help you in your quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2040"></child>
+        </children>
+    </item>
+    <item nodeId="node-2040">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2041"></child>
+        </children>
+    </item>
+    <item nodeId="node-2041">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+The Elf Council is in session now. You should hear from them soon.
+
+Sam &amp; Pip followed you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2042"></child>
+        </children>
+    </item>
+    <item nodeId="node-2042">
+        <command xml:space="preserve">ask sam about</command>
+        <result xml:space="preserve"> You could ask Sam &amp; Pip about pipe-weed, Rivendell, the Elf Council, the ring, or pipe-weed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2043"></child>
+        </children>
+    </item>
+    <item nodeId="node-2043">
+        <command xml:space="preserve">ask sam about council</command>
+        <result xml:space="preserve">Last we heard they were still deliberating, but I bet that they will soon be out.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1913">
+        <command xml:space="preserve">ask gandalf about me</command>
+        <result xml:space="preserve">"Sir, who I am?"... Did you smoke something? Are you alright? Is this some sort of test? You are Frodo Baggins, of course, hobbit of the Shire.
+
+Now you could also ask about him, the weather, or life.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1969"></child>
+            <child nodeId="node-1914"></child>
+        </children>
+    </item>
+    <item nodeId="node-1914">
+        <command xml:space="preserve">ask gandalf about cilmate</command>
+        <result xml:space="preserve">I d'ont see what you mean, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1927"></child>
+        </children>
+    </item>
+    <item nodeId="node-1927">
+        <command xml:space="preserve">ask gandalf about the cilmate</command>
+        <result xml:space="preserve">I d'ont see what you mean, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1933"></child>
+        </children>
+    </item>
+    <item nodeId="node-1933">
+        <command xml:space="preserve">ask gandalf about the weather</command>
+        <result xml:space="preserve">A lovely summery day, Frodo. The shadows of war are far but getting closer, soon even the Shire will know the end of its peace.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1934"></child>
+        </children>
+    </item>
+    <item nodeId="node-1934">
+        <command xml:space="preserve">ask gandalf about who are you</command>
+        <result xml:space="preserve">I am Gandalf the Grey. I was sent to Middle Earth to help destroy the ring that you now hold. I am an Istar, a wizard of old.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1949"></child>
+        </children>
+    </item>
+    <item nodeId="node-1949">
+        <command xml:space="preserve">ask gandalf about the life</command>
+        <result xml:space="preserve">You shall not distract yourself with nonsensical and philosophical questions. If you are here to waste my time, go read a book.
+
+Now you could also ask about books, pipe-weed, or the quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1969">
+        <command xml:space="preserve">ask gandaf about the cool</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1974"></child>
+        </children>
+    </item>
+    <item nodeId="node-1974">
+        <command xml:space="preserve">ask gandaf about the univers</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1975"></child>
+        </children>
+    </item>
+    <item nodeId="node-1975">
+        <command xml:space="preserve">ask gandaf about the universe</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1976"></child>
+        </children>
+    </item>
+    <item nodeId="node-1976">
+        <command xml:space="preserve">ask gandalf about what are you</command>
+        <result xml:space="preserve">I am Gandalf the Grey. I was sent to Middle Earth to help destroy the ring that you now hold. I am an Istar, a wizard of old.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1991"></child>
+        </children>
+    </item>
+    <item nodeId="node-1991">
+        <command xml:space="preserve">ask gandalf about caca</command>
+        <result xml:space="preserve">I d'ont see what you mean, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1992"></child>
+        </children>
+    </item>
+    <item nodeId="node-1992">
+        <command xml:space="preserve">ask gandalf about caca universe</command>
+        <result xml:space="preserve">I d'ont see what you mean, sorry.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2020"></child>
+        </children>
+    </item>
+    <item nodeId="node-2020">
+        <command xml:space="preserve">ask gandalf about the universe</command>
+        <result xml:space="preserve">You shall not distract yourself with nonsensical and philosophical questions. If you are here to waste my time, go read a book.
+
+Now you could also ask about books, pipe-weed, or the quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2023">
+        <command xml:space="preserve">ask gandalf about</command>
+        <result xml:space="preserve"> You could ask Gandalf about you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2024"></child>
+        </children>
+    </item>
+    <item nodeId="node-2024">
+        <command xml:space="preserve">ask gandalf about me</command>
+        <result xml:space="preserve">"Sir, who I am?"... Did you smoke something? Are you alright? Is this some sort of test? You are Frodo Baggins, of course, hobbit of the Shire.
+
+Now you could also ask about him, the weather, or life.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2025"></child>
+        </children>
+    </item>
+    <item nodeId="node-2025">
+        <command xml:space="preserve">ask gandalf about</command>
+        <result xml:space="preserve"> You could ask Gandalf about him, the weather, or life.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2026"></child>
+        </children>
+    </item>
+    <item nodeId="node-2026">
+        <command xml:space="preserve">ask gandalf about him</command>
+        <result xml:space="preserve">I am Gandalf the Grey. I was sent to Middle Earth to help destroy the ring that you now hold. I am an Istar, a wizard of old.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2027"></child>
+        </children>
+    </item>
+    <item nodeId="node-2027">
+        <command xml:space="preserve">ask gandalf about</command>
+        <result xml:space="preserve"> You could ask Gandalf about the weather or life.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2028"></child>
+        </children>
+    </item>
+    <item nodeId="node-2028">
+        <command xml:space="preserve">ask gandalf about life</command>
+        <result xml:space="preserve">You shall not distract yourself with nonsensical and philosophical questions. If you are here to waste my time, go read a book.
+
+Now you could also ask about books, pipe-weed, or the quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2029"></child>
+        </children>
+    </item>
+    <item nodeId="node-2029">
+        <command xml:space="preserve">ask gandalf about</command>
+        <result xml:space="preserve"> You could ask Gandalf about the weather, books, pipe-weed, or the quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2030"></child>
+        </children>
+    </item>
+    <item nodeId="node-2030">
+        <command xml:space="preserve">ask gandalf about climate</command>
+        <result xml:space="preserve">A lovely summery day, Frodo. The shadows of war are far but getting closer, soon even the Shire will know the end of its peace.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1795">
+        <command xml:space="preserve">open the cup</command>
+        <result xml:space="preserve">You open the cupboard, revealing a loaf of bread, an apple, and a peach.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1796"></child>
+        </children>
+    </item>
+    <item nodeId="node-1796">
+        <command xml:space="preserve">take book</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1797"></child>
+        </children>
+    </item>
+    <item nodeId="node-1797">
+        <command xml:space="preserve">take bread</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1798"></child>
+        </children>
+    </item>
+    <item nodeId="node-1798">
+        <command xml:space="preserve">drop loaf</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1799"></child>
+        </children>
+    </item>
+    <item nodeId="node-1799">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a green book
+  The Ring
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1800"></child>
+        </children>
+    </item>
+    <item nodeId="node-1800">
+        <command xml:space="preserve">look around</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1801"></child>
+        </children>
+    </item>
+    <item nodeId="node-1801">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Bag End
+You find yourself in a cavernicolous and airy room. Doors, windows and ceilings are round, like if someone has carved holes in the earth itself. Outside you can hear the laughter of children and the chirping of birds.
+
+You can see a loaf of bread, a little table (on which is a map), a trunk (closed), a cupboard (in which are an apple and a peach), and a cushy armchair here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1802"></child>
+        </children>
+    </item>
+    <item nodeId="node-1802">
+        <command xml:space="preserve">open trunk</command>
+        <result xml:space="preserve">You open the trunk, revealing a pipe and a bag of money.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1803"></child>
+        </children>
+    </item>
+    <item nodeId="node-1803">
+        <command xml:space="preserve">break trunk</command>
+        <result xml:space="preserve">Violence isn't the answer to this one.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1804"></child>
+        </children>
+    </item>
+    <item nodeId="node-1804">
+        <command xml:space="preserve">take money</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1805"></child>
+        </children>
+    </item>
+    <item nodeId="node-1805">
+        <command xml:space="preserve">take the pipe</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1806"></child>
+        </children>
+    </item>
+    <item nodeId="node-1806">
+        <command xml:space="preserve">go outside</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Gandalf towers above all even while sitting on his favorite chair. You can see Sam &amp; Pip lounging on the grass.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1807"></child>
+        </children>
+    </item>
+    <item nodeId="node-1807">
+        <command xml:space="preserve">ask pip about</command>
+        <result xml:space="preserve"> You could ask Sam &amp; Pip about them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1808"></child>
+        </children>
+    </item>
+    <item nodeId="node-1808">
+        <command xml:space="preserve">ask sam about him</command>
+        <result xml:space="preserve">Frodo did you hit your head? I'm Sam, that's Pip, we have been friends for ages.
+
+Now you could also ask about pipe-weed or the quest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1809"></child>
+        </children>
+    </item>
+    <item nodeId="node-1809">
+        <command xml:space="preserve">ask sam about pipe</command>
+        <result xml:space="preserve">"Well…we stole, I mean borrowed! We borrowed some from old Dinodas while he was drunk. Would you like some?"
+Sam &amp; Pip give you some nice pipe-weed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1810"></child>
+        </children>
+    </item>
+    <item nodeId="node-1810">
+        <command xml:space="preserve">ask sam about quest</command>
+        <result xml:space="preserve">"Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don't you think?"
+ "Very serious, Sam…"
+. "Well, I guess as your friends we should accompany and make sure you don't get eaten by an orc."
+ "We are such good friends…where should we start Sam?"
+ "Maybe with the Elves? I think Rivendell lies east of here, should we go there Frodo? I think they could help."
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1828"></child>
+        </children>
+    </item>
+    <item nodeId="node-1828">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">Please answer yes or no.&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1829"></child>
+        </children>
+    </item>
+    <item nodeId="node-1829">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">The road is long, but Sam &amp; Pip are good company. You share every meal, sing the songs of the Shire when you feel too tired to think and, in the end, you make your way to the elf's city of Rivendell, where the Elf Council is deliberating on if and how much to help you in your quest.
+
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1075">
@@ -2307,6 +2871,111 @@ Gandalf and Sam &amp; Pip followed you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1776"></child>
+        </children>
+    </item>
+    <item nodeId="node-1776">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Your friends must be in some other places at the moment.
+
+Gandalf and Sam &amp; Pip followed you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1777"></child>
+        </children>
+    </item>
+    <item nodeId="node-1777">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+Gandalf and Sam &amp; Pip followed you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1778"></child>
+        </children>
+    </item>
+    <item nodeId="node-1778">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Your friends must be in some other places at the moment.
+
+Gandalf and Sam &amp; Pip followed you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1779"></child>
+        </children>
+    </item>
+    <item nodeId="node-1779">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Rivendell
+At the edge of a narrow gorge, the peaceful elven town of Rivendell seems almost to sit on the river Bruinen. Wherever you are you can hear water streaming by or roaring down steep cliffs. Maybe before exploring you should look for someone to talk to.
+
+You can see an Elf Lord and a pedestal (on which are an old sword and a mithril shirt) here.
+
+Gandalf and Sam &amp; Pip followed you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1780"></child>
+        </children>
+    </item>
+    <item nodeId="node-1780">
+        <command xml:space="preserve">put on the ring</command>
+        <result xml:space="preserve">You have a bad feeling about this ring. Are you really sure you want to do that?
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1781"></child>
+        </children>
+    </item>
+    <item nodeId="node-1781">
+        <command xml:space="preserve">y</command>
+        <result xml:space="preserve">You slowly put the ring on your finger, wary of the bad feeling.
+
+This feels weird, you feel weird…your vision isn't the same, what happened?! You lift your hand in front of your eyes but…you can see through it! Are you invisible?!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1782"></child>
+        </children>
+    </item>
+    <item nodeId="node-1782">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Shire
+Round, colorful doors are set in the sprawling green hills, from the tops of which the smoke of small chimneys hints at homely meals shared at round tables. Some hobbits are venturing the paths between smials, others are enjoying the sun. Your friends must be in some other places at the moment.
+
+You look around but no one seems to have followed you anymore.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1783"></child>
+        </children>
+    </item>
+    <item nodeId="node-1783">
+        <command xml:space="preserve">tke off the ring</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1784"></child>
+        </children>
+    </item>
+    <item nodeId="node-1784">
+        <command xml:space="preserve">take off the ring</command>
+        <result xml:space="preserve">Do you really want to let go of all this power that is surging in you? You feel so good and so strong right now.
+</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1190">
         <command xml:space="preserve">n</command>
@@ -2470,9 +3139,6 @@ Now you could also ask about pipe-weed or the quest.
         <command xml:space="preserve">y</command>
         <result xml:space="preserve">The road is long, but Sam &amp; Pip are good company. You share every meal, sing the songs of the Shire when you feel too tired to think and, in the end, you make your way to the elf's city of Rivendell, where the Elf Council is deliberating on if and how much to help you in your quest.
 
-
-*** Run-time problem P23: Attempt to look up a non-existent entry at column 4, row 2 of the table 'Table of Sam Responses'.
-
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1207"></child>
@@ -2501,7 +3167,8 @@ Sam &amp; Pip followed you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1209"></child>
+        <children><child nodeId="node-2062"></child>
+            <child nodeId="node-1209"></child>
         </children>
     </item>
     <item nodeId="node-1209">
@@ -2671,6 +3338,62 @@ You feel the Great Eye following you.
     <item nodeId="node-1226">
         <command xml:space="preserve">ask sam about pipe-weed</command>
         <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2062">
+        <command xml:space="preserve">ask sam about the elf council</command>
+        <result xml:space="preserve">Last we heard they were still deliberating, but I bet that they will soon be out.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2063"></child>
+        </children>
+    </item>
+    <item nodeId="node-2063">
+        <command xml:space="preserve">ask sam about</command>
+        <result xml:space="preserve"> You could ask Sam &amp; Pip about pipe-weed, Rivendell, or the ring.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2064"></child>
+        </children>
+    </item>
+    <item nodeId="node-2064">
+        <command xml:space="preserve">ask sam about weed</command>
+        <result xml:space="preserve">"Well…we stole, I mean borrowed! We borrowed some from old Dinodas while he was drunk. Would you like some?"
+
+Sam &amp; Pip give you some nice pipe-weed.
+
+A tall lady elf, her hands crossed behind her back, approaches you slowly. Her long dress swishes on the marble pavements. "I am Lady Amarië, messenger to the Elf Council. Your plea for help in your quest has been discussed at long in the sacred halls of the council, the task of the destruction of the ring is one of great importance to all of Middle-Earth. That said, you are an incredibly weak hobbit Frodo Baggins and we do not think that you will be able to make it to Mount Doom and destroy the ring before Sauron finds you. You are unworthy, we will not help. In a few hundred years, maybe, a brave hobbit will be born to your line, one who will withstand the journey and its perils. In the meantime I advise you to go back to the Shire (west) and enjoy a quiet and peaceful life." She turns around and slowly walks away. You would say something but you're pretty sure your jaw has hit the floor at some point.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2101"></child>
+        </children>
+    </item>
+    <item nodeId="node-2101">
+        <command xml:space="preserve">clue</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2102"></child>
+        </children>
+    </item>
+    <item nodeId="node-2102">
+        <command xml:space="preserve">list of actions</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2103"></child>
+        </children>
+    </item>
+    <item nodeId="node-2103">
+        <command xml:space="preserve">talk to sam</command>
+        <result xml:space="preserve">To start a conversation, you need to use ASK Sam &amp; Pip ABOUT something. Type "ask Sam &amp; Pip (about)" to see the available topics.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

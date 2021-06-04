@@ -38,7 +38,9 @@ A little table, a trunk, a cupboard and a cushy armchair are in Bag End.
 The trunk is openable, closed and not portable. The description of the trunk is "An old and heavy thing, on which the name BAGGINS is roughly carved.". 
 The green book is a book on the little table. The map is a book on the little table.
 The cupboard is openable, closed and not portable. A loaf of bread, an apple and a peach are in the cupboard. A loaf of bread, an apple and a peach are edible things. 
-The cushy armchair is an enterable supporter. The cushy armchair is not portable. It is pushable between rooms.
+The cushy armchair is an enterable supporter. The cushy armchair is not portable. It is pushable between rooms. 
+
+Understand "chair" as armchair. Understand "cup" as cupboard.
 
 The description of the green book is "As green as fine summery grass, the title of the book stands boldly on its front '[italic type]Surviving Your First High and Other Ways to Have the Best Time of Your Life With Weed[roman type]'."
 The quote of the green book is "[if the green book is unknown]You open [the noun] at a random page.[otherwise]You open [the noun] at the page you previously earmarked.[end if][paragraph break][italic type]This is the story of the fellow from out of time and space [paragraph break]There was, once upon a time,[line break]a young lost fellow without dime.[line break]Taken by a book, he said[line break]but the hobbits just thought him mad.[line break]He looked around, and he went east,[line break]then west, then back, then flew on a great beast.[line break]For the life of him he could not remember,[line break]how he came to be or if it was July or December.[line break]He spoke with many, fought with few, [line break]but in the end, he decided to just enjoy the view.[line break]He rolled his weed, sat on a chair,[line break]took out his pipe and smoked without flair.[paragraph break]Here ends the story of the young fellow,[line break]he sure must have been relaxed and mellow,[line break]because soon he disappeared [line break]leaving behind not even a hair of beard,[line break]without a first breakfast, a second or a third;[line break]whispers say that he returned to his place of birth. [line break]But alas, no hobbit ever saw the fellow again,[line break]and so, with the best weed and the pipe most plain,[line break]they sometimes meet, under the summery sun,[line break]to enjoy a good smoke and pun,[line break]in honor of the fellow,[line break]who decided to stay mellow,[line break]despite being lost, and alone,[line break]adventurous and a bit injury prone. [paragraph break]The one that smoked and then was just gone.[roman type][paragraph break][if the noun is unknown]You earmark the page and close the book, baffled.[otherwise]You mumble the rhymes to yourself a couple of times and then close [the noun].[end if][line break]".
@@ -312,9 +314,16 @@ Current conversation table is a table name that varies.
 Section 3 - Speech Table
 
 Understand "him/himself" or “them/themselves” or "who/what are you" or "his/their name/origin/capacity" or "his/their life" as "[About]".
-Understand “life” or “the universe” as “[philosophical questions]”. 
+Understand "life/univers" or "the life/universe" as "[philosophical questions]". 
 Understand "Sam" or "Sam & Pip" or "Pip" as "[Sam]".
-Understand "weed/pipe-weed/pipe" as "[weed]".
+Understand "weed/pipe-weed/pipe" or "the weed/pipe" as "[weed]".
+understand "story/quest" or "the story/quest" as "[quest]".
+Understand "council" or "elf council" or "the council" or "the elf council" as "[council]".
+Understand "the weather/climate/elements/day" or "weather/climate/elements/day" as "[weather]".
+Understand "me/you/myself" or "what I/you m/am doing here" as "[me]".
+Understand "book/books" or "the book/books" as "[books]".
+Understand "the/this/my ring" or "ring" as "[ring]".
+Understand "volcano/mount/doom" or "mount doom" or "the volcano/mount" or "the mount doom" as "[mount doom]".
 
 Table of Characters Dialogues
 Character	Room	Table
@@ -326,39 +335,39 @@ Gandalf	Rivendell	Table of Rivendell Gandalf Responses
 
 Table of Gandalf Responses
 Topic	Response	Index	Action	Result	subtopics	labels
-"me"	"'Sir, who I am?'... Did you smoke something? Are you alright? Is this some sort of test? You are Frodo Baggins, of course, hobbit of the Shire.[line break]"	"you"	--	--	Table of Gandalf Topics	0
+"[me]"	"'Sir, who I am?'... Did you smoke something? Are you alright? Is this some sort of test? You are Frodo Baggins, of course, hobbit of the Shire.[line break]"	"you"	--	--	Table of Gandalf Topics	0
 with 11 blank rows.
 
 Table of Gandalf Topics
 Topic	Response	Index	Action	Result	subtopics	labels
 "[About]"	"I am Gandalf the Grey. I was sent to Middle Earth to help destroy the ring that you now hold. I am an [italic type]Istar[roman type], a wizard of old.[line break]"	"him"	--	--	--	1
-“the weather”	"A lovely summery day, Frodo. The shadows of war are far but getting closer, soon even the Shire will know the end of its peace.[line break]"	"the weather"	--	--	--	1
+"[weather]"	"A lovely summery day, Frodo. The shadows of war are far but getting closer, soon even the Shire will know the end of its peace.[line break]"	"the weather"	--	--	--	1
 "[philosophical questions]"	"You shall not distract yourself with nonsensical and philosophical questions. If you are here to waste my time, go read a book.[line break]"	"life"	--	--	Table of Gandalf Clues	1
 
 
 Table of Gandalf Clues
 Topic	Response	Index	Action	Result	subtopics	labels
-"books"	"Ah, the keepers of knowledge. I don’t have any here with me at the moment, but I would bet my beard that Bilbo left you some interesting reads at Bag End.[line break]"	"books"	--	--	--	2
-"pipe-weed"	"Mmh… some of the finest weed is actually grown here in the Shire. If you manage to find some, be sure to share it with you dear friend Gandalf.[line break]"	"pipe-weed"	--	--	--	2
-"the quest"	"A great adventure that will take you to places unknown. A long time ago the ring you now hold was created by Sauron, a great evil, to rule over Middle Earth. After a bloody war the ring was cut from its master’s hand and lost to the ages. Somehow your uncle Bilbo found it and passed it on to you Frodo. You are the one, the chosen, he who must go to Mount Doom and destroy the ring once and for all. Before the world is plunged in darkness.[line break]"	"the quest"	--	--	Table of Eagle Fail	2
+"[books]"	"Ah, the keepers of knowledge. I don’t have any here with me at the moment, but I would bet my beard that Bilbo left you some interesting reads at Bag End.[line break]"	"books"	--	--	--	2
+"[weed]"	"Mmh… some of the finest weed is actually grown here in the Shire. If you manage to find some, be sure to share it with you dear friend Gandalf.[line break]"	"pipe-weed"	--	--	--	2
+"[quest]"	"A great adventure that will take you to places unknown. A long time ago the ring you now hold was created by Sauron, a great evil, to rule over Middle Earth. After a bloody war the ring was cut from its master’s hand and lost to the ages. Somehow your uncle Bilbo found it and passed it on to you Frodo. You are the one, the chosen, he who must go to Mount Doom and destroy the ring once and for all. Before the world is plunged in darkness.[line break]"	"the quest"	--	--	Table of Eagle Fail	2
 
 Table of Eagle Fail
 Topic	Response	Index	Action	Result	subtopics	labels
-"the ring"	"The object that you now have in your possession has many names Frodo: the One Ring, Isidur’s Bane, the Ring of Power. It is a very dark and very powerful artifact, one that can only be destroyed where it was created: in the fire of Mount Doom.[line break]"	"the ring"	--	--	--	3
-"Mount Doom"	"The great volcano lies south of here, beyond the mountains. It is the only place where the ring may be vanquished, the final destination to your adventure. I could accompany you there… may I suggest we use the Eagles? They are great beasts and should take us to Mount Doom in no time at all. Would you like to leave right now?[line break]"	"Mount Doom"	"move to rivendell by eagle"	"An easy shortcut! How lucky you are![line break] You mount on a beautiful Eagle and soon you find yourself flying above the green Shire. Is that really Sam down there, he looks so little, so small, maybe a little too miniscule. Are we sure we are safe flying so high? DON’T LOOK DOWN, DON’T…[paragraph break]It looks like you are too weak for this mode of transportation, we should stop before you throw up on yourself and the Eagle (she might eat you, they really like to keep themselves clean).[line break]You are now in Rivendell...[paragraph break]"	--	3
+"[ring]"	"The object that you now have in your possession has many names Frodo: the One Ring, Isidur’s Bane, the Ring of Power. It is a very dark and very powerful artifact, one that can only be destroyed where it was created: in the fire of Mount Doom.[line break]"	"the ring"	--	--	--	3
+"[mount doom]"	"The great volcano lies south of here, beyond the mountains. It is the only place where the ring may be vanquished, the final destination to your adventure. I could accompany you there… may I suggest we use the Eagles? They are great beasts and should take us to Mount Doom in no time at all. Would you like to leave right now?[line break]"	"Mount Doom"	"move to rivendell by eagle"	"An easy shortcut! How lucky you are![line break] You mount on a beautiful Eagle and soon you find yourself flying above the green Shire. Is that really Sam down there, he looks so little, so small, maybe a little too miniscule. Are we sure we are safe flying so high? DON’T LOOK DOWN, DON’T…[paragraph break]It looks like you are too weak for this mode of transportation, we should stop before you throw up on yourself and the Eagle (she might eat you, they really like to keep themselves clean).[line break]You are now in Rivendell...[paragraph break]"	--	3
 
 Table of Rivendell Gandalf Responses
 Topic	Response	Index	Action	Result	subtopics	labels
-"me"	"Never in my life have I seen someone look so green. I brought you to Rivendell before you threw up on poor Mildred, she was not happy.[line break]"	"me"	--	--	--	0
+"[me]"	"Never in my life have I seen someone look so green. I brought you to Rivendell before you threw up on poor Mildred, she was not happy.[line break]"	"me"	--	--	--	0
 "Rivendell"	"A beautiful town built by the elves. You should be able to rest and recuperate here."	"Rivendell[line break]"	--	--	--	0
 "Mildred"	"The young Eagle took you as far as Rivendell but she refused to allow you on her back ever again. I am afraid that you should find another way to continue on your quest.[line break]"	"Mildred"	--	--	--	0
-"the quest"	"[if the player is waiting the council]The Elf Council is still in session. I think you should wait and hear what they have to say. [otherwise]The Elf Council has deemed you too weak to continue. I think it best to return to the Shire (west).[end if][line break]"	"the quest"	--	--	Table of Rivendell Gandalf Council Topics	0
+"[quest]"	"[if the player is waiting the council]The Elf Council is still in session. I think you should wait and hear what they have to say. [otherwise]The Elf Council has deemed you too weak to continue. I think it best to return to the Shire (west).[end if][line break]"	"the quest"	--	--	Table of Rivendell Gandalf Council Topics	0
 with 2 blank rows.
 
 Table of Rivendell Gandalf Council Topics
 Topic	Response	Index	Action	Result	subtopics	labels
-"the Elf Council"	"[if the player is waiting the council]They shall decide of your destiny Frodo, if after the Great Eagle Fail (as it is now known) they decide that you shan’t continue, I would not blame them. [otherwise]It may seem unfair to you, young Frodo, but the elves have survived in Middle Earth for thousands of years. It would be wise to do as they say.[end if][line break]"	"the Elf Council"	--	--	--	1
-"Mount Doom"	"Still to the south. Why the ring had to fall in the hands of such a weak creature is beyond me…[line break]"	"Mount Doom"	--	--	--	1
+"[council]"	"[if the player is waiting the council]They shall decide of your destiny Frodo, if after the Great Eagle Fail (as it is now known) they decide that you shan’t continue, I would not blame them. [otherwise]It may seem unfair to you, young Frodo, but the elves have survived in Middle Earth for thousands of years. It would be wise to do as they say.[end if][line break]"	"the Elf Council"	--	--	--	1
+"[mount doom]"	"Still to the south. Why the ring had to fall in the hands of such a weak creature is beyond me…[line break]"	"Mount Doom"	--	--	--	1
 
 Table of Seconde Gandalf Responses
 Seconde Response
@@ -377,15 +386,14 @@ with 6 blank rows.
 
 Table of Sam Topics
 Topic	Response	Index	Action	Result	subtopics	labels
-"[weed]"	"'Well…we stole, I mean borrowed! We borrowed some from old Dinodas while he was drunk. Would you like some?'[line break]"	"pipe-weed"	"get weed"	"Sam & Pip give you some nice pipe-weed.[line break]"	--	1
-"the quest"	"’Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don’t you think?’[line break] ‘Very serious, Sam…’[line break]. ‘Well, I guess as your friends we should accompany and make sure you don’t get eaten by an orc.’[line break] ‘We are such good friends…where should we start Sam?’[line break] ‘Maybe with the Elves? I think Rivendell lies east of here, should we go there Frodo? I think they could help.’[line break]"	"the quest"	"move to Rivendell by foot"	"The road is long, but Sam & Pip are good company. You share every meal, sing the songs of the Shire when you feel too tired to think and, in the end, you make your way to the elf’s city of Rivendell, where the Elf Council is deliberating on if and how much to help you in your quest.[paragraph break]"	--	1
+"[weed]"	"'Well…we stole, I mean borrowed! We borrowed some from old Dinodas while he was drunk. Would you like some?'[line break]"	"pipe-weed"	"get weed"	"[line break][italic type]Sam & Pip give you some nice pipe-weed.[line break]"	--	1
+"[quest]"	"’Oh, you mean the ring? The one that you should destroy? That is some serious business Pip, don’t you think?’[line break] ‘Very serious, Sam…’[line break]. ‘Well, I guess as your friends we should accompany and make sure you don’t get eaten by an orc.’[line break] ‘We are such good friends…where should we start Sam?’[line break] ‘Maybe with the Elves? I think Rivendell lies east of here, should we go there Frodo? I think they could help.’[line break]"	"the quest"	"move to Rivendell by foot"	"The road is long, but Sam & Pip are good company. You share every meal, sing the songs of the Shire when you feel too tired to think and, in the end, you make your way to the elf’s city of Rivendell, where the Elf Council is deliberating on if and how much to help you in your quest.[paragraph break]"	--	1
 
 Table of Rivendell Sam Responses
 Topic	Response	Index	Action	Result	subtopics	labels
 "Rivendell"	"Such a wonderful place Frodo! We can bathe in the river and eat the weird elf bread and just enjoy the view for a while.[line break]"	"Rivendell"	--	--	--	0
-"Elf Council"	"[if the player is waiting the council]Last we heard they were still deliberating, but I bet that they will soon be out.[otherwise]'The lady was not really nice but look on the positive side! We get to go back to the Shire (west) and enjoy some peace and tranquility, what say you Pip?'[line break] 'Oh Sam, I can already see us, lunging in the sun, enjoying some sandwiches and a good smoke. That is the life, isn’t it Sam?'[line break]'Yes it is, it definitely is.'[end if][line break]"	"Elf Council"	--	--	--	0
-"the ring"	"We don’t know, you were the one holding it, maybe you should check that you still have it.[line break]"	"the ring"	--	--	--	0
-"pipe-weed"	"I think we still have some, somewhere. Would you like any? It might help you relax…[line break]"	"pipe-weed"	"get weed"	"Sam & Pip give you some nice pipe-weed."	--	0
+"[council]"	"[if the player is waiting the council]Last we heard they were still deliberating, but I bet that they will soon be out.[otherwise]'The lady was not really nice but look on the positive side! We get to go back to the Shire (west) and enjoy some peace and tranquility, what say you Pip?'[line break] 'Oh Sam, I can already see us, lunging in the sun, enjoying some sandwiches and a good smoke. That is the life, isn’t it Sam?'[line break]'Yes it is, it definitely is.'[end if][line break]"	"the Elf Council"	--	--	--	0
+"[ring]"	"We don’t know, you were the one holding it, maybe you should check that you still have it.[line break]"	"the ring"	--	--	--	0
 
 Table of Seconde Sam Responses
 Seconde Response
@@ -406,14 +414,14 @@ with 3 blank rows.
 
 Table of Elf Topics
 Topic	Response	Index	Action	Result	subtopics	labels
-"Elf Council"	"[if the player is waiting the council]The Elf Council is still in session, they are deciding if someone such as you is worthy of the quest of the destruction of the ring.[otherwise]The decision of the Elf Council is final and I have to admit I feel somewhat relived that you were not the one chosen for such a task. Go back to the Shire (west), Frodo, enjoy life, have many children, I am sure one of them will be up to the task.[end if][line break]"	"Elf Council"	--	--	Table of Elf Quest Topic	1
+"[council]"	"[if the player is waiting the council]The Elf Council is still in session, they are deciding if someone such as you is worthy of the quest of the destruction of the ring.[otherwise]The decision of the Elf Council is final and I have to admit I feel somewhat relived that you were not the one chosen for such a task. Go back to the Shire (west), Frodo, enjoy life, have many children, I am sure one of them will be up to the task.[end if][line break]"	"Elf Council"	--	--	Table of Elf Quest Topic	1
 "Rivendell"	 "My gem, my precious town built on the river Bruinen, the place we came to call home. It a serene place young Frodo and I will not have you disrupt its peace.[line break]"	"Rivendell"	--	--	--	1
-"Mount Doom"	"The volcano lies somewhere south of here, but I do not know if you are ready for such a trip. You will wait for the Elf Council to deliberate, maybe they will find a worthy elf to throw the ring in the flames of Mount Doom.[line break]"	"Mount Doom"	--	--	--	1
+"[mount doom]"	"The volcano lies somewhere south of here, but I do not know if you are ready for such a trip. You will wait for the Elf Council to deliberate, maybe they will find a worthy elf to throw the ring in the flames of Mount Doom.[line break]"	"Mount Doom"	--	--	--	1
 
 Table of Elf Quest Topic
 Topic	Response	Index	Action	Result	subtopics	labels
-"The quest"	"[if the player is waiting the council]The Elf Council shall decide if you are fit or not to continue…probably not.[otherwise]Do not insist, hobbit, the Elf Council has deemed you unworthy.[end if][line break]"	"the quest"	--	--	--	2
-"The ring"	"[if player holds the ring] Still tied around your neck I believe, for how long however I do not know. [otherwise] Did you lose one of the most powerful artifacts know to Middle-Earth? YOU ARE A DISGRACE! I HOPE THE COUNCIL THROWS YOU IN THE RIVER! [end if][line break]"	"The ring"	--	--	--	2
+"[quest]"	"[if the player is waiting the council]The Elf Council shall decide if you are fit or not to continue…probably not.[otherwise]Do not insist, hobbit, the Elf Council has deemed you unworthy.[end if][line break]"	"the quest"	--	--	--	2
+"[ring]"	"[if player holds the ring] Still tied around your neck I believe, for how long however I do not know. [otherwise] Did you lose one of the most powerful artifacts know to Middle-Earth? YOU ARE A DISGRACE! I HOPE THE COUNCIL THROWS YOU IN THE RIVER! [end if][line break]"	"The ring"	--	--	--	2
 
 Table of Seconde Elf Responses
 Seconde Response
